@@ -1,0 +1,82 @@
+<?php
+/*
+ * @version $Id: report.year.php 14684 2011-06-11 06:32:40Z remi $
+ -------------------------------------------------------------------------
+ GLPI - Gestionnaire Libre de Parc Informatique
+ Copyright (C) 2003-2011 by the INDEPNET Development Team.
+
+ http://indepnet.net/   http://glpi-project.org
+ -------------------------------------------------------------------------
+
+ LICENSE
+
+ This file is part of GLPI.
+
+ GLPI is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ GLPI is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with GLPI; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ --------------------------------------------------------------------------
+ */
+
+// ----------------------------------------------------------------------
+// Original Author of file:
+// Purpose of file:
+// ----------------------------------------------------------------------
+
+define('GLPI_ROOT', '..');
+include (GLPI_ROOT . "/inc/includes.php");
+checkRight("reports","r");
+
+commonHeader($LANG['Menu'][6],$_SERVER['PHP_SELF'],"utils","report");
+
+
+# Titre
+
+echo "<form name='form' method='post' action='report.year.list.php'>";
+
+echo "<table class='tab_cadre' >";
+echo "<tr><th colspan='2'><big>".$LANG['reports'][58]."</big></th></tr>";
+
+# 3. Selection d'affichage pour generer la liste
+
+echo "<tr class='tab_bg_2'>";
+echo "<td width='150' class='center'>";
+echo "<p class='b'>".$LANG['reports'][12]."</p> ";
+echo "<p><select name='item_type[]' size='8' multiple>";
+echo "<option value='0' selected>".$LANG['common'][66]."</option>";
+echo "<option value='Computer'>".$LANG['Menu'][0]."</option>";
+echo "<option value='Printer'>".$LANG['Menu'][2]."</option>";
+echo "<option value='NetworkEquipment'>".$LANG['help'][26]."</option>";
+echo "<option value='Monitor'>".$LANG['Menu'][3]."</option>";
+echo "<option value='Peripheral'>".$LANG['Menu'][16]."</option>";
+echo "<option value='SoftwareLicense'>".$LANG['Menu'][4]." - ".$LANG['software'][11]."</option>";
+echo "<option value='Phone'>".$LANG['Menu'][34]."</option>";
+echo "</select> </p></td>";
+
+echo "<td width='150' class='center'><p class='b'>".$LANG['reports'][13]."</p> ";
+echo "<p><select name='annee[]' size='8' multiple>";
+echo "<option value='toutes' selected>".$LANG['common'][66]."</option>";
+$y = date("Y");
+for ($i=$y-10 ; $i<$y+10 ; $i++) {
+   echo " <option value='$i'>$i</option>";
+}
+echo "</select></p></td></tr>";
+
+echo "<tr class='tab_bg_2'><td colspan='2' class='center'>";
+echo "<input type='submit' value=\"".$LANG['reports'][15]."\" class='submit'></td></tr>";
+
+echo "</table></form>";
+
+commonFooter();
+
+?>

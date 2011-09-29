@@ -1,0 +1,117 @@
+Test
+Test
+Test
+Test
+Test
+Test
+2011-09-09 07:50 [6@PAULGERONIMO-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\GLPI\inc\ticket.class.php:593		userErrorHandlerNormal()
+C:\xampp\htdocs\GLPI\inc\commondbtm.class.php:848		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\GLPI\inc\document_item.class.php:79		CommonDBTM->update()
+C:\xampp\htdocs\GLPI\inc\commondbtm.class.php:667		Document_Item->post_addItem()
+C:\xampp\htdocs\GLPI\inc\ticket.class.php:2129		CommonDBTM->add()
+C:\xampp\htdocs\GLPI\inc\ticket.class.php:1598		Ticket->addFiles()
+C:\xampp\htdocs\GLPI\inc\commondbtm.class.php:667		Ticket->post_addItem()
+C:\xampp\htdocs\GLPI\front\tracking.injector.php:76		CommonDBTM->add()
+
+2011-09-09 07:50 [6@PAULGERONIMO-PC]
+Warning(2): sha1_file(C:\xampp\tmp\php6D6.tmp) [<a href='function.sha1-file'>function.sha1-file</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\GLPI\inc\document.class.php:468		sha1_file()
+C:\xampp\htdocs\GLPI\inc\ticket.class.php:2114		Document->getFromDBbyContent()
+C:\xampp\htdocs\GLPI\inc\ticket.class.php:798		Ticket->addFiles()
+C:\xampp\htdocs\GLPI\inc\commondbtm.class.php:848		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\GLPI\inc\document_item.class.php:79		CommonDBTM->update()
+C:\xampp\htdocs\GLPI\inc\commondbtm.class.php:667		Document_Item->post_addItem()
+C:\xampp\htdocs\GLPI\inc\ticket.class.php:2129		CommonDBTM->add()
+C:\xampp\htdocs\GLPI\inc\ticket.class.php:1598		Ticket->addFiles()
+C:\xampp\htdocs\GLPI\inc\commondbtm.class.php:667		Ticket->post_addItem()
+C:\xampp\htdocs\GLPI\front\tracking.injector.php:76		CommonDBTM->add()
+
+2011-09-14 08:47 [@PAULGERONIMO-PC]
+Notice(8): Undefined index: submit
+Backtrace :
+C:\xampp\htdocs\GLPI\index.php:115		userErrorHandlerNormal()
+
+2011-09-14 08:47 [@PAULGERONIMO-PC]
+Notice(8): Undefined index: button
+Backtrace :
+C:\xampp\htdocs\GLPI\index.php:115		userErrorHandlerNormal()
+
+2011-09-14 08:47 [@PAULGERONIMO-PC]
+Notice(8): Undefined index: button
+Backtrace :
+C:\xampp\htdocs\GLPI\index.php:115		userErrorHandlerNormal()
+
+2011-09-14 08:47 [@PAULGERONIMO-PC]
+Notice(8): Undefined index: button
+Backtrace :
+C:\xampp\htdocs\GLPI\index.php:115		userErrorHandlerNormal()
+
+Test
+Test
+2011-09-15 21:20 [6@LORENZO-PC]
+Warning(2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\paul\inc\display.function.php:1251)
+Backtrace :
+C:\xampp\htdocs\paul\front\setup.templates.php:51		header()
+
+2011-09-15 21:29 [6@LORENZO-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\paul\front\setup.templates.php:48		userErrorHandlerNormal()
+
+2011-09-15 21:29 [6@LORENZO-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\paul\front\setup.templates.php:48		userErrorHandlerNormal()
+
+2011-09-15 21:29 [6@LORENZO-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\paul\front\setup.templates.php:48		userErrorHandlerNormal()
+
+2011-09-15 21:30 [6@LORENZO-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\paul\front\setup.templates.php:48		userErrorHandlerNormal()
+
+2011-09-15 21:30 [6@LORENZO-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\paul\front\setup.templates.php:48		userErrorHandlerNormal()
+
+2011-09-15 21:30 [6@LORENZO-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\paul\front\setup.templates.php:48		userErrorHandlerNormal()
+
+2011-09-15 21:30 [6@LORENZO-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\paul\front\setup.templates.php:48		userErrorHandlerNormal()
+
+2011-09-16 00:28 [8@LORENZO-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\paul\inc\ticket.class.php:593		userErrorHandlerNormal()
+C:\xampp\htdocs\paul\inc\commondbtm.class.php:848		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\paul\front\ticket.form.php:73		CommonDBTM->update()
+
+Test
+Test
+2011-09-18 08:32 [2@ARDOWZ-PC]
+Warning(2): mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Unable to save result set
+Backtrace :
+C:\xampp\htdocs\paul\inc\dbmysql.class.php:177		mysql_query()
+C:\xampp\htdocs\paul\inc\dbmysql.class.php:372		DBmysql->query()
+C:\xampp\htdocs\paul\inc\commondbtm.class.php:233		DBmysql->list_fields()
+C:\xampp\htdocs\paul\inc\commondbtm.class.php:2074		CommonDBTM->getEmpty()
+C:\xampp\htdocs\paul\ajax\dropdownValue.php:98		CommonDBTM->maybeDeleted()
+C:\xampp\htdocs\paul\inc\ajax.function.php:63		include()
+C:\xampp\htdocs\paul\inc\dropdown.class.php:180		ajaxDropdown()
+C:\xampp\htdocs\paul\inc\monitor.class.php:274		Dropdown::show()
+C:\xampp\htdocs\paul\front\monitor.form.php:100		Monitor->showForm()
+
+Test

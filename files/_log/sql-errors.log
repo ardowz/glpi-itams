@@ -1,0 +1,2493 @@
+2011-09-09 07:53 [2@PAULGERONIMO-PC]
+*** MySQL query error : 
+***
+SQL: SELECT \'glpi\' AS currentuser, `glpi_tickets`.`id` AS ITEM_0,  `glpi_tickets`.`name` AS ITEM_1,
+                     `glpi_tickets`.`id` AS ITEM_1_2,
+                     `glpi_tickets`.`content` AS ITEM_1_3,
+                     `glpi_tickets`.`status` AS ITEM_1_4,`glpi_tickets`.`status` AS ITEM_2, `glpi_tickets`.`date_mod` AS ITEM_3, `glpi_tickets`.`date` AS ITEM_4, `glpi_tickets`.`priority` AS ITEM_5,  GROUP_CONCAT(DISTINCT `glpi_users_a5e2026cbcb683e774f93a59e24a62a4`.`id` SEPARATOR \'$$$$\')
+                              AS ITEM_6, GROUP_CONCAT(DISTINCT CONCAT(`glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`users_id`,
+                                                         \' \',`glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`alternative_email`)
+                                                         SEPARATOR \'$$$$\') AS ITEM_6_2,  GROUP_CONCAT(DISTINCT `glpi_users_f201be21cd638ee780d08cba4ceff0d4`.`id` SEPARATOR \'$$$$\')
+                              AS ITEM_7, GROUP_CONCAT(DISTINCT CONCAT(`glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`users_id`,
+                                                         \' \',`glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`alternative_email`)
+                                                         SEPARATOR \'$$$$\') AS ITEM_7_2, `glpi_ticketcategories`.`completename` AS ITEM_8,  `glpi_tickets`.`due_date` AS ITEM_9,
+                     `glpi_tickets`.`status` AS ITEM_9_2,  GROUP_CONCAT(DISTINCT `glpi_ticketvalidations`.`status` SEPARATOR \'$$$$\') AS ITEM_10,  GROUP_CONCAT(DISTINCT `glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4`.`id` SEPARATOR \'$$$$\')
+                              AS ITEM_11, GROUP_CONCAT(DISTINCT CONCAT(`glpi_tickets_users_`.`users_id`,
+                                                         \' \',`glpi_tickets_users_`.`alternative_email`)
+                                                         SEPARATOR \'$$$$\') AS ITEM_11_2, `glpi_tickets`.`id` AS id  FROM `glpi_tickets` LEFT JOIN `glpi_tickets_users`  AS glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60
+                                             ON (`glpi_tickets`.`id`
+                                                      = `glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`tickets_id`
+                                                         AND `glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`type` = 1 )LEFT JOIN `glpi_users`  AS glpi_users_a5e2026cbcb683e774f93a59e24a62a4
+                                          ON (`glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`users_id` = `glpi_users_a5e2026cbcb683e774f93a59e24a62a4`.`id`
+                                              ) LEFT JOIN `glpi_tickets_users`  AS glpi_tickets_users_819efb92c8b927b345e489211ec8e43b
+                                             ON (`glpi_tickets`.`id`
+                                                      = `glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`tickets_id`
+                                                         AND `glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`type` = 2 )LEFT JOIN `glpi_users`  AS glpi_users_f201be21cd638ee780d08cba4ceff0d4
+                                          ON (`glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`users_id` = `glpi_users_f201be21cd638ee780d08cba4ceff0d4`.`id`
+                                              )LEFT JOIN `glpi_ticketcategories` 
+                                          ON (`glpi_tickets`.`ticketcategories_id` = `glpi_ticketcategories`.`id`
+                                              ) LEFT JOIN `glpi_ticketvalidations` 
+                                             ON (`glpi_tickets`.`id`
+                                                      = `glpi_ticketvalidations`.`tickets_id`
+                                                         )LEFT JOIN `glpi_users`  AS glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4
+                                          ON (`glpi_ticketvalidations`.`users_id_validate` = `glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4`.`id`
+                                              ) WHERE   (  1 )  AND (  ( `glpi_ticketvalidations`.`status` = \'waiting\' )  AND (`glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4`.`id` = \'2\')  ) GROUP BY `glpi_tickets`.`id` ORDER BY ITEM_3 DESC 
+Error: Unknown column 'glpi_tickets_users_.users_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\GLPI\inc\search.class.php&nbsp;:739		DBmysql->query()
+C:\xampp\htdocs\GLPI\inc\search.class.php&nbsp;:49		Search::showList()
+C:\xampp\htdocs\GLPI\front\ticket.php&nbsp;:48		Search::show()
+C:/xampp/htdocs/GLPI/front/ticket.php
+
+2011-09-09 07:54 [2@PAULGERONIMO-PC]
+*** MySQL query error : 
+***
+SQL: SELECT \'glpi\' AS currentuser, `glpi_tickets`.`id` AS ITEM_0,  `glpi_tickets`.`name` AS ITEM_1,
+                     `glpi_tickets`.`id` AS ITEM_1_2,
+                     `glpi_tickets`.`content` AS ITEM_1_3,
+                     `glpi_tickets`.`status` AS ITEM_1_4,`glpi_tickets`.`status` AS ITEM_2, `glpi_tickets`.`date_mod` AS ITEM_3, `glpi_tickets`.`date` AS ITEM_4, `glpi_tickets`.`priority` AS ITEM_5,  GROUP_CONCAT(DISTINCT `glpi_users_a5e2026cbcb683e774f93a59e24a62a4`.`id` SEPARATOR \'$$$$\')
+                              AS ITEM_6, GROUP_CONCAT(DISTINCT CONCAT(`glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`users_id`,
+                                                         \' \',`glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`alternative_email`)
+                                                         SEPARATOR \'$$$$\') AS ITEM_6_2,  GROUP_CONCAT(DISTINCT `glpi_users_f201be21cd638ee780d08cba4ceff0d4`.`id` SEPARATOR \'$$$$\')
+                              AS ITEM_7, GROUP_CONCAT(DISTINCT CONCAT(`glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`users_id`,
+                                                         \' \',`glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`alternative_email`)
+                                                         SEPARATOR \'$$$$\') AS ITEM_7_2, `glpi_ticketcategories`.`completename` AS ITEM_8,  `glpi_tickets`.`due_date` AS ITEM_9,
+                     `glpi_tickets`.`status` AS ITEM_9_2,  GROUP_CONCAT(DISTINCT `glpi_ticketvalidations`.`status` SEPARATOR \'$$$$\') AS ITEM_10,  GROUP_CONCAT(DISTINCT `glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4`.`id` SEPARATOR \'$$$$\')
+                              AS ITEM_11, GROUP_CONCAT(DISTINCT CONCAT(`glpi_tickets_users_`.`users_id`,
+                                                         \' \',`glpi_tickets_users_`.`alternative_email`)
+                                                         SEPARATOR \'$$$$\') AS ITEM_11_2, `glpi_tickets`.`id` AS id  FROM `glpi_tickets` LEFT JOIN `glpi_tickets_users`  AS glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60
+                                             ON (`glpi_tickets`.`id`
+                                                      = `glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`tickets_id`
+                                                         AND `glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`type` = 1 )LEFT JOIN `glpi_users`  AS glpi_users_a5e2026cbcb683e774f93a59e24a62a4
+                                          ON (`glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`users_id` = `glpi_users_a5e2026cbcb683e774f93a59e24a62a4`.`id`
+                                              ) LEFT JOIN `glpi_tickets_users`  AS glpi_tickets_users_819efb92c8b927b345e489211ec8e43b
+                                             ON (`glpi_tickets`.`id`
+                                                      = `glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`tickets_id`
+                                                         AND `glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`type` = 2 )LEFT JOIN `glpi_users`  AS glpi_users_f201be21cd638ee780d08cba4ceff0d4
+                                          ON (`glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`users_id` = `glpi_users_f201be21cd638ee780d08cba4ceff0d4`.`id`
+                                              )LEFT JOIN `glpi_ticketcategories` 
+                                          ON (`glpi_tickets`.`ticketcategories_id` = `glpi_ticketcategories`.`id`
+                                              ) LEFT JOIN `glpi_ticketvalidations` 
+                                             ON (`glpi_tickets`.`id`
+                                                      = `glpi_ticketvalidations`.`tickets_id`
+                                                         )LEFT JOIN `glpi_users`  AS glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4
+                                          ON (`glpi_ticketvalidations`.`users_id_validate` = `glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4`.`id`
+                                              ) WHERE   (  1 )  AND (  ( `glpi_ticketvalidations`.`status` = \'rejected\' )  AND (`glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4`.`id` = \'6\')  ) GROUP BY `glpi_tickets`.`id` ORDER BY ITEM_3 DESC 
+Error: Unknown column 'glpi_tickets_users_.users_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\GLPI\inc\search.class.php&nbsp;:739		DBmysql->query()
+C:\xampp\htdocs\GLPI\inc\search.class.php&nbsp;:49		Search::showList()
+C:\xampp\htdocs\GLPI\front\ticket.php&nbsp;:48		Search::show()
+C:/xampp/htdocs/GLPI/front/ticket.php
+
+2011-09-16 00:24 [7@LORENZO-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_computers_softwareversions` (`computers_id`,`softwareversions_id`,`is_template`,`is_deleted`) VALUES (\'1\',\'0\',\'0\',\'0\')
+Error: Duplicate entry '1-0' for key 'unicity'
+Backtrace :
+C:\xampp\htdocs\paul\inc\commondbtm.class.php&nbsp;:355		DBmysql->query()
+C:\xampp\htdocs\paul\inc\commondbtm.class.php&nbsp;:665		CommonDBTM->addToDB()
+C:\xampp\htdocs\paul\front\computer_softwareversion.form.php&nbsp;:47		CommonDBTM->add()
+C:/xampp/htdocs/paul/front/computer_softwareversion.form.php
+
+2011-09-16 00:24 [7@LORENZO-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_computers_softwareversions` (`computers_id`,`softwareversions_id`,`is_template`,`is_deleted`) VALUES (\'1\',\'0\',\'0\',\'0\')
+Error: Duplicate entry '1-0' for key 'unicity'
+Backtrace :
+C:\xampp\htdocs\paul\inc\commondbtm.class.php&nbsp;:355		DBmysql->query()
+C:\xampp\htdocs\paul\inc\commondbtm.class.php&nbsp;:665		CommonDBTM->addToDB()
+C:\xampp\htdocs\paul\front\computer_softwareversion.form.php&nbsp;:47		CommonDBTM->add()
+C:/xampp/htdocs/paul/front/computer_softwareversion.form.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'2\',\'2\',\'\',\'##reservation.action##\',\'======================================================================
+##lang.reservation.user##: ##reservation.user##
+##lang.reservation.item.name##: ##reservation.itemtype## - ##reservation.item.name##
+##IFreservation.tech## ##lang.reservation.tech## ##reservation.tech## ##ENDIFreservation.tech##
+##lang.reservation.begin##: ##reservation.begin##
+##lang.reservation.end##: ##reservation.end##
+##lang.reservation.comment##: ##reservation.comment##
+======================================================================
+\',\'&lt;!-- description{ color: inherit; background: #ebebeb;border-style: solid;border-color: #8d8d8d; border-width: 0px 1px 1px 0px; } --&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;!-- description{ color: inherit; background: #ebebeb;border-style: solid;bo' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'3\',\'3\',\'\',\'##reservation.action##  ##reservation.entity##\',\'##lang.reservation.entity## : ##reservation.entity## 
+
+ 
+##FOREACHreservations## 
+##lang.reservation.itemtype## : ##reservation.itemtype##
+
+ ##lang.reservation.item## : ##reservation.item##
+ 
+ ##reservation.url## 
+
+ ##ENDFOREACHreservations##\',\'&lt;p&gt;##lang.reservation.entity## : ##reservation.entity## &lt;br /&gt; &lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.reservation.entity## : ##reservation.entity## &lt;br /&gt; &lt;' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'3\',\'3\',\'\',\'##reservation.action##  ##reservation.entity##\',\'##lang.reservation.entity## : ##reservation.entity## 
+
+ 
+##FOREACHreservations## 
+##lang.reservation.itemtype## : ##reservation.itemtype##
+
+ ##lang.reservation.item## : ##reservation.item##
+ 
+ ##reservation.url## 
+
+ ##ENDFOREACHreservations##\',\'&lt;p&gt;##lang.reservation.entity## : ##reservation.entity## &lt;br /&gt; &lt;br /&gt;
+##FOREACHreservations## &lt;br /&gt;##lang.reservation.itemtype## :  ##reservation.itemtype##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.reservation.entity## : ##reservation.entity## &lt;br /&gt; &lt;' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'3\',\'3\',\'\',\'##reservation.action##  ##reservation.entity##\',\'##lang.reservation.entity## : ##reservation.entity## 
+
+ 
+##FOREACHreservations## 
+##lang.reservation.itemtype## : ##reservation.itemtype##
+
+ ##lang.reservation.item## : ##reservation.item##
+ 
+ ##reservation.url## 
+
+ ##ENDFOREACHreservations##\',\'&lt;p&gt;##lang.reservation.entity## : ##reservation.entity## &lt;br /&gt; &lt;br /&gt;
+##FOREACHreservations## &lt;br /&gt;##lang.reservation.itemtype## :  ##reservation.itemtype##&lt;br /&gt;
+ ##lang.reservation.item## :  ##reservation.item##&lt;br /&gt; &lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.reservation.entity## : ##reservation.entity## &lt;br /&gt; &lt;' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'3\',\'3\',\'\',\'##reservation.action##  ##reservation.entity##\',\'##lang.reservation.entity## : ##reservation.entity## 
+
+ 
+##FOREACHreservations## 
+##lang.reservation.itemtype## : ##reservation.itemtype##
+
+ ##lang.reservation.item## : ##reservation.item##
+ 
+ ##reservation.url## 
+
+ ##ENDFOREACHreservations##\',\'&lt;p&gt;##lang.reservation.entity## : ##reservation.entity## &lt;br /&gt; &lt;br /&gt;
+##FOREACHreservations## &lt;br /&gt;##lang.reservation.itemtype## :  ##reservation.itemtype##&lt;br /&gt;
+ ##lang.reservation.item## :  ##reservation.item##&lt;br /&gt; &lt;br /&gt;
+ &lt;a href=\\\"##reservation.url##\\\"&gt; ##reservation.url##&lt;/a&gt;&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.reservation.entity## : ##reservation.entity## &lt;br /&gt; &lt;' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'5\',\'12\',\'\',\'##contract.action##  ##contract.entity##\',\'##lang.contract.entity## : ##contract.entity##
+
+##FOREACHcontracts##
+##lang.contract.name## : ##contract.name##
+##lang.contract.number## : ##contract.number##
+##lang.contract.time## : ##contract.time##
+##IFcontract.type####lang.contract.type## : ##contract.type####ENDIFcontract.type##
+##contract.url##
+##ENDFOREACHcontracts##\',\'&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'5\',\'12\',\'\',\'##contract.action##  ##contract.entity##\',\'##lang.contract.entity## : ##contract.entity##
+
+##FOREACHcontracts##
+##lang.contract.name## : ##contract.name##
+##lang.contract.number## : ##contract.number##
+##lang.contract.time## : ##contract.time##
+##IFcontract.type####lang.contract.type## : ##contract.type####ENDIFcontract.type##
+##contract.url##
+##ENDFOREACHcontracts##\',\'&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt;##FOREACHcontracts##&lt;br /&gt;##lang.contract.name## :
+##contract.name##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'5\',\'12\',\'\',\'##contract.action##  ##contract.entity##\',\'##lang.contract.entity## : ##contract.entity##
+
+##FOREACHcontracts##
+##lang.contract.name## : ##contract.name##
+##lang.contract.number## : ##contract.number##
+##lang.contract.time## : ##contract.time##
+##IFcontract.type####lang.contract.type## : ##contract.type####ENDIFcontract.type##
+##contract.url##
+##ENDFOREACHcontracts##\',\'&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt;##FOREACHcontracts##&lt;br /&gt;##lang.contract.name## :
+##contract.name##&lt;br /&gt;
+##lang.contract.number## : ##contract.number##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'5\',\'12\',\'\',\'##contract.action##  ##contract.entity##\',\'##lang.contract.entity## : ##contract.entity##
+
+##FOREACHcontracts##
+##lang.contract.name## : ##contract.name##
+##lang.contract.number## : ##contract.number##
+##lang.contract.time## : ##contract.time##
+##IFcontract.type####lang.contract.type## : ##contract.type####ENDIFcontract.type##
+##contract.url##
+##ENDFOREACHcontracts##\',\'&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt;##FOREACHcontracts##&lt;br /&gt;##lang.contract.name## :
+##contract.name##&lt;br /&gt;
+##lang.contract.number## : ##contract.number##&lt;br /&gt;
+##lang.contract.time## : ##contract.time##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'5\',\'12\',\'\',\'##contract.action##  ##contract.entity##\',\'##lang.contract.entity## : ##contract.entity##
+
+##FOREACHcontracts##
+##lang.contract.name## : ##contract.name##
+##lang.contract.number## : ##contract.number##
+##lang.contract.time## : ##contract.time##
+##IFcontract.type####lang.contract.type## : ##contract.type####ENDIFcontract.type##
+##contract.url##
+##ENDFOREACHcontracts##\',\'&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt;##FOREACHcontracts##&lt;br /&gt;##lang.contract.name## :
+##contract.name##&lt;br /&gt;
+##lang.contract.number## : ##contract.number##&lt;br /&gt;
+##lang.contract.time## : ##contract.time##&lt;br /&gt;
+##IFcontract.type####lang.contract.type## : ##contract.type##
+##ENDIFcontract.type##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'5\',\'12\',\'\',\'##contract.action##  ##contract.entity##\',\'##lang.contract.entity## : ##contract.entity##
+
+##FOREACHcontracts##
+##lang.contract.name## : ##contract.name##
+##lang.contract.number## : ##contract.number##
+##lang.contract.time## : ##contract.time##
+##IFcontract.type####lang.contract.type## : ##contract.type####ENDIFcontract.type##
+##contract.url##
+##ENDFOREACHcontracts##\',\'&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt;##FOREACHcontracts##&lt;br /&gt;##lang.contract.name## :
+##contract.name##&lt;br /&gt;
+##lang.contract.number## : ##contract.number##&lt;br /&gt;
+##lang.contract.time## : ##contract.time##&lt;br /&gt;
+##IFcontract.type####lang.contract.type## : ##contract.type##
+##ENDIFcontract.type##&lt;br /&gt;
+&lt;a href=\\\"##contract.url##\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'5\',\'12\',\'\',\'##contract.action##  ##contract.entity##\',\'##lang.contract.entity## : ##contract.entity##
+
+##FOREACHcontracts##
+##lang.contract.name## : ##contract.name##
+##lang.contract.number## : ##contract.number##
+##lang.contract.time## : ##contract.time##
+##IFcontract.type####lang.contract.type## : ##contract.type####ENDIFcontract.type##
+##contract.url##
+##ENDFOREACHcontracts##\',\'&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt;##FOREACHcontracts##&lt;br /&gt;##lang.contract.name## :
+##contract.name##&lt;br /&gt;
+##lang.contract.number## : ##contract.number##&lt;br /&gt;
+##lang.contract.time## : ##contract.time##&lt;br /&gt;
+##IFcontract.type####lang.contract.type## : ##contract.type##
+##ENDIFcontract.type##&lt;br /&gt;
+&lt;a href=\\\"##contract.url##\\\"&gt;
+##contract.url##&lt;/a&gt;&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.contract.entity## : ##contract.entity##&lt;br /&gt;
+&lt;br /&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ti' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ti' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+&lt;div class=\\\"description b\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+&lt;div class=\\\"description b\\\"&gt;
+##lang.ticket.description##&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+&lt;div class=\\\"description b\\\"&gt;
+##lang.ticket.description##&lt;/div&gt;
+&lt;p&gt;&lt;span
+style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+&lt;div class=\\\"description b\\\"&gt;
+##lang.ticket.description##&lt;/div&gt;
+&lt;p&gt;&lt;span
+style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.title##&lt;/span&gt;&#160;:##ticket.title##
+&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+&lt;div class=\\\"description b\\\"&gt;
+##lang.ticket.description##&lt;/div&gt;
+&lt;p&gt;&lt;span
+style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.title##&lt;/span&gt;&#160;:##ticket.title##
+&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.authors##&lt;/span&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+&lt;div class=\\\"description b\\\"&gt;
+##lang.ticket.description##&lt;/div&gt;
+&lt;p&gt;&lt;span
+style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.title##&lt;/span&gt;&#160;:##ticket.title##
+&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.authors##&lt;/span&gt;
+##IFticket.authors## ##ticket.authors##
+##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors##
+&lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;&#160
+;&lt;/span&gt;&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt; &lt;/span&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+&lt;div class=\\\"description b\\\"&gt;
+##lang.ticket.description##&lt;/div&gt;
+&lt;p&gt;&lt;span
+style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.title##&lt;/span&gt;&#160;:##ticket.title##
+&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.authors##&lt;/span&gt;
+##IFticket.authors## ##ticket.authors##
+##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors##
+&lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;&#160
+;&lt;/span&gt;&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt; &lt;/span&gt;
+##IFticket.category##&lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+&lt;div class=\\\"description b\\\"&gt;
+##lang.ticket.description##&lt;/div&gt;
+&lt;p&gt;&lt;span
+style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.title##&lt;/span&gt;&#160;:##ticket.title##
+&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.authors##&lt;/span&gt;
+##IFticket.authors## ##ticket.authors##
+##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors##
+&lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;&#160
+;&lt;/span&gt;&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt; &lt;/span&gt;
+##IFticket.category##&lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.category## &lt;/span&gt;&#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'6\',\'5\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.url## : ##ticket.url## 
+
+##lang.ticket.description## 
+
+
+##lang.ticket.title## &#160;:##ticket.title## 
+
+##lang.ticket.authors## &#160;:##IFticket.authors##
+##ticket.authors## ##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors## &#160; 
+
+##IFticket.category## ##lang.ticket.category## &#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+
+##lang.ticket.content## &#160;: ##ticket.content##
+##IFticket.itemtype##
+##lang.ticket.item.name## &#160;: ##ticket.itemtype## - ##ticket.item.name##
+##ENDIFticket.itemtype##\',\'&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.url##\\\"&gt;
+##ticket.url##&lt;/a&gt;&lt;/div&gt;
+&lt;div class=\\\"description b\\\"&gt;
+##lang.ticket.description##&lt;/div&gt;
+&lt;p&gt;&lt;span
+style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.title##&lt;/span&gt;&#160;:##ticket.title##
+&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.authors##&lt;/span&gt;
+##IFticket.authors## ##ticket.authors##
+##ENDIFticket.authors##
+##ELSEticket.authors##--##ENDELSEticket.authors##
+&lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;&#160
+;&lt;/span&gt;&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt; &lt;/span&gt;
+##IFticket.category##&lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.category## &lt;/span&gt;&#160;:##ticket.category##
+##ENDIFticket.category## ##ELSEticket.category##
+##lang.ticket.nocategoryassigned## ##ENDELSEticket.category##
+&lt;br /&gt; &lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+##lang.ticket.content##&lt;/span&gt;&#160;:
+##ticket.content##&lt;br /&gt;##IFticket.itemtype##
+&lt;span style=\\\"color: #8b8c8f; font-weight: bold; text-decoration: underline;\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##lang.ticket.url## : &lt;a href=\"##ticket.url##\"&gt;
+##ticket.url' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'15\',\'15\',\'\',\'##lang.unicity.action##\',\'##lang.unicity.entity## : ##unicity.entity## 
+
+##lang.unicity.itemtype## : ##unicity.itemtype## 
+
+##lang.unicity.message## : ##unicity.message## 
+
+##lang.unicity.action_user## : ##unicity.action_user## 
+
+##lang.unicity.action_type## : ##unicity.action_type## 
+
+##lang.unicity.date## : ##unicity.date##\',\'&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'15\',\'15\',\'\',\'##lang.unicity.action##\',\'##lang.unicity.entity## : ##unicity.entity## 
+
+##lang.unicity.itemtype## : ##unicity.itemtype## 
+
+##lang.unicity.message## : ##unicity.message## 
+
+##lang.unicity.action_user## : ##unicity.action_user## 
+
+##lang.unicity.action_type## : ##unicity.action_type## 
+
+##lang.unicity.date## : ##unicity.date##\',\'&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.itemtype## : ##unicity.itemtype##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt;
+&lt;p&gt;##lang' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'15\',\'15\',\'\',\'##lang.unicity.action##\',\'##lang.unicity.entity## : ##unicity.entity## 
+
+##lang.unicity.itemtype## : ##unicity.itemtype## 
+
+##lang.unicity.message## : ##unicity.message## 
+
+##lang.unicity.action_user## : ##unicity.action_user## 
+
+##lang.unicity.action_type## : ##unicity.action_type## 
+
+##lang.unicity.date## : ##unicity.date##\',\'&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.itemtype## : ##unicity.itemtype##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.message## : ##unicity.message##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt;
+&lt;p&gt;##lang' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'15\',\'15\',\'\',\'##lang.unicity.action##\',\'##lang.unicity.entity## : ##unicity.entity## 
+
+##lang.unicity.itemtype## : ##unicity.itemtype## 
+
+##lang.unicity.message## : ##unicity.message## 
+
+##lang.unicity.action_user## : ##unicity.action_user## 
+
+##lang.unicity.action_type## : ##unicity.action_type## 
+
+##lang.unicity.date## : ##unicity.date##\',\'&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.itemtype## : ##unicity.itemtype##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.message## : ##unicity.message##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.action_user## : ##unicity.action_user##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt;
+&lt;p&gt;##lang' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'15\',\'15\',\'\',\'##lang.unicity.action##\',\'##lang.unicity.entity## : ##unicity.entity## 
+
+##lang.unicity.itemtype## : ##unicity.itemtype## 
+
+##lang.unicity.message## : ##unicity.message## 
+
+##lang.unicity.action_user## : ##unicity.action_user## 
+
+##lang.unicity.action_type## : ##unicity.action_type## 
+
+##lang.unicity.date## : ##unicity.date##\',\'&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.itemtype## : ##unicity.itemtype##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.message## : ##unicity.message##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.action_user## : ##unicity.action_user##&lt;/p&gt;
+&lt;p&gt;##lang.unicity.action_type## : ##unicity.action_type##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.unicity.entity## : ##unicity.entity##&lt;/p&gt;
+&lt;p&gt;##lang' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestatus=waiting##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestat' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestatus=waiting##&lt;/p&gt;
+&lt;div&gt;##validation.submission.title##&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestat' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestatus=waiting##&lt;/p&gt;
+&lt;div&gt;##validation.submission.title##&lt;/div&gt;
+&lt;div&gt;##lang.validation.commentsubmission## : ##validation.commentsubmission##&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestat' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestatus=waiting##&lt;/p&gt;
+&lt;div&gt;##validation.submission.title##&lt;/div&gt;
+&lt;div&gt;##lang.validation.commentsubmission## : ##validation.commentsubmission##&lt;/div&gt;
+&lt;div&gt;##ENDIFvalidation.storestatus##&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestat' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestatus=waiting##&lt;/p&gt;
+&lt;div&gt;##validation.submission.title##&lt;/div&gt;
+&lt;div&gt;##lang.validation.commentsubmission## : ##validation.commentsubmission##&lt;/div&gt;
+&lt;div&gt;##ENDIFvalidation.storestatus##&lt;/div&gt;
+&lt;div&gt;##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestat' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestatus=waiting##&lt;/p&gt;
+&lt;div&gt;##validation.submission.title##&lt;/div&gt;
+&lt;div&gt;##lang.validation.commentsubmission## : ##validation.commentsubmission##&lt;/div&gt;
+&lt;div&gt;##ENDIFvalidation.storestatus##&lt;/div&gt;
+&lt;div&gt;##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestat' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestatus=waiting##&lt;/p&gt;
+&lt;div&gt;##validation.submission.title##&lt;/div&gt;
+&lt;div&gt;##lang.validation.commentsubmission## : ##validation.commentsubmission##&lt;/div&gt;
+&lt;div&gt;##ENDIFvalidation.storestatus##&lt;/div&gt;
+&lt;div&gt;##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestat' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestatus=waiting##&lt;/p&gt;
+&lt;div&gt;##validation.submission.title##&lt;/div&gt;
+&lt;div&gt;##lang.validation.commentsubmission## : ##validation.commentsubmission##&lt;/div&gt;
+&lt;div&gt;##ENDIFvalidation.storestatus##&lt;/div&gt;
+&lt;div&gt;##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.urlvalidation##\\\"&gt; ##ticket.urlvalidation## &lt;/a&gt;&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestat' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'7\',\'7\',\'\',\'##ticket.action## ##ticket.title##\',\'##FOREACHvalidations##
+
+##IFvalidation.storestatus=waiting##
+##validation.submission.title##
+##lang.validation.commentsubmission## : ##validation.commentsubmission##
+##ENDIFvalidation.storestatus##
+##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##
+
+##lang.ticket.url## : ##ticket.urlvalidation##
+
+##IFvalidation.status## ##lang.validation.status## : ##validation.status## ##ENDIFvalidation.status##
+##IFvalidation.commentvalidation##
+##lang.validation.commentvalidation## : ##validation.commentvalidation##
+##ENDIFvalidation.commentvalidation##
+##ENDFOREACHvalidations##\',\'&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestatus=waiting##&lt;/p&gt;
+&lt;div&gt;##validation.submission.title##&lt;/div&gt;
+&lt;div&gt;##lang.validation.commentsubmission## : ##validation.commentsubmission##&lt;/div&gt;
+&lt;div&gt;##ENDIFvalidation.storestatus##&lt;/div&gt;
+&lt;div&gt;##ELSEvalidation.storestatus## ##validation.answer.title## ##ENDELSEvalidation.storestatus##&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;##lang.ticket.url## : &lt;a href=\\\"##ticket.urlvalidation##\\\"&gt; ##ticket.urlvalidation## &lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;div&gt;##FOREACHvalidations##&lt;/div&gt;
+&lt;p&gt;##IFvalidation.storestat' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.authors##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;&lt;a href=\\\"##ticket.url##\\\"&gt;##ticket.title##&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;&lt;a href=\\\"##ticket.url##\\\"&gt;##ticket.title##&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.priority##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;&lt;a href=\\\"##ticket.url##\\\"&gt;##ticket.title##&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.status##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;&lt;a href=\\\"##ticket.url##\\\"&gt;##ticket.title##&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##IFticket.assigntousers####ticket.assigntousers##&lt;br /&gt;##ENDIFticket.assigntousers####IFticket.assigntogroups##&lt;br /&gt;##ticket.assigntogroups## ##ENDIFticket.assigntogroups####IFticket.assigntosupplier##&lt;br /&gt;##ticket.assigntosupplier## ##ENDIFticket.assigntosupplier##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;&lt;a href=\\\"##ticket.url##\\\"&gt;##ticket.title##&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##IFticket.assigntousers####ticket.assigntousers##&lt;br /&gt;##ENDIFticket.assigntousers####IFticket.assigntogroups##&lt;br /&gt;##ticket.assigntogroups## ##ENDIFticket.assigntogroups####IFticket.assigntosupplier##&lt;br /&gt;##ticket.assigntosupplier## ##ENDIFticket.assigntosupplier##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;&lt;a href=\\\"##ticket.url##\\\"&gt;##ticket.title##&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##IFticket.assigntousers####ticket.assigntousers##&lt;br /&gt;##ENDIFticket.assigntousers####IFticket.assigntogroups##&lt;br /&gt;##ticket.assigntogroups## ##ENDIFticket.assigntogroups####IFticket.assigntosupplier##&lt;br /&gt;##ticket.assigntosupplier## ##ENDIFticket.assigntosupplier##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.content##&lt;/span&gt;&lt;/td&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;&lt;a href=\\\"##ticket.url##\\\"&gt;##ticket.title##&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##IFticket.assigntousers####ticket.assigntousers##&lt;br /&gt;##ENDIFticket.assigntousers####IFticket.assigntogroups##&lt;br /&gt;##ticket.assigntogroups## ##ENDIFticket.assigntogroups####IFticket.assigntosupplier##&lt;br /&gt;##ticket.assigntosupplier## ##ENDIFticket.assigntosupplier##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'8\',\'6\',\'\',\'##ticket.action## ##ticket.entity##\',\'##lang.ticket.entity## : ##ticket.entity##
+ 
+##FOREACHtickets##
+
+##lang.ticket.title## : ##ticket.title##
+ ##lang.ticket.status## : ##ticket.status##
+
+ ##ticket.url## 
+ ##ENDFOREACHtickets##\',\'&lt;table class=\\\"tab_cadre\\\" border=\\\"1\\\" cellspacing=\\\"2\\\" cellpadding=\\\"3\\\"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.title##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.attribution##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td style=\\\"text-align: left;\\\" width=\\\"auto\\\" bgcolor=\\\"#cccccc\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##lang.ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##FOREACHtickets##                   
+&lt;tr&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.authors##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;&lt;a href=\\\"##ticket.url##\\\"&gt;##ticket.title##&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.priority##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.status##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##IFticket.assigntousers####ticket.assigntousers##&lt;br /&gt;##ENDIFticket.assigntousers####IFticket.assigntogroups##&lt;br /&gt;##ticket.assigntogroups## ##ENDIFticket.assigntogroups####IFticket.assigntosupplier##&lt;br /&gt;##ticket.assigntosupplier## ##ENDIFticket.assigntosupplier##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.creationdate##&lt;/span&gt;&lt;/td&gt;
+&lt;td width=\\\"auto\\\"&gt;&lt;span style=\\\"font-size: 11px; text-align: left;\\\"&gt;##ticket.content##&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+##ENDFOREACHtickets##
+&lt;/tbody&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;table class=\"tab_cadre\" border=\"1\" cellspacing=\"2\" cellpadding=\"3\"&' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'9\',\'9\',\'\',\'##consumable.action##  ##consumable.entity##\',\'##lang.consumable.entity## : ##consumable.entity##
+ 
+
+##FOREACHconsumables##
+##lang.consumable.item## : ##consumable.item##
+ 
+
+##lang.consumable.reference## : ##consumable.reference##
+
+##lang.consumable.remaining## : ##consumable.remaining##
+
+##consumable.url## 
+
+##ENDFOREACHconsumables##\',\'&lt;p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'9\',\'9\',\'\',\'##consumable.action##  ##consumable.entity##\',\'##lang.consumable.entity## : ##consumable.entity##
+ 
+
+##FOREACHconsumables##
+##lang.consumable.item## : ##consumable.item##
+ 
+
+##lang.consumable.reference## : ##consumable.reference##
+
+##lang.consumable.remaining## : ##consumable.remaining##
+
+##consumable.url## 
+
+##ENDFOREACHconsumables##\',\'&lt;p&gt;
+##lang.consumable.entity## : ##consumable.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHconsumables##
+&lt;br /&gt;##lang.consumable.item## : ##consumable.item##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;
+##lang.consumable.entity## : ##consumable.entity##
+&lt;br /&gt; &lt;b' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'9\',\'9\',\'\',\'##consumable.action##  ##consumable.entity##\',\'##lang.consumable.entity## : ##consumable.entity##
+ 
+
+##FOREACHconsumables##
+##lang.consumable.item## : ##consumable.item##
+ 
+
+##lang.consumable.reference## : ##consumable.reference##
+
+##lang.consumable.remaining## : ##consumable.remaining##
+
+##consumable.url## 
+
+##ENDFOREACHconsumables##\',\'&lt;p&gt;
+##lang.consumable.entity## : ##consumable.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHconsumables##
+&lt;br /&gt;##lang.consumable.item## : ##consumable.item##&lt;br /&gt;
+&lt;br /&gt;##lang.consumable.reference## : ##consumable.reference##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;
+##lang.consumable.entity## : ##consumable.entity##
+&lt;br /&gt; &lt;b' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'9\',\'9\',\'\',\'##consumable.action##  ##consumable.entity##\',\'##lang.consumable.entity## : ##consumable.entity##
+ 
+
+##FOREACHconsumables##
+##lang.consumable.item## : ##consumable.item##
+ 
+
+##lang.consumable.reference## : ##consumable.reference##
+
+##lang.consumable.remaining## : ##consumable.remaining##
+
+##consumable.url## 
+
+##ENDFOREACHconsumables##\',\'&lt;p&gt;
+##lang.consumable.entity## : ##consumable.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHconsumables##
+&lt;br /&gt;##lang.consumable.item## : ##consumable.item##&lt;br /&gt;
+&lt;br /&gt;##lang.consumable.reference## : ##consumable.reference##&lt;br /&gt;
+##lang.consumable.remaining## : ##consumable.remaining##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;
+##lang.consumable.entity## : ##consumable.entity##
+&lt;br /&gt; &lt;b' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'9\',\'9\',\'\',\'##consumable.action##  ##consumable.entity##\',\'##lang.consumable.entity## : ##consumable.entity##
+ 
+
+##FOREACHconsumables##
+##lang.consumable.item## : ##consumable.item##
+ 
+
+##lang.consumable.reference## : ##consumable.reference##
+
+##lang.consumable.remaining## : ##consumable.remaining##
+
+##consumable.url## 
+
+##ENDFOREACHconsumables##\',\'&lt;p&gt;
+##lang.consumable.entity## : ##consumable.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHconsumables##
+&lt;br /&gt;##lang.consumable.item## : ##consumable.item##&lt;br /&gt;
+&lt;br /&gt;##lang.consumable.reference## : ##consumable.reference##&lt;br /&gt;
+##lang.consumable.remaining## : ##consumable.remaining##&lt;br /&gt;
+&lt;a href=\\\"##consumable.url##\\\"&gt; ##consumable.url##&lt;/a&gt;&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;
+##lang.consumable.entity## : ##consumable.entity##
+&lt;br /&gt; &lt;b' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'10\',\'8\',\'\',\'##cartridge.action##  ##cartridge.entity##\',\'##lang.cartridge.entity## : ##cartridge.entity##
+ 
+
+##FOREACHcartridges##
+##lang.cartridge.item## : ##cartridge.item##
+ 
+
+##lang.cartridge.reference## : ##cartridge.reference##
+
+##lang.cartridge.remaining## : ##cartridge.remaining##
+
+##cartridge.url## 
+ ##ENDFOREACHcartridges##\',\'&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHcartridges##
+&lt;br /&gt;##lang.cartridge.item## :
+##cartridge.item##&lt;br /&gt; &lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'10\',\'8\',\'\',\'##cartridge.action##  ##cartridge.entity##\',\'##lang.cartridge.entity## : ##cartridge.entity##
+ 
+
+##FOREACHcartridges##
+##lang.cartridge.item## : ##cartridge.item##
+ 
+
+##lang.cartridge.reference## : ##cartridge.reference##
+
+##lang.cartridge.remaining## : ##cartridge.remaining##
+
+##cartridge.url## 
+ ##ENDFOREACHcartridges##\',\'&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHcartridges##
+&lt;br /&gt;##lang.cartridge.item## :
+##cartridge.item##&lt;br /&gt; &lt;br /&gt;
+##lang.cartridge.reference## :
+##cartridge.reference##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'10\',\'8\',\'\',\'##cartridge.action##  ##cartridge.entity##\',\'##lang.cartridge.entity## : ##cartridge.entity##
+ 
+
+##FOREACHcartridges##
+##lang.cartridge.item## : ##cartridge.item##
+ 
+
+##lang.cartridge.reference## : ##cartridge.reference##
+
+##lang.cartridge.remaining## : ##cartridge.remaining##
+
+##cartridge.url## 
+ ##ENDFOREACHcartridges##\',\'&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHcartridges##
+&lt;br /&gt;##lang.cartridge.item## :
+##cartridge.item##&lt;br /&gt; &lt;br /&gt;
+##lang.cartridge.reference## :
+##cartridge.reference##&lt;br /&gt;
+##lang.cartridge.remaining## :
+##cartridge.remaining##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'10\',\'8\',\'\',\'##cartridge.action##  ##cartridge.entity##\',\'##lang.cartridge.entity## : ##cartridge.entity##
+ 
+
+##FOREACHcartridges##
+##lang.cartridge.item## : ##cartridge.item##
+ 
+
+##lang.cartridge.reference## : ##cartridge.reference##
+
+##lang.cartridge.remaining## : ##cartridge.remaining##
+
+##cartridge.url## 
+ ##ENDFOREACHcartridges##\',\'&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHcartridges##
+&lt;br /&gt;##lang.cartridge.item## :
+##cartridge.item##&lt;br /&gt; &lt;br /&gt;
+##lang.cartridge.reference## :
+##cartridge.reference##&lt;br /&gt;
+##lang.cartridge.remaining## :
+##cartridge.remaining##&lt;br /&gt;
+&lt;a href=\\\"##cartridge.url##\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'10\',\'8\',\'\',\'##cartridge.action##  ##cartridge.entity##\',\'##lang.cartridge.entity## : ##cartridge.entity##
+ 
+
+##FOREACHcartridges##
+##lang.cartridge.item## : ##cartridge.item##
+ 
+
+##lang.cartridge.reference## : ##cartridge.reference##
+
+##lang.cartridge.remaining## : ##cartridge.remaining##
+
+##cartridge.url## 
+ ##ENDFOREACHcartridges##\',\'&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHcartridges##
+&lt;br /&gt;##lang.cartridge.item## :
+##cartridge.item##&lt;br /&gt; &lt;br /&gt;
+##lang.cartridge.reference## :
+##cartridge.reference##&lt;br /&gt;
+##lang.cartridge.remaining## :
+##cartridge.remaining##&lt;br /&gt;
+&lt;a href=\\\"##cartridge.url##\\\"&gt;
+##cartridge.url##&lt;/a&gt;&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.cartridge.entity## : ##cartridge.entity##
+&lt;br /&gt; &lt;br /' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'11\',\'10\',\'\',\'##infocom.action##  ##infocom.entity##\',\'##lang.infocom.entity## : ##infocom.entity## 
+ 
+
+##FOREACHinfocoms## 
+
+##lang.infocom.itemtype## : ##infocom.itemtype##
+
+##lang.infocom.item## : ##infocom.item##
+ 
+
+##lang.infocom.expirationdate## : ##infocom.expirationdate##
+
+##infocom.url## 
+ ##ENDFOREACHinfocoms##\',\'&lt;p&gt;##lang.infocom.entity## : ##infocom.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHinfocoms##
+&lt;br /&gt;##lang.infocom.itemtype## : ##infocom.itemtype##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.infocom.entity## : ##infocom.entity##
+&lt;br /&gt; &lt;br /&gt;' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'11\',\'10\',\'\',\'##infocom.action##  ##infocom.entity##\',\'##lang.infocom.entity## : ##infocom.entity## 
+ 
+
+##FOREACHinfocoms## 
+
+##lang.infocom.itemtype## : ##infocom.itemtype##
+
+##lang.infocom.item## : ##infocom.item##
+ 
+
+##lang.infocom.expirationdate## : ##infocom.expirationdate##
+
+##infocom.url## 
+ ##ENDFOREACHinfocoms##\',\'&lt;p&gt;##lang.infocom.entity## : ##infocom.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHinfocoms##
+&lt;br /&gt;##lang.infocom.itemtype## : ##infocom.itemtype##&lt;br /&gt;
+##lang.infocom.item## : ##infocom.item##&lt;br /&gt; &lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.infocom.entity## : ##infocom.entity##
+&lt;br /&gt; &lt;br /&gt;' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'11\',\'10\',\'\',\'##infocom.action##  ##infocom.entity##\',\'##lang.infocom.entity## : ##infocom.entity## 
+ 
+
+##FOREACHinfocoms## 
+
+##lang.infocom.itemtype## : ##infocom.itemtype##
+
+##lang.infocom.item## : ##infocom.item##
+ 
+
+##lang.infocom.expirationdate## : ##infocom.expirationdate##
+
+##infocom.url## 
+ ##ENDFOREACHinfocoms##\',\'&lt;p&gt;##lang.infocom.entity## : ##infocom.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHinfocoms##
+&lt;br /&gt;##lang.infocom.itemtype## : ##infocom.itemtype##&lt;br /&gt;
+##lang.infocom.item## : ##infocom.item##&lt;br /&gt; &lt;br /&gt;
+##lang.infocom.expirationdate## : ##infocom.expirationdate##
+&lt;br /&gt; &lt;a href=\\\"##infocom.url##\\\"&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.infocom.entity## : ##infocom.entity##
+&lt;br /&gt; &lt;br /&gt;' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'11\',\'10\',\'\',\'##infocom.action##  ##infocom.entity##\',\'##lang.infocom.entity## : ##infocom.entity## 
+ 
+
+##FOREACHinfocoms## 
+
+##lang.infocom.itemtype## : ##infocom.itemtype##
+
+##lang.infocom.item## : ##infocom.item##
+ 
+
+##lang.infocom.expirationdate## : ##infocom.expirationdate##
+
+##infocom.url## 
+ ##ENDFOREACHinfocoms##\',\'&lt;p&gt;##lang.infocom.entity## : ##infocom.entity##
+&lt;br /&gt; &lt;br /&gt;##FOREACHinfocoms##
+&lt;br /&gt;##lang.infocom.itemtype## : ##infocom.itemtype##&lt;br /&gt;
+##lang.infocom.item## : ##infocom.item##&lt;br /&gt; &lt;br /&gt;
+##lang.infocom.expirationdate## : ##infocom.expirationdate##
+&lt;br /&gt; &lt;a href=\\\"##infocom.url##\\\"&gt;
+##infocom.url##&lt;/a&gt;&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.infocom.entity## : ##infocom.entity##
+&lt;br /&gt; &lt;br /&gt;' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'12\',\'11\',\'\',\'##license.action##  ##license.entity##\',\'##lang.license.entity## : ##license.entity##
+
+##FOREACHlicenses## 
+
+##lang.license.item## : ##license.item##
+
+##lang.license.serial## : ##license.serial##
+
+##lang.license.expirationdate## : ##license.expirationdate##
+
+##license.url## 
+ ##ENDFOREACHlicenses##\',\'&lt;p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'12\',\'11\',\'\',\'##license.action##  ##license.entity##\',\'##lang.license.entity## : ##license.entity##
+
+##FOREACHlicenses## 
+
+##lang.license.item## : ##license.item##
+
+##lang.license.serial## : ##license.serial##
+
+##lang.license.expirationdate## : ##license.expirationdate##
+
+##license.url## 
+ ##ENDFOREACHlicenses##\',\'&lt;p&gt;
+##lang.license.entity## : ##license.entity##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;
+##lang.license.entity## : ##license.entity##&lt;br /&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'12\',\'11\',\'\',\'##license.action##  ##license.entity##\',\'##lang.license.entity## : ##license.entity##
+
+##FOREACHlicenses## 
+
+##lang.license.item## : ##license.item##
+
+##lang.license.serial## : ##license.serial##
+
+##lang.license.expirationdate## : ##license.expirationdate##
+
+##license.url## 
+ ##ENDFOREACHlicenses##\',\'&lt;p&gt;
+##lang.license.entity## : ##license.entity##&lt;br /&gt;
+##FOREACHlicenses##
+&lt;br /&gt;##lang.license.item## : ##license.item##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;
+##lang.license.entity## : ##license.entity##&lt;br /&gt;
+##FOREACHlic' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'12\',\'11\',\'\',\'##license.action##  ##license.entity##\',\'##lang.license.entity## : ##license.entity##
+
+##FOREACHlicenses## 
+
+##lang.license.item## : ##license.item##
+
+##lang.license.serial## : ##license.serial##
+
+##lang.license.expirationdate## : ##license.expirationdate##
+
+##license.url## 
+ ##ENDFOREACHlicenses##\',\'&lt;p&gt;
+##lang.license.entity## : ##license.entity##&lt;br /&gt;
+##FOREACHlicenses##
+&lt;br /&gt;##lang.license.item## : ##license.item##&lt;br /&gt;
+##lang.license.serial## : ##license.serial##&lt;br /&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;
+##lang.license.entity## : ##license.entity##&lt;br /&gt;
+##FOREACHlic' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'13\',\'13\',\'\',\'##user.action##\',\'##lang.user.realname## ##lang.user.firstname##
+
+##lang.passwordforget.information##
+
+##lang.passwordforget.link## ##user.passwordforgeturl##\',\'&lt;p&gt;&lt;strong&gt;##lang.user.realname## ##lang.user.firstname##&lt;/strong&gt;&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;&lt;strong&gt;##lang.user.realname## ##lang.user.firstname##&lt;/stron' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'13\',\'13\',\'\',\'##user.action##\',\'##lang.user.realname## ##lang.user.firstname##
+
+##lang.passwordforget.information##
+
+##lang.passwordforget.link## ##user.passwordforgeturl##\',\'&lt;p&gt;&lt;strong&gt;##lang.user.realname## ##lang.user.firstname##&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;##lang.passwordforget.information##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;&lt;strong&gt;##lang.user.realname## ##lang.user.firstname##&lt;/stron' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'14\',\'14\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.title## : ##ticket.title##
+
+##lang.ticket.closedate## : ##ticket.closedate##
+
+##lang.satisfaction.text## ##ticket.urlsatisfaction##\',\'&lt;p&gt;##lang.ticket.title## : ##ticket.title##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.ticket.title## : ##ticket.title##&lt;/p&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'14\',\'14\',\'\',\'##ticket.action## ##ticket.title##\',\'##lang.ticket.title## : ##ticket.title##
+
+##lang.ticket.closedate## : ##ticket.closedate##
+
+##lang.satisfaction.text## ##ticket.urlsatisfaction##\',\'&lt;p&gt;##lang.ticket.title## : ##ticket.title##&lt;/p&gt;
+&lt;p&gt;##lang.ticket.closedate## : ##ticket.closedate##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.ticket.title## : ##ticket.title##&lt;/p&gt;
+&lt;p&gt;##lang.tic' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
+2011-09-18 12:08 [2@ARDOWZ-PC]
+*** MySQL query error : 
+***
+SQL: INSERT INTO `glpi_notificationtemplatetranslations` VALUES (\'16\',\'16\',\'\',\'##crontask.action##\',\'##lang.crontask.warning## 
+
+##FOREACHcrontasks## 
+ ##crontask.name## : ##crontask.description##
+ 
+##ENDFOREACHcrontasks##\',\'&lt;p&gt;##lang.crontask.warning##&lt;/p&gt;
+
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''&lt;p&gt;##lang.crontask.warning##&lt;/p&gt' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
+C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
+C:/xampp/htdocs/itams/front/backup.php
+
