@@ -65,7 +65,6 @@ if (isset($_GET["active_entity"])) {
 }
 
 commonHeader($LANG['common'][56],$_SERVER['PHP_SELF']);
-
 // Redirect management
 if (isset($_GET["redirect"])) {
    manageRedirect($_GET["redirect"]);

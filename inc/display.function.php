@@ -2225,7 +2225,15 @@ function printHelpDesk ($ID, $from_helpdesk) {
    $content             = "";
    $title               = "";
    $ticketcategories_id = 0;
-   $urgency             = 3;
+   //echo $glpiactiveprofile['name'];
+   //this sets the urgency default
+   //echo $_SESSION['glpiactiveprofile']['name'];
+   if($_SESSION['glpiactiveprofile']['name'] == 'Dean'){
+       $urgency = 5;
+   }else{
+       $urgency = 3;
+   }
+   //$urgency             = 3;
    $type                = 0;
 
    if (isset($_SESSION["helpdeskSaved"]['_users_id_requester_notif'])
@@ -2278,13 +2286,18 @@ function printHelpDesk ($ID, $from_helpdesk) {
    }
    echo "</th></tr>";
 
-   if ($CFG_GLPI['urgency_mask']!=(1<<3)) {
+   //Hiding the urgency *commented out is the original urgency dropdown
+   
+   echo "<input name='urgency' type=hidden value='$urgency'></input>";
+   /*if ($CFG_GLPI['urgency_mask']!=(1<<3)) {
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['joblist'][29]."&nbsp;:&nbsp;</td>";
       echo "<td>";
       Ticket::dropdownUrgency("urgency", $urgency);
       echo "</td></tr>";
-   }
+   }*/
+   
+   
 
    if (NotificationTargetTicket::isAuthorMailingActivatedForHelpdesk()) {
       echo "<tr class='tab_bg_1'>";
@@ -2313,13 +2326,14 @@ function printHelpDesk ($ID, $from_helpdesk) {
    echo "<td>".$LANG['common'][17]."&nbsp;:&nbsp;</td><td>";
    Ticket::dropdownType('type',$type);
    echo "</td></tr>";
-
+/*
    echo "<tr class='tab_bg_1'>";
    echo "<td>".$LANG['common'][36]."&nbsp;:&nbsp;</td><td>";
    Dropdown::show('TicketCategory', array('value'     => $ticketcategories_id,
                                           'condition' => '`is_helpdeskvisible`=1'));
+   echo "</td></tr>";*/
    echo "</td></tr>";
-
+     
    echo "<tr class='tab_bg_1'>";
    echo "<td>".$LANG['common'][57]."&nbsp;:&nbsp;</td>";
    echo "<td><input type='text' maxlength='250' size='50' name='name' value='$title'></td></tr>";

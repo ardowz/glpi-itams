@@ -115,3 +115,15 @@ C:\xampp\htdocs\paul\inc\monitor.class.php:274		Dropdown::show()
 C:\xampp\htdocs\paul\front\monitor.form.php:100		Monitor->showForm()
 
 Test
+2011-09-30 10:25 [10@USER-PC]
+Notice(8): Undefined variable: glpiactiveprofile
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2228		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:89		printHelpDesk()
+
+2011-09-30 10:28 [2@USER-PC]
+Notice(8): Undefined offset: 0
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\central.php:68		userErrorHandlerDebug()
+
