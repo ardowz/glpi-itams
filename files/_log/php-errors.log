@@ -134,3 +134,10 @@ C:\xampp\htdocs\itams\inc\ticket.class.php:2877		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\inc\display.function.php:2291		Ticket::profileUrgency()
 C:\xampp\htdocs\itams\front\helpdesk.public.php:89		printHelpDesk()
 
+2011-10-03 01:22 [6@USER-PC]
+Notice(8): Undefined variable: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:2877		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\display.function.php:2291		Ticket::profileUrgency()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:89		printHelpDesk()
+
