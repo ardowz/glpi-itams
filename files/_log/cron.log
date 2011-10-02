@@ -690,3 +690,15 @@ Internal #1: Launch slaticket
 Internal #1: Launch mailgate
 2011-10-03 01:22 [@USER-PC]
 Internal #1: Launch graph
+2011-10-03 01:33 [6@USER-PC]
+Internal #1: Launch reservation
+2011-10-03 01:34 [@USER-PC]
+Internal #1: Launch closeticket
+2011-10-03 01:34 [@USER-PC]
+Internal #1: Launch alertnotclosed
+2011-10-03 01:35 [@USER-PC]
+Internal #1: Launch session
+2011-10-03 01:35 [@USER-PC]
+Internal #1: Launch createinquest
+2011-10-03 01:36 [@USER-PC]
+Internal #1: Launch watcher

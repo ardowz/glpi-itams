@@ -3876,6 +3876,11 @@ class Ticket extends CommonDBTM {
       }
       echo "</div>";
    }
+   
+   /*
+    * Force Action Form to static User
+    * 
+    */
 
 
    /**
