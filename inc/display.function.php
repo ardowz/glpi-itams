@@ -2228,11 +2228,11 @@ function printHelpDesk ($ID, $from_helpdesk) {
    //echo $glpiactiveprofile['name'];
    //this sets the urgency default
    //echo $_SESSION['glpiactiveprofile']['name'];
-   if($_SESSION['glpiactiveprofile']['name'] == 'Dean'){
+   /*if($_SESSION['glpiactiveprofile']['name'] == 'Dean'){
        $urgency = 5;
    }else{
        $urgency = 3;
-   }
+   }*/
    //$urgency             = 3;
    $type                = 0;
 
@@ -2288,7 +2288,9 @@ function printHelpDesk ($ID, $from_helpdesk) {
 
    //Hiding the urgency *commented out is the original urgency dropdown
    
-   echo "<input name='urgency' type=hidden value='$urgency'></input>";
+   Ticket::profileUrgency($_SESSION['glpiactiveprofile']['name']);
+   
+   //echo "<input name='urgency' type=hidden value='$urgency'></input>";
    /*if ($CFG_GLPI['urgency_mask']!=(1<<3)) {
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['joblist'][29]."&nbsp;:&nbsp;</td>";

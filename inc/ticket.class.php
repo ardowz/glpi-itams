@@ -2855,6 +2855,27 @@ class Ticket extends CommonDBTM {
 
       return $id;
    }
+   
+   /*
+    * Ardo modification
+    * Modifying the Urgency with Profile name validation
+    * changed the urgency from dropdown to hidden field to force prioritization
+    */
+   static function profileUrgency($profilename) {
+      global $LANG, $CFG_GLPI;
+
+      $urgency = 3;
+      
+      if($profilename == 'Dean'){
+          $urgency = 5;
+      }else{
+          $urgency = 3;
+      }
+      
+      echo "<input name='urgency' type=hidden value='$urgency'  id='urgency'></input>";
+
+      return $id;
+   }
 
 
    /**

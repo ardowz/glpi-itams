@@ -2491,3 +2491,41 @@ C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
 C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
 C:/xampp/htdocs/itams/front/backup.php
 
+2011-09-30 12:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT \'glpi\' AS currentuser, `glpi_tickets`.`id` AS ITEM_0,  `glpi_tickets`.`name` AS ITEM_1,
+                     `glpi_tickets`.`id` AS ITEM_1_2,
+                     `glpi_tickets`.`content` AS ITEM_1_3,
+                     `glpi_tickets`.`status` AS ITEM_1_4,`glpi_tickets`.`status` AS ITEM_2, `glpi_tickets`.`date_mod` AS ITEM_3, `glpi_tickets`.`date` AS ITEM_4, `glpi_tickets`.`priority` AS ITEM_5,  GROUP_CONCAT(DISTINCT `glpi_users_a5e2026cbcb683e774f93a59e24a62a4`.`id` SEPARATOR \'$$$$\')
+                              AS ITEM_6, GROUP_CONCAT(DISTINCT CONCAT(`glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`users_id`,
+                                                         \' \',`glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`alternative_email`)
+                                                         SEPARATOR \'$$$$\') AS ITEM_6_2,  GROUP_CONCAT(DISTINCT `glpi_users_f201be21cd638ee780d08cba4ceff0d4`.`id` SEPARATOR \'$$$$\')
+                              AS ITEM_7, GROUP_CONCAT(DISTINCT CONCAT(`glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`users_id`,
+                                                         \' \',`glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`alternative_email`)
+                                                         SEPARATOR \'$$$$\') AS ITEM_7_2,  GROUP_CONCAT(DISTINCT `glpi_ticketvalidations`.`status` SEPARATOR \'$$$$\') AS ITEM_8,  GROUP_CONCAT(DISTINCT `glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4`.`id` SEPARATOR \'$$$$\')
+                              AS ITEM_9, GROUP_CONCAT(DISTINCT CONCAT(`glpi_tickets_users_`.`users_id`,
+                                                         \' \',`glpi_tickets_users_`.`alternative_email`)
+                                                         SEPARATOR \'$$$$\') AS ITEM_9_2, `glpi_tickets`.`id` AS id  FROM `glpi_tickets` LEFT JOIN `glpi_tickets_users`  AS glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60
+                                             ON (`glpi_tickets`.`id`
+                                                      = `glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`tickets_id`
+                                                         AND `glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`type` = 1 )LEFT JOIN `glpi_users`  AS glpi_users_a5e2026cbcb683e774f93a59e24a62a4
+                                          ON (`glpi_tickets_users_d1524bb2ea1d461ab90aed3b5f0e7e60`.`users_id` = `glpi_users_a5e2026cbcb683e774f93a59e24a62a4`.`id`
+                                              ) LEFT JOIN `glpi_tickets_users`  AS glpi_tickets_users_819efb92c8b927b345e489211ec8e43b
+                                             ON (`glpi_tickets`.`id`
+                                                      = `glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`tickets_id`
+                                                         AND `glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`type` = 2 )LEFT JOIN `glpi_users`  AS glpi_users_f201be21cd638ee780d08cba4ceff0d4
+                                          ON (`glpi_tickets_users_819efb92c8b927b345e489211ec8e43b`.`users_id` = `glpi_users_f201be21cd638ee780d08cba4ceff0d4`.`id`
+                                              ) LEFT JOIN `glpi_ticketvalidations` 
+                                             ON (`glpi_tickets`.`id`
+                                                      = `glpi_ticketvalidations`.`tickets_id`
+                                                         )LEFT JOIN `glpi_users`  AS glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4
+                                          ON (`glpi_ticketvalidations`.`users_id_validate` = `glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4`.`id`
+                                              ) WHERE   (  1 )  AND (  ( `glpi_ticketvalidations`.`status` = \'waiting\' )  AND (`glpi_users_users_id_validate_57751ba960bd8511d2ad8a01bd8487f4`.`id` = \'2\')  ) GROUP BY `glpi_tickets`.`id` ORDER BY ITEM_3 DESC 
+Error: Unknown column 'glpi_tickets_users_.users_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\search.class.php&nbsp;:739		DBmysql->query()
+C:\xampp\htdocs\itams\inc\search.class.php&nbsp;:49		Search::showList()
+C:\xampp\htdocs\itams\front\ticket.php&nbsp;:48		Search::show()
+C:/xampp/htdocs/itams/front/ticket.php
+
