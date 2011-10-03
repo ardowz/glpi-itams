@@ -90,6 +90,20 @@ class CommonDBTM extends CommonGLPI {
 
       return $this->table;
    }
+   
+   /*
+    * Ardo
+    * Return the table for the object made by thesis group
+    * returns a string
+    */
+   function getTable2() {
+
+      if (empty($this->table) && !$this->notable) {
+         $this->table = getTableForItemType2($this->getType());
+      }
+
+      return $this->table;
+   }
 
 
    /**

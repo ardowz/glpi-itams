@@ -50,7 +50,10 @@ class DeviceProcessor extends CommonDevice {
    function getAdditionalFields() {
       global $LANG;
 
-      return array_merge(parent::getAdditionalFields(),
+      /*
+       * Edited Device processor form
+       * 
+       * return array_merge(parent::getAdditionalFields(),
                          array(array('name'  => 'specif_default',
                                      'label' => $LANG['device_ram'][1]." ".$LANG['devices'][24],
                                      'type'  => 'text',
@@ -59,6 +62,20 @@ class DeviceProcessor extends CommonDevice {
                                      'label' => $LANG['device_ram'][1],
                                      'type'  => 'text',
                                      'unit'  => $LANG['setup'][35])));
+       */
+      
+      return array_merge(parent::getAdditionalFields(),
+                         array(array('name'  => 'specif_default',
+                                     'label' => $LANG['device_ram'][1]." ".$LANG['devices'][24],
+                                     'type'  => 'text',
+                                     'unit'  => $LANG['setup'][35]),
+                               array('name'  => 'frequence',
+                                     'label' => $LANG['device_ram'][1],
+                                     'type'  => 'text',
+                                     'unit'  => $LANG['setup'][35]),
+                                array('name' => 'Serial Number',
+                                     'label' => 'Serial Number',
+                                     'type'  => 'text')));
    }
 
 
@@ -83,6 +100,11 @@ class DeviceProcessor extends CommonDevice {
       $tab[12]['field']    = 'frequence';
       $tab[12]['name']     = $LANG['device_ram'][1];
       $tab[12]['datatype'] = 'text';
+      
+      $tab[13]['table']    = $this->getTable2();
+      $tab[13]['field']    = 'serialnumber';
+      $tab[13]['name']     = "Serial Number";
+      $tab[13]['datatype'] = 'text';
 
       return $tab;
    }

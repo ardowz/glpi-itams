@@ -885,3 +885,10 @@ C:\xampp\htdocs\itams\inc\ticket.class.php:4212		Ticket::showActorAddForm()
 C:\xampp\htdocs\itams\inc\ticket.class.php:4658		Ticket->showActorsPartForm()
 C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
 
+2011-10-03 05:12 [10@USER-PC]
+Notice(8): Undefined variable: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:2877		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\display.function.php:2291		Ticket::profileUrgency()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:89		printHelpDesk()
+

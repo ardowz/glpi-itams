@@ -163,6 +163,55 @@ function getTableForItemType($itemtype) {
    }
 }
 
+/**
+ * 
+ * Ardo
+ * Modified by thesis group 
+ * 
+ * to accomodate use of new table
+ * Return ItemType  for a table
+ *
+ * @param $itemtype string: itemtype
+ *
+ * @return string table name corresponding to the itemtype  parameter
+**/
+function getTableForItemType2($itemtype) {
+   global $CFG_GLPI;
+
+   // Force singular for itemtype : States case
+   $itemtype = getSingular($itemtype);
+
+   if (isset($CFG_GLPI['glpitablesitemtype'][$itemtype])) {
+      return $CFG_GLPI['glpitablesitemtype'][$itemtype];
+
+   } else {
+      $prefix = "sideb_";
+
+      if ($plug=isPluginItemType($itemtype)) {
+         $prefix .= "plugin_".strtolower($plug['plugin'])."_";
+         $table   = strtolower($plug['class']);
+      } else {
+         $table = strtolower($itemtype);
+      }
+
+      if (strstr($table,'_')) {
+         $split = explode('_',$table);
+
+         foreach ($split as $key => $part) {
+            $split[$key] = getPlural($part);
+         }
+         $table = implode('_',$split);
+
+      } else {
+         $table = getPlural($table);
+      }
+
+      $CFG_GLPI['glpitablesitemtype'][$itemtype]      = $prefix.$table;
+      $CFG_GLPI['glpiitemtypetables'][$prefix.$table] = $itemtype;
+      return $prefix.$table;
+   }
+}
+
 
 /**
  * Return the plural of a string
