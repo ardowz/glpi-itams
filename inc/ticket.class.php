@@ -3861,7 +3861,51 @@ class Ticket extends CommonDBTM {
       }
 
       echo "<div ".($inticket?"style='display:none'":'')." id='ticketactor$rand_type'>";
-      $rand   = Dropdown::showFromArray("_ticket_".$typename."[_type]", $types);
+      /*
+       * Modification in function to pass thru AssignTech function
+       * 
+       * Place restrictions for technicians and owning and assigning
+       */
+      $right = 'all';
+      $rand = mt_rand();
+      $options = array('name'        => '_ticket_assignusers_id]',
+                          'entity'      => $_POST['entity_restrict'],
+                          'right'       => $right,
+                          'ldap_import' => true);
+      $actortype = 'assign';
+      $paramscomment = array('value'       => '__VALUE__',
+                                   'allow_email' => $withemail,
+                                   'field'       => "_ticket_".$actortype);
+      $options['rand']     = $rand;
+      $options['toupdate'] = array('value_fieldname' => 'value',
+                                         'to_update'  => "notif_user_$rand",
+                                         'url'        => $CFG_GLPI["root_doc"]."/ajax/uemailUpdate.php",
+                                         'moreparams' => $paramscomment);
+      
+      
+      User::dropdown($options);
+      
+       //self::blabla();
+      //self::AssignTech();
+      
+      /*$params = array('type'            => '__VALUE__',
+                      'actortype'       => $typename,
+                      'allow_email'     => $withemail,
+                      'entity_restrict' => $entities_id);
+      
+      ajaxUpdateItemOnSelectEvent("assignTech","ticketactor$rand_type",
+                                  $CFG_GLPI["root_doc"]."/ajax/dropdownTicketActors.php", $params);
+      
+      if ($inticket) {
+         echo "<hr>";
+      }
+      echo "</div>";*/
+      /*
+       * End of modification
+       */
+      /*$rand   = Dropdown::showFromArray("_ticket_".$typename."[_type]", $types);
+      
+      
       $params = array('type'            => '__VALUE__',
                       'actortype'       => $typename,
                       'allow_email'     => $withemail,
@@ -3871,17 +3915,73 @@ class Ticket extends CommonDBTM {
                                   "showticket".$typename."_$rand",
                                   $CFG_GLPI["root_doc"]."/ajax/dropdownTicketActors.php", $params);
       echo "<span id='showticket".$typename."_$rand'>&nbsp;</span>";
+      */
       if ($inticket) {
          echo "<hr>";
       }
       echo "</div>";
    }
    
+   
    /*
+    * Ardo adjustment
     * Force Action Form to static User
-    * 
+    * Provide with only one dropdown for assigning technician
     */
 
+   static function AssignTech(){
+       if (isset($_POST["type"]) && isset($_POST["actortype"])) {
+       $rand = mt_rand();
+
+       switch ($_POST["type"]) {
+       case "user" :
+         $right = 'all';
+         // Only steal or own ticket whit empty assign
+         if ($_POST["actortype"]=='assign') {
+            $right = "own_ticket";
+            if (!haveRight("assign_ticket","1")) {
+               $right = 'id';
+            }
+         }
+
+         $options = array('name'        => '_ticket_'.$_POST["actortype"].'[users_id]',
+                          'entity'      => $_POST['entity_restrict'],
+                          'right'       => $right,
+                          'ldap_import' => true);
+         if ($CFG_GLPI["use_mailing"]) {
+            $withemail = (isset($_POST["allow_email"]) ? $_POST["allow_email"] : false);
+            $paramscomment = array('value'       => '__VALUE__',
+                                   'allow_email' => $withemail,
+                                   'field'       => "_ticket_".$_POST["actortype"]);
+            // Fix rand value
+            $options['rand']     = $rand;
+            $options['toupdate'] = array('value_fieldname' => 'value',
+                                         'to_update'  => "notif_user_$rand",
+                                         'url'        => $CFG_GLPI["root_doc"]."/ajax/uemailUpdate.php",
+                                         'moreparams' => $paramscomment);
+         }
+
+         $rand = User::dropdown($options);
+         if ($CFG_GLPI["use_mailing"]) {
+            echo "<br><span id='notif_user_$rand'>";
+            if ($withemail) {
+               echo $LANG['job'][19].'&nbsp;:&nbsp;';
+               $rand = Dropdown::showYesNo('_ticket_'.$_POST["actortype"].'[use_notification]', 1);
+               echo '<br>'.$LANG['mailing'][118].'&nbsp;:&nbsp;';
+               echo "<input type='text' size='25' name='_ticket_".$_POST["actortype"]."[alternative_email]'>";
+            }
+            echo "</span>";
+         }
+         break;
+
+            case "group" :
+         Dropdown::show('Group', array('name'   => '_ticket_'.$_POST["actortype"].'[groups_id]',
+                                       'entity' => $_POST['entity_restrict']));
+         break;
+            }
+        }
+   }
+   
 
    /**
     * show actor add div
@@ -4115,6 +4215,7 @@ class Ticket extends CommonDBTM {
          self::showActorAddForm(self::ASSIGN, $rand_assign_ticket, $this->fields['entities_id']);
       }
 
+      
       // Assign User
       if (!$ID) {
          if (haveRight("assign_ticket","1")) {

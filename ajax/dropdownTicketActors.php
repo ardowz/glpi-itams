@@ -45,6 +45,7 @@ checkCentralAccess();
 if (isset($_POST["type"]) && isset($_POST["actortype"])) {
    $rand = mt_rand();
 
+   //$_POST["type"] = "user";
    switch ($_POST["type"]) {
       case "user" :
          $right = 'all';
