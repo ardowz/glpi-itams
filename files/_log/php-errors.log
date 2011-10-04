@@ -999,3 +999,99 @@ C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\inc\ticket.class.php:4776		Ticket->showActorsPartForm()
 C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
 
+2011-10-04 06:30 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4776		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:30 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4776		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:31 [7@USER-PC]
+Notice(8): Undefined variable: idimpact
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4714		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:31 [7@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4776		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:31 [7@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4776		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:31 [7@USER-PC]
+Notice(8): Undefined variable: idimpact
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4714		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:31 [7@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4776		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:31 [7@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4776		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 14:05 [10@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/ticket2.class.php not founded trying to load class 'Ticket2'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>Ticket2</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>ticket2</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:97		__autoload()
+
+2011-10-04 14:06 [10@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/ticket2.class.php not founded trying to load class 'Ticket2'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>Ticket2</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>ticket2</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:97		__autoload()
+
+2011-10-04 14:06 [10@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/ticket2.class.php not founded trying to load class 'Ticket2'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>Ticket2</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>ticket2</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:97		__autoload()
+
+2011-10-04 14:06 [10@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/ticket2.class.php not founded trying to load class 'Ticket2'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>Ticket2</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>ticket2</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:97		__autoload()
+
+2011-10-04 14:07 [10@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/ticket2.class.php not founded trying to load class 'Ticket2'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>Ticket2</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>ticket2</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:97		__autoload()
+
+2011-10-04 14:07 [10@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/ticket2.class.php not founded trying to load class 'Ticket2'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>Ticket2</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>ticket2</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:97		__autoload()
+
