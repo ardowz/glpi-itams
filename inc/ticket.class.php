@@ -4440,25 +4440,25 @@ class Ticket extends CommonDBTM {
 //      echo "</td>";
       echo "</tr>";
 
-      echo "<tr class='tab_bg_1'>";
-      echo "<th>".$LANG['joblist'][29]."&nbsp;: </th>";
-      echo "<td>";
-
-      if (($canupdate && $canpriority)
-          || !$ID
-          || $canupdate_descr) {
-         // Only change during creation OR when allowed to change priority OR when user is the creator
-//         $idurgency = self::dropdownUrgency("urgency", $this->fields["urgency"]);
-          $idurgency = "value_urgency".mt_rand();
-         echo "<input id='$idurgency' type='hidden' name='urgency' value='".$this->fields["urgency"]."'>";
-         echo self::getUrgencyName($this->fields["urgency"]);
-
-      } else {
-         $idurgency = "value_urgency".mt_rand();
-         echo "<input id='$idurgency' type='hidden' name='urgency' value='".$this->fields["urgency"]."'>";
-         echo self::getUrgencyName($this->fields["urgency"]);
-      }
-      echo "</td>";
+//      echo "<tr class='tab_bg_1'>";
+//      echo "<th>".$LANG['joblist'][29]."&nbsp;: </th>";
+//      echo "<td>";
+//
+//      if (($canupdate && $canpriority)
+//          || !$ID
+//          || $canupdate_descr) {
+//         // Only change during creation OR when allowed to change priority OR when user is the creator
+////         $idurgency = self::dropdownUrgency("urgency", $this->fields["urgency"]);
+//          $idurgency = "value_urgency".mt_rand();
+//         echo "<input id='$idurgency' type='hidden' name='urgency' value='".$this->fields["urgency"]."'>";
+//         echo self::getUrgencyName($this->fields["urgency"]);
+//
+//      } else {
+//         $idurgency = "value_urgency".mt_rand();
+//         echo "<input id='$idurgency' type='hidden' name='urgency' value='".$this->fields["urgency"]."'>";
+//         echo self::getUrgencyName($this->fields["urgency"]);
+//      }
+//      echo "</td>";
 
 //      echo "<th>".$LANG['common'][36]."&nbsp;: </th>";
 //      echo "<td >";
@@ -4479,59 +4479,59 @@ class Ticket extends CommonDBTM {
 //         echo Dropdown::getDropdownName("glpi_ticketcategories", $this->fields["ticketcategories_id"]);
 //      }
 //      echo "</td>";
-      echo "</tr>";
+//      echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
-      echo "<th>".$LANG['joblist'][30]."&nbsp;: </th>";
-      echo "<td>";
-      if ($canupdate) {
-//         $idimpact = self::dropdownImpact("impact", $this->fields["impact"]);
-          echo self::getImpactName($this->fields["impact"]);
-      } else {
-         echo self::getImpactName($this->fields["impact"]);
-      }
-      echo "</td>";
+//      echo "<th>".$LANG['joblist'][30]."&nbsp;: </th>";
+//      echo "<td>";
+//      if ($canupdate) {
+////         $idimpact = self::dropdownImpact("impact", $this->fields["impact"]);
+//          echo self::getImpactName($this->fields["impact"]);
+//      } else {
+//         echo self::getImpactName($this->fields["impact"]);
+//      }
+//      echo "</td>";
 
       echo "<th class='left' rowspan='2'>".$LANG['document'][14]."&nbsp;: </th>";
       echo "<td rowspan='2'>";
 
       // Select hardware on creation or if have update right
       if ($canupdate || !$ID || $canupdate_descr) {
-//         if ($ID) {
-//            if ($this->fields['itemtype']
-//                && class_exists($this->fields['itemtype'])
-//                && $this->fields["items_id"]) {
-//               $item = new $this->fields['itemtype']();
-//               if ($item->can($this->fields["items_id"],'r')) {
-//                  echo $item->getTypeName()." - ".$item->getLink(true);
-//               } else {
-//                  echo $item->getTypeName()." ".$item->getNameID();
-//               }
-//            }
-//         }
-//         $dev_user_id = 0;
-//         if (!$ID) {
-//            $dev_user_id = $options['_users_id_requester'];
-//
-//         } else if (isset($this->users[self::REQUESTER])
-//                    && count($this->users[self::REQUESTER])==1) {
-//            foreach ($this->users[self::REQUESTER] as $user_id_single) {
-//               $dev_user_id = $user_id_single['users_id'];
-//            }
-//         }
+         if ($ID) {
+            if ($this->fields['itemtype']
+                && class_exists($this->fields['itemtype'])
+                && $this->fields["items_id"]) {
+               $item = new $this->fields['itemtype']();
+               if ($item->can($this->fields["items_id"],'r')) {
+                  echo $item->getTypeName()." - ".$item->getLink(true);
+               } else {
+                  echo $item->getTypeName()." ".$item->getNameID();
+               }
+            }
+         }
+         $dev_user_id = 0;
+         if (!$ID) {
+            $dev_user_id = $options['_users_id_requester'];
+
+         } else if (isset($this->users[self::REQUESTER])
+                    && count($this->users[self::REQUESTER])==1) {
+            foreach ($this->users[self::REQUESTER] as $user_id_single) {
+               $dev_user_id = $user_id_single['users_id'];
+            }
+         }
 //         if ($dev_user_id > 0) {
 //            self::dropdownMyDevices($dev_user_id, $this->fields["entities_id"],
 //                                    $this->fields["itemtype"], $this->fields["items_id"]);
 //         }
 //         self::dropdownAllDevices("itemtype", $this->fields["itemtype"], $this->fields["items_id"],
 //                                  1, $this->fields["entities_id"]);
-          if ($ID && $this->fields['itemtype'] && class_exists($this->fields['itemtype'])) {
-            $item = new $this->fields['itemtype']();
-            $item->getFromDB($this->fields['items_id']);
-            echo $item->getTypeName()." - ".$item->getNameID();
-         } else {
-            echo $LANG['help'][30];
-         }
+//          if ($ID && $this->fields['itemtype'] && class_exists($this->fields['itemtype'])) {
+//            $item = new $this->fields['itemtype']();
+//            $item->getFromDB($this->fields['items_id']);
+//            echo $item->getTypeName()." - ".$item->getNameID();
+//         } else {
+//            echo $LANG['help'][30];
+//         }
 
       } else {
          if ($ID && $this->fields['itemtype'] && class_exists($this->fields['itemtype'])) {
