@@ -3843,8 +3843,11 @@ class Ticket extends CommonDBTM {
       /*
        * Put new ajax dropdown here
        */
+//      echo "<span id='showticket".$typename."'>";
+      
       self::AssignUserDropdown($typename, $entities_id, $withemail);
 //      $rand   = Dropdown::showFromArray("_ticket_".$typename."[_type]", $types);
+      echo "<input type='hidden' value='user' name='_ticket_'.$typename.'[_type]'></input>";
 //      $params = array('type'            => '__VALUE__',
 //                      'actortype'       => $typename,
 //                      'allow_email'     => $withemail,
@@ -3854,6 +3857,7 @@ class Ticket extends CommonDBTM {
 //                                  "showticket".$typename."_$rand",
 //                                  $CFG_GLPI["root_doc"]."/ajax/dropdownTicketActors.php", $params);
 //      echo "<span id='showticket".$typename."_$rand'>&nbsp;</span>";
+//      echo "</span>";
       if ($inticket) {
          echo "<hr>";
       }

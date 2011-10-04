@@ -376,3 +376,21 @@ C:\xampp\htdocs\itams\inc\ticket.class.php:4158		Ticket::showActorAddForm()
 C:\xampp\htdocs\itams\inc\ticket.class.php:4623		Ticket->showActorsPartForm()
 C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
 
+2011-10-04 23:42 [2@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:3846		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4090		Ticket::showActorAddForm()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4626		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 23:42 [2@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:3846		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4161		Ticket::showActorAddForm()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4626		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
