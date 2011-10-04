@@ -3840,20 +3840,87 @@ class Ticket extends CommonDBTM {
       }
 
       echo "<div ".($inticket?"style='display:none'":'')." id='ticketactor$rand_type'>";
-      $rand   = Dropdown::showFromArray("_ticket_".$typename."[_type]", $types);
-      $params = array('type'            => '__VALUE__',
-                      'actortype'       => $typename,
-                      'allow_email'     => $withemail,
-                      'entity_restrict' => $entities_id);
-
-      ajaxUpdateItemOnSelectEvent("dropdown__ticket_".$typename."[_type]$rand",
-                                  "showticket".$typename."_$rand",
-                                  $CFG_GLPI["root_doc"]."/ajax/dropdownTicketActors.php", $params);
-      echo "<span id='showticket".$typename."_$rand'>&nbsp;</span>";
+      /*
+       * Put new ajax dropdown here
+       */
+      self::AssignUserDropdown($typename, $entities_id, $withemail);
+//      $rand   = Dropdown::showFromArray("_ticket_".$typename."[_type]", $types);
+//      $params = array('type'            => '__VALUE__',
+//                      'actortype'       => $typename,
+//                      'allow_email'     => $withemail,
+//                      'entity_restrict' => $entities_id);
+//
+//      ajaxUpdateItemOnSelectEvent("dropdown__ticket_".$typename."[_type]$rand",
+//                                  "showticket".$typename."_$rand",
+//                                  $CFG_GLPI["root_doc"]."/ajax/dropdownTicketActors.php", $params);
+//      echo "<span id='showticket".$typename."_$rand'>&nbsp;</span>";
       if ($inticket) {
          echo "<hr>";
       }
       echo "</div>";
+   }
+   
+   /*
+    * sideb thesis adjustment
+    * making own function to skip step of user
+    */
+   
+   static function AssignUserDropdown($actortype,$entities_id,$withemail){
+       global $LANG, $CFG_GLPI;
+       
+       $assigntpye = "user";
+       if (isset($assigntpye) && isset($actortype)) {
+       $rand = mt_rand();
+       $assigntpye = "user";
+
+       switch ($assigntpye) {
+          case "user" :
+             $right = 'all';
+             // Only steal or own ticket whit empty assign
+             if ($actortype=='assign') {
+                $right = "own_ticket";
+                if (!haveRight("assign_ticket","1")) {
+                   $right = 'id';
+                }
+             }
+
+             $options = array('name'        => '_ticket_'.$actortype.'[users_id]',
+                              'entity'      => $entities_id,
+                              'right'       => $right,
+                              'ldap_import' => true);
+             if ($CFG_GLPI["use_mailing"]) {
+                $withemail = (isset($withemail) ? $withemail : false);
+                $paramscomment = array('value'       => '__VALUE__',
+                                       'allow_email' => $withemail,
+                                       'field'       => "_ticket_".$actortype);
+                // Fix rand value
+                $options['rand']     = $rand;
+                $options['toupdate'] = array('value_fieldname' => 'value',
+                                             'to_update'  => "notif_user_$rand",
+                                             'url'        => $CFG_GLPI["root_doc"]."/ajax/uemailUpdate.php",
+                                             'moreparams' => $paramscomment);
+             }
+
+             $rand = User::dropdown($options);
+             if ($CFG_GLPI["use_mailing"]) {
+                echo "<br><span id='notif_user_$rand'>";
+                if ($withemail) {
+                   echo $LANG['job'][19].'&nbsp;:&nbsp;';
+                   $rand = Dropdown::showYesNo('_ticket_'.$actortype.'[use_notification]', 1);
+                   echo '<br>'.$LANG['mailing'][118].'&nbsp;:&nbsp;';
+                   echo "<input type='text' size='25' name='_ticket_".$actortype."[alternative_email]'>";
+                }
+                echo "</span>";
+             }
+             break;
+
+          case "group" :
+             Dropdown::show('Group', array('name'   => '_ticket_'.$actortype.'[groups_id]',
+                                           'entity' => $_POST['entity_restrict']));
+             break;
+       }
+    }
+       
    }
 
 
@@ -3967,28 +4034,31 @@ class Ticket extends CommonDBTM {
          $candeleterequester = true;
       }
       echo "</th>";
-
-      echo "<th width='30%'>".$LANG['common'][104];
+      
       $rand_observer_ticket = -1;
       $candeleteobserver    = false;
 
-      if ($ID && haveRight("update_ticket","1")) {
-         $rand_observer_ticket = mt_rand();
-         echo "&nbsp;&nbsp;<a class='tracking'
-               onClick=\"Ext.get('ticketactor$rand_observer_ticket').setDisplayed('block')\">\n";
-         echo $LANG['buttons'][8];
-         echo "</a>\n";
-         $candeleteobserver = true;
-      } else if ($ID > 0
-                 && !$this->isUser(self::OBSERVER, getLoginUserID())
-                 && !$this->isUser(self::REQUESTER, getLoginUserID())) {
-         echo "&nbsp;&nbsp;<a href='".$CFG_GLPI["root_doc"].
-              "/front/ticket.form.php?addme_observer=addme_observer".
-              "&amp;tickets_id=".$this->fields['id']."' title=\"".$LANG['buttons'][8]."\">".
-              $LANG['buttons'][8]."&nbsp;".$_SESSION['glpiname']."</a>";
-      }
-
-      echo "</th>";
+//      echo "<th width='30%'>".$LANG['common'][104];
+//      $rand_observer_ticket = -1;
+//      $candeleteobserver    = false;
+//
+//      if ($ID && haveRight("update_ticket","1")) {
+//         $rand_observer_ticket = mt_rand();
+//         echo "&nbsp;&nbsp;<a class='tracking'
+//               onClick=\"Ext.get('ticketactor$rand_observer_ticket').setDisplayed('block')\">\n";
+//         echo $LANG['buttons'][8];
+//         echo "</a>\n";
+//         $candeleteobserver = true;
+//      } else if ($ID > 0
+//                 && !$this->isUser(self::OBSERVER, getLoginUserID())
+//                 && !$this->isUser(self::REQUESTER, getLoginUserID())) {
+//         echo "&nbsp;&nbsp;<a href='".$CFG_GLPI["root_doc"].
+//              "/front/ticket.form.php?addme_observer=addme_observer".
+//              "&amp;tickets_id=".$this->fields['id']."' title=\"".$LANG['buttons'][8]."\">".
+//              $LANG['buttons'][8]."&nbsp;".$_SESSION['glpiname']."</a>";
+//      }
+//
+//      echo "</th>";
 
       echo "<th width='30%'>".$LANG['job'][5];
       $rand_assign_ticket = -1;
@@ -4055,35 +4125,35 @@ class Ticket extends CommonDBTM {
       }
       echo "</td>";
 
-      echo "<td>";
-      if ($rand_observer_ticket>=0) {
-         self::showActorAddForm(self::OBSERVER, $rand_observer_ticket,
-                                $this->fields['entities_id'],
-                                true, !isset($this->users[self::OBSERVER][0]));
-      }
+//      echo "<td>";
+//      if ($rand_observer_ticket>=0) {
+//         self::showActorAddForm(self::OBSERVER, $rand_observer_ticket,
+//                                $this->fields['entities_id'],
+//                                true, !isset($this->users[self::OBSERVER][0]));
+//      }
 
-      // Observer
-      if (!$ID) {
-         if (haveRight("update_ticket","1")) {
-            $this->showUserAddFormOnCreate(self::OBSERVER,$options);
-            echo '<hr>';
-         }
-
-      } else {
-         $this->showUsersAssociated(self::OBSERVER, $candeleteobserver);
-      }
-
-      // Observer Group
-      if (!$ID) {
-         echo self::getActorIcon('group', self::OBSERVER)."&nbsp;";
-         Dropdown::show('Group', array('name'   => '_groups_id_observer',
-                                       'value'  => $options["_groups_id_observer"],
-                                       'entity' => $this->fields["entities_id"]));
-      } else {
-         $this->showGroupsAssociated(self::OBSERVER, $candeleteobserver);
-      }
-      echo "</td>";
-
+//      // Observer
+//      if (!$ID) {
+//         if (haveRight("update_ticket","1")) {
+//            $this->showUserAddFormOnCreate(self::OBSERVER,$options);
+//            echo '<hr>';
+//         }
+//
+//      } else {
+//         $this->showUsersAssociated(self::OBSERVER, $candeleteobserver);
+//      }
+//
+//      // Observer Group
+//      if (!$ID) {
+//         echo self::getActorIcon('group', self::OBSERVER)."&nbsp;";
+//         Dropdown::show('Group', array('name'   => '_groups_id_observer',
+//                                       'value'  => $options["_groups_id_observer"],
+//                                       'entity' => $this->fields["entities_id"]));
+//      } else {
+//         $this->showGroupsAssociated(self::OBSERVER, $candeleteobserver);
+//      }
+//      echo "</td>";
+//
       echo "<td>";
       if ($rand_assign_ticket>=0) {
          self::showActorAddForm(self::ASSIGN, $rand_assign_ticket, $this->fields['entities_id']);
@@ -4223,7 +4293,9 @@ class Ticket extends CommonDBTM {
          $date = date("Y-m-d H:i:s");
       }
       if ($canupdate) {
-         showDateTimeFormItem("date", $date, 1, false);
+//          Sideb thesis adjustment *Start of form adjustment
+//         showDateTimeFormItem("date", $date, 1, false);
+         echo convDateTime($date);
       } else {
          echo convDateTime($date);
       }
@@ -4232,10 +4304,11 @@ class Ticket extends CommonDBTM {
       if ($ID) {
          echo "<tr><td><span class='tracking_small'>".$LANG['common'][95]." &nbsp;:</span></td><td>";
          if ($canupdate) {
-            User::dropdown(array('name'   => 'users_id_recipient',
-                                 'value'  => $this->fields["users_id_recipient"],
-                                 'entity' => $this->fields["entities_id"],
-                                 'right'  => 'all'));
+//            User::dropdown(array('name'   => 'users_id_recipient',
+//                                 'value'  => $this->fields["users_id_recipient"],
+//                                 'entity' => $this->fields["entities_id"],
+//                                 'right'  => 'all'));
+             echo getUserName($this->fields["users_id_recipient"], $showuserlink);
          } else {
             echo getUserName($this->fields["users_id_recipient"], $showuserlink);
          }
@@ -4259,58 +4332,58 @@ class Ticket extends CommonDBTM {
       }
 
       // SLA
-      echo "<tr>";
-      echo "<td><span class='tracking_small'>".$LANG['sla'][5]."&nbsp;: </span></td>";
-      echo "<td>";
-      if ($ID) {
-         if ($this->fields["slas_id"]>0) {
-            echo "<span class='tracking_small'>&nbsp;";
-            echo convDateTime($this->fields["due_date"])."</span>";
-
-            echo "</td></tr><tr><td>".$LANG['sla'][1]."&nbsp;:</td><td>";
-            echo Dropdown::getDropdownName("glpi_slas", $this->fields["slas_id"]);
-            $commentsla = "";
-            $slalevel   = new SlaLevel();
-            if ($slalevel->getFromDB($this->fields['slalevels_id'])) {
-               $commentsla .= '<strong>'.$LANG['sla'][6]."&nbsp;:&nbsp;</strong>".
-                              $slalevel->getName().'<br><br>';
-            }
-
-            $nextaction = new SlaLevel_Ticket();
-            if ($nextaction->getFromDBForTicket($this->fields["id"])) {
-               $commentsla .= '<strong>'.$LANG['sla'][8]."&nbsp;:&nbsp;</strong>".
-                              convDateTime($nextaction->fields['date']).'<br>';
-
-               if ($slalevel->getFromDB(SlaLevel::getNextSlaLevel($this->fields["slas_id"],
-                                                                  $this->fields['slalevels_id']))) {
-                  $commentsla .= '<strong>'.$LANG['sla'][6]."&nbsp;:&nbsp;</strong>".
-                                 $slalevel->getName().'<br>';
-               }
-            }
-            $slaoptions = array();
-            if (haveRight('config', 'r')) {
-            }
-            $slaoptions['link'] = getItemTypeFormURL('SLA')."?id=".$this->fields["slas_id"];
-            showToolTip($commentsla,$slaoptions);
-            if ($canupdate) {
-               echo "&nbsp;<input type='submit' class='submit' name='sla_delete' value='".
-                    $LANG['sla'][7]."'>";
-            }
-
-         } else {
-            showDateTimeFormItem("due_date",$this->fields["due_date"], 1, false, $canupdate);
-         }
-
-      } else { // New Ticket
-         if ($this->fields["due_date"]=='NULL') {
-            $this->fields["due_date"]='';
-         }
-         showDateTimeFormItem("due_date", $this->fields["due_date"], 1, false, $canupdate);
-/*         echo $LANG['choice'][2]." ".$LANG['sla'][1]." : ";
-         Dropdown::show('Sla',array('entity' => $this->fields["entities_id"],
-                                    'value' =>$this->fields["slas_id"]));*/
-      }
-      echo "</td></tr>";
+//      echo "<tr>";
+//      echo "<td><span class='tracking_small'>".$LANG['sla'][5]."&nbsp;: </span></td>";
+//      echo "<td>";
+//      if ($ID) {
+//         if ($this->fields["slas_id"]>0) {
+//            echo "<span class='tracking_small'>&nbsp;";
+//            echo convDateTime($this->fields["due_date"])."</span>";
+//
+//            echo "</td></tr><tr><td>".$LANG['sla'][1]."&nbsp;:</td><td>";
+//            echo Dropdown::getDropdownName("glpi_slas", $this->fields["slas_id"]);
+//            $commentsla = "";
+//            $slalevel   = new SlaLevel();
+//            if ($slalevel->getFromDB($this->fields['slalevels_id'])) {
+//               $commentsla .= '<strong>'.$LANG['sla'][6]."&nbsp;:&nbsp;</strong>".
+//                              $slalevel->getName().'<br><br>';
+//            }
+//
+//            $nextaction = new SlaLevel_Ticket();
+//            if ($nextaction->getFromDBForTicket($this->fields["id"])) {
+//               $commentsla .= '<strong>'.$LANG['sla'][8]."&nbsp;:&nbsp;</strong>".
+//                              convDateTime($nextaction->fields['date']).'<br>';
+//
+//               if ($slalevel->getFromDB(SlaLevel::getNextSlaLevel($this->fields["slas_id"],
+//                                                                  $this->fields['slalevels_id']))) {
+//                  $commentsla .= '<strong>'.$LANG['sla'][6]."&nbsp;:&nbsp;</strong>".
+//                                 $slalevel->getName().'<br>';
+//               }
+//            }
+//            $slaoptions = array();
+//            if (haveRight('config', 'r')) {
+//            }
+//            $slaoptions['link'] = getItemTypeFormURL('SLA')."?id=".$this->fields["slas_id"];
+//            showToolTip($commentsla,$slaoptions);
+//            if ($canupdate) {
+//               echo "&nbsp;<input type='submit' class='submit' name='sla_delete' value='".
+//                    $LANG['sla'][7]."'>";
+//            }
+//
+//         } else {
+//            showDateTimeFormItem("due_date",$this->fields["due_date"], 1, false, $canupdate);
+//         }
+//
+//      } else { // New Ticket
+//         if ($this->fields["due_date"]=='NULL') {
+//            $this->fields["due_date"]='';
+//         }
+//         showDateTimeFormItem("due_date", $this->fields["due_date"], 1, false, $canupdate);
+///*         echo $LANG['choice'][2]." ".$LANG['sla'][1]." : ";
+//         Dropdown::show('Sla',array('entity' => $this->fields["entities_id"],
+//                                    'value' =>$this->fields["slas_id"]));*/
+//      }
+//      echo "</td></tr>";
 
       if ($ID) {
          switch ($this->fields["status"]) {
@@ -4346,20 +4419,21 @@ class Ticket extends CommonDBTM {
       echo "<th width='10%'>".$LANG['joblist'][0]."&nbsp;: </th>";
       echo "<td width='40%'>";
       if ($canupdate) {
-         self::dropdownStatus("status", $this->fields["status"], 2); // Allowed status
+//         self::dropdownStatus("status", $this->fields["status"], 2); // Allowed status
+         echo self::getStatus($this->fields["status"]);
       } else {
          echo self::getStatus($this->fields["status"]);
       }
       echo "</td>";
-      echo "<th>".$LANG['common'][17]."&nbsp;: </th>";
-      echo "<td >";
-      // Permit to set type when creating ticket without update right
-      if ($canupdate || !$ID) {
-         self::dropdownType('type', $this->fields["type"]);
-      } else {
-         echo self::getTicketTypeName($this->fields["type"]);
-      }
-      echo "</td>";
+//      echo "<th>".$LANG['common'][17]."&nbsp;: </th>";
+//      echo "<td >";
+//      // Permit to set type when creating ticket without update right
+//      if ($canupdate || !$ID) {
+//         self::dropdownType('type', $this->fields["type"]);
+//      } else {
+//         echo self::getTicketTypeName($this->fields["type"]);
+//      }
+//      echo "</td>";
       echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
@@ -4370,7 +4444,10 @@ class Ticket extends CommonDBTM {
           || !$ID
           || $canupdate_descr) {
          // Only change during creation OR when allowed to change priority OR when user is the creator
-         $idurgency = self::dropdownUrgency("urgency", $this->fields["urgency"]);
+//         $idurgency = self::dropdownUrgency("urgency", $this->fields["urgency"]);
+          $idurgency = "value_urgency".mt_rand();
+         echo "<input id='$idurgency' type='hidden' name='urgency' value='".$this->fields["urgency"]."'>";
+         echo self::getUrgencyName($this->fields["urgency"]);
 
       } else {
          $idurgency = "value_urgency".mt_rand();
@@ -4379,32 +4456,33 @@ class Ticket extends CommonDBTM {
       }
       echo "</td>";
 
-      echo "<th>".$LANG['common'][36]."&nbsp;: </th>";
-      echo "<td >";
-      // Permit to set category when creating ticket without update right
-      if ($canupdate || !$ID || $canupdate_descr) {
-         $opt = array('value'  => $this->fields["ticketcategories_id"],
-                      'entity' => $this->fields["entities_id"]);
-         if ($_SESSION["glpiactiveprofile"]["interface"] == "helpdesk") {
-            $opt['condition'] = '`is_helpdeskvisible`=1';
-         }
-
-         if ($ID && $CFG_GLPI["is_ticket_category_mandatory"]) {
-            $opt['display_emptychoice'] = false;
-         }
-         Dropdown::show('TicketCategory', $opt);
-
-      } else {
-         echo Dropdown::getDropdownName("glpi_ticketcategories", $this->fields["ticketcategories_id"]);
-      }
-      echo "</td>";
+//      echo "<th>".$LANG['common'][36]."&nbsp;: </th>";
+//      echo "<td >";
+//      // Permit to set category when creating ticket without update right
+//      if ($canupdate || !$ID || $canupdate_descr) {
+//         $opt = array('value'  => $this->fields["ticketcategories_id"],
+//                      'entity' => $this->fields["entities_id"]);
+//         if ($_SESSION["glpiactiveprofile"]["interface"] == "helpdesk") {
+//            $opt['condition'] = '`is_helpdeskvisible`=1';
+//         }
+//
+//         if ($ID && $CFG_GLPI["is_ticket_category_mandatory"]) {
+//            $opt['display_emptychoice'] = false;
+//         }
+//         Dropdown::show('TicketCategory', $opt);
+//
+//      } else {
+//         echo Dropdown::getDropdownName("glpi_ticketcategories", $this->fields["ticketcategories_id"]);
+//      }
+//      echo "</td>";
       echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
       echo "<th>".$LANG['joblist'][30]."&nbsp;: </th>";
       echo "<td>";
       if ($canupdate) {
-         $idimpact = self::dropdownImpact("impact", $this->fields["impact"]);
+//         $idimpact = self::dropdownImpact("impact", $this->fields["impact"]);
+          echo self::getImpactName($this->fields["impact"]);
       } else {
          echo self::getImpactName($this->fields["impact"]);
       }
@@ -4415,34 +4493,41 @@ class Ticket extends CommonDBTM {
 
       // Select hardware on creation or if have update right
       if ($canupdate || !$ID || $canupdate_descr) {
-         if ($ID) {
-            if ($this->fields['itemtype']
-                && class_exists($this->fields['itemtype'])
-                && $this->fields["items_id"]) {
-               $item = new $this->fields['itemtype']();
-               if ($item->can($this->fields["items_id"],'r')) {
-                  echo $item->getTypeName()." - ".$item->getLink(true);
-               } else {
-                  echo $item->getTypeName()." ".$item->getNameID();
-               }
-            }
+//         if ($ID) {
+//            if ($this->fields['itemtype']
+//                && class_exists($this->fields['itemtype'])
+//                && $this->fields["items_id"]) {
+//               $item = new $this->fields['itemtype']();
+//               if ($item->can($this->fields["items_id"],'r')) {
+//                  echo $item->getTypeName()." - ".$item->getLink(true);
+//               } else {
+//                  echo $item->getTypeName()." ".$item->getNameID();
+//               }
+//            }
+//         }
+//         $dev_user_id = 0;
+//         if (!$ID) {
+//            $dev_user_id = $options['_users_id_requester'];
+//
+//         } else if (isset($this->users[self::REQUESTER])
+//                    && count($this->users[self::REQUESTER])==1) {
+//            foreach ($this->users[self::REQUESTER] as $user_id_single) {
+//               $dev_user_id = $user_id_single['users_id'];
+//            }
+//         }
+//         if ($dev_user_id > 0) {
+//            self::dropdownMyDevices($dev_user_id, $this->fields["entities_id"],
+//                                    $this->fields["itemtype"], $this->fields["items_id"]);
+//         }
+//         self::dropdownAllDevices("itemtype", $this->fields["itemtype"], $this->fields["items_id"],
+//                                  1, $this->fields["entities_id"]);
+          if ($ID && $this->fields['itemtype'] && class_exists($this->fields['itemtype'])) {
+            $item = new $this->fields['itemtype']();
+            $item->getFromDB($this->fields['items_id']);
+            echo $item->getTypeName()." - ".$item->getNameID();
+         } else {
+            echo $LANG['help'][30];
          }
-         $dev_user_id = 0;
-         if (!$ID) {
-            $dev_user_id = $options['_users_id_requester'];
-
-         } else if (isset($this->users[self::REQUESTER])
-                    && count($this->users[self::REQUESTER])==1) {
-            foreach ($this->users[self::REQUESTER] as $user_id_single) {
-               $dev_user_id = $user_id_single['users_id'];
-            }
-         }
-         if ($dev_user_id > 0) {
-            self::dropdownMyDevices($dev_user_id, $this->fields["entities_id"],
-                                    $this->fields["itemtype"], $this->fields["items_id"]);
-         }
-         self::dropdownAllDevices("itemtype", $this->fields["itemtype"], $this->fields["items_id"],
-                                  1, $this->fields["entities_id"]);
 
       } else {
          if ($ID && $this->fields['itemtype'] && class_exists($this->fields['itemtype'])) {
@@ -4461,9 +4546,12 @@ class Ticket extends CommonDBTM {
       echo "<td>";
 
       if ($canupdate && $canpriority) {
-         $idpriority = self::dropdownPriority("priority", $this->fields["priority"], false, true);
-         $idajax     = 'change_priority_' . mt_rand();
-         echo "&nbsp;<span id='$idajax' style='display:none'></span>";
+//         $idpriority = self::dropdownPriority("priority", $this->fields["priority"], false, true);
+//         $idajax     = 'change_priority_' . mt_rand();
+//         echo "&nbsp;<span id='$idajax' style='display:none'></span>";
+          $idajax     = 'change_priority_' . mt_rand();
+         $idpriority = 0;
+         echo "<span id='$idajax'>".self::getPriorityName($this->fields["priority"])."</span>";
 
       } else {
          $idajax     = 'change_priority_' . mt_rand();
@@ -4471,13 +4559,13 @@ class Ticket extends CommonDBTM {
          echo "<span id='$idajax'>".self::getPriorityName($this->fields["priority"])."</span>";
       }
 
-      if ($canupdate) {
-         $params = array('urgency'  => '__VALUE0__',
-                         'impact'   => '__VALUE1__',
-                         'priority' => $idpriority);
-         ajaxUpdateItemOnSelectEvent(array($idurgency, $idimpact), $idajax,
-                                     $CFG_GLPI["root_doc"]."/ajax/priority.php", $params);
-      }
+//      if ($canupdate) {
+//         $params = array('urgency'  => '__VALUE0__',
+//                         'impact'   => '__VALUE1__',
+//                         'priority' => $idpriority);
+//         ajaxUpdateItemOnSelectEvent(array($idurgency, $idimpact), $idajax,
+//                                     $CFG_GLPI["root_doc"]."/ajax/priority.php", $params);
+//      }
       echo "</td>";
       echo "</tr>";
 
@@ -4485,35 +4573,37 @@ class Ticket extends CommonDBTM {
       echo "<th class='left'>".$LANG['job'][44]."&nbsp;: </th>";
       echo "<td>";
       if ($canupdate) {
-         Dropdown::show('RequestType', array('value' => $this->fields["requesttypes_id"]));
+//         Dropdown::show('RequestType', array('value' => $this->fields["requesttypes_id"]));
+           echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
       } else {
          echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
       }
       echo "</td>";
 
       // Display validation state
-      echo "<th>";
-      if (!$ID) {
-         echo $LANG['validation'][26]."&nbsp;:&nbsp;";
-      } else {
-         echo $LANG['validation'][0]."&nbsp;:&nbsp;";
-      }
-      echo "</th>";
-      echo "<td>";
-      if (!$ID) {
-         User::dropdown(array('name'   => "_add_validation",
-                              'entity' => $this->fields['entities_id'],
-                              'right'  => 'validate_ticket'));
-      } else {
-         if ($canupdate) {
-            TicketValidation::dropdownStatus('global_validation',
-                                             array('global' => true,
-                                                   'value'  => $this->fields['global_validation']));
-         } else {
-            echo TicketValidation::getStatus($this->fields['global_validation']);
-         }
-      }
-      echo "</td></tr>";
+//      echo "<th>";
+//      if (!$ID) {
+//         echo $LANG['validation'][26]."&nbsp;:&nbsp;";
+//      } else {
+//         echo $LANG['validation'][0]."&nbsp;:&nbsp;";
+//      }
+//      echo "</th>";
+//      echo "<td>";
+//      if (!$ID) {
+//         User::dropdown(array('name'   => "_add_validation",
+//                              'entity' => $this->fields['entities_id'],
+//                              'right'  => 'validate_ticket'));
+//      } else {
+//         if ($canupdate) {
+//            TicketValidation::dropdownStatus('global_validation',
+//                                             array('global' => true,
+//                                                   'value'  => $this->fields['global_validation']));
+//         } else {
+//            echo TicketValidation::getStatus($this->fields['global_validation']);
+//         }
+//      }
+//      echo "</td></tr>";
+      echo "</tr>";
 
 
       // Need comment right to add a followup with the actiontime
