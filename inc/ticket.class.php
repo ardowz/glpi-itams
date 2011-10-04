@@ -3965,7 +3965,6 @@ class Ticket extends CommonDBTM {
 //      echo "<span id='showticket".$typename."_$rand'>&nbsp;</span>";
       
       
-      
       if ($inticket) {
          echo "<hr>";
       }
@@ -3973,7 +3972,6 @@ class Ticket extends CommonDBTM {
    }
    
    /*
-    * sideb thesis adjustment
     * Force Action Form to static User
     * 
     */
@@ -4207,7 +4205,8 @@ class Ticket extends CommonDBTM {
       if (!$ID) {
 
          if (haveRight("update_ticket","1")) {
-            $this->showUserAddFormOnCreate(self::REQUESTER, $options);
+//            $this->showUserAddFormOnCreate(self::REQUESTER, $options);
+            echo getUserName($options["_users_id_requester"], $showuserlink);
          } else {
             echo self::getActorIcon('user', self::REQUESTER)."&nbsp;";
             echo getUserName($options["_users_id_requester"], $showuserlink);
@@ -4241,11 +4240,11 @@ class Ticket extends CommonDBTM {
       echo "</td>";
 
       echo "<td>";
-      if ($rand_observer_ticket>=0) {
-         self::showActorAddForm(self::OBSERVER, $rand_observer_ticket,
-                                $this->fields['entities_id'],
-                                true, !isset($this->users[self::OBSERVER][0]));
-      }
+//      if ($rand_observer_ticket>=0) {
+//         self::showActorAddForm(self::OBSERVER, $rand_observer_ticket,
+//                                $this->fields['entities_id'],
+//                                true, !isset($this->users[self::OBSERVER][0]));
+//      }
 
       /*
        * sideb thesis adjustment
@@ -4413,12 +4412,11 @@ class Ticket extends CommonDBTM {
       echo "<td><span class='tracking_small'>".$LANG['joblist'][11]."&nbsp;: </span></td>";
       echo "<td>";
       $date = $this->fields["date"];
-      if ($ID) {
-         $date = date("Y-m-d H:i:s");         
+      if (!$ID) {
+         $date = date("Y-m-d H:i:s");
       }
       if ($canupdate) {
 //         showDateTimeFormItem("date", $date, 1, false);
-//          copied from else
           echo convDateTime($date);
       } else {
          echo convDateTime($date);
@@ -4432,7 +4430,6 @@ class Ticket extends CommonDBTM {
 //                                 'value'  => $this->fields["users_id_recipient"],
 //                                 'entity' => $this->fields["entities_id"],
 //                                 'right'  => 'all'));
-//             copied from 
              echo getUserName($this->fields["users_id_recipient"], $showuserlink);
          } else {
             echo getUserName($this->fields["users_id_recipient"], $showuserlink);
@@ -4554,8 +4551,7 @@ class Ticket extends CommonDBTM {
       echo "<td width='40%'>";
       if ($canupdate) {
 //         self::dropdownStatus("status", $this->fields["status"], 2); // Allowed status
-//          copied from else
-          echo self::getStatus($this->fields["status"]);
+         echo self::getStatus($this->fields["status"]);
       } else {
          echo self::getStatus($this->fields["status"]);
       }
@@ -4565,8 +4561,7 @@ class Ticket extends CommonDBTM {
       // Permit to set type when creating ticket without update right
       if ($canupdate || !$ID) {
 //         self::dropdownType('type', $this->fields["type"]);
-//          copied from else
-          echo self::getTicketTypeName($this->fields["type"]);
+         echo self::getTicketTypeName($this->fields["type"]);
       } else {
          echo self::getTicketTypeName($this->fields["type"]);
       }
@@ -4696,10 +4691,9 @@ class Ticket extends CommonDBTM {
 //         $idpriority = self::dropdownPriority("priority", $this->fields["priority"], false, true);
 //         $idajax     = 'change_priority_' . mt_rand();
 //         echo "&nbsp;<span id='$idajax' style='display:none'></span>";
-          $idajax     = 'change_priority_' . mt_rand();
+           $idajax     = 'change_priority_' . mt_rand();
          $idpriority = 0;
          echo "<span id='$idajax'>".self::getPriorityName($this->fields["priority"])."</span>";
-          
 
       } else {
          $idajax     = 'change_priority_' . mt_rand();
@@ -4707,22 +4701,22 @@ class Ticket extends CommonDBTM {
          echo "<span id='$idajax'>".self::getPriorityName($this->fields["priority"])."</span>";
       }
 
-      if ($canupdate) {
-         $params = array('urgency'  => '__VALUE0__',
-                         'impact'   => '__VALUE1__',
-                         'priority' => $idpriority);
-         ajaxUpdateItemOnSelectEvent(array($idurgency, $idimpact), $idajax,
-                                     $CFG_GLPI["root_doc"]."/ajax/priority.php", $params);
-      }
+//      if ($canupdate) {
+//         $params = array('urgency'  => '__VALUE0__',
+//                         'impact'   => '__VALUE1__',
+//                         'priority' => $idpriority);
+//         ajaxUpdateItemOnSelectEvent(array($idurgency, $idimpact), $idajax,
+//                                     $CFG_GLPI["root_doc"]."/ajax/priority.php", $params);
+//      }
       echo "</td>";
       echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
       echo "<th class='left'>".$LANG['job'][44]."&nbsp;: </th>";
       echo "<td>";
-      if ($canupdate) {
+      if (!$canupdate) {
 //         Dropdown::show('RequestType', array('value' => $this->fields["requesttypes_id"]));
-          echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
+         echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
       } else {
          echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
       }
