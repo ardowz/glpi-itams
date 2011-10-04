@@ -3973,6 +3973,7 @@ class Ticket extends CommonDBTM {
    }
    
    /*
+    * sideb thesis adjustment
     * Force Action Form to static User
     * 
     */
@@ -4412,11 +4413,13 @@ class Ticket extends CommonDBTM {
       echo "<td><span class='tracking_small'>".$LANG['joblist'][11]."&nbsp;: </span></td>";
       echo "<td>";
       $date = $this->fields["date"];
-      if (!$ID) {
-         $date = date("Y-m-d H:i:s");
+      if ($ID) {
+         $date = date("Y-m-d H:i:s");         
       }
-      if (!$canupdate) {
-         showDateTimeFormItem("date", $date, 1, false);
+      if ($canupdate) {
+//         showDateTimeFormItem("date", $date, 1, false);
+//          copied from else
+          echo convDateTime($date);
       } else {
          echo convDateTime($date);
       }
@@ -4424,11 +4427,13 @@ class Ticket extends CommonDBTM {
       echo "</td></tr>";
       if ($ID) {
          echo "<tr><td><span class='tracking_small'>".$LANG['common'][95]." &nbsp;:</span></td><td>";
-         if (!$canupdate) {
-            User::dropdown(array('name'   => 'users_id_recipient',
-                                 'value'  => $this->fields["users_id_recipient"],
-                                 'entity' => $this->fields["entities_id"],
-                                 'right'  => 'all'));
+         if ($canupdate) {
+//            User::dropdown(array('name'   => 'users_id_recipient',
+//                                 'value'  => $this->fields["users_id_recipient"],
+//                                 'entity' => $this->fields["entities_id"],
+//                                 'right'  => 'all'));
+//             copied from 
+             echo getUserName($this->fields["users_id_recipient"], $showuserlink);
          } else {
             echo getUserName($this->fields["users_id_recipient"], $showuserlink);
          }
@@ -4547,8 +4552,10 @@ class Ticket extends CommonDBTM {
       echo "<tr class='tab_bg_1'>";
       echo "<th width='10%'>".$LANG['joblist'][0]."&nbsp;: </th>";
       echo "<td width='40%'>";
-      if (!$canupdate) {
-         self::dropdownStatus("status", $this->fields["status"], 2); // Allowed status
+      if ($canupdate) {
+//         self::dropdownStatus("status", $this->fields["status"], 2); // Allowed status
+//          copied from else
+          echo self::getStatus($this->fields["status"]);
       } else {
          echo self::getStatus($this->fields["status"]);
       }
@@ -4556,8 +4563,10 @@ class Ticket extends CommonDBTM {
       echo "<th>".$LANG['common'][17]."&nbsp;: </th>";
       echo "<td >";
       // Permit to set type when creating ticket without update right
-      if (!$canupdate || !$ID) {
-         self::dropdownType('type', $this->fields["type"]);
+      if ($canupdate || !$ID) {
+//         self::dropdownType('type', $this->fields["type"]);
+//          copied from else
+          echo self::getTicketTypeName($this->fields["type"]);
       } else {
          echo self::getTicketTypeName($this->fields["type"]);
       }
@@ -4683,10 +4692,14 @@ class Ticket extends CommonDBTM {
        * sideb thesis adjustment
        * disabling priority added ! in if
        */
-      if (!$canupdate && $canpriority) {
-         $idpriority = self::dropdownPriority("priority", $this->fields["priority"], false, true);
-         $idajax     = 'change_priority_' . mt_rand();
-         echo "&nbsp;<span id='$idajax' style='display:none'></span>";
+      if ($canupdate && $canpriority) {
+//         $idpriority = self::dropdownPriority("priority", $this->fields["priority"], false, true);
+//         $idajax     = 'change_priority_' . mt_rand();
+//         echo "&nbsp;<span id='$idajax' style='display:none'></span>";
+          $idajax     = 'change_priority_' . mt_rand();
+         $idpriority = 0;
+         echo "<span id='$idajax'>".self::getPriorityName($this->fields["priority"])."</span>";
+          
 
       } else {
          $idajax     = 'change_priority_' . mt_rand();
@@ -4707,8 +4720,9 @@ class Ticket extends CommonDBTM {
       echo "<tr class='tab_bg_1'>";
       echo "<th class='left'>".$LANG['job'][44]."&nbsp;: </th>";
       echo "<td>";
-      if (!$canupdate) {
-         Dropdown::show('RequestType', array('value' => $this->fields["requesttypes_id"]));
+      if ($canupdate) {
+//         Dropdown::show('RequestType', array('value' => $this->fields["requesttypes_id"]));
+          echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
       } else {
          echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
       }

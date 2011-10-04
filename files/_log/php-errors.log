@@ -799,3 +799,203 @@ C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\inc\ticket.class.php:4762		Ticket->showActorsPartForm()
 C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
 
+2011-10-04 06:12 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4243		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4762		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:12 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4762		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4767		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4767		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4767		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4767		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4766		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4766		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4764		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4764		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4764		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:16 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4764		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:17 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4764		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:17 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4764		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:17 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4764		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:17 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4764		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:17 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4766		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:17 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4766		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:19 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4771		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:19 [10@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4771		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:19 [2@USER-PC]
+Notice(8): Undefined variable: idimpact
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4710		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:19 [2@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4771		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:19 [2@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4771		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:20 [2@USER-PC]
+Notice(8): Undefined variable: idimpact
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4714		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:20 [2@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4775		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:20 [2@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4775		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:21 [2@USER-PC]
+Notice(8): Undefined variable: idimpact
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4714		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:21 [2@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4244		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4776		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-04 06:21 [2@USER-PC]
+Notice(8): Undefined variable: rand_observer_ticket
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4245		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4776		Ticket->showActorsPartForm()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
