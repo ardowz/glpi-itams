@@ -335,6 +335,38 @@ function getAllDatasFromTable($table, $condition="", $usecache=false) {
    return $datas;
 }
 
+/*
+ * sideb thesis adjustment
+ * making a query for devices
+ */
+function getAllDevicesFromTable($table, $condition="", $usecache=false) {
+   global $DB;
+   static $cache = array();
+
+   if (empty($condition) && $usecache && isset($cache[$table])) {
+      return $cache[$table];
+   }
+
+   $datas = array();
+   $query = "SELECT *
+             FROM `$table` ";
+
+   if (!empty($condition)) {
+      $query .= " WHERE $condition ";
+   }
+
+   if ($result=$DB->query($query)) {
+      while ($data=$DB->fetch_assoc($result)) {
+         $datas[$data['id']] = $data;
+      }
+   }
+
+   if (empty($condition) && $usecache) {
+      $cache[$table] = $datas;
+   }
+   return $datas;
+}
+
 
 /**
  * Get the Name of the element of a Dropdown Tree table

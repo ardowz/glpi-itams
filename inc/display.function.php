@@ -1663,6 +1663,15 @@ function helpHeader($title, $url='') {
       echo "<li id='menu2'>";
       echo "<a href='".$CFG_GLPI["root_doc"]."/front/helpdesk.public.php?create_ticket=1' title=\"".
              $LANG['profiles'][5]."\" class='itemP'>".$LANG['profiles'][5]."</a>";
+      
+      echo "</li>";
+      /*
+       * Adding an option to create request
+       */
+      echo "<li id='menu2'>";
+      echo "<a href='".$CFG_GLPI["root_doc"]."/front/helpdesk.public.php?create_ticket=2' title=\"".
+             $LANG['profiles'][52]."\" class='itemP'>".$LANG['profiles'][52]."</a>";
+      
       echo "</li>";
    }
 
@@ -2410,6 +2419,76 @@ function printPagerForm ($action="") {
    echo "</select>";
    echo "<span>&nbsp;".$LANG['pager'][5]."</span>";
    echo "</form>";
+}
+
+/*
+ * Printing of Request of IT asset
+ * 
+ */
+
+function printRequestAsset(){
+   global $DB, $CFG_GLPI, $LANG;
+
+   echo "<form method='post' name='helpdeskform' action='".
+          $CFG_GLPI["root_doc"]."/front/tracking.injector.php' enctype='multipart/form-data'>";
+   echo "<input type='hidden' name='_from_helpdesk' value='$from_helpdesk'>";
+   echo "<input type='hidden' name='requesttypes_id' value='".RequestType::getDefault('helpdesk')."'>";
+   echo "<input type='hidden' name='entities_id' value='".$_SESSION["glpiactive_entity"]."'>";
+   
+   echo "<div class='center'><table class='tab_cadre'>";
+
+   echo "<tr><th colspan='2'>".$LANG['job'][57]."&nbsp;:&nbsp;";
+   if (isMultiEntitiesMode()) {
+
+      echo "&nbsp;(".Dropdown::getDropdownName("glpi_entities", $_SESSION["glpiactive_entity"]).")";
+   }
+   echo "</th></tr>";
+   
+   if (NotificationTargetTicket::isAuthorMailingActivatedForHelpdesk()) {
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['help'][8]."&nbsp;:&nbsp;</td>";
+      echo "<td>";
+
+      $_REQUEST['value']            = getLoginUserID();
+      $_REQUEST['field']            = '_users_id_requester_notif';
+      $_REQUEST['use_notification'] = $use_email_notification;
+      include (GLPI_ROOT."/ajax/uemailUpdate.php");
+
+      echo "</td></tr>";
+   }
+   
+   echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['help'][53]."&nbsp;:&nbsp;</td>";
+      echo "<td>";
+      $name = "request";
+      $rand = Ticket::dropdownItRequest($name);
+      echo "</td></tr>";
+      $params = array('type'            => '__VALUE__');
+      //$params = array('test'=>'testING');
+      //echo $params['test'];
+      
+      ajaxUpdateItemOnSelectEvent($rand,
+                                  "showsoft_".$rand,
+                                  $CFG_GLPI["root_doc"]."/ajax/dropdownSoftwareList.php", $params);
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['help'][54]."&nbsp;:&nbsp;</td>";
+      echo "<td>";
+      echo "<span id='showsoft_$rand'>&nbsp;</span>";
+      echo "</td></tr>";
+      
+      
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['help'][55]."&nbsp;:&nbsp;</td>";
+      echo "<td colspan='2'><textarea name='content' cols='30' rows='10'>$content</textarea>";
+      echo "</td></tr>";
+      echo "</div>";
+      
+
+//   echo "<tr class='tab_bg_1'>";  
+//   echo "<td>".$LANG['common'][17]."&nbsp;:&nbsp;</td><td>";
+//   Ticket::dropdownType('type',$type);
+//   echo "</td></tr>";
+    
 }
 
 

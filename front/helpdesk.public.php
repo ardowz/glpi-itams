@@ -85,8 +85,17 @@ checkHelpdeskAccess();
 
 helpHeader($LANG['job'][13],$_SERVER['PHP_SELF'],$_SESSION["glpiname"]);
 
-if (isset($_GET['create_ticket'])) {
-   printHelpDesk(getLoginUserID(),1);
+if (isset($_GET['create_ticket'])){ 
+    if($_GET['create_ticket'] == 1){
+        
+    printHelpDesk(getLoginUserID(),1);
+        
+    }elseif($_GET['create_ticket'] == 2){
+      
+        printRequestAsset();
+        
+    }
+   
 
 } else {
    echo "<table class='tab_cadre_central'><tr>";

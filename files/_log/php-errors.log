@@ -394,3 +394,2284 @@ C:\xampp\htdocs\itams\inc\ticket.class.php:4161		Ticket::showActorAddForm()
 C:\xampp\htdocs\itams\inc\ticket.class.php:4626		Ticket->showActorsPartForm()
 C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
 
+2011-10-05 08:05 [10@USER-PC]
+Notice(8): Undefined variable: CFG_GLPI
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2432		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:05 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2433		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:05 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2435		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:06 [10@USER-PC]
+Notice(8): Undefined variable: CFG_GLPI
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2432		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:06 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2433		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:07 [10@USER-PC]
+Notice(8): Undefined variable: CFG_GLPI
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2432		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:07 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2433		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:08 [10@USER-PC]
+Notice(8): Undefined variable: CFG_GLPI
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2432		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:08 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2433		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:08 [10@USER-PC]
+Notice(8): Undefined variable: LANG
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2439		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:08 [10@USER-PC]
+Notice(8): Undefined variable: CFG_GLPI
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2432		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:08 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2433		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:08 [10@USER-PC]
+Notice(8): Undefined variable: LANG
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2439		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:09 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:10 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:10 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:11 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:11 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2465		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:11 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2465		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:11 [10@USER-PC]
+Notice(8): Undefined variable: type
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2472		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:24 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:24 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2464		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:24 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2464		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:24 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2473		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:24 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2473		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:25 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:25 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2464		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:25 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2464		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:25 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2473		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:25 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2473		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:32 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:32 [10@USER-PC]
+Notice(8): Undefined variable: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2463		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:39 [10@USER-PC]
+Notice(8): Undefined variable: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2463		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:39 [10@USER-PC]
+Notice(8): Undefined variable: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2463		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:40 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:40 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:40 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:42 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:50 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:50 [10@USER-PC]
+Notice(8): Undefined variable: typename
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2466		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:50 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2466		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:50 [10@USER-PC]
+Notice(8): Undefined variable: typename
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2467		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:50 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2467		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:50 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2468		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:50 [10@USER-PC]
+Notice(8): Undefined variable: typename
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2469		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:50 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2469		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:58 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 08:58 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2468		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:01 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:01 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2468		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:03 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:04 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:05 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:05 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:06 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:06 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:07 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:07 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:07 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:15 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:15 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:15 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:16 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:16 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:16 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:16 [10@USER-PC]
+Notice(8): Undefined index: type
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:47		userErrorHandlerNormal()
+
+2011-10-05 09:16 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:16 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:17 [10@USER-PC]
+Notice(8): Undefined index: type
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:46		userErrorHandlerNormal()
+
+2011-10-05 09:17 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:17 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:17 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:19 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:20 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:20 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:28 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:28 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:28 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:28 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:28 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:31 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:31 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:37 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:37 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:37 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:37 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:37 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:37 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:38 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:38 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:38 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:40 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:40 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:40 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:40 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:42 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:43 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:43 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:49 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:49 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 09:50 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:50 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:74		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:76		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: limit_length
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:77		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:78		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:79		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:80		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:81		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:82		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:83		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:84		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:85		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:86		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Notice(8): Undefined variable: parm
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:87		userErrorHandlerNormal()
+
+2011-10-05 09:55 [10@USER-PC]
+Warning(2): Invalid argument supplied for foreach()
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:751		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:87		Dropdown::showItemTypeList()
+
+2011-10-05 09:55 [10@USER-PC]
+Warning(2): Invalid argument supplied for foreach()
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:759		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:87		Dropdown::showItemTypeList()
+
+2011-10-05 09:57 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 10:14 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:14 [10@USER-PC]
+Warning(2): Invalid argument supplied for foreach()
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:762		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::showItemTypeList()
+
+2011-10-05 10:14 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:15 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:16 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:16 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:21 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:22 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:22 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:23 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:23 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:24 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:24 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:24 [10@USER-PC]
+Notice(8): Undefined index: Common
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:76		userErrorHandlerNormal()
+
+2011-10-05 10:24 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:24 [10@USER-PC]
+Notice(8): Undefined offset: 0
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:76		userErrorHandlerNormal()
+
+2011-10-05 10:24 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:24 [10@USER-PC]
+Notice(8): Undefined offset: 0
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:76		userErrorHandlerNormal()
+
+2011-10-05 10:25 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:25 [10@USER-PC]
+Notice(8): Undefined offset: 0
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:76		userErrorHandlerNormal()
+
+2011-10-05 10:25 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:25 [10@USER-PC]
+Notice(8): Undefined index: Common
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:694		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::getStandardDropdownItemTypes()
+
+2011-10-05 10:25 [10@USER-PC]
+Notice(8): Undefined offset: 0
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:76		userErrorHandlerNormal()
+
+2011-10-05 10:25 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:25 [10@USER-PC]
+Notice(8): Undefined index: Common
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:694		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::getStandardDropdownItemTypes()
+
+2011-10-05 10:25 [10@USER-PC]
+Notice(8): Undefined offset: 0
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:76		userErrorHandlerNormal()
+
+2011-10-05 10:26 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:26 [10@USER-PC]
+Notice(8): Undefined index: Types
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:694		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::getStandardDropdownItemTypes()
+
+2011-10-05 10:26 [10@USER-PC]
+Notice(8): Undefined offset: 0
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:76		userErrorHandlerNormal()
+
+2011-10-05 10:26 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+Test
+Test
+2011-10-05 10:49 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 10:49 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:03 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:03 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 11:03 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:20 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:20 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:20 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:20 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:25 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:25 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:26 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:26 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:26 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:27 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:27 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:27 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:25		userErrorHandlerNormal()
+
+2011-10-05 11:42 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:42 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:42 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:42 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:27		userErrorHandlerNormal()
+
+2011-10-05 11:44 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:44 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:44 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:219		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql::hardwareQuery()
+
+2011-10-05 11:45 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:45 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:45 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:219		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql::hardwareQuery()
+
+2011-10-05 11:45 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:45 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:45 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:220		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql::hardwareQuery()
+
+2011-10-05 11:46 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:46 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 11:46 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:46 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:220		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql::hardwareQuery()
+
+2011-10-05 11:46 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:46 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:46 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:220		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql::hardwareQuery()
+
+2011-10-05 11:47 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:47 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:47 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:220		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql::hardwareQuery()
+
+2011-10-05 11:47 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:47 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:52 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:52 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:52 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:52 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:53 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:53 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:53 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:220		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql::hardwareQuery()
+
+2011-10-05 11:53 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:53 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:53 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:220		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql::hardwareQuery()
+
+2011-10-05 11:54 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:54 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:54 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:28		userErrorHandlerNormal()
+
+2011-10-05 11:56 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:56 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:56 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:220		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql->hardwareQuery()
+
+2011-10-05 11:56 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:56 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:56 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:220		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql->hardwareQuery()
+
+2011-10-05 11:57 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:57 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:57 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:220		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql->hardwareQuery()
+
+2011-10-05 11:57 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 11:57 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 11:57 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:221		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:20		DBmysql->hardwareQuery()
+
+2011-10-05 12:02 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:02 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:02 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:31		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:25		databaseQuery()
+
+2011-10-05 12:03 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:03 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:03 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:32		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:25		databaseQuery()
+
+2011-10-05 12:03 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:03 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:03 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:32		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:21		databaseQuery()
+
+2011-10-05 12:03 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:03 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:04 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:34		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:22		databaseQuery()
+
+2011-10-05 12:04 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:04 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:04 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:26		userErrorHandlerNormal()
+
+2011-10-05 12:04 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:04 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:04 [10@USER-PC]
+Notice(8): Constant GLPI_ROOT already defined
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:29		define()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:21		databaseQuery()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Constant GLPI_ROOT already defined
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:29		define()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:21		databaseQuery()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Constant GLPI_ROOT already defined
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:29		define()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:21		databaseQuery()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:35		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:21		databaseQuery()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:05 [10@USER-PC]
+Notice(8): Constant GLPI_ROOT already defined
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:29		define()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:21		databaseQuery()
+
+2011-10-05 12:06 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:06 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:06 [10@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:34		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:21		databaseQuery()
+
+2011-10-05 12:07 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:07 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:07 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:07 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:07 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:23		userErrorHandlerNormal()
+
+2011-10-05 12:08 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:08 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:08 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:08 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:08 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:08 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:09 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:10 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:12 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:27		DBmysql->numrows()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:12 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:27		DBmysql->numrows()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:12 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:27		DBmysql->numrows()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:12 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:24		userErrorHandlerNormal()
+
+2011-10-05 12:14 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:14 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:14 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:30		userErrorHandlerNormal()
+
+2011-10-05 12:14 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:30		userErrorHandlerNormal()
+
+2011-10-05 12:14 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:14 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:14 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:30		userErrorHandlerNormal()
+
+2011-10-05 12:14 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:30		userErrorHandlerNormal()
+
+2011-10-05 12:15 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:15 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:15 [10@USER-PC]
+Notice(8): Undefined variable: table
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:33		userErrorHandlerNormal()
+
+2011-10-05 12:15 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:38		userErrorHandlerNormal()
+
+2011-10-05 12:15 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:41		DBmysql->numrows()
+
+2011-10-05 12:15 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:38		userErrorHandlerNormal()
+
+2011-10-05 12:15 [10@USER-PC]
+Notice(8): Undefined variable: table
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:33		userErrorHandlerNormal()
+
+2011-10-05 12:15 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:38		userErrorHandlerNormal()
+
+2011-10-05 12:15 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:41		DBmysql->numrows()
+
+2011-10-05 12:16 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:16 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:16 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:39		userErrorHandlerNormal()
+
+2011-10-05 12:16 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:39		userErrorHandlerNormal()
+
+2011-10-05 12:16 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:39		userErrorHandlerNormal()
+
+2011-10-05 12:16 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:42		DBmysql->numrows()
+
+2011-10-05 12:17 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:39		userErrorHandlerNormal()
+
+2011-10-05 12:17 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:42		DBmysql->numrows()
+
+2011-10-05 12:18 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:18 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:18 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:42		userErrorHandlerNormal()
+
+2011-10-05 12:18 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:42		userErrorHandlerNormal()
+
+2011-10-05 12:18 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:45		DBmysql->numrows()
+
+2011-10-05 12:18 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:19 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:19 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:45		userErrorHandlerNormal()
+
+2011-10-05 12:19 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:45		userErrorHandlerNormal()
+
+2011-10-05 12:19 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:45		userErrorHandlerNormal()
+
+2011-10-05 12:19 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:48		DBmysql->numrows()
+
+2011-10-05 12:20 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:20 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:20 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:48		userErrorHandlerNormal()
+
+2011-10-05 12:20 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:48		userErrorHandlerNormal()
+
+2011-10-05 12:23 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:23 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:23 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:48		userErrorHandlerNormal()
+
+2011-10-05 12:23 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:66		userErrorHandlerNormal()
+
+2011-10-05 12:23 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:67		userErrorHandlerNormal()
+
+2011-10-05 12:23 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:69		userErrorHandlerNormal()
+
+2011-10-05 12:24 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:24 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:24 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:24 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:24 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:48		userErrorHandlerNormal()
+
+2011-10-05 12:24 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:66		userErrorHandlerNormal()
+
+2011-10-05 12:24 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:67		userErrorHandlerNormal()
+
+2011-10-05 12:24 [10@USER-PC]
+Notice(8): Undefined variable: rand
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:69		userErrorHandlerNormal()
+
+2011-10-05 12:27 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:27 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:27 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:27 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:27 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:27 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:27 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:28 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:28 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:29 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:29 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:29 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:29 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:29 [10@USER-PC]
+Warning(2): mysql_num_rows() expects parameter 1 to be resource, boolean given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:264		mysql_num_rows()
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php:52		DBmysql->numrows()
+
+2011-10-05 12:30 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:30 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:31 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:31 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:32 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:32 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:32 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:32 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:33 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:33 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:34 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:35 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:36 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:36 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2483		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:37 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:38 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:38 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:38 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:38 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:39 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:39 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+

@@ -211,6 +211,29 @@ class DBmysql {
       }
       return $res;
    }
+   
+//   function hardwareQuery($type){
+//       
+//       $query = "SELECT DISTINCT `name`
+//          FROM `glpi_".$type."`";
+////       echo $query;
+//        $result = $DB->query($query);
+//        //echo $result;
+//        
+//        return $result;
+//        
+////        echo "<select name='softwares_id' id='item_type$rand'>\n";
+////        echo "<option value='0'>".DROPDOWN_EMPTY_VALUE."</option>\n";
+////
+////        if ($DB->numrows($result)) {
+////           while ($data=$DB->fetch_array($result)) {
+////              $output       = $data["name"];
+////              echo "<option value='computer' title=\"".cleanInputText($output)."\">".
+////                     utf8_substr($output, 0, $_SESSION["glpidropdown_chars_limit"])."</option>";
+////           }
+////        }
+////        echo "</select>\n";
+//   }
 
 
    /**

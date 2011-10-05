@@ -2491,3 +2491,103 @@ C:\xampp\htdocs\itams\front\backup.php&nbsp;:284		DBmysql->query()
 C:\xampp\htdocs\itams\front\backup.php&nbsp;:520		restoreMySqlDump()
 C:/xampp/htdocs/itams/front/backup.php
 
+2011-10-05 12:12 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_devices`
+Error: Table 'itams.glpi_devices' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:21		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 12:12 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_cartridges`
+Error: Unknown column 'name' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:21		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 12:12 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_consumables`
+Error: Unknown column 'name' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:21		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 12:15 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_`
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:35		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 12:15 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_`
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:35		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 12:16 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_devices`
+Error: Table 'itams.glpi_devices' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:36		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 12:17 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_cartridges`
+Error: Unknown column 'name' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:36		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 12:18 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_consumables`
+Error: Unknown column 'name' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:39		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 12:19 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_devices`
+Error: Table 'itams.glpi_devices' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:42		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 12:29 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_0`
+Error: Table 'itams.glpi_0' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+

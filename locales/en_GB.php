@@ -692,6 +692,9 @@ $LANG['help'][49]="Medium";
 $LANG['help'][50]="Low"; 
 $LANG['help'][51]="Very Low";
 $LANG['help'][52]="Local Number";
+$LANG['help'][53]="IT Type";
+$LANG['help'][54]="IT Asset";
+$LANG['help'][55]="Reason for Request";
 
 $LANG['install'][0]="Installation or update of GLPI"; 
 $LANG['install'][1]="Choose 'Install' for a completely new installation of GLPI."; 
@@ -839,7 +842,8 @@ $LANG['job'][52]="Update task";
 $LANG['job'][53]="Deletion of a task"; 
 $LANG['job'][54]="Without a reply, the ticket will be automatically closed after"; 
 $LANG['job'][55]="Linked tickets"; 
-$LANG['job'][56]="Link tickets"; 
+$LANG['job'][56]="Link tickets";
+$LANG['job'][57]="Request for IT Asset"; 
 
 $LANG['joblist'][0]="Status"; 
 $LANG['joblist'][1]="Just my ones"; 
@@ -1425,7 +1429,9 @@ $LANG['profiles'][47]="Add users from an external source";
 $LANG['profiles'][48]="Create a validation request"; 
 $LANG['profiles'][49]="Validate a ticket"; 
 $LANG['profiles'][50]="Update my followups"; 
-$LANG['profiles'][51]="Delete all followups"; 
+$LANG['profiles'][51]="Delete all followups";
+$LANG['profiles'][52]="Request IT Asset"; 
+
 
 $LANG['registry'][1]="Hive"; 
 $LANG['registry'][2]="Path"; 
@@ -2144,4 +2150,8 @@ $LANG['validation'][30]="Cancel the approval request to";
 $LANG['validation'][31]="Update the Approval request to"; 
 $LANG['validation'][32]="An answer to a Approval request was produced"; 
 $LANG['validation'][33]="Tickets awaiting approval"; 
+
+$LANG['itrequest'][0]="Hardware";
+$LANG['itrequest'][1]="Software";
+$LANG['itrequest'][2]="Component";
 ?>

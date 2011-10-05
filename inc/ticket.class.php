@@ -2717,6 +2717,24 @@ class Ticket extends CommonDBTM {
       return $id;
    }
 
+   /*
+    * sideb thesis adjustment
+    * dropdown type of it asset
+    */
+   static function dropdownItRequest($name, $value=0) {
+      global $LANG;
+
+      $id = "select_$name".mt_rand();
+      echo "<select id='$id' name='$name'>";
+         echo "<option value='0' ".($value==0?" selected ":"").">-</option>";
+         echo "<option value='".strtolower($LANG['itrequest'][0])."'>".$LANG['itrequest'][0]."</option>";
+         echo "<option value='".strtolower($LANG['itrequest'][1])."'>".$LANG['itrequest'][1]."</option>";
+         echo "<option value='".strtolower($LANG['itrequest'][2])."'>".$LANG['itrequest'][2]."</option>";
+      echo "</select>";
+
+      return $id;
+   }
+   
 
 
    /**

@@ -1521,6 +1521,26 @@ class Dropdown {
             return $LANG['peripherals'][31];
       }
    }
+   
+   static function dropdownInventoryTypes($name) {
+      global $LANG;
+
+      $id = "select_$name".mt_rand();
+      echo "<select id='$id' name='$name'>";
+         echo "<option value='0' ".($value==0?" selected ":"").">-</option>";
+         echo "<option value='".strtolower($LANG['Menu'][0])."'>".$LANG['Menu'][0]."</option>";
+         echo "<option value='".strtolower($LANG['Menu'][1])."'>".$LANG['Menu'][1]."</option>";
+         echo "<option value='".strtolower($LANG['Menu'][2])."'>".$LANG['Menu'][2]."</option>";
+         echo "<option value='".strtolower($LANG['Menu'][3])."'>".$LANG['Menu'][3]."</option>";
+         echo "<option value='".strtolower($LANG['Menu'][16])."'>".$LANG['Menu'][16]."</option>";
+         echo "<option value='".strtolower($LANG['Menu'][21])."'>".$LANG['Menu'][21]."</option>";
+         echo "<option value='".strtolower($LANG['Menu'][32])."'>".$LANG['Menu'][32]."</option>";
+         echo "<option value='".strtolower($LANG['Menu'][34])."'>".$LANG['Menu'][34]."</option>";
+         
+      echo "</select>";
+
+      return $id;
+   }
 
 }
 
