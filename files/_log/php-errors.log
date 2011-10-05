@@ -2675,3 +2675,103 @@ Backtrace :
 C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
 
+2011-10-05 12:51 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:51 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:52 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:52 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:53 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:53 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:53 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:53 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:53 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2434		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:53 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2482		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 12:53 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 12:55 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 13:10 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2438		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 13:10 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2486		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-05 13:10 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+
+2011-10-05 13:10 [10@USER-PC]
+Notice(8): Undefined variable: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\dropdown.class.php:1530		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:75		Dropdown::dropdownInventoryTypes()
+
+2011-10-05 13:10 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownsoftwarelist.php:50		userErrorHandlerNormal()
+

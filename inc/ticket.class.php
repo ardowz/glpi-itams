@@ -4451,15 +4451,16 @@ class Ticket extends CommonDBTM {
          echo self::getStatus($this->fields["status"]);
       }
       echo "</td>";
-//      echo "<th>".$LANG['common'][17]."&nbsp;: </th>";
-//      echo "<td >";
-//      // Permit to set type when creating ticket without update right
-//      if ($canupdate || !$ID) {
+      echo "<th>".$LANG['common'][17]."&nbsp;: </th>";
+      echo "<td >";
+      // Permit to set type when creating ticket without update right
+      if ($canupdate || !$ID) {
 //         self::dropdownType('type', $this->fields["type"]);
-//      } else {
-//         echo self::getTicketTypeName($this->fields["type"]);
-//      }
-//      echo "</td>";
+          echo self::getTicketTypeName($this->fields["type"]);
+      } else {
+         echo self::getTicketTypeName($this->fields["type"]);
+      }
+      echo "</td>";
       echo "</tr>";
 
 //      echo "<tr class='tab_bg_1'>";

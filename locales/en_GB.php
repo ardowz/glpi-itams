@@ -695,6 +695,7 @@ $LANG['help'][52]="Local Number";
 $LANG['help'][53]="IT Type";
 $LANG['help'][54]="IT Asset";
 $LANG['help'][55]="Reason for Request";
+$LANG['help'][56]="Submit Request";
 
 $LANG['install'][0]="Installation or update of GLPI"; 
 $LANG['install'][1]="Choose 'Install' for a completely new installation of GLPI."; 

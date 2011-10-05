@@ -2320,6 +2320,10 @@ function printHelpDesk ($ID, $from_helpdesk) {
 
       echo "</td></tr>";
    }
+   echo "<tr class='tab_bg_1'>";
+   echo "<td>".$LANG['common'][17]."&nbsp;:&nbsp;</td><td>";
+   Ticket::dropdownType('type',$type);
+   echo "</td></tr>";
 
    if ($_SESSION["glpiactiveprofile"]["helpdesk_hardware"]!=0) {
       echo "<tr class='tab_bg_1'>";
@@ -2331,10 +2335,10 @@ function printHelpDesk ($ID, $from_helpdesk) {
       echo "</td></tr>";
    }
 
-   echo "<tr class='tab_bg_1'>";
-   echo "<td>".$LANG['common'][17]."&nbsp;:&nbsp;</td><td>";
-   Ticket::dropdownType('type',$type);
-   echo "</td></tr>";
+//   echo "<tr class='tab_bg_1'>";
+//   echo "<td>".$LANG['common'][17]."&nbsp;:&nbsp;</td><td>";
+//   Ticket::dropdownType('type',$type);
+//   echo "</td></tr>";
 /*
    echo "<tr class='tab_bg_1'>";
    echo "<td>".$LANG['common'][36]."&nbsp;:&nbsp;</td><td>";
@@ -2481,6 +2485,11 @@ function printRequestAsset(){
       echo "<td>".$LANG['help'][55]."&nbsp;:&nbsp;</td>";
       echo "<td colspan='2'><textarea name='content' cols='30' rows='10'>$content</textarea>";
       echo "</td></tr>";
+      echo "<tr class='tab_bg_1'>";
+       echo "<td colspan='2' class='center'>";
+       echo "<input type='submit' value=\"".$LANG['help'][56]."\" class='submit'>";
+       echo "</td></tr>";
+      echo "</table>";
       echo "</div>";
       
 
