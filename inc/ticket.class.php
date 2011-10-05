@@ -3845,9 +3845,13 @@ class Ticket extends CommonDBTM {
        */
 //      echo "<span id='showticket".$typename."'>";
       
+//      echo "<input type='hidden' value='user' name='_ticket_'.$typename.'[_type]'></input>";
+      //this forces the form to complete isntead of chosing from the dropdown
+      $rand = Dropdown::showFromArrayHidden("_ticket_".$typename."[_type]", $types);
       self::AssignUserDropdown($typename, $entities_id, $withemail);
 //      $rand   = Dropdown::showFromArray("_ticket_".$typename."[_type]", $types);
-      echo "<input type='hidden' value='user' name='_ticket_'.$typename.'[_type]'></input>";
+      
+      
 //      $params = array('type'            => '__VALUE__',
 //                      'actortype'       => $typename,
 //                      'allow_email'     => $withemail,

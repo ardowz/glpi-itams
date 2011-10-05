@@ -1087,6 +1087,47 @@ class Dropdown {
          return $rand;
       }
    }
+   
+   /*
+    * sideb thesis adjustment
+    * custom dropdown to be hidden value
+    */
+   
+   static function showFromArrayHidden($name, $elements, $options = array()) {
+
+      $param['value']    = '';
+      $param['used']     = array();
+      $param['readonly'] = false;
+
+      if (is_array($options) && count($options)) {
+         foreach ($options as $key => $val) {
+            $param[$key] = $val;
+         }
+      }
+
+      // readonly mode
+      if ($param['readonly']) {
+         echo "<input type='hidden' name='$name' value='".$param['value']."'>";
+
+         if (isset($elements[$param['value']])) {
+            echo $elements[$param['value']];
+         }
+
+      } else {
+         $rand = mt_rand();
+         echo "<input type='hidden' name='$name' id='dropdown_".$name.$rand."' value='user'></input>";
+
+//         foreach ($elements as $key => $val) {
+//            if (!isset($param['used'][$key])) {
+//               echo "<option value='".$key."'".($param['value']==$key?" selected ":"").">".$val.
+//                    "</option>";
+//            }
+//         }
+//
+//         echo "</select>";
+         return $rand;
+      }
+   }
 
 
    /**
