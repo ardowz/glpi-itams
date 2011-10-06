@@ -3393,3 +3393,33 @@ Notice(8): Undefined variable: items_id
 Backtrace :
 C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
 
+2011-10-06 09:48 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:94		userErrorHandlerNormal()
+
+2011-10-06 09:48 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:94		userErrorHandlerNormal()
+
+2011-10-06 11:55 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 11:55 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 11:55 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:94		userErrorHandlerNormal()
+
+2011-10-06 11:55 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:94		userErrorHandlerNormal()
+
