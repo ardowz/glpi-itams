@@ -696,6 +696,7 @@ $LANG['help'][53]="IT Type";
 $LANG['help'][54]="IT Asset";
 $LANG['help'][55]="Reason for Request";
 $LANG['help'][56]="Submit Request";
+$LANG['help'][57]="IT Asset Type"; 
 
 $LANG['install'][0]="Installation or update of GLPI"; 
 $LANG['install'][1]="Choose 'Install' for a completely new installation of GLPI."; 
@@ -1478,6 +1479,7 @@ $LANG['reports'][61]="Closing date";
 $LANG['reports'][62]="Hardware financial and administrative informations"; 
 $LANG['reports'][63]="Other financial and administrative informations (licenses, cartridges, consumables)"; 
 $LANG['reports'][64]="Resolution date"; 
+$LANG['reports'][65]="IT Asset Type"; 
 
 $LANG['reservation'][1]="Reservable Items"; 
 $LANG['reservation'][2]="Device temporarily unavailable"; 
@@ -2154,5 +2156,5 @@ $LANG['validation'][33]="Tickets awaiting approval";
 
 $LANG['itrequest'][0]="Hardware";
 $LANG['itrequest'][1]="Software";
-$LANG['itrequest'][2]="Component";
+$LANG['itrequest'][2]="My Device";
 ?>

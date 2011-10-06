@@ -588,6 +588,34 @@ class Software extends CommonDBTM {
 
       return $rand;
    }
+   
+   /*
+    * sideb thesis
+    * to use for request
+    */
+   static function dropdownSoftwareListRequest($myname, $entity_restrict, $massiveaction=0) {
+      global $CFG_GLPI;
+
+      $rand     = mt_rand();
+      $use_ajax = false;
+
+      if ($CFG_GLPI["use_ajax"]) {
+         if (countElementsInTableForEntity("glpi_softwares", $entity_restrict)
+             > $CFG_GLPI["ajax_limit_count"]) {
+            $use_ajax = true;
+         }
+      }
+
+      $params = array('searchText'      => '__VALUE__',
+                      'myname'          => $myname,
+                      'entity_restrict' => $entity_restrict);
+
+      $default = "<select name='$myname'><option value='0'>".DROPDOWN_EMPTY_VALUE." </option>
+                  </select>";
+      ajaxDropdown($use_ajax, "/ajax/dropdownSoftwareToChooseRequest.php", $params, $default, $rand);
+
+      return $rand;
+   }
 
 
    /**

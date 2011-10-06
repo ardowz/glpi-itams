@@ -2322,16 +2322,18 @@ function printHelpDesk ($ID, $from_helpdesk) {
    }
    echo "<tr class='tab_bg_1'>";
    echo "<td>".$LANG['common'][17]."&nbsp;:&nbsp;</td><td>";
-   Ticket::dropdownType('type',$type);
+   $rand = Ticket::dropdownType('type',$type);
+   $params = array('type'            => '__VALUE__');
    echo "</td></tr>";
 
    if ($_SESSION["glpiactiveprofile"]["helpdesk_hardware"]!=0) {
       echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['help'][24]."&nbsp;:&nbsp;</td>";
+      echo "<td>".$LANG['help'][57]."&nbsp;:&nbsp;</td>";
       echo "<td>";
-      Ticket::dropdownMyDevices(getLoginUserID(), $_SESSION["glpiactive_entity"]);
-      Ticket::dropdownAllDevices("itemtype", $itemtype, $items_id, 0,
-                                 $_SESSION["glpiactive_entity"]);
+      ajaxUpdateItemOnSelectEvent("dropdown_type".$rand,
+                                  "ticket_type_".$rand,
+                                  $CFG_GLPI["root_doc"]."/ajax/dropdownTicketType.php", $params);
+      echo "<br><span id='ticket_type_$rand'></span>";
       echo "</td></tr>";
    }
 

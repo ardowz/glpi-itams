@@ -2591,3 +2591,63 @@ Backtrace :
 C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:45		DBmysql->query()
 C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
 
+2011-10-05 22:15 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_software`
+Error: Table 'itams.glpi_software' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 22:15 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_hardware`
+Error: Table 'itams.glpi_hardware' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 22:15 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_my device`
+Error: Table 'itams.glpi_my device' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 22:15 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_software`
+Error: Table 'itams.glpi_software' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 22:16 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_hardware`
+Error: Table 'itams.glpi_hardware' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+
+2011-10-05 22:19 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT DISTINCT `name`
+          FROM `glpi_hardware`
+Error: Table 'itams.glpi_hardware' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
+

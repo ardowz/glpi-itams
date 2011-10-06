@@ -59,6 +59,8 @@ class Ticket extends CommonDBTM {
    const INCIDENT_TYPE = 1;
    // Demand type
    const DEMAND_TYPE   = 2;
+   // Blank
+   const BLANK_TYPE = 0;
 
    // Requester
    const REQUESTER = 1;
@@ -2797,6 +2799,7 @@ class Ticket extends CommonDBTM {
    static function getTypes() {
       global $LANG;
 
+      $options[self::BLANK_TYPE] = '';
       $options[self::INCIDENT_TYPE] = $LANG['job'][1];
       $options[self::DEMAND_TYPE]   = $LANG['job'][2];
 

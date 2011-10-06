@@ -576,6 +576,34 @@ class Dropdown {
       }
       return $optgroup;
    }
+   
+   /*
+    * sideb thesis
+    * Removed authorization to get component list
+    */
+   
+   static function getDeviceItemTypesNoAuthorization () {
+      global $LANG, $CFG_GLPI;
+      static $optgroup = NULL;
+
+
+
+      if (is_null($optgroup)) {
+         $optgroup = array($LANG['title'][30] => array('DeviceMotherboard' => $LANG['devices'][5],
+                                                       'DeviceProcessor'   => $LANG['devices'][4],
+                                                       'DeviceNetworkCard' => $LANG['devices'][3],
+                                                       'DeviceMemory'      => $LANG['devices'][6],
+                                                       'DeviceHardDrive'   => $LANG['devices'][1],
+                                                       'DeviceDrive'       => $LANG['devices'][19],
+                                                       'DeviceControl'     => $LANG['devices'][20],
+                                                       'DeviceGraphicCard' => $LANG['devices'][2],
+                                                       'DeviceSoundCard'   => $LANG['devices'][7],
+                                                       'DeviceCase'        => $LANG['devices'][22],
+                                                       'DevicePowerSupply' => $LANG['devices'][23],
+                                                       'DevicePci'         => $LANG['devices'][21]));
+      }
+      return $optgroup;
+   }
 
 
    /**
@@ -731,6 +759,34 @@ class Dropdown {
       echo "</table><br>";
    }
 
+   /*
+    * thesis sideb
+    * Display of optgroup without any layout, only dropdown
+    */
+   
+   
+   static function showItemTypeMenuPlain($optgroup, $value='') {
+      global $LANG;
+
+      echo "<select id='menu_nav'>";
+
+      foreach ($optgroup as $label => $dp) {
+         echo "<optgroup label=\"$label\">";
+
+         foreach ($dp as $key => $val) {
+            $search = getItemTypeSearchURL($key);
+
+            if (basename($search) == basename($value)) {
+               $sel = 'selected';
+            } else {
+               $sel = '';
+            }
+            echo "<option value='$search' $sel>$val</option>";
+         }
+         echo "</optgroup>";
+      }
+      echo "</select>&nbsp;";
+   }
 
    /**
     * Display a list to select a itemtype with link to search form
