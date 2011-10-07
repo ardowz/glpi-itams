@@ -5171,3 +5171,24 @@ Backtrace :
 C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
 
+2011-10-07 19:14 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 19:14 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 19:14 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
