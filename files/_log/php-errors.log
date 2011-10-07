@@ -4763,3 +4763,261 @@ Backtrace :
 C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
 
+2011-10-07 14:59 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:03 [4@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:07 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 15:07 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 15:08 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-07 15:17 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-07 15:17 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-07 15:18 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:18 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:19 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:20 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:20 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:21 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:21 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:23 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:24 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:24 [10@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketfollowup.class.php:339		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:752		TicketFollowup->post_addItem()
+C:\xampp\htdocs\itams\front\ticketfollowup.form.php:55		CommonDBTM->add()
+
+2011-10-07 15:25 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:25 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:27 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-07 15:27 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-07 15:28 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-07 15:36 [10@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketfollowup.class.php:320		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:752		TicketFollowup->post_addItem()
+C:\xampp\htdocs\itams\front\ticketfollowup.form.php:55		CommonDBTM->add()
+
+2011-10-07 15:49 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 15:55 [2@USER-PC]
+Warning(2): mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:588		mail()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:519		PHPMailer->MailSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 15:55 [2@USER-PC]
+Warning(2): mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:588		mail()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:519		PHPMailer->MailSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 15:57 [2@USER-PC]
+Warning(2): mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:588		mail()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:519		PHPMailer->MailSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 16:08 [2@USER-PC]
+Warning(2): mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:588		mail()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:519		PHPMailer->MailSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 16:08 [2@USER-PC]
+Warning(2): mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:588		mail()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:519		PHPMailer->MailSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 16:08 [2@USER-PC]
+Warning(2): fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to gmail-smtp-in.l.google.com:25 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.smtp.php:132		fsockopen()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:682		SMTP->Connect()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:613		PHPMailer->SmtpConnect()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:516		PHPMailer->SmtpSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 16:11 [2@USER-PC]
+Warning(2): fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to gmail-smtp-in.l.google.com:25 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.smtp.php:132		fsockopen()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:682		SMTP->Connect()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:613		PHPMailer->SmtpConnect()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:516		PHPMailer->SmtpSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 16:11 [2@USER-PC]
+Warning(2): mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 553 We do not relay non-local mail, sorry.
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:588		mail()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:519		PHPMailer->MailSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 16:11 [2@USER-PC]
+Warning(2): mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 553 We do not relay non-local mail, sorry.
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:588		mail()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:519		PHPMailer->MailSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 16:17 [2@USER-PC]
+Warning(2): mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 553 We do not relay non-local mail, sorry.
+Backtrace :
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:588		mail()
+C:\xampp\htdocs\itams\lib\phpmailer\class.phpmailer.php:519		PHPMailer->MailSend()
+C:\xampp\htdocs\itams\inc\notificationmail.class.php:178		PHPMailer->Send()
+C:\xampp\htdocs\itams\front\notificationmailsetting.form.php:43		NotificationMail::testNotification()
+
+2011-10-07 16:36 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 18:39 [2@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 19:00 [2@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
