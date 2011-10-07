@@ -73,7 +73,8 @@ if (!isset($_POST["itemtype"]) || (empty($_POST["items_id"]) && $_POST["itemtype
    $_POST["items_id"] = 0;
 }
 
-if ($newID = $track->add($_POST)) {
+if ($newID = $track->addSideb($_POST)) {
+    
    if (isset($_POST["type"]) && ($_POST["type"] == "Helpdesk")) {
       echo "<div class='center'>".$LANG['help'][18]."<br><br>";
       displayBackLink();

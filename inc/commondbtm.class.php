@@ -81,14 +81,28 @@ class CommonDBTM extends CommonGLPI {
     * Return the table used to stor this object
     *
     * @return string
+    * 
+    * 
    **/
    function getTable() {
 
-      if (empty($this->table) && !$this->notable) {
-         $this->table = getTableForItemType($this->getType());
-      }
+    
+          if (empty($this->table) && !$this->notable) {
+          $this->table = getTableForItemType($this->getType());
+          }
 
-      return $this->table;
+          return $this->table;
+      
+   }
+   
+   /*
+    * sideb thesis
+    * Own get table
+    */
+   function getTableNamed($table) {
+
+          $this->table = getTableForItemTypeAdjusted($table);
+          return $this->table;
    }
 
 
@@ -361,6 +375,72 @@ class CommonDBTM extends CommonGLPI {
       return false;
    }
 
+   
+   /**
+    * Add an item to the database
+    *
+    * @return new ID of the item is insert successfull else false
+   **/
+   function addToDBRequest() {
+      global $DB;
+
+      //unset($this->fields["id"]);
+      
+      $queryid = "SELECT id FROM glpi_tickets ORDER BY Id DESC LIMIT 1";
+      $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+      if ($DB->query($queryid)) {
+           while ($data=$DB->fetch_array($result)) {
+              $lastid = $data["id"];
+           }
+      }
+      
+      $this->fields2['id'] = $lastid;
+      $nb_fields = count($this->fields2);
+      if ($nb_fields>0) {
+         // Build query
+         $query = "INSERT
+                   INTO `sideb_requestparameters` (";
+
+         $i = 0;
+         foreach ($this->fields2 as $key => $val) {
+            $fields[$i] = $key;
+            $values[$i] = $val;
+            $i++;
+         }
+
+         for ($i=0 ; $i<$nb_fields; $i++) {
+            $query .= "`".$fields[$i]."`";
+            if ($i!=$nb_fields-1) {
+               $query .= ",";
+            }
+         }
+
+         $query .= ") VALUES (";
+         for ($i=0 ; $i<$nb_fields ; $i++) {
+
+            if ($values[$i]=='NULL') {
+               $query .= $values[$i];
+            } else {
+               $query .= "'".$values[$i]."'";
+            }
+
+            if ($i!=$nb_fields-1) {
+               $query .= ",";
+            }
+
+         }
+         $query .= ")";
+
+         if ($result=$DB->query($query)) {
+//            $this->fields2['id'] = $DB->insert_id();
+//            $this->fields2['id'] = $lastid;
+            return $this->fields2['id'];
+         }
+
+      }
+      return false;
+   }
 
    /**
     * Restore item = set deleted flag to 0
@@ -644,15 +724,20 @@ class CommonDBTM extends CommonGLPI {
          $this->filterValues();
       }
 
+      //getting the table from the database - the glpi_tablename
       if ($this->input && is_array($this->input)) {
          $this->fields = array();
          $table_fields = $DB->list_fields($this->getTable());
-
+         
+//         $test = $this->getTableNamed("requestparameters");
+//         $table_fields2 = $DB->list_fields($this->getTableNamed("requestparameters"));
+//         
+//         $table_fields2 = $DB->list_fields("sideb_requestparameters");
          // fill array for add
          foreach ($this->input as $key => $val) {
             if ($key[0]!='_' && isset($table_fields[$key])) {
                $this->fields[$key] = $this->input[$key];
-            }
+            }            
          }
 
          // Auto set date_mod if exsist
@@ -663,6 +748,118 @@ class CommonDBTM extends CommonGLPI {
          if ($this->checkUnicity(true,$options)) {
 
             if ($this->addToDB()) {
+               $this->addMessageOnAddAction();
+               $this->post_addItem();
+
+               if ($this->dohistory && $history) {
+                  $changes[0] = 0;
+                  $changes[1] = $changes[2] = "";
+
+                  Log::history($this->fields["id"], $this->getType(), $changes, 0,
+                               HISTORY_CREATE_ITEM);
+               }
+
+                // Auto create infocoms
+               if ($CFG_GLPI["auto_create_infocoms"]
+                   && in_array($this->getType(), $CFG_GLPI["infocom_types"])) {
+
+                  $ic = new Infocom();
+                  if (!$ic->getFromDBforDevice($this->getType(), $this->fields['id'])) {
+                     $ic->add(array('itemtype' => $this->getType(),
+                                    'items_id' => $this->fields['id']));
+                  }
+               }
+
+               // If itemtype is in infocomtype and if states_id field is filled
+               // and item is not a template
+               if (in_array($this->getType(),$CFG_GLPI["infocom_types"])
+                   && isset($this->input['states_id'])
+                            && (!isset($this->input['is_template'])
+                                || !$this->input['is_template'])) {
+
+                  //Check if we have to automaticall fill dates
+                  Infocom::manageDateOnStatusChange($this);
+               }
+               doHook("item_add", $this);
+               return $this->fields['id'];
+            }
+         }
+
+      }
+      $this->last_status = self::NOTHING_TO_DO;
+      return false;
+   }
+   
+   /**
+    * 
+    * sideb thesis adjustment
+    * 
+    * second version of adding
+    * Add an item in the database with all it's items.
+    *
+    * @param $input array : the _POST vars returned by the item form when press add
+    * @param options an array with the insert options
+    *   - unicity_message : do not display message if item it a duplicate (default is yes)
+    * @param $history boolean : do history log ?
+    *
+    * @return integer the new ID of the added item (or false if fail)
+   **/
+   function addSideb($input, $options=array(), $history=true,$sideb) {
+      global $DB, $CFG_GLPI;
+
+      if ($DB->isSlave()) {
+         return false;
+      }
+
+      // Store input in the object to be available in all sub-method / hook
+      $this->input = $input;
+
+      // Call the plugin hook - $this->input can be altered
+      doHook("pre_item_add", $this);
+
+      if ($this->input && is_array($this->input)) {
+
+         if (isset($this->input['add'])) {
+            $this->input['_add'] = $this->input['add'];
+            unset($this->input['add']);
+         }
+
+         $this->input = $this->prepareInputForAdd($this->input);
+         //Check values to inject
+         $this->filterValues();
+      }
+
+      //getting the table from the database - the glpi_tablename
+      if ($this->input && is_array($this->input)) {
+         $this->fields = array();
+         $this->fields2 = array();
+         $table_fields = $DB->list_fields($this->getTable());
+         
+//         $test = $this->getTableNamed("requestparameters");
+//         $table_fields2 = $DB->list_fields($this->getTableNamed("requestparameters"));
+//         
+         $table_fields2 = $DB->list_fields("sideb_requestparameters");
+         // fill array for add
+         foreach ($this->input as $key => $val) {
+            if ($key[0]!='_' && isset($table_fields[$key])) {
+               $this->fields[$key] = $this->input[$key];
+            }
+            
+            if(isset($table_fields2[$key])){
+               $this->fields2[$key] = $this->input[$key]; 
+            }
+            
+         }
+
+         // Auto set date_mod if exsist
+         if (isset($table_fields['date_mod'])) {
+            $this->fields['date_mod'] = $_SESSION["glpi_currenttime"];
+         }
+
+         if ($this->checkUnicity(true,$options)) {
+
+            if ($this->addToDB()) {
+               $this->addToDBRequest();
                $this->addMessageOnAddAction();
                $this->post_addItem();
 

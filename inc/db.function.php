@@ -163,6 +163,53 @@ function getTableForItemType($itemtype) {
    }
 }
 
+/*
+ * sideb thesis
+ * compied and adjusted to accomodate sideb_ prefix
+ */
+function getTableForItemTypeAdjusted($itemtype) {
+   global $CFG_GLPI;
+
+   // Force singular for itemtype : States case
+//   $itemtype = getSingular($itemtype);
+
+   if (isset($CFG_GLPI['glpitablesitemtype2'][$itemtype])) {
+      return $CFG_GLPI['glpitablesitemtype2'][$itemtype];
+
+   } else {
+
+           $prefix = "sideb_";
+      
+
+//      if ($plug=isPluginItemType($itemtype)) {
+//         $prefix .= "plugin_".strtolower($plug['plugin'])."_";
+//         $table   = strtolower($plug['class']);
+//      } else {
+//         $table = strtolower($itemtype);
+//      }
+
+//      if (strstr($table,'_')) {
+//         $split = explode('_',$table);
+//
+//         foreach ($split as $key => $part) {
+//            $split[$key] = getPlural($part);
+//         }
+//         $table = implode('_',$split);
+//
+//      } else {
+ 
+//             $table = $sideb;
+
+//             $table = getPlural($table);
+
+//      }
+      $table = $itemtype;
+      $CFG_GLPI['glpitablesitemtype2'][$itemtype]      = $prefix.$table;
+      $CFG_GLPI['glpiitemtypetables2'][$prefix.$table] = $itemtype;
+      return $prefix.$table;
+   }
+}
+
 
 /**
  * Return the plural of a string

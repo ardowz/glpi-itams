@@ -4535,6 +4535,58 @@ class Ticket extends CommonDBTM {
                }
             }
          }
+         echo "<br/>";
+         /*
+          * Display the request
+          * sideb
+          */
+         
+         $queryid = "SELECT * FROM sideb_requestparameters where id='".$ID."'";
+         $result = $DB->query($queryid);
+    //      $resultid = $DB->query($queryid);
+          if ($DB->query($queryid)) {
+               while ($data=$DB->fetch_array($result)) {
+                  $requestType = $data["request"];
+                  $computerID = $data["computertypes_id"];
+                  $requestComponent = $data["component_request"];
+                  $newITAsset = $data["new_it_asset"];
+                  $softwareID = $data["softwares_id"];
+               }
+          }
+         
+          echo $requestComponent;
+          
+          if($computerID != null){
+              $query = "SELECT * FROM `glpi_computertypes` where id ='".$computerID."'";
+              $result = $DB->query($queryid);
+              
+              if ($DB->query($queryid)) {
+                   while ($data=$DB->fetch_array($result)) {
+                      $computer = $data["name"];
+                   }
+              }
+              echo $computer;
+          }
+          
+          if($softwareID != null){
+              $query = "SELECT * FROM `glpi_softwares` where id ='".$softwareID."'";
+              $result = $DB->query($queryid);
+              
+              if ($DB->query($queryid)) {
+                   while ($data=$DB->fetch_array($result)) {
+                      $software = $data["name"];
+                   }
+              }
+              echo $software;
+          }
+          
+          echo $requestType;
+          echo $newITAsset;
+          
+          
+          /*
+           * end of display
+           */
          $dev_user_id = 0;
          if (!$ID) {
             $dev_user_id = $options['_users_id_requester'];

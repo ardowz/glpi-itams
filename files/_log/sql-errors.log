@@ -2651,3 +2651,809 @@ Backtrace :
 C:\xampp\htdocs\itams\ajax\dropdownHardwareList.php&nbsp;:45		DBmysql->query()
 C:/xampp/htdocs/itams/ajax/dropdownHardwareList.php
 
+2011-10-06 16:56 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `glpi_requestparameters`
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:661		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 16:56 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'sdg\',\'dhs\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 16:56:18\',0,0,\'2011-10-06 16:56:18\')
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:364		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:676		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 16:58 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `glpi_requestparameters`
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 16:59 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'dfss\',\'dgssgs\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 16:58:27\',0,0,\'2011-10-06 16:58:27\')
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:364		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:682		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 16:59 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `glpi_requestparameters`
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:199		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:747		CronTask->start()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 16:59 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_requestparameters` (`crontasks_id`,`date`,`content`,`crontasklogs_id`,`state`,`volume`,`elapsed`) VALUES (\'9\',\'2011-10-06 16:59:27\',\'Run mode : GLPI\',0,0,0,0)
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:364		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:682		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:199		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:747		CronTask->start()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 16:59 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `glpi_requestparameters`
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:261		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:751		CronTask->end()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 16:59 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_requestparameters` (`crontasks_id`,`date`,`content`,`crontasklogs_id`,`state`,`volume`,`elapsed`) VALUES (\'9\',\'2011-10-06 16:59:27\',\'Action completed, no processing required\',\'\',\'2\',0,\'8.9579780101776\')
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:364		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:682		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:261		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:751		CronTask->end()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 16:59 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `glpi_requestparameters`
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:00 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'g\',\'g\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 16:59:49\',0,0,\'2011-10-06 16:59:49\')
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:364		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:682		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:01 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `glpi_requestparameters`
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:02 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'g\',\'h\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 17:01:49\',0,0,\'2011-10-06 17:01:49\')
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:364		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:682		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:02 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `glpi_requestparameters`
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:02 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'g\',\'g\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 17:02:24\',0,0,\'2011-10-06 17:02:24\')
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:364		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:682		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:03 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `glpi_requestparameters`
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:03 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'h\',\'h\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 17:03:43\',0,0,\'2011-10-06 17:03:43\')
+Error: Table 'itams.glpi_requestparameters' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:364		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:677		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:04 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:04 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:1704		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:679		Ticket->post_addItem()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:04 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:04 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:1704		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:679		Ticket->post_addItem()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:06 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\inc\event.class.php&nbsp;:81		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\auth.class.php&nbsp;:695		Event::log()
+C:\xampp\htdocs\itams\login.php&nbsp;:76		Auth->Login()
+C:/xampp/htdocs/itams/login.php
+
+2011-10-06 17:06 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:06 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:1704		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:679		Ticket->post_addItem()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:07 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:07 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:1704		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:679		Ticket->post_addItem()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:08 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:08 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM ``
+Error: Incorrect table name ''
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:662		DBmysql->list_fields()
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:1704		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:679		Ticket->post_addItem()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 17:26 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'hh\',\'hhh\',\'Computer\',\'5\',\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 17:26:00\',0,0,\'2011-10-06 17:26:00\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:682		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:05 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'hh\',\'hh\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 17:29:52\',0,0,\'2011-10-06 17:29:52\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:683		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:05 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`crontasks_id`,`date`,`content`,`crontasklogs_id`,`state`,`volume`,`elapsed`) VALUES (\'9\',\'2011-10-06 18:05:17\',\'Run mode : GLPI\',0,0,0,0)
+Error: Unknown column 'crontasks_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:701		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:199		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:747		CronTask->start()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 18:05 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`crontasks_id`,`date`,`content`,`crontasklogs_id`,`state`,`volume`,`elapsed`) VALUES (\'9\',\'2011-10-06 18:05:17\',\'Action completed, no processing required\',\'\',\'2\',0,\'1.2891111373901\')
+Error: Unknown column 'crontasks_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:701		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:261		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:751		CronTask->end()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 18:11 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'gg\',\'hhh\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 18:05:34\',0,0,\'2011-10-06 18:05:34\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:701		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:11 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'j\',\'j\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 18:11:43\',0,0,\'2011-10-06 18:11:43\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:704		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:12 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`crontasks_id`,`date`,`content`,`crontasklogs_id`,`state`,`volume`,`elapsed`) VALUES (\'13\',\'2011-10-06 18:12:05\',\'Run mode : GLPI\',0,0,0,0)
+Error: Unknown column 'crontasks_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:704		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:199		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:747		CronTask->start()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 18:12 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`crontasks_id`,`date`,`content`,`crontasklogs_id`,`state`,`volume`,`elapsed`) VALUES (\'13\',\'2011-10-06 18:12:05\',\'Action completed, no processing required\',\'\',\'2\',0,\'3.1110851764679\')
+Error: Unknown column 'crontasks_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:704		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:261		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:751		CronTask->end()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 18:12 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`items_id`,`type`,`date`,`service`,`level`,`message`) VALUES (\'-1\',\'system\',\'2011-10-06 18:12:13\',\'login\',\'3\',\'10000000 IP connection: 127.0.0.1\')
+Error: Unknown column 'items_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:704		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\inc\event.class.php&nbsp;:81		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\auth.class.php&nbsp;:695		Event::log()
+C:\xampp\htdocs\itams\login.php&nbsp;:76		Auth->Login()
+C:/xampp/htdocs/itams/login.php
+
+2011-10-06 18:12 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'dsfs\',\'fds\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 18:12:31\',0,0,\'2011-10-06 18:12:31\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:704		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:13 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'h\',\'h\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 18:12:59\',0,0,\'2011-10-06 18:12:59\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:686		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:14 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'h\',\'h\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 18:13:57\',0,0,\'2011-10-06 18:13:57\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:683		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:15 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'h\',\'h\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 18:15:27\',0,0,\'2011-10-06 18:15:27\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:683		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:15 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'h\',\'h\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 18:15:45\',0,0,\'2011-10-06 18:15:45\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:683		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:18 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`crontasks_id`,`date`,`content`,`crontasklogs_id`,`state`,`volume`,`elapsed`) VALUES (\'14\',\'2011-10-06 18:18:40\',\'Run mode : GLPI\',0,0,0,0)
+Error: Unknown column 'crontasks_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:683		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:199		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:747		CronTask->start()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 18:18 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`crontasks_id`,`date`,`content`,`crontasklogs_id`,`state`,`volume`,`elapsed`) VALUES (\'14\',\'2011-10-06 18:18:40\',\'Action completed, no processing required\',\'\',\'2\',0,\'2.3913819789886\')
+Error: Unknown column 'crontasks_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:683		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:261		CommonDBTM->add()
+C:\xampp\htdocs\itams\inc\crontask.class.php&nbsp;:751		CronTask->end()
+C:\xampp\htdocs\itams\front\cron.php&nbsp;:63		CronTask::launch()
+C:/xampp/htdocs/itams/front/cron.php
+
+2011-10-06 18:18 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'j\',\'y\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 18:18:53\',0,0,\'2011-10-06 18:18:53\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:683		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:20 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`requesttypes_id`,`entities_id`,`urgency`,`type`,`name`,`content`,`itemtype`,`items_id`,`impact`,`priority`,`users_id_lastupdater`,`users_id_recipient`,`status`,`global_validation`,`date`,`suppliers_id_assign`,`ticketcategories_id`,`date_mod`) VALUES (\'1\',\'0\',\'5\',\'2\',\'dsgsfds\',\'fsdfsfsf\',\'\',0,\'3\',\'4\',\'10\',\'10\',\'new\',\'none\',\'2011-10-06 18:20:38\',0,0,\'2011-10-06 18:20:38\')
+Error: Unknown column 'requesttypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:369		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:683		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:40 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_tickets` (`computertypes_id`) VALUES (\'4\')
+Error: Unknown column 'computertypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:424		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:849		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:49 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_tickets` (`computertypes_id`) VALUES (\'4\')
+Error: Unknown column 'computertypes_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:424		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:850		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:50 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_tickets` (`softwares_id`) VALUES (\'2\')
+Error: Unknown column 'softwares_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:424		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:850		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:53 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_tickets` (`softwares_id`) VALUES (\'1\')
+Error: Unknown column 'softwares_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:424		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:850		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 18:54 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`softwares_id`,`new_it_asset`) VALUES (\'New Asset\',\'sdfsfsd\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:424		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:850		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:01 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`softwares_id`,`new_it_asset`) VALUES (\'-1\',\'sdadad\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:424		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:850		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:13 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`computertypes_id`) VALUES (\'4\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:424		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:850		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:26 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`computertypes_id`) VALUES (\'4\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:428		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:854		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:29 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`computertypes_id`) VALUES (\'4\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:434		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:861		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:30 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`computertypes_id`) VALUES (\'4\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:434		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:861		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:32 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`computertypes_id`) VALUES (\'4\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:434		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:861		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:32 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: 
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:392		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:862		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:32 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`computertypes_id`) VALUES (\'4\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:435		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:862		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:33 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`computertypes_id`) VALUES (\'2\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:435		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:862		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:34 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`computertypes_id`) VALUES (\'4\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:435		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:862		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 19:35 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `sideb_requestparameters` (`computertypes_id`) VALUES (\'4\')
+Error: Duplicate entry '0' for key 'PRIMARY'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:435		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:862		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php&nbsp;:76		CommonDBTM->addSideb()
+C:/xampp/htdocs/itams/front/tracking.injector.php
+
+2011-10-06 20:16 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT * FROM sideb_requestparameters where=\'81\'
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='81'' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:4545		DBmysql->query()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:175		Ticket->showForm()
+C:/xampp/htdocs/itams/front/ticket.form.php
+
+2011-10-06 20:16 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT * FROM sideb_requestparameters where=\'81\'
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='81'' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:4547		DBmysql->query()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:175		Ticket->showForm()
+C:/xampp/htdocs/itams/front/ticket.form.php
+
+2011-10-06 20:17 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT * FROM sideb_requestparameters where=\'81\'
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='81'' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:4545		DBmysql->query()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:175		Ticket->showForm()
+C:/xampp/htdocs/itams/front/ticket.form.php
+
+2011-10-06 20:17 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT * FROM sideb_requestparameters where=\'81\'
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='81'' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:4547		DBmysql->query()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:175		Ticket->showForm()
+C:/xampp/htdocs/itams/front/ticket.form.php
+
+2011-10-06 20:17 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT * FROM sideb_requestparameters where=\'81\'
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='81'' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:4545		DBmysql->query()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:175		Ticket->showForm()
+C:/xampp/htdocs/itams/front/ticket.form.php
+
+2011-10-06 20:17 [10@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT * FROM sideb_requestparameters where=\'81\'
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='81'' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:4548		DBmysql->query()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:175		Ticket->showForm()
+C:/xampp/htdocs/itams/front/ticket.form.php
+

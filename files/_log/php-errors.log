@@ -3423,3 +3423,1343 @@ Notice(8): Undefined variable: items_id
 Backtrace :
 C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:94		userErrorHandlerNormal()
 
+2011-10-06 12:12 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 12:12 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 12:15 [10@USER-PC]
+Notice(8): Undefined index: add
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2296		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-06 12:15 [10@USER-PC]
+Notice(8): Undefined index: add
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2292		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-06 12:16 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:48		userErrorHandlerNormal()
+
+2011-10-06 12:17 [10@USER-PC]
+Notice(8): Undefined index: add
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:84		userErrorHandlerNormal()
+
+2011-10-06 12:31 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 12:31 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 13:23 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:48		userErrorHandlerNormal()
+
+2011-10-06 13:28 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 13:28 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 14:19 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 14:19 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:26 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:26 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:27 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:27 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:34 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:34 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:36 [10@USER-PC]
+Notice(8): Use of undefined constant Computer - assumed 'Computer'
+Backtrace :
+xdebug eval:1		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:642		CommonDBTM::add()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->add()
+
+2011-10-06 15:36 [10@USER-PC]
+Notice(8): Use of undefined constant jjjjd - assumed 'jjjjd'
+Backtrace :
+xdebug eval:1		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:642		CommonDBTM::add()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->add()
+
+2011-10-06 15:41 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:41 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:45 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:45 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:45 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:94		userErrorHandlerNormal()
+
+2011-10-06 15:45 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:94		userErrorHandlerNormal()
+
+2011-10-06 15:53 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:54 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 15:54 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 15:57 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:57 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 15:57 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 15:57 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 15:57 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:01 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 16:01 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 16:01 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 16:09 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:17 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 16:17 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 16:17 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 16:18 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 16:18 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 16:18 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 16:33 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 16:33 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 16:33 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 16:37 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 16:37 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 16:37 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 16:48 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:48 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:52 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 16:52 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 16:52 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 16:52 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:52 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:54 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 16:54 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 16:54 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 16:54 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:54 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 16:54 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 16:54 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 16:54 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:55 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 16:55 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 16:55 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 16:56 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:56 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 16:58 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:04 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 17:06 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:06 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:06 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 17:07 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:07 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 17:07 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:07 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:08 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:08 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:08 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 17:12 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:13 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 17:13 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:13 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:13 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:13 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:13 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 17:14 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:15 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:15 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:15 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 17:15 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:15 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:15 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:15 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:15 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 17:16 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 17:16 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 17:16 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:16 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:18 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:18 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:18 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 17:24 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 17:24 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 17:24 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 17:25 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 17:25 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 18:05 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:11 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:12 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:12 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:14 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:14 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 18:14 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 18:14 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 18:15 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:17 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 18:17 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 18:17 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 18:20 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:25 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 18:25 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 18:25 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 18:25 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:25 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:25 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:26 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:741		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:27 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 18:27 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 18:27 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 18:27 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:27 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:741		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:31 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 18:31 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 18:31 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 18:31 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 18:31 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 18:32 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:741		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:33 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 18:33 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 18:33 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 18:33 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 18:34 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:741		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:36 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 18:36 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 18:36 [10@USER-PC]
+Notice(8): Undefined index: softwares_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:81		userErrorHandlerNormal()
+
+2011-10-06 18:36 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:36 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:741		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:37 [10@USER-PC]
+Notice(8): Undefined index: computertypes_id
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:78		userErrorHandlerNormal()
+
+2011-10-06 18:37 [10@USER-PC]
+Notice(8): Undefined index: component_request
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:79		userErrorHandlerNormal()
+
+2011-10-06 18:37 [10@USER-PC]
+Notice(8): Undefined index: new_it_asset
+Backtrace :
+C:\xampp\htdocs\itams\front\tracking.injector.php:80		userErrorHandlerNormal()
+
+2011-10-06 18:40 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:795		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:42 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:795		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:49 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:49 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:50 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:50 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:795		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:51 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:51 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:795		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:53 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:53 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:795		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:54 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:54 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:795		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 18:55 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 18:57 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 18:57 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 18:57 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 19:01 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 19:01 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:795		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:12 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:795		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:12 [10@USER-PC]
+Notice(8): Use of undefined constant impact - assumed 'impact'
+Backtrace :
+xdebug eval:1		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:371		CommonDBTM::addToDB()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:849		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:22 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:22 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:23 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:799		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:23 [10@USER-PC]
+Notice(8): Undefined property: DB::$SELECT id FROM glpi_tickets ORDER BY Id DESC LIMIT 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:390		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:854		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:25 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:799		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:29 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:806		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:29 [10@USER-PC]
+Notice(8): Undefined variable: result
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:392		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:861		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:29 [10@USER-PC]
+Warning(2): mysql_fetch_array() expects parameter 1 to be resource, null given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:255		mysql_fetch_array()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:392		DBmysql->fetch_array()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:861		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:30 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:806		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:30 [10@USER-PC]
+Notice(8): Undefined variable: result
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:392		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:861		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:30 [10@USER-PC]
+Warning(2): mysql_fetch_array() expects parameter 1 to be resource, null given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:255		mysql_fetch_array()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:392		DBmysql->fetch_array()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:861		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:30 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:806		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:30 [10@USER-PC]
+Warning(2): mysql_fetch_array() expects parameter 1 to be resource, string given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:255		mysql_fetch_array()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:392		DBmysql->fetch_array()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:861		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:32 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:32 [10@USER-PC]
+Warning(2): mysql_query() expects parameter 1 to be string, resource given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:177		mysql_query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:392		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:862		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:32 [10@USER-PC]
+Warning(2): mysql_query() expects parameter 1 to be string, resource given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:180		mysql_query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:392		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:862		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:32 [10@USER-PC]
+Warning(2): addslashes() expects parameter 1 to be string, resource given
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php:182		addslashes()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:392		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:862		CommonDBTM->addToDBRequest()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:32 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:34 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:35 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:36 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:54 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 19:54 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-06 19:54 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:54 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:54 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:54 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:54 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:55 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 19:55 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:55 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-06 19:55 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:55 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:55 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:55 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:57 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:57 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:57 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 19:57 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 19:57 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 20:00 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 20:00 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-06 20:00 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 20:16 [10@USER-PC]
+Notice(8): Undefined variable: newComponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4557		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:17 [10@USER-PC]
+Notice(8): Undefined variable: newComponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4557		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:17 [10@USER-PC]
+Notice(8): Undefined variable: newComponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4558		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:18 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-06 20:19 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:19 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:24 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:24 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:24 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:25 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:25 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:25 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:25 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:25 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:26 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:26 [10@USER-PC]
+Notice(8): Undefined variable: newComponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4557		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:26 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:26 [10@USER-PC]
+Notice(8): Undefined index: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4549		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:26 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:26 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:26 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:26 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-06 20:26 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+

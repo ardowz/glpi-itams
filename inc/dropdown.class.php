@@ -765,10 +765,10 @@ class Dropdown {
     */
    
    
-   static function showItemTypeMenuPlain($optgroup, $value='') {
+   static function showItemTypeMenuPlain($optgroup, $value='',$name=null) {
       global $LANG;
 
-      echo "<select id='menu_nav'>";
+      echo "<select id='$name' name='$name'>";
 
       foreach ($optgroup as $label => $dp) {
          echo "<optgroup label=\"$label\">";
@@ -781,7 +781,7 @@ class Dropdown {
             } else {
                $sel = '';
             }
-            echo "<option value='$search' $sel>$val</option>";
+            echo "<option value='$val' $sel>$val</option>";
          }
          echo "</optgroup>";
       }
