@@ -67,9 +67,17 @@ switch ($_REQUEST['glpi_tab']) {
       break;
 
    default :
-      if (!Plugin::displayAction($central, $_REQUEST['glpi_tab'])) {
-         $central->showMyView();
-      }
+      //if (!Plugin::displayAction($central, $_REQUEST['glpi_tab'])) {
+        // $central->showMyView();
+      //}
+       $central->showMyView();
+      echo "<br>";
+      $central->showGroupView();
+      echo "<br>";
+      $central->showGlobalView();
+      echo "<br>";
+      Plugin::displayAction($central, $_REQUEST['glpi_tab']);
+      break;
 }
 
 ajaxFooter();

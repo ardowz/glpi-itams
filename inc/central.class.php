@@ -46,8 +46,8 @@ class Central extends CommonGLPI {
       global $LANG;
 
       $tabs[1] = $LANG['central'][12]; // My
-      $tabs[2] = $LANG['central'][14]; // Group
-      $tabs[3] = $LANG['central'][13]; // Global
+      //$tabs[2] = $LANG['central'][14]; // Group
+      //$tabs[3] = $LANG['central'][13]; // Global
 
       return $tabs;
    }

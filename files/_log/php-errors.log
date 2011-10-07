@@ -4763,3 +4763,411 @@ Backtrace :
 C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
 
+2011-10-07 10:12 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:14 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:14 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:15 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:15 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:16 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:23 [7@USER-PC]
+Notice(8): Undefined variable: ong
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:421		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commonglpi.class.php:247		Ticket->defineTabs()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4262		CommonGLPI->showTabs()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:23 [7@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:23 [7@USER-PC]
+Notice(8): Undefined variable: ong
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:421		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commonglpi.class.php:247		Ticket->defineTabs()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4262		CommonGLPI->showTabs()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:23 [7@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:23 [7@USER-PC]
+Notice(8): Undefined variable: ong
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:421		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commonglpi.class.php:247		Ticket->defineTabs()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4262		CommonGLPI->showTabs()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:23 [7@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:24 [7@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:24 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 10:24 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2440		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-07 10:24 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2488		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-07 10:24 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2440		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-07 10:24 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2488		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-07 11:06 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:239		Ticket->showForm()
+
+2011-10-07 11:06 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 11:06 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 11:07 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 11:07 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 11:07 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-07 11:07 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-07 11:10 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-07 11:12 [6@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+Test
+Test
+2011-10-07 11:16 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:19 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:20 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:20 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:21 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:23 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:23 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:27 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketvalidation.class.php:173		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:752		TicketValidation->post_addItem()
+C:\xampp\htdocs\itams\front\ticketvalidation.form.php:51		CommonDBTM->add()
+
+2011-10-07 11:28 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\front\ticket.form.php:73		CommonDBTM->update()
+
+2011-10-07 11:28 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:29 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:29 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4565		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 11:31 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2440		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-07 11:31 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2488		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-07 11:34 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\front\ticket.form.php:73		CommonDBTM->update()
+
+2011-10-07 11:35 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\front\ticket.form.php:73		CommonDBTM->update()
+
+2011-10-07 11:55 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 11:55 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 11:55 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-07 11:55 [6@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 11:55 [6@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 11:56 [6@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-07 11:57 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\front\ticket.form.php:73		CommonDBTM->update()
+
+2011-10-07 11:57 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\front\ticket.form.php:73		CommonDBTM->update()
+
+2011-10-07 12:09 [10@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketfollowup.class.php:339		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:752		TicketFollowup->post_addItem()
+C:\xampp\htdocs\itams\front\ticketfollowup.form.php:55		CommonDBTM->add()
+
+2011-10-07 12:11 [11@USER-PC]
+Notice(8): Undefined variable: requestComponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4557		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 12:11 [11@USER-PC]
+Notice(8): Undefined variable: computerID
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4559		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 12:11 [11@USER-PC]
+Notice(8): Undefined variable: softwareID
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4571		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 12:11 [11@USER-PC]
+Notice(8): Undefined variable: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4583		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 12:11 [11@USER-PC]
+Notice(8): Undefined variable: newITAsset
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4584		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 12:13 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 12:13 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 12:13 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-07 12:13 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\front\ticket.form.php:73		CommonDBTM->update()
+
+2011-10-07 12:15 [10@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketfollowup.class.php:339		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:752		TicketFollowup->post_addItem()
+C:\xampp\htdocs\itams\front\ticketfollowup.form.php:55		CommonDBTM->add()
+
+2011-10-07 12:16 [10@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketfollowup.class.php:320		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:752		TicketFollowup->post_addItem()
+C:\xampp\htdocs\itams\front\ticketfollowup.form.php:55		CommonDBTM->add()
+
+2011-10-07 12:42 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 12:42 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 12:42 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
