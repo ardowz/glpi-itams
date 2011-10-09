@@ -83,31 +83,31 @@ class Peripheral  extends CommonDBTM {
          }
 
          if (haveRight("contract","r") || haveRight("infocom","r")) {
-            $ong[4] = $LANG['Menu'][26];
+            //$ong[4] = $LANG['Menu'][26];
          }
 
          if (haveRight("document","r")) {
-            $ong[5] = $LANG['Menu'][27];
+            //$ong[5] = $LANG['Menu'][27];
          }
 
          if (!isset($options['withtemplate']) || empty($options['withtemplate'])) {
             if (haveRight("show_all_ticket","1")) {
-               $ong[6] = $LANG['title'][28];
+              //$ong[6] = $LANG['title'][28];
             }
 
             if (haveRight("link","r")) {
-               $ong[7] = $LANG['title'][34];
+               //$ong[7] = $LANG['title'][34];
             }
 
             if (haveRight("notes","r")) {
-               $ong[10] = $LANG['title'][37];
+               //$ong[10] = $LANG['title'][37];
             }
 
             if (haveRight("reservation_central","r")) {
-               $ong[11] = $LANG['Menu'][17];
+               //$ong[11] = $LANG['Menu'][17];
             }
 
-            $ong[12] = $LANG['title'][38];
+            //$ong[12] = $LANG['title'][38];
          }
 
       } else { // New item
@@ -276,28 +276,51 @@ class Peripheral  extends CommonDBTM {
       $this->showTabs($options);
       $this->showFormHeader($options);
 
-      echo "<tr class='tab_bg_1'>";
+     echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][16].($template?"*":"")."&nbsp;:</td>\n";
       echo "<td>";
       $objectName = autoName($this->fields["name"], "name", ($template === "newcomp"),
                              $this->getType(), $this->fields["entities_id"]);
       autocompletionTextField($this, "name", array('value' => $objectName));
-      echo "</td>\n";
-      echo "<td>".$LANG['state'][0]."&nbsp;:</td>\n";
+      echo "</td>";
+      echo "<td>".$LANG['peripherals'][18]."&nbsp;:</td>\n";
       echo "<td>";
-      Dropdown::show('State', array('value' => $this->fields["states_id"]));
-      echo "</td></tr>\n";
+      autocompletionTextField($this, "brand");
+      echo "</td>\n";
+
+
+    
+      echo "</tr>\n";
+
+       echo "<tr class='tab_bg_1'>";
+      /*echo "<td>".$LANG['common'][18]."&nbsp;:</td>\n";
+      echo "<td>";
+      autocompletionTextField($this, "contact");
+      echo "</td>\n";*/
+
+      echo "<td>".$LANG['common'][19]."&nbsp;:</td>\n";
+      echo "<td>";
+      autocompletionTextField($this, "serial");
+      echo "</td>";
+      echo "<td>".$LANG['common'][20].($template?"*":"")."&nbsp;:</td>";
+      echo "<td>";
+      $objectName = autoName($this->fields["otherserial"], "otherserial", ($template === "newcomp"),
+                             $this->getType(), $this->fields["entities_id"]);
+      autocompletionTextField($this, "otherserial", array('value' => $objectName));
+      echo "</td>";
+      echo "</tr>\n";
+      //inventory number here
 
       echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['common'][15]."&nbsp;:</td>\n";
-      echo "<td>";
-      Dropdown::show('Location', array('value'  => $this->fields["locations_id"],
-                                       'entity' => $this->fields["entities_id"]));
-      echo "</td>\n";
       echo "<td>".$LANG['common'][17]."&nbsp;:</td>\n";
       echo "<td>";
       Dropdown::show('PeripheralType', array('value' => $this->fields["peripheraltypes_id"]));
-      echo "</td></tr>\n";
+      echo "</td>";
+      echo "<td>".$LANG['common'][5]."&nbsp;:</td>\n";
+      echo "<td>";
+      Dropdown::show('Manufacturer', array('value' => $this->fields["manufacturers_id"]));
+      echo "</td>";
+      echo "</tr>\n";
 
       echo "<tr class='tab_bg_1'>";
       /*echo "<td>".$LANG['common'][10]."&nbsp;:</td>\n";
@@ -307,10 +330,8 @@ class Peripheral  extends CommonDBTM {
                            'right'  => 'interface',
                            'entity' => $this->fields["entities_id"]));
       echo "</td>";*/
-      echo "<td>".$LANG['common'][5]."&nbsp;:</td>\n";
-      echo "<td>";
-      Dropdown::show('Manufacturer', array('value' => $this->fields["manufacturers_id"]));
-      echo "</td></tr>\n";
+
+      echo "</tr>\n";
 
       /*echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][21]."&nbsp;:</td>\n";
@@ -322,15 +343,6 @@ class Peripheral  extends CommonDBTM {
       Dropdown::show('PeripheralModel', array('value' => $this->fields["peripheralmodels_id"]));
       echo "</td></tr>\n";
 */
-      echo "<tr class='tab_bg_1'>";
-      /*echo "<td>".$LANG['common'][18]."&nbsp;:</td>\n";
-      echo "<td>";
-      autocompletionTextField($this, "contact");
-      echo "</td>\n";*/
-      echo "<td>".$LANG['common'][19]."&nbsp;:</td>\n";
-      echo "<td>";
-      autocompletionTextField($this, "serial");
-      echo "</td></tr>\n";
 
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][109]."&nbsp;:</td>\n";
@@ -338,13 +350,13 @@ class Peripheral  extends CommonDBTM {
       User::dropdown(array('value'  => $this->fields["users_id"],
                            'entity' => $this->fields["entities_id"],
                            'right'  => 'all'));
-      echo "</td>\n";
-      echo "<td>".$LANG['common'][20].($template?"*":"")."&nbsp;:</td>\n";
+      echo "</td>";
+      echo "<td>".$LANG['state'][0]."&nbsp;:</td>\n";
       echo "<td>";
-      $objectName = autoName($this->fields["otherserial"], "otherserial", ($template === "newcomp"),
-                             $this->getType(), $this->fields["entities_id"]);
-      autocompletionTextField($this, "otherserial", array('value' => $objectName));
-      echo "</td></tr>\n";
+      Dropdown::show('State', array('value' => $this->fields["states_id"]));
+      echo "</td>";
+
+      echo "</tr>\n";
 
      /* echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][35]."&nbsp;:</td>\n";
@@ -363,10 +375,7 @@ class Peripheral  extends CommonDBTM {
       echo "</td></tr>\n";*/
 
       echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['peripherals'][18]."&nbsp;:</td>\n";
-      echo "<td>";
-      autocompletionTextField($this, "brand");
-      echo "</td>\n";
+      
       /*echo "<td rowspan='2'>";
       echo $LANG['common'][25]."&nbsp;:</td>\n";
       echo "<td rowspan='2'>

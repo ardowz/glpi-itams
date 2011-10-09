@@ -125,10 +125,19 @@ if ($_POST["id"]>0 && $phone->can($_POST["id"],'r')) {
             break;
 
          default :
-            if (!Plugin::displayAction($phone, $_REQUEST['glpi_tab'])) {
-               Computer_Item::showForItem($phone);
-               NetworkPort::showForItem('Phone', $_POST["id"], 'Phone',$_POST["withtemplate"]);
-            }
+            //if (!Plugin::displayAction($phone, $_REQUEST['glpi_tab'])) {
+            //   Computer_Item::showForItem($phone);
+            //   NetworkPort::showForItem('Phone', $_POST["id"], 'Phone',$_POST["withtemplate"]);
+            //}
+             Computer_Item::showForItem($phone);
+            NetworkPort::showForItem('Phone', $_POST["id"], $_POST["withtemplate"]);
+            Infocom::showForItem($phone);
+            Contract::showAssociated($phone);
+            Document::showAssociated($phone);
+            Ticket::showListForItem('Phone', $_POST["id"]);
+            Link::showForItem('Phone', $_POST["id"]);
+            Plugin::displayAction($phone, $_REQUEST['glpi_tab']);
+            break;
       }
    }
 }

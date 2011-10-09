@@ -471,6 +471,8 @@ strong {
 
 .x-panel-body {
    overflow:visible;
+   /*background-color:#e2e2e2;*/
+   
 }
 
 .x-panel-bwrap {

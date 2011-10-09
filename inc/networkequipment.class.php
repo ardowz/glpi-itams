@@ -80,25 +80,25 @@ class NetworkEquipment extends CommonDBTM {
       if ($this->fields['id'] > 0) {
          $ong[1] = $LANG['title'][27];
          if (haveRight("contract","r") || haveRight("infocom","r")) {
-            $ong[4] = $LANG['Menu'][26];
+            //$ong[4] = $LANG['Menu'][26];
          }
          if (haveRight("document","r")) {
-            $ong[5] = $LANG['Menu'][27];
+            //$ong[5] = $LANG['Menu'][27];
          }
          if (!isset($options['withtemplate']) || empty($options['withtemplate'])) {
             if (haveRight("show_all_ticket","1")) {
-               $ong[6] = $LANG['title'][28];
+               //$ong[6] = $LANG['title'][28];
             }
             if (haveRight("link","r")) {
-               $ong[7] = $LANG['title'][34];
+               //$ong[7] = $LANG['title'][34];
             }
             if (haveRight("notes","r")) {
-               $ong[10] = $LANG['title'][37];
+               //$ong[10] = $LANG['title'][37];
             }
             if (haveRight("reservation_central","r")) {
-               $ong[11] = $LANG['Menu'][17];
+               //$ong[11] = $LANG['Menu'][17];
             }
-            $ong[12] = $LANG['title'][38];
+            //$ong[12] = $LANG['title'][38];
          }
       } else { // New item
          $ong[1] = $LANG['title'][26];
@@ -296,29 +296,57 @@ class NetworkEquipment extends CommonDBTM {
       $this->showTabs($options);
       $this->showFormHeader($options);
 
-      echo "<tr class='tab_bg_1'>";
+            echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][108].($template?"*":"")."&nbsp;:</td>";
       echo "<td>";
       $objectName = autoName($this->fields["name"], "name", ($template === "newcomp"),
                              $this->getType(), $this->fields["entities_id"]);
       autocompletionTextField($this, "name", array('value' => $objectName));
       echo "</td>";
-      echo "<td>".$LANG['state'][0]."&nbsp;:</td>";
+ //mac
+      echo "<td>".$LANG['networking'][15]."&nbsp;:</td>";
       echo "<td>";
-      Dropdown::show('State', array('value' => $this->fields["states_id"]));
-      echo "</td></tr>";
+      autocompletionTextField($this, "mac");
+      echo "</td>";
+      echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['common'][15]."&nbsp;:</td>";
+      echo "</tr>";
+
+          echo "<tr class='tab_bg_1'>";
+      /*echo "<td>".$LANG['common'][18]."&nbsp;:</td>";
       echo "<td>";
-      Dropdown::show('Location', array('value'  => $this->fields["locations_id"],
-                                       'entity' => $this->fields["entities_id"]));
+      autocompletionTextField($this, "contact");
+      echo "</td>";*/
+      echo "<td>".$LANG['common'][19]."&nbsp;:</td>";
+      echo "<td>";
+      autocompletionTextField($this, "serial");
       echo "</td>";
+
+//inventory
+      echo "<td>".$LANG['common'][20].($template?"*":"")."&nbsp;:</td>";
+      echo "<td>";
+      $objectName = autoName($this->fields["otherserial"], "otherserial", ($template === "newcomp"),
+                             $this->getType(), $this->fields["entities_id"]);
+      autocompletionTextField($this, "otherserial", array('value' => $objectName));
+      echo "</td>";
+
+      echo "</tr>";
+
+
+      echo "<tr class='tab_bg_1'>";
+      
       echo "<td>".$LANG['common'][17]."&nbsp;:</td>";
       echo "<td>";
       Dropdown::show('NetworkEquipmentType',
                      array('value' => $this->fields["networkequipmenttypes_id"]));
-      echo "</td></tr>";
+      echo "</td>";
+      //manufaturer here
+      echo "<td>".$LANG['common'][5]."&nbsp;:</td>";
+      echo "<td>";
+      Dropdown::show('Manufacturer', array('value' => $this->fields["manufacturers_id"]));
+      echo "</td>";
+      echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
       /*echo "<td>".$LANG['common'][10]."&nbsp;:</td>";
@@ -328,32 +356,22 @@ class NetworkEquipment extends CommonDBTM {
                            'right'  => 'interface',
                            'entity' => $this->fields["entities_id"]));
       echo "</td>";*/
-      echo "<td>".$LANG['common'][5]."&nbsp;:</td>";
-      echo "<td>";
-      Dropdown::show('Manufacturer', array('value' => $this->fields["manufacturers_id"]));
-      echo "</td></tr>";
+
+      echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
       /*echo "<td>".$LANG['common'][21]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "contact_num");
       echo "</td>";*/
-      echo "<td>".$LANG['common'][22]."&nbsp;:</td>";
+      /*echo "<td>".$LANG['common'][22]."&nbsp;:</td>";
       echo "<td>";
       Dropdown::show('NetworkEquipmentModel',
                      array('value' => $this->fields["networkequipmentmodels_id"]));
-      echo "</td></tr>";
+      echo "</td>*/
+      echo"</tr>";
 
-      echo "<tr class='tab_bg_1'>";
-      /*echo "<td>".$LANG['common'][18]."&nbsp;:</td>";
-      echo "<td>";
-      autocompletionTextField($this, "contact");
-      echo "</td>";*/
-      echo "<td>".$LANG['common'][19]."&nbsp;:</td>";
-      echo "<td>";
-      autocompletionTextField($this, "serial");
-      echo "</td></tr>";
-
+  
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][109]."&nbsp;:</td>";
       echo "<td>";
@@ -361,12 +379,15 @@ class NetworkEquipment extends CommonDBTM {
                            'entity' => $this->fields["entities_id"],
                            'right'  => 'all'));
       echo "</td>";
-      echo "<td>".$LANG['common'][20].($template?"*":"")."&nbsp;:</td>";
+
+      echo "<td>".$LANG['common'][15]."&nbsp;:</td>";
       echo "<td>";
-      $objectName = autoName($this->fields["otherserial"], "otherserial", ($template === "newcomp"),
-                             $this->getType(), $this->fields["entities_id"]);
-      autocompletionTextField($this, "otherserial", array('value' => $objectName));
-      echo "</td></tr>";
+      Dropdown::show('Location', array('value'  => $this->fields["locations_id"],
+                                       'entity' => $this->fields["entities_id"]));
+      echo "</td>";
+
+
+      echo "</tr>";
 
       /*echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][35]."&nbsp;:</td>";
@@ -396,23 +417,27 @@ class NetworkEquipment extends CommonDBTM {
       echo "</td></tr>";*/
 
       echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['networking'][15]."&nbsp;:</td>";
-      echo "<td>";
-      autocompletionTextField($this, "mac");
-      echo "</td></tr>";
-
-      echo "<tr class='tab_bg_1'>";
+      
       echo "<td>".$LANG['setup'][71]."&nbsp;:</td>";
       echo "<td>";
       Dropdown::show('NetworkEquipmentFirmware',
                      array('value' => $this->fields["networkequipmentfirmwares_id"]));
-      echo "</td></tr>";
+      echo "</td>";
 
-      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['state'][0]."&nbsp;:</td>";
+      echo "<td>";
+      Dropdown::show('State', array('value' => $this->fields["states_id"]));
+      echo "</td>";
+
+
+      echo "</tr>";
+
+ /*     echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['networking'][5]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "ram");
-      echo "</td></tr>";
+      echo "</td></tr>";*/
+
 
       echo "<tr class='tab_bg_1'>";
       echo "<td colspan='2' class='center' height='30'>".$datestring."&nbsp;".$date;

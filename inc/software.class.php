@@ -72,31 +72,31 @@ class Software extends CommonDBTM {
       if ($this->fields['id'] > 0) {
          $ong[1] = $LANG['software'][5]."/".$LANG['software'][11];
          if (empty ($withtemplate)) {
-            $ong[2] = $LANG['software'][19];
+            //$ong[2] = $LANG['software'][19];
          }
          if (haveRight("contract","r") || haveRight("infocom","r")) {
-            $ong[4] = $LANG['Menu'][26];
+            //$ong[4] = $LANG['Menu'][26];
          }
          if (haveRight("document","r")) {
-            $ong[5] = $LANG['Menu'][27];
+            //$ong[5] = $LANG['Menu'][27];
          }
 
          if (!isset($options['withtemplate']) || empty($options['withtemplate'])) {
             if (haveRight("show_all_ticket","1")) {
-               $ong[6] = $LANG['title'][28];
+               //$ong[6] = $LANG['title'][28];
             }
             if (haveRight("link","r")) {
-               $ong[7] = $LANG['title'][34];
+               //$ong[7] = $LANG['title'][34];
             }
             if (haveRight("notes","r")) {
-               $ong[10] = $LANG['title'][37];
+               //$ong[10] = $LANG['title'][37];
             }
             if (haveRight("reservation_central", "r")) {
-               $ong[11] = $LANG['Menu'][17];
+               //$ong[11] = $LANG['Menu'][17];
             }
-            $ong[12] = $LANG['title'][38];
+            //$ong[12] = $LANG['title'][38];
             if ($this->isRecursive() && $this->can($this->fields['id'],'w')) {
-               $ong[21] = $LANG['software'][47];
+               //$ong[21] = $LANG['software'][47];
             }
          }
       } else { // New item
@@ -256,7 +256,7 @@ class Software extends CommonDBTM {
       $this->showTabs($options);
       $this->showFormHeader($options);
 
-      echo "<tr class='tab_bg_1'>";
+ echo "<tr class='tab_bg_1'>";
       echo "<td>" . $LANG['common'][16] . "&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "name");
@@ -266,13 +266,18 @@ class Software extends CommonDBTM {
       echo "</td></tr>\n";
 
       echo "<tr class='tab_bg_1'>";
+      echo "<td >" . $LANG['common'][109] . "&nbsp;:</td>";
+      echo "<td >";
+      User::dropdown(array('value'  => $this->fields["users_id"],
+                           'entity' => $this->fields["entities_id"],
+                           'right'  => 'all'));
+      echo "</td>";
       echo "<td>" . $LANG['common'][15] . "&nbsp;:</td><td>";
       Dropdown::show('Location', array('value'  => $this->fields["locations_id"],
                                        'entity' => $this->fields["entities_id"]));
       echo "</td>";
-      echo "<td>" . $LANG['common'][36] . "&nbsp;:</td><td>";
-      Dropdown::show('SoftwareCategory', array('value' => $this->fields["softwarecategories_id"]));
-      echo "</td></tr>\n";
+
+      echo "</tr>\n";
 
       echo "<tr class='tab_bg_1'>";
       /*echo "<td>" . $LANG['common'][10] . "&nbsp;:</td><td>";
@@ -281,19 +286,19 @@ class Software extends CommonDBTM {
                            'right'  => 'interface',
                            'entity' => $this->fields["entities_id"]));
       echo "</td>";*/
+      echo "<td>" . $LANG['common'][36] . "&nbsp;:</td><td>";
+      Dropdown::show('SoftwareCategory', array('value' => $this->fields["softwarecategories_id"]));
+      echo "</td>";
       echo "<td>" . $LANG['software'][46] . "&nbsp;:</td><td>";
       Dropdown::showYesNo('is_helpdesk_visible',$this->fields['is_helpdesk_visible']);
       echo "</td></tr>\n";
 
       echo "<tr class='tab_bg_1'>";
-      echo "<td >" . $LANG['common'][109] . "&nbsp;:</td>";
-      echo "<td >";
-      User::dropdown(array('value'  => $this->fields["users_id"],
-                           'entity' => $this->fields["entities_id"],
-                           'right'  => 'all'));
-      echo "</td><td colspan='2'>";
-      echo "</td></tr>\n";
 
+      echo "<td colspan='2'>";
+      echo "</td>";
+      echo "</tr>\n";
+     
       /*echo "<tr class='tab_bg_1'>";
       echo "<td>" . $LANG['common'][35] . "&nbsp;:</td><td>";
       Dropdown::show('Group', array('value'  => $this->fields["groups_id"],

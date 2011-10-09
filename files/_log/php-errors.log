@@ -5192,3 +5192,229 @@ Backtrace :
 C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
 
+2011-10-07 19:34 [2@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 20:04 [2@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 20:24 [8@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 20:35 [8@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 20:46 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 20:48 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 20:48 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-07 20:49 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-07 20:58 [11@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 21:11 [11@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\central.class.php:91		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\central.tabs.php:77		Central::showGlobalView()
+
+2011-10-07 21:18 [11@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 21:29 [11@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 21:32 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4577		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-07 21:42 [11@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 21:54 [11@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 22:04 [11@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 22:24 [11@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 22:48 [11@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 22:59 [11@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 23:10 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-07 23:23 [10@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-08 05:57 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-08 06:02 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4597		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-08 06:06 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4597		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-08 06:46 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-08 07:01 [2@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-08 17:17 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4597		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-08 17:17 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+

@@ -66,7 +66,7 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
    echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>'."\n";
    echo '<meta http-equiv="Content-Script-Type" content="text/javascript"/>'."\n";
    echo '<link rel="shortcut icon" type="images/x-icon" href="'.$CFG_GLPI["root_doc"].
-          '/pics/favicon.ico" />';
+          '/pics/favicon1.ico" />';
 
    // Appel CSS
    echo '<link rel="stylesheet" href="'.$CFG_GLPI["root_doc"].'/css/styles.css" type="text/css" '.
@@ -162,10 +162,12 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
       echo "</div>";
    }
 
-   echo "<div id='footer-login'>";
-   echo "<a href='http://glpi-project.org/' title='Powered By Indepnet'>";
+   echo "<div id='footer-login' style='color:#000000'>";
+   /*echo "<a href='http://glpi-project.org/' title='Powered By Indepnet'>";
    echo 'GLPI version '.(isset($CFG_GLPI["version"])?$CFG_GLPI["version"]:"").
-        ' Copyright (C) 2003-'.date("Y").' INDEPNET Development Team.';
+        ' Copyright (C) 2003-'.date("Y").' INDEPNET Development Team.';(*/
+   
+   echo "IT Asset Management System (c) 2011 | De La Salle-Canlubang";
    echo "</a></div>";
 
 }

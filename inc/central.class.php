@@ -59,31 +59,9 @@ class Central extends CommonGLPI {
    static function showGlobalView() {
 
       $showticket = haveRight("show_all_ticket","1");
-
-      echo "<table class='tab_cadre_central'><tr>";
-      echo "<td class='top'><br>";
-      echo "<table >";
-      if ($showticket) {
-         echo "<tr><td class='top' width='450px'>";
-         Ticket::showCentralCount();
-         echo "</td></tr>";
-      }
-      if (haveRight("contract","r")) {
-         echo "<tr><td class='top' width='450px'>";
-         Contract::showCentral();
-         echo "</td></tr>";
-      }
-      echo "</table></td>";
-
-      if (haveRight("logs","r")) {
-         echo "<td class='top' width='450px'>";
-
-         //Show last add events
-         Event::showForUser($_SESSION["glpiname"]);
-         echo "</td>";
-      }
-      echo "</tr></table>";
-
+//ticket follow up
+      
+//ticket-end
       if ($_SESSION["glpishow_jobs_at_login"] && $showticket) {
          echo "<br>";
          Ticket::showCentralNewList();
@@ -108,7 +86,6 @@ class Central extends CommonGLPI {
          echo "</th></tr>";
       }
       echo "<tr><td class='top'><table>";
-
       if (haveRight('validate_ticket',1)) {
          echo "<tr><td class='top' width='450px'><br>";
          Ticket::showCentralList(0,"tovalidate",false);
@@ -130,14 +107,41 @@ class Central extends CommonGLPI {
       }
 
       echo "</table></td>";
-      echo "<td class='top'><table><tr>";
+      echo "<td class='top'><table><tr>";      
       echo "<td class='top' width='450px'><br>";
+      
+    //inserthereyo!
+     // echo "<table class='tab_cadre_central'><tr>";
+     // echo "<td class='top'><br>";
+      echo "<table >";
+      if ($showticket) {
+         echo "<tr><td class='top' width='450px'>";
+         Ticket::showCentralCount();
+         echo "</td></tr>";
+      }
+      if (haveRight("contract","r")) {
+         echo "<tr><td class='top' width='450px'>";
+         Contract::showCentral();
+         echo "</td></tr>";
+      }
+      echo "</table></td>";
+
+      if (haveRight("logs","r")) {
+         echo "<td class='top' width='450px'>";
+
+         //Show last add events
+         Event::showForUser($_SESSION["glpiname"]);
+         echo "</td>";
+      }
+     // echo "</tr></table>";
+  //endshereyo!
+      
       Planning::showCentral(getLoginUserID());
       echo "</td></tr>";
 
-      echo "<tr><td class='top' width='450px'>";
-      Reminder::showListForCentral();
-      echo "</td></tr>";
+      //echo "<tr><td class='top' width='450px'>";
+      //Reminder::showListForCentral();
+      //echo "</td></tr>";
 
       if (haveRight("reminder_public","r")) {
          echo "<tr><td class='top' width='450px'>";

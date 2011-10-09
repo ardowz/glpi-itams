@@ -121,9 +121,17 @@ if (!empty($_POST["withtemplate"])) {
          break;
 
       default :
-         if (!Plugin::displayAction($netdevice, $_REQUEST['glpi_tab'])) {
-            NetworkPort::showForItem('NetworkEquipment',$_POST["id"]);
-         }
+         //if (!Plugin::displayAction($netdevice, $_REQUEST['glpi_tab'])) {
+         //   NetworkPort::showForItem('NetworkEquipment',$_POST["id"]);
+        // }
+          NetworkPort::showForItem('NetworkEquipment', $_POST["id"]);
+         Infocom::showForItem($netdevice);
+         Contract::showAssociated($netdevice);
+         Document::showAssociated($netdevice, $_POST["withtemplate"]);
+         Ticket::showListForItem('NetworkEquipment', $_POST["id"]);
+         Link::showForItem('NetworkEquipment', $_POST["id"]);
+         Plugin::displayAction($netdevice, $_REQUEST['glpi_tab']);
+         break;
    }
 }
 

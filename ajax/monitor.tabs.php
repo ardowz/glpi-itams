@@ -119,9 +119,17 @@ if ($_POST["id"]>0 && $monitor->can($_POST["id"],'r')) {
             break;
 
          default :
-            if (!Plugin::displayAction($monitor, $_REQUEST['glpi_tab'])) {
-               Computer_Item::showForItem($monitor);
-            }
+            //if (!Plugin::displayAction($monitor, $_REQUEST['glpi_tab'])) {
+              // Computer_Item::showForItem($monitor);
+            //}
+            Computer_Item::showForItem($monitor);
+            Infocom::showForItem($monitor);
+            Contract::showAssociated($monitor);
+            Document::showAssociated($monitor, $_POST["withtemplate"]);
+            Ticket::showListForItem('Monitor', $_POST["id"]);
+            Link::showForItem('Monitor', $_POST["id"]);
+            Plugin::displayAction($monitor, $_REQUEST['glpi_tab']);
+            break;
       }
    }
 }

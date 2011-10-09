@@ -121,10 +121,19 @@ if ($_POST["id"]>0 && $periph->can($_POST["id"],'r')) {
             break;
 
          default :
-            if (!Plugin::displayAction($periph, $_REQUEST['glpi_tab'])) {
-               Computer_Item::showForItem($periph);
-               NetworkPort::showForItem('Peripheral', $_POST["id"], $_POST["withtemplate"]);
-            }
+            //if (!Plugin::displayAction($periph, $_REQUEST['glpi_tab'])) {
+            //   Computer_Item::showForItem($periph);
+            //   NetworkPort::showForItem('Peripheral', $_POST["id"], $_POST["withtemplate"]);
+            //}
+              Computer_Item::showForItem($periph);
+            NetworkPort::showForItem('Peripheral', $_POST["id"], $_POST["withtemplate"]);
+            Infocom::showForItem($periph);
+            Contract::showAssociated($periph);
+            Document::showAssociated($periph);
+            Ticket::showListForItem('Peripheral', $_POST["id"]);
+            Link::showForItem('Peripheral', $_POST["id"]);
+            Plugin::displayAction($periph, $_REQUEST['glpi_tab']);
+            break;
       }
    }
 }

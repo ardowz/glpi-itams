@@ -40,6 +40,7 @@ body {
    padding: 0;
   background:  #e2e2e2 repeat-x;
    /*background:  #ffffff repeat-x;*/
+   
 }
 
 ul, li, dt, dl, dd, form, img, input {
@@ -81,6 +82,7 @@ small {
 .center {
    text-align:center;
    color: #000000;
+   /*background-color:#ffffff;*/
 }
 
 .left {
@@ -321,7 +323,7 @@ table {
    font-size: 11px;
    /* Probem WIth EXTJS calendar -> to sons*/
    /*margin: 0 auto;*/
-   border:0;
+   border:1;
 }
 
 th { }
@@ -342,6 +344,7 @@ td { }
    text-align: left;
    font-size: 11px;
    background-color: #ffffff;
+   
 }
 
 .tab_cadre_central {
@@ -382,8 +385,8 @@ td { }
    -moz-border-radius: 4px;
    -webkit-border-radius: 4px;
    -o-border-radius: 4px;
-   /*border: 1px solid #cccccc;*/
-   background: #f2f2f2;
+  /* border: 1px solid #cccccc;*/
+   background: #f5f5f5;
    z-index:1;
    text-align: left;
    font-size: 11px;
@@ -932,6 +935,8 @@ div#tabcontent {
    width:950px;
    text-align:center;
    margin: 0 auto;
+   
+   
 }
 
 

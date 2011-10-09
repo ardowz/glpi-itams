@@ -392,28 +392,28 @@ class Ticket extends CommonDBTM {
       global $LANG, $CFG_GLPI, $DB;
 
       if ($this->fields['id'] > 0) {
-         //if (haveRight('observe_ticket','1')) {
+         if (haveRight('observe_ticket','1')) {
             $ong[1] = $LANG['mailing'][141];
-         //}
+         }
          if (haveRight('create_validation','1') ||haveRight('validate_ticket','1')) {
-            //$ong[7] = $LANG['validation'][8];
+            $ong[7] = $LANG['validation'][8];
          }
          if (haveRight('observe_ticket','1')) {
-            //$ong[2] = $LANG['mailing'][142];
+            $ong[2] = $LANG['mailing'][142];
          }
-         //$ong[3] = $LANG['job'][47];
-         //$ong[4] = $LANG['jobresolution'][2];
+         $ong[3] = $LANG['job'][47];
+         $ong[4] = $LANG['jobresolution'][2];
          // enquete si statut clos
          if ($this->fields['status'] == 'closed') {
-            //$ong[10] = $LANG['satisfaction'][0];
+            $ong[10] = $LANG['satisfaction'][0];
          }
-         //$ong[5] = $LANG['Menu'][27];
-         //$ong[6] = $LANG['title'][38];
+         $ong[5] = $LANG['Menu'][27];
+         $ong[6] = $LANG['title'][38];
          if (haveRight('observe_ticket','1')) {
-            //$ong[8] = $LANG['Menu'][13];
+            $ong[8] = $LANG['Menu'][13];
          }
 
-      //   $ong['no_all_tab'] = true;
+         $ong['no_all_tab'] = true;
       } else {
          $ong[1] = $LANG['job'][13];
       }
@@ -2692,6 +2692,7 @@ class Ticket extends CommonDBTM {
 
       $id = "select_$name".mt_rand();
       echo "<select id='$id' name='$name'>";
+     
       if ($complete) {
          echo "<option value='0' ".($value==0?" selected ":"").">".$LANG['common'][66]."</option>";
          echo "<option value='-5' ".($value==-5?" selected ":"").">".$LANG['search'][16]." ".
@@ -4317,6 +4318,7 @@ class Ticket extends CommonDBTM {
       echo "<tr>";
       echo "<td><span class='tracking_small'>".$LANG['joblist'][11]."&nbsp;: </span></td>";
       echo "<td>";
+       
       $date = $this->fields["date"];
       if (!$ID) {
          $date = date("Y-m-d H:i:s");
@@ -4352,6 +4354,7 @@ class Ticket extends CommonDBTM {
       if ($ID) {
          echo "<tr><td><span class='tracking_small'>".$LANG['common'][26]."&nbsp;:</span></td>";
          echo "<td><span class='tracking_small'>".convDateTime($this->fields["date_mod"])."\n";
+         
          if ($this->fields['users_id_lastupdater']>0) {
             echo $LANG['common'][95]."&nbsp;";
             echo getUserName($this->fields["users_id_lastupdater"], $showuserlink);
@@ -4420,6 +4423,8 @@ class Ticket extends CommonDBTM {
                echo "<tr>";
                echo "<td><span class='tracking_small'>".$LANG['joblist'][12]."&nbsp;: </span></td>";
                echo "<td>";
+                
+              
                showDateTimeFormItem("closedate", $this->fields["closedate"], 1, false, $canupdate);
                echo "</td></tr>";
                break;
@@ -4445,8 +4450,10 @@ class Ticket extends CommonDBTM {
 
       echo "<table  class='tab_cadre_fixe'>";
       echo "<tr class='tab_bg_1'>";
+      
       echo "<th width='10%'>".$LANG['joblist'][0]."&nbsp;: </th>";
       echo "<td width='40%'>";
+      
       if ($canupdate) {
 //         self::dropdownStatus("status", $this->fields["status"], 2); // Allowed status
          echo self::getStatus($this->fields["status"]);
@@ -4454,8 +4461,13 @@ class Ticket extends CommonDBTM {
          echo self::getStatus($this->fields["status"]);
       }
       echo "</td>";
-      echo "<th>".$LANG['common'][17]."&nbsp;: </th>";
+      
+      echo "<th>".$LANG['common'][17]."&nbsp;:";
+   
+      echo"</th>";
+      
       echo "<td >";
+      
       // Permit to set type when creating ticket without update right
       if ($canupdate || !$ID) {
 //         self::dropdownType('type', $this->fields["type"]);
@@ -4464,6 +4476,9 @@ class Ticket extends CommonDBTM {
          echo self::getTicketTypeName($this->fields["type"]);
       }
       echo "</td>";
+      
+      
+      
       echo "</tr>";
 
 //      echo "<tr class='tab_bg_1'>";
@@ -4508,6 +4523,7 @@ class Ticket extends CommonDBTM {
 //      echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
+      
 //      echo "<th>".$LANG['joblist'][30]."&nbsp;: </th>";
 //      echo "<td>";
 //      if ($canupdate) {
@@ -4518,8 +4534,12 @@ class Ticket extends CommonDBTM {
 //      }
 //      echo "</td>";
 
-      echo "<th class='left' rowspan='2'>".$LANG['document'][14]."&nbsp;: </th>";
+      echo "<th class='left' rowspan='2'>".$LANG['document'][14]."&nbsp;:";
+          
+      echo "</th>";
+      
       echo "<td rowspan='2'>";
+      
 
       // Select hardware on creation or if have update right
       if ($canupdate || !$ID || $canupdate_descr) {
@@ -4583,7 +4603,7 @@ class Ticket extends CommonDBTM {
           echo $requestType;
           echo $newITAsset;
           
-          
+     
           /*
            * end of display
            */
@@ -4620,13 +4640,17 @@ class Ticket extends CommonDBTM {
             echo $LANG['help'][30];
          }
       }
+          
       echo "</td>";
       echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
-      echo "<th class='left'>".$LANG['joblist'][2]."&nbsp;: </th>";
+      echo "<th class='left'>".$LANG['joblist'][2]."&nbsp;:";
+         
+      echo"</th>";
       echo "<td>";
-
+     
+ 
       if ($canupdate && $canpriority) {
 //         $idpriority = self::dropdownPriority("priority", $this->fields["priority"], false, true);
 //         $idajax     = 'change_priority_' . mt_rand();
@@ -4648,12 +4672,17 @@ class Ticket extends CommonDBTM {
 //         ajaxUpdateItemOnSelectEvent(array($idurgency, $idimpact), $idajax,
 //                                     $CFG_GLPI["root_doc"]."/ajax/priority.php", $params);
 //      }
+     
       echo "</td>";
+      
       echo "</tr>";
+      
 
       echo "<tr class='tab_bg_1'>";
+      
       echo "<th class='left'>".$LANG['job'][44]."&nbsp;: </th>";
       echo "<td>";
+     
       if ($canupdate) {
 //         Dropdown::show('RequestType', array('value' => $this->fields["requesttypes_id"]));
            echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
@@ -4661,6 +4690,13 @@ class Ticket extends CommonDBTM {
          echo Dropdown::getDropdownName('glpi_requesttypes', $this->fields["requesttypes_id"]);
       }
       echo "</td>";
+      
+ //testing      
+      echo "<th style='background-color:#f2f2f2'>";
+    
+      //  echo "testing";
+      echo "</th>";
+    
 
       // Display validation state
 //      echo "<th>";
@@ -4769,6 +4805,7 @@ class Ticket extends CommonDBTM {
 
       echo "<tr class='tab_bg_1'>";
       echo "<th width='10%'>".$LANG['joblist'][6]."&nbsp;:&nbsp;</th>";
+    
       echo "<td width='50%'>";
       if (!$ID || $canupdate_descr) { // Admin =oui on autorise la modification de la description
          $rand = mt_rand();

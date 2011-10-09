@@ -81,7 +81,7 @@ function includeCommonHtmlHeader($title='') {
    echo "<link rel='stylesheet' type='text/css' media='print' href='".
           $CFG_GLPI["root_doc"]."/css/print.css' >\n";
    echo "<link rel='shortcut icon' type='images/x-icon' href='".
-          $CFG_GLPI["root_doc"]."/pics/favicon.ico' >\n";
+          $CFG_GLPI["root_doc"]."/pics/favicon1.ico' >\n";
 
    // AJAX library
    echo "<script type=\"text/javascript\" src='".
@@ -2018,6 +2018,9 @@ function displayDebugInfos($with_session=true) {
  *
  * @param $keepDB booleen, closeDBConnections if false
  **/
+
+
+
 function commonFooter($keepDB=false) {
    global $LANG, $CFG_GLPI, $FOOTER_LOADED, $TIMER_DEBUG;
 
@@ -2030,6 +2033,7 @@ function commonFooter($keepDB=false) {
    echo "</div>"; // fin de la div id ='page' initiée dans la fonction header
 
    echo "<div id='footer' >";
+   
    echo "<table width='100%'><tr><td class='left'><span class='copyright'>";
    echo $TIMER_DEBUG->getTime()."s - ";
 
@@ -2039,15 +2043,17 @@ function commonFooter($keepDB=false) {
    echo "</span></td>";
 
    if (!empty($CFG_GLPI["founded_new_version"])) {
-      echo "<td class='copyright'>".$LANG['setup'][301].
+     /* echo "<td class='copyright'>".$LANG['setup'][301].
             "<a href='http://www.glpi-project.org' target='_blank' title=\"".$LANG['setup'][302]."\"> ".
-               $CFG_GLPI["founded_new_version"]."</a></td>";
+               $CFG_GLPI["founded_new_version"]."</a></td>";*/
+         echo "IT Asset Management System (c) 2011 | De La Salle-Canlubang";
    }
    echo "<td class='right'>";
-   echo "<a href='http://glpi-project.org/'>";
+  /* echo "<a href='http://glpi-project.org/'>";
    echo "<span class='copyright'>GLPI ".$CFG_GLPI["version"]." Copyright (C) 2003-".date("Y").
-          " by the INDEPNET Development Team.</span>";
-   echo "</a></td>";
+          " by the INDEPNET Development Team.</span>";*/
+     echo "IT Asset Management System (c) 2011 | De La Salle-Canlubang";
+   echo "</td>";
    echo "</tr></table></div>";
 
    if ($_SESSION['glpi_use_mode']==TRANSLATION_MODE) { // debug mode traduction

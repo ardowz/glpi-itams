@@ -98,9 +98,16 @@ if ($_POST["id"]>0 && $supplier->can($_POST["id"],'r')) {
          break;
 
       default :
-         if (!Plugin::displayAction($supplier, $_REQUEST['glpi_tab'])) {
-            $supplier->showContacts();
-         }
+         //if (!Plugin::displayAction($supplier, $_REQUEST['glpi_tab'])) {
+         //   $supplier->showContacts();
+         //}
+          $supplier->showContacts();
+         $supplier->showContracts();
+         Document::showAssociated($supplier);
+         Ticket::showListForSupplier($_POST["id"]);
+         Link::showForItem('Supplier', $_POST["id"]);
+         Plugin::displayAction($supplier, $_REQUEST['glpi_tab']);
+         break;
    }
 }
 

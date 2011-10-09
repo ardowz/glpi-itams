@@ -71,31 +71,31 @@ class Phone extends CommonDBTM {
          $ong[1] = $LANG['title'][27];
 
          if (haveRight("contract","r") || haveRight("infocom","r")) {
-            $ong[4] = $LANG['Menu'][26];
+            //$ong[4] = $LANG['Menu'][26];
          }
 
          if (haveRight("document","r")) {
-            $ong[5] = $LANG['Menu'][27];
+            //$ong[5] = $LANG['Menu'][27];
          }
 
          if (!isset($options['withtemplate']) || empty($options['withtemplate'])) {
             if (haveRight("show_all_ticket","1")) {
-               $ong[6] = $LANG['title'][28];
+               //$ong[6] = $LANG['title'][28];
             }
 
             if (haveRight("link","r")) {
-               $ong[7] = $LANG['title'][34];
+               //$ong[7] = $LANG['title'][34];
             }
 
             if (haveRight("notes","r")) {
-               $ong[10] = $LANG['title'][37];
+               //$ong[10] = $LANG['title'][37];
             }
 
             if (haveRight("reservation_central","r")) {
-               $ong[11] = $LANG['Menu'][17];
+               //$ong[11] = $LANG['Menu'][17];
             }
 
-            $ong[12] = $LANG['title'][38];
+            //$ong[12] = $LANG['title'][38];
          }
 
       } else { // New item
@@ -273,21 +273,77 @@ class Phone extends CommonDBTM {
                              $this->getType(), $this->fields["entities_id"]);
       autocompletionTextField($this, 'name', array('value' => $objectName));
       echo "</td>";
+
+      echo"</tr>\n";
+
+       echo "<tr class='tab_bg_1'>";
+     /* echo "<td>".$LANG['common'][18]."&nbsp;:</td><td>";
+      autocompletionTextField($this, "contact");
+      echo "</td>";*/
+      echo "<td>".$LANG['common'][19]."&nbsp;:</td>";
+      echo "<td>";
+      autocompletionTextField($this,"serial");
+      echo "</td>";
+      //inventory number here
+      echo "<td>".$LANG['common'][20].($template?"*":"")."&nbsp;:</td>";
+      echo "<td>";
+      $objectName = autoName($this->fields["otherserial"], "otherserial",($template === "newcomp"),
+                             $this->getType(), $this->fields["entities_id"]);
+      autocompletionTextField($this, 'otherserial', array('value' => $objectName));
+      echo "</td>";
+
+      echo "</tr>\n";
+
+       echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['peripherals'][18]."&nbsp;:</td>";
+      echo "<td>";
+      autocompletionTextField($this,"brand");
+      echo "</td>";
+      echo "<td>".$LANG['setup'][71]."&nbsp;:</td>";
+      echo "<td>";
+      autocompletionTextField($this, "firmware");
+      echo "</td>";
+     /* echo "<td rowspan='6'>";
+      echo $LANG['common'][25]."&nbsp;:</td>";
+      echo "<td rowspan='6'>
+            <textarea cols='45' rows='9' name='comment' >".$this->fields["comment"]."</textarea>";
+      echo "</td></tr>\n";*/
+
+      echo "</tr>\n";
+     /*
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['phones'][36]."&nbsp;:</td>";
+      echo "<td>";
+      Dropdown::show('PhonePowerSupply', array('value' => $this->fields["phonepowersupplies_id"]));
+      echo "</td></tr>\n";
+*/
+      echo "<tr class='tab_bg_1'>";
+
+      echo "</tr>\n";
+
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['phones'][40]."&nbsp;:</td><td>";
+      autocompletionTextField($this, "number_line");
+      echo "</td>";
       echo "<td>".$LANG['state'][0]."&nbsp;:</td>";
       echo "<td>";
       Dropdown::show('State', array('value' => $this->fields["states_id"]));
-      echo "</td></tr>\n";
+      echo "</td>";
+      echo"</tr>\n";
+
 
       echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['common'][15]."&nbsp;:</td>";
-      echo "<td>";
-      Dropdown::show('Location', array('value'  => $this->fields["locations_id"],
-                                       'entity' => $this->fields["entities_id"]));
-      echo "</td>";
+      
       echo "<td>".$LANG['common'][17]."&nbsp;:</td>";
       echo "<td>";
       Dropdown::show('PhoneType', array('value' => $this->fields["phonetypes_id"]));
-      echo "</td></tr>\n";
+      echo "</td>";
+      //manufacturer here
+      echo "<td>".$LANG['common'][5]."&nbsp;:</td>";
+      echo "<td>";
+      Dropdown::show('Manufacturer', array('value' => $this->fields["manufacturers_id"]));
+      echo "</td>";
+      echo "</tr>\n";
 
       echo "<tr class='tab_bg_1'>";
       /*echo "<td>".$LANG['common'][10]."&nbsp;:</td>";
@@ -297,29 +353,21 @@ class Phone extends CommonDBTM {
                            'right'  => 'interface',
                            'entity' => $this->fields["entities_id"]));
       echo "</td>";*/
-      echo "<td>".$LANG['common'][5]."&nbsp;:</td>";
-      echo "<td>";
-      Dropdown::show('Manufacturer', array('value' => $this->fields["manufacturers_id"]));
-      echo "</td></tr>\n";
+
+      echo "</tr>\n";
 
       echo "<tr class='tab_bg_1'>";
       /*echo "<td>".$LANG['common'][21]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "contact_num");
-      echo "</td>";*/
+      echo "</td>";
       echo "<td>".$LANG['common'][22]."&nbsp;:</td>";
       echo "<td>";
       Dropdown::show('PhoneModel', array('value' => $this->fields["phonemodels_id"]));
-      echo "</td></tr>\n";
-
-      echo "<tr class='tab_bg_1'>";
-     /* echo "<td>".$LANG['common'][18]."&nbsp;:</td><td>";
-      autocompletionTextField($this, "contact");
       echo "</td>";*/
-      echo "<td>".$LANG['common'][19]."&nbsp;:</td>";
-      echo "<td>";
-      autocompletionTextField($this,"serial");
-      echo "</td></tr>\n";
+      echo "</tr>\n";
+
+     
 
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][109]."&nbsp;:</td>";
@@ -328,12 +376,14 @@ class Phone extends CommonDBTM {
                            'entity' => $this->fields["entities_id"],
                            'right'  => 'all'));
       echo "</td>";
-      echo "<td>".$LANG['common'][20].($template?"*":"")."&nbsp;:</td>";
+      echo "<td>".$LANG['common'][15]."&nbsp;:</td>";
       echo "<td>";
-      $objectName = autoName($this->fields["otherserial"], "otherserial",($template === "newcomp"),
-                             $this->getType(), $this->fields["entities_id"]);
-      autocompletionTextField($this, 'otherserial', array('value' => $objectName));
-      echo "</td></tr>\n";
+      Dropdown::show('Location', array('value'  => $this->fields["locations_id"],
+                                       'entity' => $this->fields["entities_id"]));
+      echo "</td>";
+
+
+      echo"</tr>\n";
 /*
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][35]."&nbsp;:</td>";
@@ -351,36 +401,8 @@ class Phone extends CommonDBTM {
                                        'target'       => $target));
       echo "</td></tr>\n";
 */
-      echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['peripherals'][18]."&nbsp;:</td>";
-      echo "<td>";
-      autocompletionTextField($this,"brand");
-      echo "</td>";
-     /* echo "<td rowspan='6'>";
-      echo $LANG['common'][25]."&nbsp;:</td>";
-      echo "<td rowspan='6'>
-            <textarea cols='45' rows='9' name='comment' >".$this->fields["comment"]."</textarea>";
-      echo "</td></tr>\n";*/
 
-      echo "</tr>\n";
-     /* 
-      echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['phones'][36]."&nbsp;:</td>";
-      echo "<td>";
-      Dropdown::show('PhonePowerSupply', array('value' => $this->fields["phonepowersupplies_id"]));
-      echo "</td></tr>\n";
-*/
-      echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['setup'][71]."&nbsp;:</td>";
-      echo "<td>";
-      autocompletionTextField($this, "firmware");
-      echo "</td></tr>\n";
-
-      echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['phones'][40]."&nbsp;:</td><td>";
-      autocompletionTextField($this, "number_line");
-      echo "</td></tr>\n";
-
+      
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['monitors'][18]."&nbsp;:</td>";
       echo "<td>";

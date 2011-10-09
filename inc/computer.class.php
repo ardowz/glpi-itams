@@ -83,10 +83,10 @@ class Computer extends CommonDBTM {
 
       if ($this->fields['id'] > 0) {
          $ong[1]  = $LANG['title'][30];
-         $ong[20] = $LANG['computers'][8];
+         //$ong[20] = $LANG['computers'][8];
 
          if (haveRight("software","r")) {
-            $ong[2] = $LANG['Menu'][4];
+            //$ong[2] = $LANG['Menu'][4];
          }
 
          if (haveRight("networking","r")
@@ -95,41 +95,41 @@ class Computer extends CommonDBTM {
              || haveRight("peripheral","r")
              || haveRight("phone","r")) {
 
-            $ong[3] = $LANG['title'][27];
+            //$ong[3] = $LANG['title'][27];
          }
 
          if (haveRight("contract","r") || haveRight("infocom","r")) {
-            $ong[4] = $LANG['Menu'][26];
+            //$ong[4] = $LANG['Menu'][26];
          }
 
-         Document::addTab($this,$ong);
+         //Document::addTab($this,$ong);
 
          if (!isset($options['withtemplate']) || empty($options['withtemplate'])) {
 
-            $ong[21] = $LANG['computers'][57];
+            //$ong[21] = $LANG['computers'][57];
 
             if ($CFG_GLPI["use_ocs_mode"]) {
-               $ong[14] = $LANG['title'][43];
+               //$ong[14] = $LANG['title'][43];
             }
             if (haveRight("show_all_ticket","1")) {
-               $ong[6] = $LANG['title'][28];
+               //$ong[6] = $LANG['title'][28];
             }
             if (haveRight("link","r")) {
-               $ong[7] = $LANG['title'][34];
+               //$ong[7] = $LANG['title'][34];
             }
             if (haveRight("notes","r")) {
-               $ong[10] = $LANG['title'][37];
+               //$ong[10] = $LANG['title'][37];
             }
             if (haveRight("reservation_central","r")) {
-               $ong[11] = $LANG['Menu'][17];
+               //$ong[11] = $LANG['Menu'][17];
             }
 
-            $ong[12] = $LANG['title'][38];
+            //$ong[12] = $LANG['title'][38];
 
             if ($CFG_GLPI["use_ocs_mode"]
                 && (haveRight("sync_ocsng","w") ||haveRight("computer","w"))) {
 
-               $ong[13] = $LANG['Menu'][33];
+               //$ong[13] = $LANG['Menu'][33];
             }
          }
 
@@ -547,7 +547,7 @@ class Computer extends CommonDBTM {
       
       $this->showTabs($options);
       $this->showFormHeader($options);
-      //echo $LANG['common'][16];
+       //echo $LANG['common'][16];
       echo "<tr class='tab_bg_1'>";
       //echo "<td>".$LANG['common'][16].($template?"*":"")."&nbsp;:</td>";
       echo "<td>".$LANG['common'][108].($template?"*":"")."&nbsp;:</td>";
@@ -556,30 +556,68 @@ class Computer extends CommonDBTM {
                              $this->getType(), $this->fields["entities_id"]);
       autocompletionTextField($this, 'name', array('value' => $objectName));
       echo "</td>";
-      echo "<td>".$LANG['state'][0]."&nbsp;:</td>";
+
+/*status      echo "<td>".$LANG['state'][0]."&nbsp;:</td>";
       echo "<td>";
       Dropdown::show('State', array('value' => $this->fields["states_id"]));
-      echo "</td></tr>\n";
+      echo "</td>";*/
+      echo "</tr>\n";
 
       echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['common'][15]."&nbsp;: </td>";
+//insert serial number
+      echo "</td>";
+      echo "<td>".$LANG['common'][19]."&nbsp;:</td>";
+      echo "<td >";
+      autocompletionTextField($this,'serial');
+
+      echo "</td>";
+
+/*location      echo "<td>".$LANG['common'][15]."&nbsp;: </td>";
       echo "<td>";
       Dropdown::show('Location', array('value'  => $this->fields["locations_id"],
                                        'entity' => $this->fields["entities_id"]));
-      echo "</td>";
-      echo "<td>".$LANG['common'][17]."&nbsp;: </td>";
-      echo "<td>";
-      Dropdown::show('ComputerType', array('value' => $this->fields["computertypes_id"]));
-      echo "</td></tr>\n";
-
-      echo "<tr class='tab_bg_1'>";
-      
+      echo "</td>"; */
+//insert inventory number
       echo "<td>".$LANG['common'][20].($template?"*":"")."&nbsp;:</td>";
       echo "<td>";
       $objectName = autoName($this->fields["otherserial"], "otherserial", ($template === "newcomp"),
                              $this->getType(), $this->fields["entities_id"]);
       autocompletionTextField($this, 'otherserial', array('value' => $objectName));
       echo "</td>";
+
+/*type      echo "<td>".$LANG['common'][17]."&nbsp;: </td>";
+      echo "<td>";
+      Dropdown::show('ComputerType', array('value' => $this->fields["computertypes_id"]));
+      echo "</td>";*/
+      echo "</tr>\n";
+
+
+      echo "<tr class='tab_bg_1'>";
+      echo "</tr>\n";
+
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['computers'][10]."&nbsp;:</td>";
+      echo "<td >";
+      autocompletionTextField($this, 'os_license_number');
+      echo "</td>";
+      echo "<td>".$LANG['computers'][11]."&nbsp;:</td>";
+      echo "<td >";
+      autocompletionTextField($this, 'os_licenseid');
+      echo "</td></tr>\n";
+
+      echo "<tr class='tab_bg_1'>";
+ //type here
+      echo "<td>".$LANG['common'][17]."&nbsp;: </td>";
+      echo "<td>";
+      Dropdown::show('ComputerType', array('value' => $this->fields["computertypes_id"]));
+      echo "</td>";
+
+ /*inventory     echo "<td>".$LANG['common'][20].($template?"*":"")."&nbsp;:</td>";
+      echo "<td>";
+      $objectName = autoName($this->fields["otherserial"], "otherserial", ($template === "newcomp"),
+                             $this->getType(), $this->fields["entities_id"]);
+      autocompletionTextField($this, 'otherserial', array('value' => $objectName));
+      echo "</td>"; */
       
       
       /*echo "<td>".$LANG['common'][10]."&nbsp;: </td>";
@@ -589,11 +627,13 @@ class Computer extends CommonDBTM {
                            'right'  => 'interface',
                            'entity' => $this->fields["entities_id"]));
       echo "</td>";*/
-      
+//manufacturer
       echo "<td>".$LANG['common'][5]."&nbsp;: </td>";
       echo "<td>";
       Dropdown::show('Manufacturer', array('value' => $this->fields["manufacturers_id"]));
-      echo "</td></tr>\n";
+      echo "</td>";
+      echo "</tr>\n";
+
 
       echo "<tr class='tab_bg_1'>";
       /*
@@ -616,12 +656,15 @@ class Computer extends CommonDBTM {
       echo "<td>";
       autocompletionTextField($this,'contact');
 */
-      echo "</td>";
+//assigned to here
+//serial
+   /*   echo "</td>";
       echo "<td>".$LANG['common'][19]."&nbsp;:</td>";
       echo "<td >";
       autocompletionTextField($this,'serial');
 
-      echo "</td></tr>\n";
+      echo "</td>";*/
+      echo "</tr>\n";
 
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][109]."&nbsp;: </td>";
@@ -630,8 +673,30 @@ class Computer extends CommonDBTM {
                            'entity' => $this->fields["entities_id"],
                            'right'  => 'all'));
       echo "</td>";
-      echo "</tr>\n";
+//location
+      echo "<td>".$LANG['common'][15]."&nbsp;: </td>";
+      echo "<td>";
+      Dropdown::show('Location', array('value'  => $this->fields["locations_id"],
+                                       'entity' => $this->fields["entities_id"]));
 
+
+      echo "</td>";
+
+      echo "</tr>\n";
+//status
+      echo "<tr class='tab_bg_1'>";
+
+      echo "<td>".$LANG['state'][0]."&nbsp;:</td>";
+      echo "<td>";
+      Dropdown::show('State', array('value' => $this->fields["states_id"]));
+      echo "</td>";
+
+      echo "<td>".$LANG['computers'][9]."&nbsp;:</td>";
+      echo "<td>";
+      Dropdown::show('OperatingSystem', array('value' => $this->fields["operatingsystems_id"]));
+      echo "</td>";
+
+      echo "</tr>";
       /*echo "<tr class='tab_bg_1'>";
       
       echo "<td>".$LANG['common'][35]."&nbsp;:</td>";
@@ -656,37 +721,27 @@ class Computer extends CommonDBTM {
       echo "</td></tr>\n";
 */
       echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['computers'][9]."&nbsp;:</td>";
-      echo "<td>";
-      Dropdown::show('OperatingSystem', array('value' => $this->fields["operatingsystems_id"]));
-      echo "</td></tr>\n";
+
+      echo "</tr>\n";
 
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['computers'][53]."&nbsp;:</td>";
       echo "<td >";
       Dropdown::show('OperatingSystemServicePack',
                      array('value' => $this->fields["operatingsystemservicepacks_id"]));
-      echo "</td></tr>\n";
-
-
-      echo "<tr class='tab_bg_1'>";
+      echo "</td>";
+//version of os
       echo "<td>".$LANG['computers'][52]."&nbsp;:</td>";
       echo "<td >";
       Dropdown::show('OperatingSystemVersion',
                      array('value' => $this->fields["operatingsystemversions_id"]));
-      echo "</td></tr>\n";
+      echo "</td>";
+      echo "</tr>\n";
+
+
 
       echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['computers'][11]."&nbsp;:</td>";
-      echo "<td >";
-      autocompletionTextField($this, 'os_licenseid');
-      echo "</td></tr>\n";
-
-      echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['computers'][10]."&nbsp;:</td>";
-      echo "<td >";
-      autocompletionTextField($this, 'os_license_number');
-      echo "</td></tr>\n";
+      echo "</tr>\n";
 /*
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['computers'][58]."&nbsp;:</td>";
@@ -694,6 +749,7 @@ class Computer extends CommonDBTM {
       autocompletionTextField($this, 'uuid');
       echo "</td></tr>\n";
 */
+
       // Get OCS Datas :
       $dataocs = array();
       if (!empty($ID) && $this->fields["is_ocs_import"] && haveRight("view_ocsng","r")) {

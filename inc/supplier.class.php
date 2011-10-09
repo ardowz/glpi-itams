@@ -94,24 +94,24 @@ class Supplier extends CommonDBTM {
             $ong[1] = $LANG['Menu'][22];
          }
          if (haveRight("contract","r")) {
-            $ong[4] = $LANG['Menu'][25];
+            //$ong[4] = $LANG['Menu'][25];
          }
          if (!isset($options['withtemplate']) || empty($options['withtemplate'])) {
-            $ong[15] = $LANG['common'][96];
+            //$ong[15] = $LANG['common'][96];
          }
          if (haveRight("document","r")) {
-            $ong[5] = $LANG['Menu'][27];
+            //$ong[5] = $LANG['Menu'][27];
          }
          if (haveRight("show_all_ticket","1")) {
-            $ong[6] = $LANG['title'][28];
+            //$ong[6] = $LANG['title'][28];
          }
          if (haveRight("link","r")) {
-            $ong[7] = $LANG['title'][34];
+            //$ong[7] = $LANG['title'][34];
          }
          if (haveRight("notes","r")) {
-            $ong[10] = $LANG['title'][37];
+            //$ong[10] = $LANG['title'][37];
          }
-         $ong[12] = $LANG['title'][38];
+         //$ong[12] = $LANG['title'][38];
 
       } else { // New item
          $ong[1] = $LANG['title'][26];
