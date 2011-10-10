@@ -116,26 +116,10 @@ if ($_POST["id"]>0 && $ticket->getFromDB($_POST["id"])) {
          break;
 
       default :
-         //if (!Plugin::displayAction($ticket, $_REQUEST['glpi_tab'])) {
-         //   $fup = new TicketFollowup();
-         //   $fup->showSummary($ticket);
-         //}
-          $fup = new TicketFollowup();
-         $fup->showSummary($ticket);
-         $validation = new Ticketvalidation();
-         $validation->showSummary($ticket);
-         $task = new TicketTask();
-         $task->showSummary($ticket);
-         $ticket->showSolutionForm();
-         if ($ticket->canApprove()) {
-            $fup->showApprobationForm($ticket);
+         if (!Plugin::displayAction($ticket, $_REQUEST['glpi_tab'])) {
+            $fup = new TicketFollowup();
+            $fup->showSummary($ticket);
          }
-         $ticket->showCost($_POST['target']);
-         $ticket->showStats();
-         Document::showAssociated($ticket);
-         Log::showForItem($ticket);
-         Plugin::displayAction($ticket, $_REQUEST['glpi_tab']);
-         break;
    }
 }
 

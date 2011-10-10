@@ -2157,4 +2157,5 @@ $LANG['validation'][33]="Tickets awaiting approval";
 $LANG['itrequest'][0]="Hardware";
 $LANG['itrequest'][1]="Software";
 $LANG['itrequest'][2]="My Device";
+$LANG['itrequest'][3]="Requirements Collection";
 ?>

@@ -494,6 +494,17 @@ function commonHeader($title, $url='', $sector="none", $item="none", $option="")
          $menu['financial']['content']['document']['links']['add'] = '/front/document.form.php';
       }
    }
+   
+   if (haveRight("document","r")) {
+      $menu['financial']['content']['requirementscollection']['title']           = $LANG['itrequest'][3];
+      $menu['financial']['content']['requirementscollection']['shortcut']        = 'd';
+      $menu['financial']['content']['requirementscollection']['page']            = '/front/requirementscollection.php';
+      $menu['financial']['content']['requirementscollection']['links']['search'] = '/front/requirementscollection.php';
+
+      if (haveRight("document","w")) {
+         $menu['financial']['content']['requirementscollection']['links']['add'] = '/front/requirementscollection.php';
+      }
+   }
 
 
 

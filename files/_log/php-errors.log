@@ -5418,3 +5418,258 @@ C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
 C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
 C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
 
+2011-10-10 03:27 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4600		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 03:28 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4600		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 03:28 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4600		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 03:28 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4603		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 04:25 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-10 04:26 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-10 04:27 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-10 05:22 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-10 05:22 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:24 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:24 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:25 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:31 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:31 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:34 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:44 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-10 05:53 [6@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-10 05:53 [6@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-10 05:53 [6@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:807		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-10 05:54 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-10 05:55 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\front\ticket.form.php:73		CommonDBTM->update()
+
+2011-10-10 05:55 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\front\ticket.form.php:73		CommonDBTM->update()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: requestComponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4583		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: computerID
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4585		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: softwareID
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4597		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4609		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: newITAsset
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4610		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: requestComponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4583		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: computerID
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4585		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: softwareID
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4597		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: requestType
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4609		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 05:56 [6@USER-PC]
+Notice(8): Undefined variable: newITAsset
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4610		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 06:04 [6@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1045		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketfollowup.class.php:320		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:752		TicketFollowup->post_addItem()
+C:\xampp\htdocs\itams\front\ticketfollowup.form.php:55		CommonDBTM->add()
+
+2011-10-10 07:28 [@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-10 07:30 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 07:30 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4603		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 07:31 [11@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4603		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-10 08:00 [8@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
+2011-10-10 08:22 [8@USER-PC]
+Warning(2): imap_open() [<a href='function.imap-open'>function.imap-open</a>]: Couldn't open stream {imap.gmail.com:993/imap/ssl}
+Backtrace :
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:767		imap_open()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:355		MailCollector->connect()
+C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
+C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
+C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
+
