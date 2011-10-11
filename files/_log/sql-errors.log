@@ -3457,3 +3457,96 @@ C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:4548		DBmysql->query()
 C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:175		Ticket->showForm()
 C:/xampp/htdocs/itams/front/ticket.form.php
 
+2011-10-10 20:00 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `sideb_sideb_assetrequirementscollection`
+Error: Table 'itams.sideb_sideb_assetrequirementscollection' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1019		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\test.php&nbsp;:18		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/test.php
+
+2011-10-10 20:00 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `.sideb_assetrequirementscollection.` (`id`) VALUES (\'96\')
+Error: Table 'itams..sideb_assetrequirementscollection.' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:503		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1039		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\test.php&nbsp;:18		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/test.php
+
+2011-10-10 20:00 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `sideb_sideb_assetrequirementscollection`
+Error: Table 'itams.sideb_sideb_assetrequirementscollection' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1019		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\test.php&nbsp;:18		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/test.php
+
+2011-10-10 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `.sideb_assetrequirementscollection.` (`id`) VALUES (\'96\')
+Error: Table 'itams..sideb_assetrequirementscollection.' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:503		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1039		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\test.php&nbsp;:18		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/test.php
+
+2011-10-10 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `sideb_sideb_assetrequirementscollection`
+Error: Table 'itams.sideb_sideb_assetrequirementscollection' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1019		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\test.php&nbsp;:18		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/test.php
+
+2011-10-10 20:04 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `.sideb_assetrequirementscollection.` (`active`,`dateStart`,`dateEnd`) VALUES (\'1\',\'2011-10-10 20:04:00\',\'2011-10-30 20:04:00\')
+Error: Table 'itams..sideb_assetrequirementscollection.' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:503		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1039		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\test.php&nbsp;:18		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/test.php
+
+2011-10-10 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `.sideb_assetrequirementscollection.` (`active`,`dateStart`,`dateEnd`) VALUES (\'1\',\'2011-10-10 20:04:00\',\'2011-10-30 20:04:00\')
+Error: Table 'itams..sideb_assetrequirementscollection.' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:503		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1039		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\test.php&nbsp;:18		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/test.php
+
+2011-10-10 20:07 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `.sideb_assetrequirementscollection.` (`active`,`dateStart`,`dateEnd`) VALUES (\'1\',\'2011-10-10 20:06:00\',\'2011-10-30 20:06:00\')
+Error: Table 'itams..sideb_assetrequirementscollection.' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:503		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1039		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\test.php&nbsp;:18		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/test.php
+

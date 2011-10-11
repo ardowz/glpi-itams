@@ -163,26 +163,18 @@ if ($_POST["id"]>0 && $computer->can($_POST["id"],'r')) {
             ComputerVirtualMachine::showForVirtualMachine($computer);
             ComputerVirtualMachine::showForComputer($computer);
             break;
+        
+        case 99:
+            
+            Computer::usefulLife($_POST['id']);
+            
+            break;
 
          default :
-            //if (!Plugin::displayAction($computer, $_REQUEST['glpi_tab'])) {
-               //Computer_Device::showForComputer($computer);
-            //}
-             Computer_Device::showForComputer($computer);
-            ComputerDisk::showForComputer($computer, $_POST["withtemplate"]);
-            Computer_SoftwareVersion::showForComputer($computer);
-            Computer_Item::showForComputer($_POST['target'], $computer);
-            NetworkPort::showForItem('Computer', $_POST["id"]);
-            Infocom::showForItem($computer);
-            Contract::showAssociated($computer ,$_POST["withtemplate"]);
-            Document::showAssociated($computer);
-            Ticket::showListForItem('Computer', $_POST["id"]);
-            Link::showForItem('Computer', $_POST["id"]);
-            RegistryKey::showForComputer($_POST["id"]);
-            ComputerVirtualMachine::showForVirtualMachine($computer);
-            ComputerVirtualMachine::showForComputer($computer);
-            Plugin::displayAction($computer, $_REQUEST['glpi_tab']);
-            break;
+            if (!Plugin::displayAction($computer, $_REQUEST['glpi_tab'])) {
+               Computer_Device::showForComputer($computer);
+            }
+            
       }
    }
 }

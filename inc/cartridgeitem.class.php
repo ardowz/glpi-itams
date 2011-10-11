@@ -506,6 +506,54 @@ class CartridgeItem extends CommonDBTM {
       }
       return false;
    }
+   
+   /**
+    * 
+    * sideb thesis adjustment
+    * Print a select with compatible cartridge
+    * 
+    * custom to make the function straightforward
+    *
+    *@param $printer object Printer
+    *
+    *@return nothing (display)
+    **/
+   static function dropdownForPrinterCustom($printer) {
+      global $DB, $LANG;
+
+      $query = "SELECT COUNT(*) AS cpt,
+                       `glpi_locations`.`completename` AS location,
+                       `glpi_cartridgeitems`.`ref` AS ref,
+                       `glpi_cartridgeitems`.`name` AS name,
+                       `glpi_cartridgeitems`.`id` AS tID
+                FROM `glpi_cartridgeitems`
+                INNER JOIN `glpi_cartridgeitems_printermodels`
+                     ON (`glpi_cartridgeitems`.`id`
+                         = `glpi_cartridgeitems_printermodels`.`cartridgeitems_id`)
+                INNER JOIN `glpi_cartridges`
+                     ON (`glpi_cartridges`.`cartridgeitems_id` = `glpi_cartridgeitems`.`id`
+                         AND `glpi_cartridges`.`date_use` IS NULL)
+                LEFT JOIN `glpi_locations`
+                     ON (`glpi_locations`.`id` = `glpi_cartridgeitems`.`locations_id`)
+                WHERE `glpi_cartridgeitems_printermodels`.`printermodels_id`
+                           = '".$printer."'
+                      AND `glpi_cartridgeitems`.`entities_id` ='0'
+                GROUP BY tID
+                ORDER BY `name`, `ref`";
+
+      if ($result = $DB->query($query)) {
+         if ($DB->numrows($result)) {
+            echo "<select name='tID' size=1>";
+            while ($data= $DB->fetch_assoc($result)) {
+               echo "<option value='".$data["tID"]."'>".$data["name"]." - ".$data["ref"]."
+                     (".$data["cpt"]." ".$LANG['cartridges'][13].") - ".$data["location"]."</option>";
+            }
+            echo "</select>";
+            return true;
+         }
+      }
+      return false;
+   }
 
 
    /**

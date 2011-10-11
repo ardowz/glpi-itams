@@ -1183,6 +1183,7 @@ $LANG['Menu'][40]="Bookmarks";
 $LANG['Menu'][41]="Checks"; 
 $LANG['Menu'][42]="Agendas"; 
 $LANG['Menu'][43]="SLAs"; 
+$LANG['Menu'][44]="Useful Life"; 
 
 $LANG['monitors'][14]="Microphone"; 
 $LANG['monitors'][15]="Speakers"; 
@@ -2158,4 +2159,9 @@ $LANG['itrequest'][0]="Hardware";
 $LANG['itrequest'][1]="Software";
 $LANG['itrequest'][2]="My Device";
 $LANG['itrequest'][3]="Requirements Collection";
+$LANG['itrequest'][4]="Cartridge";
+$LANG['itrequest'][5]="Consumable";
+$LANG['itrequest'][6]= "Requisition List";
+
+
 ?>

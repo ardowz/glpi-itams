@@ -39,6 +39,8 @@ include (GLPI_ROOT."/inc/includes.php");
 header("Content-Type: text/html; charset=UTF-8");
 header_nocache();
 
+global $DB;
+
 
 // Make a select box
    $rand = mt_rand();   
@@ -104,6 +106,29 @@ header_nocache();
                             $params);
          
          echo "<br><span id='notif_user'></span>";
+         
+         break;
+     case "consumable" :
+//         echo "consumable";
+         
+        $queryid = "SELECT * FROM glpi_consumableitemtypes";
+        $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+      if ($DB->query($queryid)) {
+          
+          echo "<select name='consumable_type' id='consumable_type'>";
+          echo "<option value='0'>--</option>";
+           while ($data=$DB->fetch_array($result)) {
+              $lastid = $data["name"];
+              echo "<option value='$lastid'>$lastid</option>";
+           }
+           echo "</select>";
+      }
+      
+         break;
+     case "cartridge" :
+//         echo "cartridge";
+         
          
          break;
    }

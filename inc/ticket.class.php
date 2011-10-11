@@ -2733,6 +2733,8 @@ class Ticket extends CommonDBTM {
          echo "<option value='".strtolower($LANG['itrequest'][0])."'>".$LANG['itrequest'][0]."</option>";
          echo "<option value='".strtolower($LANG['itrequest'][1])."'>".$LANG['itrequest'][1]."</option>";
          echo "<option value='".strtolower($LANG['itrequest'][2])."'>".$LANG['itrequest'][2]."</option>";
+//         echo "<option value='".strtolower($LANG['itrequest'][4])."'>".$LANG['itrequest'][4]."</option>";
+         echo "<option value='".strtolower($LANG['itrequest'][5])."'>".$LANG['itrequest'][5]."</option>";
       echo "</select>";
 
       return $id;
@@ -3133,50 +3135,54 @@ class Ticket extends CommonDBTM {
          $rand_text = mt_rand();
          $rand_type = mt_rand();
       }
-      /*removing solution
-       * 
+      /*
+       * sideb thesis adjustment
+       * removing solution
+       * removing parts of the solution
        */
-//      if ($show_template) {
-//         echo "<tr class='tab_bg_2'>";
-//         echo "<td>".$LANG['jobresolution'][6]."&nbsp;:&nbsp;</td><td>";
-//
-//         Dropdown::show('TicketSolutionTemplate',
-//                        array('value'    => 0,
-//                              'entity'   => $this->getEntityID(),
-//                              'rand'     => $rand_template,
-//                              // Load type and solution from bookmark
-//                              'toupdate' => array('value_fieldname' => 'value',
-//                                                  'to_update'  => 'solution'.$rand_text,
-//                                                  'url'        => $CFG_GLPI["root_doc"]."/ajax/solution.php",
-//                                                  'moreparams' => array('type_id'
-//                                                                        => 'dropdown_ticketsolutiontypes_id'.$rand_type))));
-//
-//         echo "</td><td colspan='2'>";
+      if ($show_template) {
+         echo "<tr class='tab_bg_2'>";
+         echo "<td>".$LANG['jobresolution'][6]."&nbsp;:&nbsp;</td><td>";
+
+         Dropdown::show('TicketSolutionTemplate',
+                        array('value'    => 0,
+                              'entity'   => $this->getEntityID(),
+                              'rand'     => $rand_template,
+                              // Load type and solution from bookmark
+                              'toupdate' => array('value_fieldname' => 'value',
+                                                  'to_update'  => 'solution'.$rand_text,
+                                                  'url'        => $CFG_GLPI["root_doc"]."/ajax/solution.php",
+                                                  'moreparams' => array('type_id'
+                                                                        => 'dropdown_ticketsolutiontypes_id'.$rand_type))));
+
+         echo "</td>";
+//          echo "<td colspan='2'>";
 //         echo "<a title\"".$LANG['job'][23]."\"
 //                  href='".$CFG_GLPI['root_doc']."/front/knowbaseitem.php?tickets_id=".
 //                  $this->getField('id')."'>".$LANG['job'][23]."</a>";
-//         echo "</td></tr>";
-//      }
+//         echo "</td>";
+         echo "</tr>";
+      }
 
-      /*removing type of solution
-       * sideb glpi
-       */
-//      echo "<tr class='tab_bg_2'>";
-//      echo "<td>".$LANG['job'][48]."&nbsp;:&nbsp;</td><td>";
-//
-//      $current   = $this->fields['status'];
-//      // Settings a solution will set status to solved
-//      if ($canedit) {
-//         Dropdown::show('TicketSolutionType',
-//                        array('value' => $this->getField('ticketsolutiontypes_id'),
-//                              'rand'  => $rand_type));
-//      } else {
-//         echo Dropdown::getDropdownName('glpi_ticketsolutiontypes',
-//                                        $this->getField('ticketsolutiontypes_id'));
-//      }
-//      echo "</td><td>".$LANG['job'][25]."</td><td>";
+      
+      echo "<tr class='tab_bg_2'>";
+      echo "<td>".$LANG['job'][48]."&nbsp;:&nbsp;</td><td>";
+
+      $current   = $this->fields['status'];
+      // Settings a solution will set status to solved
+      if ($canedit) {
+         Dropdown::show('TicketSolutionType',
+                        array('value' => $this->getField('ticketsolutiontypes_id'),
+                              'rand'  => $rand_type));
+      } else {
+         echo Dropdown::getDropdownName('glpi_ticketsolutiontypes',
+                                        $this->getField('ticketsolutiontypes_id'));
+      }
+      echo "</td>";
+//      echo "<td>".$LANG['job'][25]."</td><td>";
 //      Dropdown::showYesNo('_sol_to_kb', false);
-//      echo "</td></tr>";
+//      echo "</td>";
+      echo "</tr>";
 
       echo "<tr class='tab_bg_2'>";
       echo "<td>".$LANG['joblist'][6]."&nbsp;: </td><td colspan='3'>";

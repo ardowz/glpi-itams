@@ -118,7 +118,8 @@ include_once (GLPI_ROOT . "/inc/commondbtm.class.php");
 include_once (GLPI_ROOT . "/inc/commondbrelation.class.php");
 include_once (GLPI_ROOT . "/config/config.php");
 
-
+//sideb includes
+//include (GLPI_ROOT . "/inc/requestcollection.class.php");
 
 
 // Load Language file

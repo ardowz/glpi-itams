@@ -83,10 +83,10 @@ class Computer extends CommonDBTM {
 
       if ($this->fields['id'] > 0) {
          $ong[1]  = $LANG['title'][30];
-         //$ong[20] = $LANG['computers'][8];
+         $ong[20] = $LANG['computers'][8];
 
          if (haveRight("software","r")) {
-            //$ong[2] = $LANG['Menu'][4];
+            $ong[2] = $LANG['Menu'][4];
          }
 
          if (haveRight("networking","r")
@@ -95,42 +95,44 @@ class Computer extends CommonDBTM {
              || haveRight("peripheral","r")
              || haveRight("phone","r")) {
 
-            //$ong[3] = $LANG['title'][27];
+            $ong[3] = $LANG['title'][27];
          }
 
          if (haveRight("contract","r") || haveRight("infocom","r")) {
-            //$ong[4] = $LANG['Menu'][26];
+            $ong[4] = $LANG['Menu'][26];
          }
 
-         //Document::addTab($this,$ong);
+         Document::addTab($this,$ong);
 
          if (!isset($options['withtemplate']) || empty($options['withtemplate'])) {
 
-            //$ong[21] = $LANG['computers'][57];
+            $ong[21] = $LANG['computers'][57];
 
             if ($CFG_GLPI["use_ocs_mode"]) {
-               //$ong[14] = $LANG['title'][43];
+               $ong[14] = $LANG['title'][43];
             }
             if (haveRight("show_all_ticket","1")) {
-               //$ong[6] = $LANG['title'][28];
+               $ong[6] = $LANG['title'][28];
             }
             if (haveRight("link","r")) {
-               //$ong[7] = $LANG['title'][34];
+               $ong[7] = $LANG['title'][34];
             }
             if (haveRight("notes","r")) {
-               //$ong[10] = $LANG['title'][37];
+               $ong[10] = $LANG['title'][37];
             }
             if (haveRight("reservation_central","r")) {
-               //$ong[11] = $LANG['Menu'][17];
+               $ong[11] = $LANG['Menu'][17];
             }
 
-            //$ong[12] = $LANG['title'][38];
+            $ong[12] = $LANG['title'][38];
 
             if ($CFG_GLPI["use_ocs_mode"]
                 && (haveRight("sync_ocsng","w") ||haveRight("computer","w"))) {
 
-               //$ong[13] = $LANG['Menu'][33];
+               $ong[13] = $LANG['Menu'][33];
             }
+            
+            $ong[99] = $LANG['Menu'][44];
          }
 
       } else { // New item
@@ -556,7 +558,19 @@ class Computer extends CommonDBTM {
                              $this->getType(), $this->fields["entities_id"]);
       autocompletionTextField($this, 'name', array('value' => $objectName));
       echo "</td>";
+      echo "<td>";
+      echo "Useful Life: *in years";
+      echo "</td>";
 
+      echo "<td>";
+      
+      if($ID > 0){
+          echo $this->getUsefulLife($ID);
+      }else{
+          echo "<input type='text' name='life' id='life'></input>";
+      }
+      
+      echo "</td>";
 /*status      echo "<td>".$LANG['state'][0]."&nbsp;:</td>";
       echo "<td>";
       Dropdown::show('State', array('value' => $this->fields["states_id"]));
@@ -665,19 +679,28 @@ class Computer extends CommonDBTM {
 
       echo "</td>";*/
       echo "</tr>\n";
-
+//placing ajax here
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][109]."&nbsp;: </td>";
       echo "<td>";
-      User::dropdown(array('value'  => $this->fields["users_id"],
+      $var = User::dropdown(array('value'  => $this->fields["users_id"],
                            'entity' => $this->fields["entities_id"],
                            'right'  => 'all'));
+      
+//      $params = array('value'        => '__VALUE__','state' => $this->fields["states_id"]);
+//
+//            ajaxUpdateItemOnSelectEvent("dropdown_users_id$var","results_test",
+//                                        $CFG_GLPI["root_doc"]."/ajax/computerAssignAutoStatus.php",
+//                                        $params);
+//            
       echo "</td>";
 //location
       echo "<td>".$LANG['common'][15]."&nbsp;: </td>";
       echo "<td>";
+      
       Dropdown::show('Location', array('value'  => $this->fields["locations_id"],
                                        'entity' => $this->fields["entities_id"]));
+
 
 
       echo "</td>";
@@ -688,7 +711,9 @@ class Computer extends CommonDBTM {
 
       echo "<td>".$LANG['state'][0]."&nbsp;:</td>";
       echo "<td>";
+//      echo "<span id='results_test'>";
       Dropdown::show('State', array('value' => $this->fields["states_id"]));
+//      echo "</span>";
       echo "</td>";
 
       echo "<td>".$LANG['computers'][9]."&nbsp;:</td>";
@@ -1267,6 +1292,69 @@ class Computer extends CommonDBTM {
 
       return $tab;
    }
+   
+   
+/*
+ * sideb thesis adjustment
+ * function to get useful life of asset
+ * 
+ */
+
+    static function usefulLife($id){
+    global $LANG,$DB;
+    
+    
+    
+    $queryid = "SELECT dateadd,life FROM sideb_usefullife where asset_id = '$id' and type = 'computer'";
+    $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+    if ($DB->query($queryid)) {
+           while ($data=$DB->fetch_array($result)) {
+              $dateadd = strtotime($data["dateadd"]);
+              $assetlife = $data["life"];
+             }
+    }
+    //echo $id;
+    $dateaddConverted = date("Y-m-d H:i:s", $dateadd);
+    
+    $comput = "+".$assetlife." year";
+    $lifeLeft = strtotime ( $comput , $dateadd);
+    $lifeDate = date ('Y-m-d', $lifeLeft);
+    echo "the asset is added on: ".$dateaddConverted;
+    echo "<br/>";
+    echo "the asset's useful life is on: ".$assetlife;
+    echo "<br/>";
+    echo "the asset is useful until".$lifeDate;
+//    return $id;
+}
+
+function getUsefulLife($id){
+    global $DB;
+    
+    $queryid = "SELECT dateadd,life FROM sideb_usefullife where asset_id = '$id' and type = 'computer'";
+    $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+    if ($DB->query($queryid)) {
+           while ($data=$DB->fetch_array($result)) {
+              $dateadd = strtotime($data["dateadd"]);
+              $assetlife = $data["life"];
+             }
+    }
+    //echo $id;
+    $dateaddConverted = date("Y-m-d H:i:s", $dateadd);
+    
+    $comput = "+".$assetlife." year";
+    $lifeLeft = strtotime ( $comput , $dateadd);
+    $lifeDate = date ('Y-m-d', $lifeLeft);
+//    echo "the asset is added on: ".$dateaddConverted;
+//    echo "<br/>";
+//    echo "the asset's useful life is on: ".$assetlife;
+//    echo "<br/>";
+//    echo "the asset is useful until".$lifeDate;
+//    
+    return $lifeDate;
+}
+   
 }
 
 ?>

@@ -5673,3 +5673,1079 @@ C:\xampp\htdocs\itams\inc\mailcollector.class.php:1231		MailCollector->collect()
 C:\xampp\htdocs\itams\inc\crontask.class.php:750		call_user_func()
 C:\xampp\htdocs\itams\front\cron.php:63		CronTask::launch()
 
+2011-10-10 19:09 [2@USER-PC]
+Notice(8): Undefined variable: date
+Backtrace :
+C:\xampp\htdocs\itams\front\requirementscollection.php:53		userErrorHandlerNormal()
+
+2011-10-10 19:11 [2@USER-PC]
+Notice(8): Undefined variable: date
+Backtrace :
+C:\xampp\htdocs\itams\front\requirementscollection.php:53		userErrorHandlerNormal()
+
+2011-10-10 19:11 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:11 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:13 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:13 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:14 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:14 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:14 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:14 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:15 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:15 [2@USER-PC]
+Notice(8): Undefined offset: 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2908		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:54		showDateTimeFormItem()
+
+2011-10-10 19:26 [2@USER-PC]
+Notice(8): Undefined index: dateStart
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:14		userErrorHandlerNormal()
+
+2011-10-10 19:26 [2@USER-PC]
+Notice(8): Undefined variable: _Post
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:18		userErrorHandlerNormal()
+
+2011-10-10 19:26 [2@USER-PC]
+Notice(8): Undefined index: dateStart
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:14		userErrorHandlerNormal()
+
+2011-10-10 19:26 [2@USER-PC]
+Notice(8): Undefined variable: _Post
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:18		userErrorHandlerNormal()
+
+2011-10-10 19:27 [2@USER-PC]
+Notice(8): Undefined index: dateStart
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:14		userErrorHandlerNormal()
+
+2011-10-10 19:27 [2@USER-PC]
+Notice(8): Undefined variable: _Post
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:18		userErrorHandlerNormal()
+
+2011-10-10 19:28 [2@USER-PC]
+Notice(8): Undefined index: dateStart
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:14		userErrorHandlerNormal()
+
+2011-10-10 19:28 [2@USER-PC]
+Notice(8): Undefined variable: _Post
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:18		userErrorHandlerNormal()
+
+2011-10-10 19:48 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:12		__autoload()
+
+2011-10-10 19:49 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:12		__autoload()
+
+2011-10-10 19:49 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:12		__autoload()
+
+2011-10-10 19:51 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:12		__autoload()
+
+2011-10-10 19:51 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:12		__autoload()
+
+2011-10-10 19:53 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:12		__autoload()
+
+2011-10-10 19:54 [2@USER-PC]
+Warning(2): include_once(../inc/requestcollection.class.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include_once()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:54 [2@USER-PC]
+Warning(2): include_once() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include_once()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:54 [2@USER-PC]
+Warning(2): include_once(../inc/requestcollection.class.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include_once()
+C:\xampp\htdocs\itams\front\test.php:10		include()
+
+2011-10-10 19:54 [2@USER-PC]
+Warning(2): include_once() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include_once()
+C:\xampp\htdocs\itams\front\test.php:10		include()
+
+2011-10-10 19:54 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:12		__autoload()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\cron.php:41		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\cron.php:41		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\test.php:10		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\test.php:10		include()
+
+2011-10-10 19:56 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:12		__autoload()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\test.php:10		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\test.php:10		include()
+
+2011-10-10 19:56 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:12		__autoload()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\requirementscollection.php:38		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\test.php:10		include()
+
+2011-10-10 19:56 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:122		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\includes.php:122		include()
+C:\xampp\htdocs\itams\front\test.php:10		include()
+
+2011-10-10 19:57 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:11		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\test.php:11		include()
+
+2011-10-10 19:57 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:11		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\test.php:11		include()
+
+2011-10-10 19:57 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:13		__autoload()
+
+2011-10-10 19:57 [2@USER-PC]
+Warning(2): include(../inc/requestcollection.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:11		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\test.php:11		include()
+
+2011-10-10 19:57 [2@USER-PC]
+Warning(2): include() [<a href='function.include'>function.include</a>]: Failed opening '../inc/requestcollection.class.php' for inclusion (include_path='.;C:\xampp\php\PEAR')
+Backtrace :
+C:\xampp\htdocs\itams\front\test.php:11		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\test.php:11		include()
+
+2011-10-10 19:57 [2@USER-PC]
+User Notice(1024): GLPI autoload : file ../inc/requestcollection.class.php not founded trying to load class 'requestCollection'
+Variables:<wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='classname'><string>requestCollection</string></var><var name='DEBUG_AUTOLOAD'><null/></var><var name='notfound'><array length='0'></array></var><var name='dir'><string>../inc/</string></var><var name='plug'><boolean value='false'/></var><var name='item'><string>requestcollection</string></var><var name='matches'><array length='0'></array></var></struct></data></wddxPacket>
+Backtrace :
+C:\xampp\htdocs\itams\inc\includes.php:97		trigger_error()
+C:\xampp\htdocs\itams\front\test.php:13		__autoload()
+
+2011-10-10 20:07 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:506		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1039		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\test.php:18		CommonDBTM->addSidebCustom()
+
+2011-10-11 04:47 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:506		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1042		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\computer.form.php:82		CommonDBTM->addSidebCustom()
+
+2011-10-11 04:53 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:506		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1042		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\computer.form.php:82		CommonDBTM->addSidebCustom()
+
+2011-10-11 04:54 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:506		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1042		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\computer.form.php:82		CommonDBTM->addSidebCustom()
+
+2011-10-11 04:55 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:506		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1042		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\computer.form.php:82		CommonDBTM->addSidebCustom()
+
+2011-10-11 04:56 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:506		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1042		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\computer.form.php:82		CommonDBTM->addSidebCustom()
+
+2011-10-11 04:58 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:506		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1042		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\computer.form.php:82		CommonDBTM->addSidebCustom()
+
+2011-10-11 05:02 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:506		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1042		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\computer.form.php:83		CommonDBTM->addSidebCustom()
+
+2011-10-11 05:13 [2@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1303		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:169		Computer::usefulLife()
+
+2011-10-11 05:22 [2@USER-PC]
+Notice(8): A non well formed numeric value encountered
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1314		strtotime()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:169		Computer::usefulLife()
+
+2011-10-11 05:23 [2@USER-PC]
+Notice(8): A non well formed numeric value encountered
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1315		strtotime()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:169		Computer::usefulLife()
+
+2011-10-11 05:27 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1339		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:567		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:27 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1341		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:567		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:27 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1342		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:567		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:29 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1342		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:29 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1344		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:29 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1345		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:30 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:506		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1042		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\computer.form.php:83		CommonDBTM->addSidebCustom()
+
+2011-10-11 05:37 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:37 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:37 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:37 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4603		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:39 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:39 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4603		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:239		Ticket->showForm()
+
+2011-10-11 05:39 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4603		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:239		Ticket->showForm()
+
+2011-10-11 05:39 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:40 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:40 [10@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4603		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:40 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-11 05:40 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-11 05:40 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:40 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1344		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:40 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1346		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:40 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1347		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:41 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1344		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:41 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1346		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:41 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1347		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:41 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:42 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:42 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4603		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:42 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1344		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:42 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1346		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:42 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1347		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:46 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1344		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:46 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1346		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:46 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1347		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:47 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1344		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:47 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1346		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:47 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:1347		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\computer.class.php:568		Computer->getUsefulLife()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-11 05:57 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:58 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:58 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4591		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 05:59 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4593		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 06:00 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4595		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:175		Ticket->showForm()
+
+2011-10-11 06:03 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4607		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:239		Ticket->showForm()
+
+2011-10-11 06:06 [6@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-11 06:06 [6@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-11 06:06 [6@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:878		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-11 06:11 [6@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1234		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketfollowup.class.php:320		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:823		TicketFollowup->post_addItem()
+C:\xampp\htdocs\itams\front\ticketfollowup.form.php:55		CommonDBTM->add()
+
+2011-10-11 07:38 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4607		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:239		Ticket->showForm()
+
+2011-10-11 07:39 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-11 07:39 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-11 07:39 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:95		userErrorHandlerNormal()
+
+2011-10-11 07:39 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:49		userErrorHandlerNormal()
+
+2011-10-11 07:50 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-11 07:50 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-11 08:27 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:27 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:27 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:27 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:31 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:31 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:32 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:32 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:32 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:32 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:33 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:33 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:33 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:33 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:34 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 08:34 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:04 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:04 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:12 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:12 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:12 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:12 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:12 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:12 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:13 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:13 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:13 [10@USER-PC]
+Catchable Fatal Error(4096): Argument 1 passed to Cartridge::showInstalled() must be an instance of Printer, string given, called in C:\xampp\htdocs\itams\ajax\dropdownComponents.php on line 22 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\cartridge.class.php:610		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownComponents.php:22		Cartridge::showInstalled()
+
+2011-10-11 09:13 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:13 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:13 [10@USER-PC]
+Catchable Fatal Error(4096): Argument 1 passed to Cartridge::showInstalled() must be an instance of Printer, string given, called in C:\xampp\htdocs\itams\ajax\dropdownComponents.php on line 22 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\cartridge.class.php:610		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownComponents.php:22		Cartridge::showInstalled()
+
+2011-10-11 09:31 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:31 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:35 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:35 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:35 [10@USER-PC]
+Catchable Fatal Error(4096): Argument 1 passed to CartridgeItem::dropdownForPrinter() must be an instance of Printer, string given, called in C:\xampp\htdocs\itams\ajax\dropdownComponents.php on line 25 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\cartridgeitem.class.php:473		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownComponents.php:25		CartridgeItem::dropdownForPrinter()
+
+2011-10-11 09:35 [10@USER-PC]
+Notice(8): Trying to get property of non-object
+Backtrace :
+C:\xampp\htdocs\itams\inc\cartridgeitem.class.php:491		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownComponents.php:25		CartridgeItem::dropdownForPrinter()
+
+2011-10-11 09:35 [10@USER-PC]
+Notice(8): Trying to get property of non-object
+Backtrace :
+C:\xampp\htdocs\itams\inc\cartridgeitem.class.php:492		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownComponents.php:25		CartridgeItem::dropdownForPrinter()
+
+2011-10-11 09:36 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:36 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:36 [10@USER-PC]
+Catchable Fatal Error(4096): Argument 1 passed to CartridgeItem::dropdownForPrinter() must be an instance of Printer, string given, called in C:\xampp\htdocs\itams\ajax\dropdownComponents.php on line 25 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\cartridgeitem.class.php:473		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownComponents.php:25		CartridgeItem::dropdownForPrinter()
+
+2011-10-11 09:36 [10@USER-PC]
+Notice(8): Trying to get property of non-object
+Backtrace :
+C:\xampp\htdocs\itams\inc\cartridgeitem.class.php:491		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownComponents.php:25		CartridgeItem::dropdownForPrinter()
+
+2011-10-11 09:36 [10@USER-PC]
+Notice(8): Trying to get property of non-object
+Backtrace :
+C:\xampp\htdocs\itams\inc\cartridgeitem.class.php:492		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\dropdownComponents.php:25		CartridgeItem::dropdownForPrinter()
+
+2011-10-11 09:41 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:41 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:97		userErrorHandlerNormal()
+
+2011-10-11 09:49 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:543		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1079		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\test.php:18		CommonDBTM->addSidebCustom()
+
+2011-10-11 10:05 [2@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:543		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1079		CommonDBTM->addToDBCustom()
+C:\xampp\htdocs\itams\front\test.php:18		CommonDBTM->addSidebCustom()
+
+2011-10-11 10:09 [2@USER-PC]
+Notice(8): Undefined variable: datestart
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requisitionlist.php:23		userErrorHandlerDebug()
+
+2011-10-11 10:24 [2@USER-PC]
+Notice(8): Undefined index: item_0
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requisitionlist.php:46		userErrorHandlerDebug()
+

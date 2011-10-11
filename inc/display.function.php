@@ -505,6 +505,17 @@ function commonHeader($title, $url='', $sector="none", $item="none", $option="")
          $menu['financial']['content']['requirementscollection']['links']['add'] = '/front/requirementscollection.php';
       }
    }
+   
+    if (haveRight("document","r")) {
+      $menu['financial']['content']['requisitionlist']['title']           = $LANG['itrequest'][6];
+      $menu['financial']['content']['requisitionlist']['shortcut']        = 'd';
+      $menu['financial']['content']['requisitionlist']['page']            = '/front/requisitionlist.php';
+      $menu['financial']['content']['requisitionlist']['links']['search'] = '/front/requisitionlist.php';
+
+      if (haveRight("document","w")) {
+         $menu['financial']['content']['requisitionlist']['links']['add'] = '/front/requisitionlist.php';
+      }
+   }
 
 
 

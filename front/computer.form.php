@@ -54,9 +54,33 @@ if (!isset($_GET["withtemplate"])) {
 
 $computer = new Computer();
 //Add a new computer
+/*
+ * sideb thesis adjustment
+ * adding another add to input details in new table
+ */
 if (isset($_POST["add"])) {
    $computer->check(-1, 'w', $_POST);
    if ($newID = $computer->add($_POST)) {
+       
+//       get id of the asset first
+       
+       $queryid = "SELECT id FROM glpi_computers ORDER BY Id DESC LIMIT 1";
+        $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+        if ($DB->query($queryid)) {
+           while ($data=$DB->fetch_array($result)) {
+              $lastid = $data["id"] + 0;
+             }
+         }
+       
+       //setting params for input in database
+       $sidebinput = array('asset_id' => $lastid, 
+                            'dateadd' => date("Y-m-d H:i:s"), 
+                            'life' => $_POST['life'],
+                            'type' => "computer"
+       );
+       
+       $computer->addSidebCustom($sidebinput, "usefullife");
       Event::log($newID, "computers", 4, "inventory",
                  $_SESSION["glpiname"]." ".$LANG['log'][20]." ".$_POST["name"].".");
    }
