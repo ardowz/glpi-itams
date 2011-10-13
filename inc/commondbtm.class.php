@@ -1172,7 +1172,7 @@ class CommonDBTM extends CommonGLPI {
     *
     * @return string : HTML link
    **/
-   function getLinkSideb($id,$devicename,$idcomp) {
+   function getLinkSideb($id,$devicename,$idcomp,$limit=0) {
       global $CFG_GLPI,$DB;
 
 //      if (!isset($this->fields['id'])) {
@@ -1206,9 +1206,34 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
          
 //         $db = new CommonDBTM();
          $device = strtolower($devicename);
-         if($device == "network card") $device = 'networkcard';
+//         if($device == "network card"){ 
+//             $device = 'networkcard';
+//             $sidebdevice = 'networkcard';
+//         }else if($device == "memory"){
+//             $device = 'memories';
+//         }else{
+////             $device = $device 
+//         }
+         $sidebdevice = $device;
+         switch($device){
+             case 'network card':
+                 $device = 'networkcards';
+                 $sidebdevice = 'networkcard';
+                 break;
+             case 'memory':
+                 $device = 'memories';
+                 break;
+             case 'drives':
+                 $device = 'drives';
+                 $sidebdevice = 'drive';
+                 break;
+             default:
+                 $device = $device."s";
+                 break;
+         }
+         
 //         echo $device;
-         $queryy = "SELECT plist.serialNumber, designation FROM sideb_".$device."_deploy pdeployed, sideb_".$device."_list plist, glpi_device".$device."s dp WHERE pdeployed.".$device."ID = plist.idsideb_".$device."_list AND pdeployed.computerID = '".$id."' AND dp.id = componentID AND componentID = '".$idcomp."'";
+         $queryy = "SELECT plist.serialNumber, designation FROM sideb_".$sidebdevice."_deploy pdeployed, sideb_".$sidebdevice."_list plist, glpi_device".$device." dp WHERE pdeployed.".$sidebdevice."ID = plist.idsideb_".$sidebdevice."_list AND pdeployed.computerID = '".$id."' AND dp.id = componentID AND componentID = '".$idcomp."' LIMIT ".$limit.",1";
 //         echo $queryy;
          $resultt = $DB->query($queryy);
 //         echo $resultt;
@@ -1216,7 +1241,6 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
              while ($data=$DB->fetch_array($resultt)) {
                  $snumber = $data['serialNumber'];
                  $designation = $data['designation'];
-
              }
          }
          

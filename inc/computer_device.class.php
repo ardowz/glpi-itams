@@ -308,7 +308,7 @@ class Computer_Device extends CommonDBTM {
    }
    
    /**
-    * 
+    * commenting out this function because of errors
     * sideb thesis adjustment
     * 
     * remade the showform comptuer to accomodate the individual components
@@ -321,6 +321,7 @@ class Computer_Device extends CommonDBTM {
     *
     * @return Nothing (display)
    **/
+   
    static function showForComputerSideb(Computer $computer, $withtemplate='') {
       global $DB, $LANG;
 
@@ -370,19 +371,17 @@ class Computer_Device extends CommonDBTM {
                    GROUP BY `$fk` $specif_text";
 //echo $fk;
 $component =  substr($fk, 6,-4);
-//if($component == "memorie"){
-//    $component = "memory";
-//}else if($component == "powersupplie"){
-//    $component = "powersupply";
-//}
+if($component == "memorie"){
+    $component = "memory";
+}else if($component == "powersupplie"){
+    $component = "powersupply";
+}
 
 //         $query = "SELECT serialnumber, idsideb_".$component."_list,componentID FROM `sideb_".$component."_list`
-//                    where componentID in (SELECT b.device".$component."s_id
-//                    FROM `glpi_computers_device".$component."s` b
-//                    WHERE b.`computers_id` = '".$ID."') and idsideb_".$component."_list in (select ".$component."id from sideb_".$component."_deploy)";
-//         
-//         echo $query;
-//         echo "<br/>";
+//where componentID in (SELECT b.device".$component."s_id
+//FROM `glpi_computers_device".$component."s` b
+//WHERE b.`computers_id` = '".$ID."') and idsideb_".$component."_list in (select ".$component."id from sideb_".$component."_deploy)";
+
 switch ($component){
     
     case 'processor':
@@ -434,6 +433,7 @@ switch ($component){
         break;
         
     case 'memorie':
+        $component = "memory";
         //$query = "SELECT * FROM `glpi_devicememories`;";
         $query = "SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
         where componentID in (SELECT b.devicememories_id
@@ -486,102 +486,42 @@ switch ($component){
         break;
 }
          
+//         echo $query;
+//         echo "<br/>";
          $prev = '';
          
           $result = $DB->query($query);
-          $checkboxname = array();
       if ($DB->query($query)) {
+          $ctr=0;
            while ($data=$DB->fetch_array($result)) {
               $lastid = $data["serialnumber"];
               $idcomp = $data["idsideb_".$component."_list"];
               $idcomponent = $data['componentID'];
-              $chname = array($component."_".$idcomp);
-              $checkboxname = array_merge($checkboxname, (array)($chname));
 //              echo $lastid;
 //              echo "<br/>";
 //              echo $component;
               echo "<tr class='tab_bg_2'>";
               echo "<td class='center'>";
-              echo "<input type='checkbox' name='".$chname."' value='".$chname."'/>";
+//              echo "<input type='checkbox' name='".$component."_".$idcomp."' value='".$component."_".$idcomp."'/>";
+//              echo "<form action='removeComponent.php' method='post'>";
+//                      echo "<input type='hidden' name='compserial' value='".$lastid."'/>";
+//                      echo "<input type='hidden' name='compid' value='".$idcomp."'/>";
+//                      echo "<input type='hidden' name='idcomp' value='".$idcomponent."'/>";
+//                      echo "<input type='submit' value='remove'/>";
+//                      echo "</form>";
+              echo "<a href='removeComponent.php?compserial=".$lastid.";".$idcomponent."|$ID'>link</a>";
               echo "</td><td>";
               if ($device->canCreate()) {
                   echo "<a href='".$device->getSearchURL()."'>".$device->getTypeName()."</a>";
                } else {
-                 echo $device->getTypeName();
+                  echo $device->getTypeName();
                }
-              echo "</td><td>".$device->getLinkSideb($ID,$device->getTypeName(),$idcomponent)."</td>";
-
-              echo "<br/>";
+              echo "</td><td>".$device->getLinkSideb($ID,$device->getTypeName(),$idcomponent,$ctr)."</td>";
+              $ctr++;
            }
       }
-      echo "<input type='hidden' name='boxarray' value='$checkboxname'/>";
-//         foreach ($DB->request($query) as $data) {
-////              addToNavigateListItems($itemtype, $data[$fk]);
-//             if ($device->getFromDB($data[$fk])) {
-//                 
-//             }
-//             
-//         }
-         
-//         foreach ($DB->request($query) as $data) {
-//            addToNavigateListItems($itemtype, $data[$fk]);
-//
-//            if ($device->getFromDB($data[$fk])) {
-//               echo "<tr class='tab_bg_2'>";
-//               echo "<td class='center'>";
-////               while ($sidebdata=$DB->fetch_array($result)) {
-//               echo "<input type='checkbox' name='deleteComp' value='comp'/>";
-//               Dropdown::showInteger("quantity_".$itemtype."_".$data['id'], $data['NB']);
-//               echo "</td><td>";
-//               //Component type
-//               if ($device->canCreate()) {
-//                  echo "<a href='".$device->getSearchURL()."'>".$device->getTypeName()."</a>";
-//               } else {
-//                  echo $device->getTypeName();
-//               }
-//               echo "</td><td>".$device->getLinkSideb($ID,$device->getTypeName())."</td>";
-//
-//               $spec = $device->getFormData();
-//               if (isset($spec['label']) && count($spec['label'])) {
-//                  $colspan = (60/count($spec['label']));
-//                  foreach ($spec['label'] as $i => $label) {
-//
-//                     if (isset($spec['value'][$i])) {
-//                        echo "<td colspan='$colspan'>".$spec['label'][$i]."&nbsp;: ";
-//                        echo $spec['value'][$i]."</td>";
-//
-//                     } else if ($canedit) {
-//                        // Specificity
-//                        echo "<td class='right' colspan='$colspan'>".$spec['label'][$i]."&nbsp;: ";
-//                        echo "<input type='text' name='value_".$itemtype."_".$data['id']."' value='".
-//                               $data['specificity']."' size='".$spec['size']."'>";
-//                        if (isset($specificity_units[$device->getType()])) {
-//                           echo '&nbsp;'.$specificity_units[$device->getType()];
-//                        }
-//                        echo "</td>";
-//
-//                     } else {
-//                        echo "<td colspan='$colspan'>".$spec['label'][$i]."&nbsp;: ";
-//                        echo $data['specificity'];
-//                        if (isset($specificity_units[$device->getType()])) {
-//                           echo '&nbsp;'.$specificity_units[$device->getType()];
-//                        }
-//                        echo "</td>";
-//                     }
-//                  }
-//               } else {
-//                  echo "<td colspan='60'>&nbsp;</td>";
-//               }
-//               echo "</tr>";
-//               $nb++;
-//            }
-//         }
+
       }
-      
-      
-      
-      
-      
 
       if ($canedit) {
             echo "<tr><td colspan='63' class='tab_bg_1 center'>";
@@ -601,6 +541,8 @@ switch ($component){
          echo "</table>";
       }
       echo "</div>";
+
+      
    }
 
 
@@ -740,23 +682,25 @@ switch ($component){
     * update the components by deleting from entries
     */
    
-   function updateSideb($input) {
-
+   function updateSideb($serial,$compid,$computerID) {
+       global $DB;
       // Update quantity
-      foreach ($input as $key => $val) {
-         $data = explode("_",$key);
-         if (count($data) == 3 && $data[0] == "quantity") {
-            $this->updateQuantity($val, $data[1],$data[2]);
-         }
+      
+        $query = "select id from glpi_computers_deviceprocessors where computers_id = '".$computerID."' and deviceprocessors_id='".$compid."' limit 1";
+        $result = $DB->query($query);
+        if ($DB->query($query)) {
+           while ($data=$DB->fetch_array($result)) {
+              $lastid = $data["id"];
+           }
+           
+           $query = "DELETE FROM sideb_processor_deploy WHERE processorID = (SELECT idsideb_processor_list FROM sideb_processor_list WHERE serialNumber = '".$serial."')";
+           $DB->query($query);
+           $query = "DELETE FROM glpi_computers_deviceprocessors WHERE id = '".$lastid."'";
+           $DB->query($query);
+           
       }
-
-      // Update specificity
-      foreach ($_POST as $key => $val) {
-         $data = explode("_",$key);
-         if (count($data) == 3 && $data[0] == "value") {
-            $this->updateSpecificity($val,$data[1],$data[2]);
-         }
-      }
+       
+       
    }
 
 

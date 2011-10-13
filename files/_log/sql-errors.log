@@ -20171,3 +20171,3541 @@ C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
 C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
 C:/xampp/htdocs/itams/ajax/computer.tabs.php
 
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:491		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:491		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:512		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:491		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:57 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:57 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:57 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:57 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:57 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 19:57 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:00 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:00 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememorys dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1213		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1215		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessor dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_deviceprocessor' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1220		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessor dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_deviceprocessor' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1222		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememories dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1220		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememories dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1222		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcard dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcard' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1220		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcard dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcard' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1222		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drive_deploy pdeployed, sideb_drive_list plist, glpi_devicedrive dp WHERE pdeployed.driveID = plist.idsideb_drive_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicedrive' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1220		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drive_deploy pdeployed, sideb_drive_list plist, glpi_devicedrive dp WHERE pdeployed.driveID = plist.idsideb_drive_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicedrive' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1222		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:02 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessor dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_deviceprocessor' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1218		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessor dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_deviceprocessor' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1220		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememories dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1218		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememories dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1220		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcard dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcard' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1218		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcard dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcard' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1220		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrives dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1218		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrives dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1220		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:03 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processors_deploy pdeployed, sideb_processors_list plist, glpi_deviceprocessors dp WHERE pdeployed.processorsID = plist.idsideb_processors_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_processors_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1221		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processors_deploy pdeployed, sideb_processors_list plist, glpi_deviceprocessors dp WHERE pdeployed.processorsID = plist.idsideb_processors_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_processors_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1223		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememories dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1221		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememories dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1223		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcard dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcard' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1221		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcard dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcard' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1223		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drivess_deploy pdeployed, sideb_drivess_list plist, glpi_devicedrivess dp WHERE pdeployed.drivessID = plist.idsideb_drivess_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drivess_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1221		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drivess_deploy pdeployed, sideb_drivess_list plist, glpi_devicedrivess dp WHERE pdeployed.drivessID = plist.idsideb_drivess_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drivess_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1223		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememoriess dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1221		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememoriess dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1223		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1221		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1223		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememoriess dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1232		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememoriess dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1234		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1232		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1234		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememoriess dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1236		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memories_deploy pdeployed, sideb_memories_list plist, glpi_devicememoriess dp WHERE pdeployed.memoriesID = plist.idsideb_memories_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_memories_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1238		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcardss dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcardss' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1236		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcardss dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcardss' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1238		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1236		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1238		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb__deploy pdeployed, sideb__list plist, glpi_devicememoriess dp WHERE pdeployed.ID = plist.idsideb__list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb__deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1235		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb__deploy pdeployed, sideb__list plist, glpi_devicememoriess dp WHERE pdeployed.ID = plist.idsideb__list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb__deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1237		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcardss dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcardss' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1235		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcardss dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcardss' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1237		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1235		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1237		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememoriess dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememoriess' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1232		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememoriess dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememoriess' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1234		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcardss dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcardss' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1232		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcardss dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcardss' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1234		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1232		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1234		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememoriess dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememoriess' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1232		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememoriess dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.glpi_devicememoriess' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1234		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcardss dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcardss' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1232		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcardss dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\'
+Error: Table 'itams.glpi_devicenetworkcardss' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1234		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1232		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1234		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1235		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1237		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:12 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1238		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drives_deploy pdeployed, sideb_drives_list plist, glpi_devicedrivess dp WHERE pdeployed.drivesID = plist.idsideb_drives_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\'
+Error: Table 'itams.sideb_drives_deploy' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1240		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:513		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:492		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:17 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:460		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:17 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:462		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 20:32 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:548		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessors dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1239		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessors dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1241		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessors dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1239		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessors dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1241		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessors dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1239		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessors dp WHERE pdeployed.processorID = plist.idsideb_processor_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1241		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememories dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1239		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_memory_deploy pdeployed, sideb_memory_list plist, glpi_devicememories dp WHERE pdeployed.memoryID = plist.idsideb_memory_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1241		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcards dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1239		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_networkcard_deploy pdeployed, sideb_networkcard_list plist, glpi_devicenetworkcards dp WHERE pdeployed.networkcardID = plist.idsideb_networkcard_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'2\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1241		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drive_deploy pdeployed, sideb_drive_list plist, glpi_devicedrives dp WHERE pdeployed.driveID = plist.idsideb_drive_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1239		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT plist.serialNumber, designation FROM sideb_drive_deploy pdeployed, sideb_drive_list plist, glpi_devicedrives dp WHERE pdeployed.driveID = plist.idsideb_drive_list AND pdeployed.computerID = \'5\' AND dp.id = componentID AND componentID = \'1\' LIMIT ,1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1241		DBmysql->query()
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:556		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:47 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:850		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:47 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:852		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:47 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:850		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:47 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:852		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:47 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:850		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:47 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:852		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:52 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:52 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:52 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:52 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:52 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:52 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:52 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:52 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:53 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:53 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:53 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:53 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+where componentID in (SELECT b.devicememorys_id
+FROM `glpi_computers_devicememorys` b
+WHERE b.`computers_id` = \'5\') and idsideb_memory_list in (select memoryid from sideb_memory_deploy)
+Error: Table 'itams.glpi_computers_devicememorys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:389		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+where componentID in (SELECT b.devicepowersupplys_id
+FROM `glpi_computers_devicepowersupplys` b
+WHERE b.`computers_id` = \'5\') and idsideb_powersupply_list in (select powersupplyid from sideb_powersupply_deploy)
+Error: Table 'itams.glpi_computers_devicepowersupplys' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:390		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SEsLECT serialnumber, idsideb_processor_list,componentID FROM `sideb_processor_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_deviceprocessors` b
+        WHERE b.`computers_id` = \'5\' ) and idsideb_processor_list in (select processorID from sideb_processor_deploy)
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEsLECT serialnumber, idsideb_processor_list,componentID FROM `sideb_processor_l' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SEsLECT serialnumber, idsideb_processor_list,componentID FROM `sideb_processor_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_deviceprocessors` b
+        WHERE b.`computers_id` = \'5\' ) and idsideb_processor_list in (select processorID from sideb_processor_deploy)
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEsLECT serialnumber, idsideb_processor_list,componentID FROM `sideb_processor_l' at line 1
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:56 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:56 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 21:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:16 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:16 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:16 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:16 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:16 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:16 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:17 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:17 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:21 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:21 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:21 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:21 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:21 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:21 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:21 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:21 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:25 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:26 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:26 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:26 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:26 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:38 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:38 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:39 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:39 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:39 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:39 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:39 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:39 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:39 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:39 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:40 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:40 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:40 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:40 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:40 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:40 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:41 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:41 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:41 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:41 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:42 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:42 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:42 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:42 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:42 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:42 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:43 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:43 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:53 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:53 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:53 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:53 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:54 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:55 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:58 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:59 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:59 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:59 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 22:59 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-13 23:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
