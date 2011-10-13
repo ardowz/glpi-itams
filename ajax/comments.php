@@ -42,7 +42,7 @@ header("Content-Type: text/html; charset=UTF-8");
 header_nocache();
 
 checkLoginUser();
-
+echo "NOO";
 if (isset($_REQUEST["table"]) && isset($_REQUEST["value"])) {
    // Security
    if (! TableExists($_REQUEST['table']) ) {

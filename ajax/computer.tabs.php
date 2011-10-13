@@ -172,8 +172,9 @@ if ($_POST["id"]>0 && $computer->can($_POST["id"],'r')) {
 
          default :
             if (!Plugin::displayAction($computer, $_REQUEST['glpi_tab'])) {
-               Computer_Device::showForComputer($computer);
+               Computer_Device::showForComputerSideb($computer);
             }
+            
             
       }
    }

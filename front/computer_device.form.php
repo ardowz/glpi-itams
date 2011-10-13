@@ -39,16 +39,24 @@ include (GLPI_ROOT . "/inc/includes.php");
 
 $compdev = new Computer_Device();
 
+$table = $_POST['componenttable']."_deploy";
+
+
 if (isset($_POST["add"])) {
    $compdev->check(-1, 'w', $_POST);
    $compdev->add($_POST);
+   $compdev->addSidebCustom($_POST, $table);
    glpi_header($_SERVER['HTTP_REFERER']);
 
 } else if (isset($_POST["updateall"])) {
-   $compdev->check(-1, 'w', $_POST);
-   $compdev->updateAll($_POST);
-   Event::log($_POST["computers_id"], "computers", 4, "inventory",
-              $_SESSION["glpiname"] ." ".$LANG['log'][28]);
+//   $compdev->check(-1, 'w', $_POST);
+//   $compdev->updateAll($_POST);
+//   Event::log($_POST["computers_id"], "computers", 4, "inventory",
+//              $_SESSION["glpiname"] ." ".$LANG['log'][28]);
+    
+    
+//    remaking the update
+//    $compdev->updateSideb($input);
    glpi_header($_SERVER['HTTP_REFERER']);
 
 }

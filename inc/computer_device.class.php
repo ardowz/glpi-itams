@@ -241,12 +241,13 @@ class Computer_Device extends CommonDBTM {
                echo "<td class='center'>";
                Dropdown::showInteger("quantity_".$itemtype."_".$data['id'], $data['NB']);
                echo "</td><td>";
+               //Component type
                if ($device->canCreate()) {
                   echo "<a href='".$device->getSearchURL()."'>".$device->getTypeName()."</a>";
                } else {
                   echo $device->getTypeName();
                }
-               echo "</td><td>".$device->getLink()."</td>";
+               echo "</td><td>".$device->getLinkSideb($ID,$device->getTypeName())."</td>";
 
                $spec = $device->getFormData();
                if (isset($spec['label']) && count($spec['label'])) {
@@ -294,7 +295,305 @@ class Computer_Device extends CommonDBTM {
 
          echo "<tr><td colspan='63' class='tab_bg_1 center'>";
          echo $LANG['devices'][0]."&nbsp;: ";
-         Dropdown::showAllItems('items_id', '', 0, -1, $devtypes);
+         echo "<input type='hidden' name='computerID' value='".$ID."'/>";
+//         Dropdown::showAllItems('items_id', '', 0, -1, $devtypes);
+         Dropdown::showAllItemsSideb('items_id', '', 0, -1, $devtypes);
+         echo "<input type='submit' name='add' value=\"".$LANG['buttons'][8]."\" class='submit'>";
+         echo "</tr></table></form>";
+
+      } else {
+         echo "</table>";
+      }
+      echo "</div>";
+   }
+   
+   /**
+    * 
+    * sideb thesis adjustment
+    * 
+    * remade the showform comptuer to accomodate the individual components
+    * 
+    * 
+    * Print the form for devices linked to a computer or a template
+    *
+    * @param $computer Computer object
+    * @param $withtemplate='' boolean : template or basic computer
+    *
+    * @return Nothing (display)
+   **/
+   static function showForComputerSideb(Computer $computer, $withtemplate='') {
+      global $DB, $LANG;
+
+      $devtypes = self::getDeviceTypes();
+
+      $ID = $computer->getField('id');
+      if (!$computer->can($ID, 'r')) {
+         return false;
+      }
+      $canedit = ($withtemplate!=2 && $computer->can($ID, 'w'));
+
+      echo "<div class='spaced'>";
+      if ($canedit) {
+         echo "<form name='form_device_action' action='".getItemTypeFormURL(__CLASS__).
+                "' method='post'>";
+         echo "<input type='hidden' name='computers_id' value='$ID'>";
+      }
+      echo "<table class='tab_cadre_fixe' >";
+      echo "<tr><th colspan='63'>".$LANG['title'][30]."</th></tr>";
+      $nb = 0;
+
+      $specificity_units = array('DeviceProcessor'   => $LANG['setup'][35],
+                                 'DeviceMemory'      => $LANG['common'][82],
+                                 'DeviceHardDrive'   => $LANG['common'][82],
+                                 'DeviceGraphicCard' => $LANG['common'][82]);
+
+      foreach ($devtypes as $itemtype) {
+         initNavigateListItems($itemtype, $computer->getTypeName()." = ".$computer->getName());
+
+         $device        = new $itemtype;
+         $specificities = $device->getSpecifityLabel();
+         $specif_fields = array_keys($specificities);
+         $specif_text   = implode(',',$specif_fields);
+         if (!empty($specif_text)) {
+            $specif_text=" ,".$specif_text." ";
+         }
+
+         $linktable = getTableForItemType('Computer_'.$itemtype);
+         $fk        = getForeignKeyFieldForTable(getTableForItemType($itemtype));
+
+         $query = "SELECT COUNT(*) AS NB,
+                          `id`,
+                          `$fk`
+                          $specif_text
+                   FROM `$linktable`
+                   WHERE `computers_id` = '$ID'
+                   GROUP BY `$fk` $specif_text";
+//echo $fk;
+$component =  substr($fk, 6,-4);
+//if($component == "memorie"){
+//    $component = "memory";
+//}else if($component == "powersupplie"){
+//    $component = "powersupply";
+//}
+
+//         $query = "SELECT serialnumber, idsideb_".$component."_list,componentID FROM `sideb_".$component."_list`
+//                    where componentID in (SELECT b.device".$component."s_id
+//                    FROM `glpi_computers_device".$component."s` b
+//                    WHERE b.`computers_id` = '".$ID."') and idsideb_".$component."_list in (select ".$component."id from sideb_".$component."_deploy)";
+//         
+//         echo $query;
+//         echo "<br/>";
+switch ($component){
+    
+    case 'processor':
+        //$query = "SELECT * FROM `glpi_deviceprocessors`;";
+        $query = "SELECT serialnumber, idsideb_processor_list,componentID FROM `sideb_processor_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_deviceprocessors` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_processor_list in (select processorID from sideb_processor_deploy)";
+        break;
+    
+    case 'case':
+        //$query = "SELECT * FROM `glpi_devicecases`;";
+        $query ="SELECT serialnumber, idsideb_case_list,componentID FROM `sideb_case_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_case_list in (select caseID from sideb_case_deploy)";
+        break;
+    
+    case 'control':
+        //$query = "SELECT * FROM `glpi_devicecontrols`;";
+        $query = "SELECT serialnumber, idsideb_control_list,componentID FROM `sideb_control_list`
+        where componentID in (SELECT b.devicecontrols_id
+        FROM `glpi_computers_devicecontrols` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_control_list in (select controlID from sideb_control_deploy)";
+        break;
+    
+    case 'drive':
+        //$query = "SELECT * FROM `glpi_devicedrives`;";
+        $query = "SELECT serialnumber, idsideb_drive_list,componentID FROM `sideb_drive_list`
+        where componentID in (SELECT b.devicedrives_id
+        FROM `glpi_computers_devicedrives` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_drive_list in (select driveID from sideb_drive_deploy)";
+        break;
+    
+    case 'graphiccard':
+        //$query = "SELECT * FROM `glpi_devicegraphiccards`;";
+        $query = "SELECT serialnumber, idsideb_graphiccard_list,componentID FROM `sideb_graphiccard_list`
+        where componentID in (SELECT b.devicegraphiccards_id
+        FROM `glpi_computers_devicegraphiccards` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_graphiccard_list in (select graphiccardID from sideb_graphiccard_deploy)";
+        break;
+    
+    case 'harddrive':
+        //$query = "SELECT * FROM `glpi_deviceharddrives`;";
+        $query = "SELECT serialnumber, idsideb_harddrive_list,componentID FROM `sideb_harddrive_list`
+        where componentID in (SELECT b.deviceharddrives_id
+        FROM `glpi_computers_deviceharddrives` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_harddrive_list in (select harddriveID from sideb_harddrive_deploy)";
+        break;
+        
+    case 'memorie':
+        //$query = "SELECT * FROM `glpi_devicememories`;";
+        $query = "SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
+        where componentID in (SELECT b.devicememories_id
+        FROM `glpi_computers_devicememories` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_memory_list in (select memoryID from sideb_memory_deploy)";
+        break;
+        
+    case 'networkcard':
+        //$query = "SELECT * FROM `glpi_devicenetworkcards`;";
+        $query = "SELECT serialnumber, idsideb_networkcard_list,componentID FROM `sideb_networkcard_list`
+        where componentID in (SELECT b.devicenetworkcards_id
+        FROM `glpi_computers_devicenetworkcards` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_networkcard_list in (select networkcardID from sideb_networkcard_deploy)";
+        break;
+        
+    case 'pci':
+        //$query = "SELECT * FROM `glpi_devicepcis`;";
+        $query = "SELECT serialnumber, idsideb_pci_list,componentID FROM `sideb_pci_list`
+        where componentID in (SELECT b.devicepcis_id
+        FROM `glpi_computers_devicepcis` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_pci_list in (select pciID from sideb_pci_deploy)";
+        break;
+        
+    case 'powersupply':
+        //$query = "SELECT * FROM `glpi_devicepowersupplies`;";
+        $query = "SELECT serialnumber, idsideb_powersupply_list,componentID FROM `sideb_powersupply_list`
+        where componentID in (SELECT b.devicepowersupplies_id
+        FROM `glpi_computers_devicepowersupplies` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_powersupply_list in (select powersupplyID from sideb_powersupply_deploy)";
+        break;
+        
+    case 'soundcard':
+        //$query = "SELECT * FROM `glpi_devicesoundcards`;";
+        $query = "SELECT serialnumber, idsideb_soundcard_list,componentID FROM `sideb_soundcard_list`
+        where componentID in (SELECT b.devicesoundcards_id
+        FROM `glpi_computers_devicesoundcards` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_soundcard_list in (select soundcardID from sideb_soundcard_deploy)";
+        break;
+        
+    case 'motherboard':
+        //$query = "SELECT * FROM `glpi_devicemotherboards`;";
+        $query = "SELECT serialnumber, idsideb_motherboard_list,componentID FROM `sideb_motherboard_list`
+        where componentID in (SELECT b.devicemotherboards_id
+        FROM `glpi_computers_devicemotherboards` b
+        WHERE b.`computers_id` = '".$ID."' ) and idsideb_motherboard_list in (select motherboardID from sideb_motherboard_deploy)";
+        break;
+    
+    default:
+        $query = '';
+        break;
+}
+         
+         $prev = '';
+         
+          $result = $DB->query($query);
+          $checkboxname = array();
+      if ($DB->query($query)) {
+           while ($data=$DB->fetch_array($result)) {
+              $lastid = $data["serialnumber"];
+              $idcomp = $data["idsideb_".$component."_list"];
+              $idcomponent = $data['componentID'];
+              $chname = array($component."_".$idcomp);
+              $checkboxname = array_merge($checkboxname, (array)($chname));
+//              echo $lastid;
+//              echo "<br/>";
+//              echo $component;
+              echo "<tr class='tab_bg_2'>";
+              echo "<td class='center'>";
+              echo "<input type='checkbox' name='".$chname."' value='".$chname."'/>";
+              echo "</td><td>";
+              if ($device->canCreate()) {
+                  echo "<a href='".$device->getSearchURL()."'>".$device->getTypeName()."</a>";
+               } else {
+                 echo $device->getTypeName();
+               }
+              echo "</td><td>".$device->getLinkSideb($ID,$device->getTypeName(),$idcomponent)."</td>";
+
+              echo "<br/>";
+           }
+      }
+      echo "<input type='hidden' name='boxarray' value='$checkboxname'/>";
+//         foreach ($DB->request($query) as $data) {
+////              addToNavigateListItems($itemtype, $data[$fk]);
+//             if ($device->getFromDB($data[$fk])) {
+//                 
+//             }
+//             
+//         }
+         
+//         foreach ($DB->request($query) as $data) {
+//            addToNavigateListItems($itemtype, $data[$fk]);
+//
+//            if ($device->getFromDB($data[$fk])) {
+//               echo "<tr class='tab_bg_2'>";
+//               echo "<td class='center'>";
+////               while ($sidebdata=$DB->fetch_array($result)) {
+//               echo "<input type='checkbox' name='deleteComp' value='comp'/>";
+//               Dropdown::showInteger("quantity_".$itemtype."_".$data['id'], $data['NB']);
+//               echo "</td><td>";
+//               //Component type
+//               if ($device->canCreate()) {
+//                  echo "<a href='".$device->getSearchURL()."'>".$device->getTypeName()."</a>";
+//               } else {
+//                  echo $device->getTypeName();
+//               }
+//               echo "</td><td>".$device->getLinkSideb($ID,$device->getTypeName())."</td>";
+//
+//               $spec = $device->getFormData();
+//               if (isset($spec['label']) && count($spec['label'])) {
+//                  $colspan = (60/count($spec['label']));
+//                  foreach ($spec['label'] as $i => $label) {
+//
+//                     if (isset($spec['value'][$i])) {
+//                        echo "<td colspan='$colspan'>".$spec['label'][$i]."&nbsp;: ";
+//                        echo $spec['value'][$i]."</td>";
+//
+//                     } else if ($canedit) {
+//                        // Specificity
+//                        echo "<td class='right' colspan='$colspan'>".$spec['label'][$i]."&nbsp;: ";
+//                        echo "<input type='text' name='value_".$itemtype."_".$data['id']."' value='".
+//                               $data['specificity']."' size='".$spec['size']."'>";
+//                        if (isset($specificity_units[$device->getType()])) {
+//                           echo '&nbsp;'.$specificity_units[$device->getType()];
+//                        }
+//                        echo "</td>";
+//
+//                     } else {
+//                        echo "<td colspan='$colspan'>".$spec['label'][$i]."&nbsp;: ";
+//                        echo $data['specificity'];
+//                        if (isset($specificity_units[$device->getType()])) {
+//                           echo '&nbsp;'.$specificity_units[$device->getType()];
+//                        }
+//                        echo "</td>";
+//                     }
+//                  }
+//               } else {
+//                  echo "<td colspan='60'>&nbsp;</td>";
+//               }
+//               echo "</tr>";
+//               $nb++;
+//            }
+//         }
+      }
+      
+      
+      
+      
+      
+
+      if ($canedit) {
+            echo "<tr><td colspan='63' class='tab_bg_1 center'>";
+            echo "<input type='submit' class='submit' name='updateall' value='".
+                   $LANG['buttons'][7]."'></td></tr>";
+         
+
+         echo "<tr><td colspan='63' class='tab_bg_1 center'>";
+         echo $LANG['devices'][0]."&nbsp;: ";
+         echo "<input type='hidden' name='computerID' value='".$ID."'/>";
+//         Dropdown::showAllItems('items_id', '', 0, -1, $devtypes);
+         Dropdown::showAllItemsSideb('items_id', '', 0, -1, $devtypes);
          echo "<input type='submit' name='add' value=\"".$LANG['buttons'][8]."\" class='submit'>";
          echo "</tr></table></form>";
 
@@ -418,6 +717,30 @@ class Computer_Device extends CommonDBTM {
     * @param $input array of data from the input form
    **/
    function updateAll($input) {
+
+      // Update quantity
+      foreach ($input as $key => $val) {
+         $data = explode("_",$key);
+         if (count($data) == 3 && $data[0] == "quantity") {
+            $this->updateQuantity($val, $data[1],$data[2]);
+         }
+      }
+
+      // Update specificity
+      foreach ($_POST as $key => $val) {
+         $data = explode("_",$key);
+         if (count($data) == 3 && $data[0] == "value") {
+            $this->updateSpecificity($val,$data[1],$data[2]);
+         }
+      }
+   }
+   
+   /*
+    * sideb thesis adjustment
+    * update the components by deleting from entries
+    */
+   
+   function updateSideb($input) {
 
       // Update quantity
       foreach ($input as $key => $val) {

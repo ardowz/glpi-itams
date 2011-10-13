@@ -438,6 +438,9 @@ if ($item instanceof CommonTreeDropdown) {
                  $LIMIT";
    }
 
+   /*
+    * Dropdown for the component type
+    */
    if ($result = $DB->query($query)) {
       echo "<select id='dropdown_".$_POST["myname"].$_POST["rand"]."' name='".$_POST['myname']."'
              size='1'";
@@ -509,10 +512,11 @@ if ($item instanceof CommonTreeDropdown) {
 if (isset($_POST["comment"]) && $_POST["comment"]) {
    $paramscomment = array('value' => '__VALUE__',
                           'table' => $table);
-
    ajaxUpdateItemOnSelectEvent("dropdown_".$_POST["myname"].$_POST["rand"],
                                "comment_".$_POST["myname"].$_POST["rand"],
                                $CFG_GLPI["root_doc"]."/ajax/comments.php", $paramscomment, false);
+   
+
 }
 
 commonDropdownUpdateItem($_POST);

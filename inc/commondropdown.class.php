@@ -75,7 +75,12 @@ abstract class CommonDropdown extends CommonDBTM {
     * Add more tabs to display
    **/
    function defineMoreTabs($options=array()) {
-      return array();
+       
+      $array = 'DeviceList';
+       
+      $result = array_merge($options,(array)$array);
+       
+      return $result;
    }
 
 
@@ -119,7 +124,7 @@ abstract class CommonDropdown extends CommonDBTM {
                Plugin::displayAction($this, $tab);
                $this->displayMoreTabs($tab);
                return false;
-
+               break;
             default :
                $this->displayMoreTabs($tab);
                return Plugin::displayAction($this, $tab);
@@ -130,6 +135,96 @@ abstract class CommonDropdown extends CommonDBTM {
 
 
    function displayMoreTabs($tab) {
+       GLOBAL $DB;
+       
+//       echo $this->getTypename();
+       switch(strtolower($this->getTypeName())){
+           case 'system board':
+               $typename = 'motherboard';
+               break;
+           case 'processor':
+               $typename = 'processor';
+               break;
+           case 'network card':
+               $typename = 'networkcard';
+               break;
+           case 'memory':
+               $typename = 'memory';
+               break;
+           case 'hard drive':
+               $typename = 'harddrive';
+               break;
+           case 'control':
+               $typename = 'control';
+               break;
+           case 'graphics card':
+               $typename = 'graphicscard';
+               break;
+           case 'sound card':
+               $typename = 'soundcard';
+               break;
+           case 'cases':
+               $typename = 'case';
+               break;
+           case 'power supply':
+               $typename = 'powersupply';
+               break;
+           case 'drives':
+               $typename = 'drive';
+               break;
+           default:
+               $typename = '';
+               break;
+           
+       }
+       echo $typename;
+       
+       switch($tab) {
+           case 0:
+               echo "<form action='addComponentList.php' type='post'>";
+               echo "<input type='hidden' id='url' name='url' value='".$this->getFormURL()."' />";
+               echo "<input type='hidden' id='componentID' name='componentID' value='".$this->getID()."' />";
+               echo "<input type='hidden' id='comptype' name='comptype' value='".$typename."' />";
+               echo "<input type='text' id='serialNumber' name='serialNumber' />";
+               echo "<input type='submit'/>";
+               echo "</form>";
+//               echo "<table>";
+               echo "<table>";
+               $dropdownarray = array();
+               $queryid = "SELECT * FROM `sideb_".$typename."_list` where componentID='".$this->getID()."';";
+               $result = $DB->query($queryid);
+                if ($DB->query($queryid)) {
+                     while ($data=$DB->fetch_array($result)) {
+//                         echo $data['serialNumber'];
+                         //$merged = array_merge($dropdownarray, (array)$data['serialNumber']);
+                         
+                         echo "<tr><td>";
+                         echo $data['serialNumber'];
+                         echo "</td></tr>";
+                     }
+                }
+                echo "</table>";
+//                echo $this->getFormURL();
+//                echo $this->getTypeName();
+//               echo $this->getFormURL(true);
+//                foreach ($merged as $value) {
+//                    
+//                }
+//                
+                
+                
+        //      $resultid = $DB->query($queryid);
+               
+//               echo "<td>";
+//               echo "</td>";
+//               echo "</tr>";
+//               echo "</tables>";
+//               
+               break;
+           default:
+               break;
+       }
+       
    }
 
 

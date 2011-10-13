@@ -127,20 +127,11 @@ if ($_POST["id"]>0 && $soft->can($_POST["id"],'r')) {
             break;
 
          default :
-            //if (!Plugin::displayAction($soft, $_REQUEST['glpi_tab'])) {
-              // SoftwareVersion::showForSoftware($soft);
-               //SoftwareLicense::showForSoftware($soft);
-            //}
-            SoftwareVersion::showForSoftware($soft);
-            SoftwareLicense::showForSoftware($soft);
-            Computer_SoftwareVersion::showForSoftware($soft);
-            Infocom::showForItem($soft);
-            Contract::showAssociated($soft);
-            Document::showAssociated($soft);
-            Ticket::showListForItem('Software', $_POST["id"]);
-            Link::showForItem('Software' ,$_POST["id"]);
-            Plugin::displayAction($soft, $_REQUEST['glpi_tab']);
-            break;
+            if (!Plugin::displayAction($soft, $_REQUEST['glpi_tab'])) {
+               SoftwareVersion::showForSoftware($soft);
+               SoftwareLicense::showForSoftware($soft);
+            }
+          
       }
    }
 }

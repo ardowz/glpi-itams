@@ -79,8 +79,25 @@ if ($_POST["idtable"] && class_exists($_POST["idtable"])) {
 
    $default = "<select name='".$_POST["myname"]."'><option value='0'>".DROPDOWN_EMPTY_VALUE.
               "</option></select>";
-   ajaxDropdown($use_ajax, "/ajax/$link", $paramsallitems, $default, $rand);
+   /*
+    * Going to make another dropdown to accomodate the new assets to be installed
+    */
+//   ajaxDropdown($use_ajax, "/ajax/$link", $paramsallitems, $default, $rand);
 
+   /*
+    * sideb verision bottom here
+    */
+   $type = substr($_POST['idtable'], 6);
+   
+   $params = array('type' => $type);
+   
+   echo $params['type'];
+   echo $rand;
+   ajaxUpdateItemOnSelectEvent("itemtype$rand", "componentListed",
+                                $CFG_GLPI["root_doc"]."/ajax/addComponent.php", $params);
+   
+   echo "<span name='componentListed' id='componentListed'></span>";
+   
 }
 
 ?>

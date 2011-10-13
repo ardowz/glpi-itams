@@ -98,7 +98,7 @@ header_nocache();
           
           $params = array('type'            => '__VALUE__');
       
-      
+
            ajaxUpdateItemOnSelectEvent($rand,
                                   "hardware_".$rand,
                                   $CFG_GLPI["root_doc"]."/ajax/dropdownHardwareList.php", $params);

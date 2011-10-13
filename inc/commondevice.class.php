@@ -72,7 +72,12 @@ abstract class CommonDevice extends CommonDropdown {
       $tab[16]['field']    = 'comment';
       $tab[16]['name']     = $LANG['common'][25];
       $tab[16]['datatype'] = 'text';
-
+      
+      $tab[99]['table'] = $this->getTable();
+      $tab[99]['field']    = 'comment';
+      $tab[99]['name']     = $LANG['common'][25];
+      $tab[99]['datatype'] = 'text';
+      
       return $tab;
    }
 

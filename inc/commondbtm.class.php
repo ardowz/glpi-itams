@@ -1152,13 +1152,77 @@ class CommonDBTM extends CommonGLPI {
          if (!$this->can($this->fields['id'],'r')) {
             return $this->getNameID($with_comment);
          }
-
          $link  = $link_item;
          $link .= (strpos($link,'?') ? '&amp;':'?').'id=' . $this->fields['id'];
          $link .= ($this->isTemplate() ? "&amp;withtemplate=1" : "");
 
+//         echo $this->getName();
+//         echo $this->fields['id'];
          return "<a href='$link'>".$this->getNameID($with_comment)."</a>";
       }
+
+   }
+   
+   /**
+    * 
+    * sideb thesis adjustment
+    * Get the link to an item with the serial number
+    *
+    * @param $with_comment Display comments
+    *
+    * @return string : HTML link
+   **/
+   function getLinkSideb($id,$devicename,$idcomp) {
+      global $CFG_GLPI,$DB;
+
+//      if (!isset($this->fields['id'])) {
+//         return '';
+//      }
+
+//      if ($this->no_form_page) {
+////         return $this->getNameID($with_comment);
+//
+//      } else {
+         $link_item = $this->getFormURL();
+
+//         if (!$this->can($this->fields['id'],'r')) {
+////            return $this->getNameID($with_comment);
+//         }
+         $link  = $link_item;
+         $link .= (strpos($link,'?') ? '&amp;':'?').'id=' . $idcomp;
+         $link .= ($this->isTemplate() ? "&amp;withtemplate=1" : "");
+
+//         echo $this->getName();
+//         echo $this->fields['id'];
+//         echo $id;
+         
+         /*
+          * sideb thesis adjustment query
+          * SELECT plist.serialNumber, designation
+FROM sideb_processor_deploy pdeployed, sideb_processor_list plist, glpi_deviceprocessors dp
+WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.computerID = '".$id."' AND dp.id = componentID AND componentID = '".$this->fields['id']."'
+          */
+//         return "<a href='$link'>".$this->getNameID($with_comment)."</a>";
+         
+//         $db = new CommonDBTM();
+         $device = strtolower($devicename);
+         if($device == "network card") $device = 'networkcard';
+//         echo $device;
+         $queryy = "SELECT plist.serialNumber, designation FROM sideb_".$device."_deploy pdeployed, sideb_".$device."_list plist, glpi_device".$device."s dp WHERE pdeployed.".$device."ID = plist.idsideb_".$device."_list AND pdeployed.computerID = '".$id."' AND dp.id = componentID AND componentID = '".$idcomp."'";
+//         echo $queryy;
+         $resultt = $DB->query($queryy);
+//         echo $resultt;
+         if ($DB->query($queryy)) {             
+             while ($data=$DB->fetch_array($resultt)) {
+                 $snumber = $data['serialNumber'];
+                 $designation = $data['designation'];
+
+             }
+         }
+         
+         
+         return "<a href='$link'>".$designation."</a> - Serial Number: ".$snumber."";
+//      }
 
    }
 
