@@ -1215,7 +1215,7 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
 ////             $device = $device 
 //         }
          $sidebdevice = $device;
-         echo $device;
+//         echo $device;
          switch($device){
              case 'network card':
                  $device = 'networkcards';

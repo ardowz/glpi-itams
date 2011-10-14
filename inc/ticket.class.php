@@ -3109,7 +3109,7 @@ class Ticket extends CommonDBTM {
     * @param $knowbase_id_toload integer load a kb article as solution (0 = no load)
    **/
    function showSolutionForm($knowbase_id_toload=0) {
-      global $LANG, $CFG_GLPI;
+      global $LANG, $CFG_GLPI,$DB;
 
       $this->check($this->getField('id'), 'r');
 
@@ -3183,7 +3183,163 @@ class Ticket extends CommonDBTM {
 //      Dropdown::showYesNo('_sol_to_kb', false);
 //      echo "</td>";
       echo "</tr>";
+      echo "</td></tr>";
+      echo "<tr class='tab_bg_2'><td>";
+      echo $LANG['jobresolution'][7]." :";
+      echo "</td>";
+      echo "<td>";
+      //search this!
+//      echo "computer id";
+      $types = Computer_Device::getDeviceTypes();
+//      echo $types;
+       echo "<select name='component_link' id='consumable_type'>";
+       echo "<option value='0'>--</option>";
+      foreach($types as $component){
+          $component = substr($component, 6);
+          switch (strtolower($component)){
+                case 'processor':
+                    //$query = "SELECT * FROM `glpi_deviceprocessors`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_deviceprocessors cdp, glpi_deviceprocessors dp, sideb_processor_list sbpl
+                    WHERE cdp.deviceprocessors_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_processor_list IN (SELECT processorID FROM sideb_processor_deploy)
+                    GROUP by dp.id";
+//                    echo $query;
+                    break;
 
+                case 'case':
+                    //$query = "SELECT * FROM `glpi_devicecases`;";
+                    
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicecases cdp, glpi_devicecases dp, sideb_case_list sbpl
+                    WHERE cdp.devicecases_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_case_list IN (SELECT caseID FROM sideb_case_deploy)
+                    GROUP by dp.id";
+                    break;
+
+                case 'control':
+                    //$query = "SELECT * FROM `glpi_devicecontrols`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicecontrols cdp, glpi_devicecontrols dp, sideb_control_list sbpl
+                    WHERE cdp.devicecontrols_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_control_list IN (SELECT controlID FROM sideb_control_deploy)
+                    GROUP by dp.id";
+                    break;
+
+                case 'drive':
+                    //$query = "SELECT * FROM `glpi_devicedrives`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicedrives cdp, glpi_devicedrives dp, sideb_drive_list sbpl
+                    WHERE cdp.devicedrives_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_drive_list IN (SELECT driveID FROM sideb_drive_deploy)
+                    GROUP by dp.id";
+                    break;
+
+                case 'graphiccard':
+                    //$query = "SELECT * FROM `glpi_devicegraphiccards`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicegraphiccards cdp, glpi_devicegraphiccards dp, sideb_graphiccard_list sbpl
+                    WHERE cdp.devicegraphiccards_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_graphiccard_list IN (SELECT graphiccardID FROM sideb_graphiccard_deploy)
+                    GROUP by dp.id";
+                    break;
+
+                case 'harddrive':
+                    //$query = "SELECT * FROM `glpi_deviceharddrives`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_deviceharddrives cdp, glpi_deviceharddrives dp, sideb_harddrive_list sbpl
+                    WHERE cdp.deviceharddrives_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_harddrive_list IN (SELECT harddriveID FROM sideb_harddrive_deploy)
+                    GROUP by dp.id";
+                    
+                    break;
+
+                case 'memory':
+                    //$query = "SELECT * FROM `glpi_devicememories`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicememories cdp, glpi_devicememories dp, sideb_memory_list sbpl
+                    WHERE cdp.devicememories_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_memory_list IN (SELECT memoryID FROM sideb_memory_deploy)
+                    GROUP by dp.id";
+                    
+                    break;
+
+                case 'networkcard':
+                    //$query = "SELECT * FROM `glpi_devicenetworkcards`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicenetworkcards cdp, glpi_devicenetworkcards dp, sideb_networkcard_list sbpl
+                    WHERE cdp.devicenetworkcards_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_networkcard_list IN (SELECT networkcardID FROM sideb_networkcard_deploy)
+                    GROUP by dp.id";
+                    
+                    break;
+
+                case 'pci':
+                    //$query = "SELECT * FROM `glpi_devicepcis`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicepcis cdp, glpi_devicepcis dp, sideb_pci_list sbpl
+                    WHERE cdp.devicepcis_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_pci_list IN (SELECT pciID FROM sideb_pci_deploy)
+                    GROUP by dp.id";
+                    
+                    break;
+
+                case 'powersupply':
+                    //$query = "SELECT * FROM `glpi_devicepowersupplies`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicepowersupplies cdp, glpi_devicepowersupplies dp, sideb_powersupply_list sbpl
+                    WHERE cdp.devicepowersupplies_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_powersupply_list IN (SELECT powersupplyID FROM sideb_powersupply_deploy)
+                    GROUP by dp.id";
+                    
+                    break;
+
+                case 'soundcard':
+                    //$query = "SELECT * FROM `glpi_devicesoundcards`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicesoundcards cdp, glpi_devicesoundcards dp, sideb_soundcard_list sbpl
+                    WHERE cdp.devicesoundcards_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_soundcard_list IN (SELECT soundcardID FROM sideb_soundcard_deploy)
+                    GROUP by dp.id";
+                    
+                    break;
+
+                case 'motherboard':
+                    //$query = "SELECT * FROM `glpi_devicemotherboards`;";
+                    $query = "SELECT dp.designation AS Name, sbpl.serialNumber
+                    FROM glpi_computers_devicemotherboards cdp, glpi_devicemotherboards dp, sideb_motherboard_list sbpl
+                    WHERE cdp.devicemotherboards_id = dp.id  AND sbpl.componentID = dp.id AND cdp.computers_id = '".$this->fields["items_id"]."' AND
+                    idsideb_motherboard_list IN (SELECT motherboardID FROM sideb_motherboard_deploy)
+                    GROUP by dp.id";
+                    
+                    break;
+
+                default:
+                    $query = '';
+                    break;
+            }
+//            echo "<br/>";
+            
+              
+           $result = $DB->query($query);
+           if ($DB->query($query)) {
+                   while ($data=$DB->fetch_array($result)) {
+                      $lastid = $data["serialNumber"];
+                      $cname = $data['Name'];
+                      $optionValue = $component."_".$lastid;
+                      $displayValue = $component."  -  ".$cname."  -  SN: ".$lastid;
+                      echo "<option value='".$optionValue."'>".$displayValue."</option>";
+                      echo $cname;
+                   }
+              }
+              
+      }
+      echo "</select>";
+      echo "<input type='hidden' value='".$this->getField('id')."' name='ticketID'/>";
+      echo "<input type='hidden' value='1' name='sidebcomponentlink'/>";
+      echo "</td>";
+      echo "</tr>";
+      
       echo "<tr class='tab_bg_2'>";
       echo "<td>".$LANG['joblist'][6]."&nbsp;: </td><td colspan='3'>";
 
@@ -3198,7 +3354,7 @@ class Ticket extends CommonDBTM {
       } else {
          echo unclean_cross_side_scripting_deep($this->getField('solution'));
       }
-      echo "</td></tr>";
+      
 
       $options['candel']  = false;
       $options['canedit'] = $canedit;

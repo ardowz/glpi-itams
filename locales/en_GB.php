@@ -884,6 +884,7 @@ $LANG['jobresolution'][3]="Approved solution";
 $LANG['jobresolution'][4]="Refused solution"; 
 $LANG['jobresolution'][5]="If you reject the solution, you must specify a reason"; 
 $LANG['jobresolution'][6]="Solution template"; 
+$LANG['jobresolution'][7]="Component Involved"; 
 
 $LANG['knowbase'][1]="FAQ"; 
 $LANG['knowbase'][5]="Put this item in the FAQ"; 

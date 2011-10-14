@@ -60,6 +60,8 @@ if (isset($_POST["add"])) {
    glpi_header($_SERVER['HTTP_REFERER']);
 
 } else if (isset($_POST['update'])) {
+    
+//    echo "KASDHKJAHDKAJDHAKJDH";
    $track->check($_POST['id'],'w');
 
    if (isset($_POST["_my_items"]) && !empty($_POST["_my_items"])) {
@@ -71,6 +73,22 @@ if (isset($_POST["add"])) {
    }
 
    $track->update($_POST);
+   //for solution with components
+   if(isset($_POST['sidebcomponentlink'])){
+       
+       $sympos = strpos($_POST['component_link'], '_');
+       $comptype = strtolower(substr($_POST['component_link'], 0,$sympos));
+       $serial = substr($_POST['component_link'],$sympos+1);
+       
+       $tablename = $comptype."_solution";
+       
+       $complink = array('ticketid' => $_POST['ticketID'],
+           'serialnumber' => $serial
+           );
+       $dbase = new CommonDBTM();
+       $dbase->addSidebCustom($complink, $tablename);
+       
+   }
    Event::log($_POST["id"], "ticket", 4, "tracking", $_SESSION["glpiname"]." ".$LANG['log'][21]);
 
    // Copy solution to KB redirect to KB

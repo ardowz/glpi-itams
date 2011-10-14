@@ -428,10 +428,10 @@ class Printer  extends CommonDBTM {
       echo "<td>";
       autocompletionTextField($this, "contact_num");
       echo "</td>\n";*/
-      /*echo "<td>".$LANG['common'][22]."&nbsp;:</td>\n";
+      echo "<td>".$LANG['common'][22]."&nbsp;:</td>\n";
       echo "<td>";
       Dropdown::show('PrinterModel', array('value' => $this->fields["printermodels_id"]));
-      echo "</td>*/
+      echo "</td>";
       echo "</tr>\n";
 
       
