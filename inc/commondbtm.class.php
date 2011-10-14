@@ -1215,6 +1215,7 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
 ////             $device = $device 
 //         }
          $sidebdevice = $device;
+         echo $device;
          switch($device){
              case 'network card':
                  $device = 'networkcards';
@@ -1227,6 +1228,33 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
                  $device = 'drives';
                  $sidebdevice = 'drive';
                  break;
+             case 'cases':
+                 $sidebdevice = 'case';
+                 break;
+             case 'controllers':
+                 $device = 'controls';
+                 $sidebdevice = 'control';
+                 break;
+            case 'graphics card':
+                $device = 'graphiccards';
+                $sidebdevice = 'graphiccard';
+                break;
+            case 'hard drive':
+                $device = 'harddrives';
+                $sidebdevice = 'harddrive';
+                break;
+            case 'other components':
+                $device = 'pcis';
+                $sidebdevice = 'pci';
+                break;
+            case 'power supply':
+                $device = 'powersupplies';
+                $sidebdevice = 'powersupply';
+                break;
+            case 'system board':
+                $device = 'motherboards';
+                $sidebdevice = 'motherboard';
+                break;
              default:
                  $device = $device."s";
                  break;

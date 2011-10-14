@@ -509,7 +509,7 @@ switch ($component){
 //                      echo "<input type='hidden' name='idcomp' value='".$idcomponent."'/>";
 //                      echo "<input type='submit' value='remove'/>";
 //                      echo "</form>";
-              echo "<a href='removeComponent.php?compserial=".$lastid.";".$idcomponent."|$ID'>link</a>";
+              echo "<a href='removeComponent.php?compserial=".$lastid.";".$idcomponent."|$ID:$component'>link</a>";
               echo "</td><td>";
               if ($device->canCreate()) {
                   echo "<a href='".$device->getSearchURL()."'>".$device->getTypeName()."</a>";
@@ -682,21 +682,176 @@ switch ($component){
     * update the components by deleting from entries
     */
    
-   function updateSideb($serial,$compid,$computerID) {
+   function updateSideb($serial,$compid,$computerID,$component) {
        global $DB;
       // Update quantity
       
+switch ($component){
+    
+    case 'processor':
+        //$query = "SELECT * FROM `glpi_deviceprocessors`;";
         $query = "select id from glpi_computers_deviceprocessors where computers_id = '".$computerID."' and deviceprocessors_id='".$compid."' limit 1";
+        break;
+    
+    case 'case':
+        //$query = "SELECT * FROM `glpi_devicecases`;";
+        $query = "select id from glpi_computers_devicecases where computers_id = '".$computerID."' and devicecases_id='".$compid."' limit 1";
+        break;
+    
+    case 'control':
+        //$query = "SELECT * FROM `glpi_devicecontrols`;";
+        $query = "select id from glpi_computers_devicecontrols where computers_id = '".$computerID."' and devicecontrols_id='".$compid."' limit 1";
+        break;
+    
+    case 'drive':
+        //$query = "SELECT * FROM `glpi_devicedrives`;";
+        $query = "select id from glpi_computers_devicedrives where computers_id = '".$computerID."' and devicedrives_id='".$compid."' limit 1";
+        break;
+    
+    case 'graphiccard':
+        //$query = "SELECT * FROM `glpi_devicegraphiccards`;";
+        $query = "select id from glpi_computers_devicegraphiccards where computers_id = '".$computerID."' and devicegraphiccards_id='".$compid."' limit 1";
+        break;
+    
+    case 'harddrive':
+        //$query = "SELECT * FROM `glpi_deviceharddrives`;";
+        $query = "select id from glpi_computers_deviceharddrives where computers_id = '".$computerID."' and deviceharddrives_id='".$compid."' limit 1";
+        break;
+        
+    case 'memory':
+        //$query = "SELECT * FROM `glpi_devicememories`;";
+        $query = "select id from glpi_computers_devicememories where computers_id = '".$computerID."' and devicememories_id='".$compid."' limit 1";
+        break;
+        
+    case 'networkcard':
+        //$query = "SELECT * FROM `glpi_devicenetworkcards`;";
+        $query = "select id from glpi_computers_devicenetworkcards where computers_id = '".$computerID."' and devicenetworkcards_id='".$compid."' limit 1";
+        break;
+        
+    case 'pci':
+        //$query = "SELECT * FROM `glpi_devicepcis`;";
+        $query = "select id from glpi_computers_devicepcis where computers_id = '".$computerID."' and devicepcis_id='".$compid."' limit 1";
+        break;
+        
+    case 'powersupply':
+        //$query = "SELECT * FROM `glpi_devicepowersupplies`;";
+        $query = "select id from glpi_computers_devicepowersupplies where computers_id = '".$computerID."' and devicepowersupplies_id='".$compid."' limit 1";
+        break;
+        
+    case 'soundcard':
+        //$query = "SELECT * FROM `glpi_devicesoundcards`;";
+        $query = "select id from glpi_computers_devicesoundcards where computers_id = '".$computerID."' and devicesoundcards_id='".$compid."' limit 1";
+        break;
+        
+    case 'motherboard':
+        //$query = "SELECT * FROM `glpi_devicemotherboards`;";
+        $query = "select id from glpi_computers_devicemotherboards where computers_id = '".$computerID."' and devicemotherboards_id='".$compid."' limit 1";
+        break;
+    
+    default:
+        $query = '';
+        break;
+}
+       
+        
         $result = $DB->query($query);
         if ($DB->query($query)) {
            while ($data=$DB->fetch_array($result)) {
               $lastid = $data["id"];
            }
            
-           $query = "DELETE FROM sideb_processor_deploy WHERE processorID = (SELECT idsideb_processor_list FROM sideb_processor_list WHERE serialNumber = '".$serial."')";
-           $DB->query($query);
-           $query = "DELETE FROM glpi_computers_deviceprocessors WHERE id = '".$lastid."'";
-           $DB->query($query);
+           switch ($component){
+    
+                case 'processor':
+                    //$query = "SELECT * FROM `glpi_deviceprocessors`;";
+                    $queryDelete = "DELETE FROM sideb_processor_deploy WHERE processorID = (SELECT idsideb_processor_list FROM sideb_processor_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_deviceprocessors WHERE id = '".$lastid."'";
+                    break;
+
+                case 'case':
+                    //$query = "SELECT * FROM `glpi_devicecases`;";
+                    $queryDelete = "DELETE FROM sideb_case_deploy WHERE caseID = (SELECT idsideb_case_list FROM sideb_case_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicecases WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'control':
+                    //$query = "SELECT * FROM `glpi_devicecontrols`;";
+                    $queryDelete = "DELETE FROM sideb_control_deploy WHERE controlID = (SELECT idsideb_control_list FROM sideb_control_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicecontrols WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'drive':
+                    //$query = "SELECT * FROM `glpi_devicedrives`;";
+                    $queryDelete = "DELETE FROM sideb_drive_deploy WHERE driveID = (SELECT idsideb_drive_list FROM sideb_drive_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicedrives WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'graphiccard':
+                    //$query = "SELECT * FROM `glpi_devicegraphiccards`;";
+                    $queryDelete = "DELETE FROM sideb_graphiccard_deploy WHERE graphiccardID = (SELECT idsideb_graphiccard_list FROM sideb_graphiccard_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicegraphiccards WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'harddrive':
+                    //$query = "SELECT * FROM `glpi_deviceharddrives`;";
+                    $queryDelete = "DELETE FROM sideb_harddrive_deploy WHERE harddriveID = (SELECT idsideb_harddrive_list FROM sideb_harddrive_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_deviceharddrives WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'memory':
+                    //$query = "SELECT * FROM `glpi_devicememories`;";
+                    $queryDelete = "DELETE FROM sideb_memory_deploy WHERE memoryID = (SELECT idsideb_memory_list FROM sideb_memory_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicememories WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'networkcard':
+                    //$query = "SELECT * FROM `glpi_devicenetworkcards`;";
+                    $queryDelete = "DELETE FROM sideb_networkcard_deploy WHERE networkcardID = (SELECT idsideb_networkcard_list FROM sideb_networkcard_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicenetworkcards WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'pci':
+                    //$query = "SELECT * FROM `glpi_devicepcis`;";
+                    $queryDelete = "DELETE FROM sideb_pci_deploy WHERE pciID = (SELECT idsideb_pci_list FROM sideb_pci_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicepcis WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'powersupply':
+                    //$query = "SELECT * FROM `glpi_devicepowersupplies`;";
+                    $queryDelete = "DELETE FROM sideb_powersupply_deploy WHERE powersupplyID = (SELECT idsideb_powersupply_list FROM sideb_powersupply_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicepowersupplies WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'soundcard':
+                    //$query = "SELECT * FROM `glpi_devicesoundcards`;";
+                    $queryDelete = "DELETE FROM sideb_soundcard_deploy WHERE soundcardID = (SELECT idsideb_soundcard_list FROM sideb_soundcard_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicesoundcards WHERE id = '".$lastid."'";
+
+                    break;
+
+                case 'motherboard':
+                    //$query = "SELECT * FROM `glpi_devicemotherboards`;";
+                    $queryDelete = "DELETE FROM sideb_motherboard_deploy WHERE motherboardID = (SELECT idsideb_motherboard_list FROM sideb_motherboard_list WHERE serialNumber = '".$serial."')";
+                    $queryDelete2 = "DELETE FROM glpi_computers_devicemotherboards WHERE id = '".$lastid."'";
+
+                    break;
+
+                default:
+                    $query = '';
+                    break;
+            }
+   
+           $DB->query($queryDelete);
+           $DB->query($queryDelete2);
            
       }
        

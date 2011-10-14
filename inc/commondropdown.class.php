@@ -137,7 +137,7 @@ abstract class CommonDropdown extends CommonDBTM {
    function displayMoreTabs($tab) {
        GLOBAL $DB;
        
-//       echo $this->getTypename();
+       echo $this->getTypename();
        switch(strtolower($this->getTypeName())){
            case 'system board':
                $typename = 'motherboard';
@@ -154,13 +154,13 @@ abstract class CommonDropdown extends CommonDBTM {
            case 'hard drive':
                $typename = 'harddrive';
                break;
-           case 'control':
+           case 'controllers':
                $typename = 'control';
                break;
            case 'graphics card':
-               $typename = 'graphicscard';
+               $typename = 'graphiccard';
                break;
-           case 'sound card':
+           case 'soundcard':
                $typename = 'soundcard';
                break;
            case 'cases':
@@ -171,6 +171,9 @@ abstract class CommonDropdown extends CommonDBTM {
                break;
            case 'drives':
                $typename = 'drive';
+               break;
+           case 'other components':
+               $typename = 'pci';
                break;
            default:
                $typename = '';
