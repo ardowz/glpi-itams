@@ -3161,6 +3161,7 @@ class Ticket extends CommonDBTM {
 //                  href='".$CFG_GLPI['root_doc']."/front/knowbaseitem.php?tickets_id=".
 //                  $this->getField('id')."'>".$LANG['job'][23]."</a>";
 //         echo "</td>";
+         
          echo "</tr>";
       }
 
@@ -3187,7 +3188,9 @@ class Ticket extends CommonDBTM {
       echo "<tr class='tab_bg_2'><td>";
       echo $LANG['jobresolution'][7]." :";
       echo "</td>";
+        
       echo "<td>";
+    
       //search this!
 //      echo "computer id";
       $types = Computer_Device::getDeviceTypes();
@@ -4860,7 +4863,15 @@ class Ticket extends CommonDBTM {
       echo "</td>";
       
  //testing      
-      echo "<th style='background-color:#f2f2f2'>";
+      echo "<th class='left'> ";
+      echo "Warranty Status:";
+      echo "<td>";
+//      echo $item->getNameID();
+      //search here for warranty status
+      //associated element
+      echo $item->getType();
+      echo $item->getID();
+      echo "</td>";
     
       //  echo "testing";
       echo "</th>";

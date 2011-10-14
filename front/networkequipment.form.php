@@ -53,7 +53,28 @@ $netdevice = new NetworkEquipment();
 if (isset($_POST["add"])) {
    $netdevice->check(-1,'w',$_POST);
 
-   $newID = $netdevice->add($_POST);
+   if($newID = $netdevice->add($_POST)){
+       
+       $queryid = "SELECT id FROM glpi_networkequipments ORDER BY Id DESC LIMIT 1";
+        $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+        if ($DB->query($queryid)) {
+           while ($data=$DB->fetch_array($result)) {
+              $lastid = $data["id"] + 0;
+             }
+         }
+       
+       //setting params for input in database
+       $sidebinput = array('asset_id' => $lastid, 
+                            'dateadd' => date("Y-m-d H:i:s"), 
+                            'life' => $_POST['life'],
+                            'type' => "monitor"
+       );
+       $netdevice->addSidebCustom($sidebinput, "usefullife");
+       
+   }
+   
+   
    Event::log($newID, "networkequipment", 4, "inventory",
               $_SESSION["glpiname"]." ".$LANG['log'][20]." :  ".$_POST["name"].".");
    glpi_header($_SERVER['HTTP_REFERER']);

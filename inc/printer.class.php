@@ -379,6 +379,19 @@ class Printer  extends CommonDBTM {
                              $this->getType(), $this->fields["entities_id"]);
       autocompletionTextField($this, 'name', array('value' => $objectName));
       echo "</td>\n";
+         
+      echo "<td> Useful Life </td>";
+      //useful life
+      echo "<td>";
+      
+      if($ID > 0){
+          echo $this->getUsefulLife($ID);
+      }else{
+          echo "<input type='text' name='life' id='life'></input>";
+      }
+      
+      echo "</td>";
+      
       echo "</tr>\n";
 
       echo "<tr class='tab_bg_1'>";
@@ -795,6 +808,34 @@ echo "</tr>\n";
    function removeFromTrash($ID) {
       return $this->restore(array("id" => $ID));
    }
+   
+   function getUsefulLife($id){
+    global $DB;
+    
+    $queryid = "SELECT dateadd,life FROM sideb_usefullife where asset_id = '$id' and type = 'printer'";
+    $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+    if ($DB->query($queryid)) {
+           while ($data=$DB->fetch_array($result)) {
+              $dateadd = strtotime($data["dateadd"]);
+              $assetlife = $data["life"];
+             }
+    }
+    //echo $id;
+    $dateaddConverted = date("Y-m-d H:i:s", $dateadd);
+    
+    $comput = "+".$assetlife." year";
+    $lifeLeft = strtotime ( $comput , $dateadd);
+    $lifeDate = date ('Y-m-d', $lifeLeft);
+//    echo "the asset is added on: ".$dateaddConverted;
+//    echo "<br/>";
+//    echo "the asset's useful life is on: ".$assetlife;
+//    echo "<br/>";
+//    echo "the asset is useful until".$lifeDate;
+//    
+    return $lifeDate;
+}
+   
 }
 
 ?>

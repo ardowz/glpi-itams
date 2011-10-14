@@ -264,6 +264,8 @@ class Monitor extends CommonDBTM {
       autocompletionTextField($this, "size");
       echo "\"</td>";
       echo "</tr>";
+      
+      
 
       echo "<tr class='tab_bg_1'>";
       /*echo "<td>".$LANG['common'][18]."&nbsp;:</td>";
@@ -282,6 +284,19 @@ class Monitor extends CommonDBTM {
       autocompletionTextField($this, "otherserial", array('value' => $objectName));
       echo "</td>";
 
+      echo "</tr>";
+      
+      echo "<tr class='tab_bg_1'>";
+      echo "<td> Useful Life </td>";
+      //Place the input here
+//      echo "<td><input type='text' name='life' id='life'></input></td>";
+      echo "<td>";
+      if($ID > 0){
+          echo $this->getUsefulLife($ID);
+      }else{
+          echo "<input type='text' name='life' id='life'></input>";
+      }
+      echo "</td>";
       echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
@@ -570,6 +585,34 @@ class Monitor extends CommonDBTM {
 
       return $tab;
    }
+   
+   function getUsefulLife($id){
+    global $DB;
+    
+    $queryid = "SELECT dateadd,life FROM sideb_usefullife where asset_id = '$id' and type = 'monitor'";
+    $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+    if ($DB->query($queryid)) {
+           while ($data=$DB->fetch_array($result)) {
+              $dateadd = strtotime($data["dateadd"]);
+              $assetlife = $data["life"];
+             }
+    }
+    //echo $id;
+    $dateaddConverted = date("Y-m-d H:i:s", $dateadd);
+    
+    $comput = "+".$assetlife." year";
+    $lifeLeft = strtotime ( $comput , $dateadd);
+    $lifeDate = date ('Y-m-d', $lifeLeft);
+//    echo "the asset is added on: ".$dateaddConverted;
+//    echo "<br/>";
+//    echo "the asset's useful life is on: ".$assetlife;
+//    echo "<br/>";
+//    echo "the asset is useful until".$lifeDate;
+//    
+    return $lifeDate;
+}
+   
 
 }
 

@@ -189,7 +189,7 @@ abstract class CommonDropdown extends CommonDBTM {
                echo "<input type='hidden' id='componentID' name='componentID' value='".$this->getID()."' />";
                echo "<input type='hidden' id='comptype' name='comptype' value='".$typename."' />";
                echo "<input type='text' id='serialNumber' name='serialNumber' />";
-               echo "<input type='submit'/>";
+               echo "&nbsp; <input type='submit' class='submit'/>";
                echo "</form>";
 //               echo "<table>";
                echo "<table>";

@@ -53,8 +53,28 @@ $monitor = new Monitor();
 
 if (isset($_POST["add"])) {
    $monitor->check(-1,'w',$_POST);
-
-   $newID = $monitor->add($_POST);
+   
+   if($newID = $monitor->add($_POST)){
+       
+       $queryid = "SELECT id FROM glpi_monitors ORDER BY Id DESC LIMIT 1";
+        $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+        if ($DB->query($queryid)) {
+           while ($data=$DB->fetch_array($result)) {
+              $lastid = $data["id"] + 0;
+             }
+         }
+       
+       //setting params for input in database
+       $sidebinput = array('asset_id' => $lastid, 
+                            'dateadd' => date("Y-m-d H:i:s"), 
+                            'life' => $_POST['life'],
+                            'type' => "monitor"
+       );
+       $monitor->addSidebCustom($sidebinput, "usefullife");
+       
+   }    
+//   $newID = $monitor->add($_POST);
    Event::log($newID, "monitors", 4, "inventory",
               $_SESSION["glpiname"]." ".$LANG['log'][20]." ".$_POST["name"].".");
    glpi_header($_SERVER['HTTP_REFERER']);

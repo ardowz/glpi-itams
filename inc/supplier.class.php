@@ -154,64 +154,78 @@ class Supplier extends CommonDBTM {
       echo "<td>";
       autocompletionTextField($this, "name");
       echo "</td>";
-      echo "<td>".$LANG['financial'][79]."&nbsp;:</td>";
-      echo "<td>";
-      Dropdown::show('SupplierType', array('value' => $this->fields["suppliertypes_id"]));
-      echo "</td></tr>";
+  
+      echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['help'][35]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "phonenumber");
       echo "</td>";
-      echo "<td rowspan='8' class='middle right'>".$LANG['common'][25]."&nbsp;:</td>";
-      echo "<td class='center middle' rowspan='8'>";
-      echo "<textarea cols='45' rows='13' name='comment' >".$this->fields["comment"]."</textarea>";
-      echo "</td></tr>";
-
-      echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['financial'][30]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "fax");
-      echo "</td></tr>";
+      echo "</td>";
+      /*echo "<td rowspan='8' class='middle right'>".$LANG['common'][25]."&nbsp;:</td>";
+      echo "<td class='center middle' rowspan='8'>";
+      echo "<textarea cols='45' rows='13' name='comment' >".$this->fields["comment"]."</textarea>";
+      echo "</td>";*/
+      echo "</tr>";
+
+      echo "<tr class='tab_bg_1'>";
+      
+      
+      echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['financial'][45]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "website");
-      echo "</td></tr>";
-
-      echo "<tr class='tab_bg_1'>";
+      echo "</td>";
       echo "<td>".$LANG['setup'][14]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "email");
-      echo "</td></tr>";
+      echo "</td>";
+      echo "</tr>";
+
+      echo "<tr class='tab_bg_1'>";
+    
+      echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
       echo "<td class='middle'>".$LANG['financial'][44]."&nbsp;:</td>";
       echo "<td class='middle'>";
       echo "<textarea cols='37' rows='3' name='address'>".$this->fields["address"]."</textarea>";
-      echo "</td></tr>";
-
-      echo "<tr class='tab_bg_1'>";
+      echo "</td>";
       echo "<td>".$LANG['financial'][100]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "postcode", array('size' => 10));
       echo "&nbsp;&nbsp;".$LANG['financial'][101]."&nbsp;:&nbsp;";
       autocompletionTextField($this, "town", array('size' => 23));
-      echo "</td></tr>";
+      echo "</td>";
+      echo "</tr>";
+
+      echo "<tr class='tab_bg_1'>";
+     
+      echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['financial'][102]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "state");
-      echo "</td></tr>";
-
-      echo "<tr class='tab_bg_1'>";
+      echo "</td>";
       echo "<td>".$LANG['financial'][103]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "country");
-      echo "</td></tr>";
+      echo "</td>";
+      echo "</tr>";
+
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['financial'][79]."&nbsp;:</td>";
+      echo "<td>";
+      Dropdown::show('SupplierType', array('value' => $this->fields["suppliertypes_id"]));
+      echo "</td>";
+      echo "</tr>";
 
       $this->showFormButtons($options);
       $this->addDivForTabs();

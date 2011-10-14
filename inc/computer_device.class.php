@@ -518,6 +518,10 @@ switch ($component){
                }
               echo "</td><td>".$device->getLinkSideb($ID,$device->getTypeName(),$idcomponent,$ctr)."</td>";
               $ctr++;
+              echo "<td>Repair Count</td>";
+              //input repair count
+              
+              
            }
       }
 

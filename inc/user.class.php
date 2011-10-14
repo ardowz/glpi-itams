@@ -1239,14 +1239,16 @@ class User extends CommonDBTM {
       $this->showTabs($options);
       $this->showFormHeader($options);
 
-      echo "<tr class='tab_bg_1'>";
+     echo "<tr class='tab_bg_1'>";
       echo "<td>" . $LANG['setup'][829] . "&nbsp;:</td>";
       // si on est dans le cas d'un ajout , cet input ne doit plus etre hidden
       if ($this->fields["name"] == "") {
          echo "<td><input name='name' value='" . $this->fields["name"] . "'></td>";
          // si on est dans le cas d'un modif on affiche la modif du login si ce n'est pas une auth externe
 
-      } else {
+      }
+   
+      else {
          if (!empty ($this->fields["password"]) || $this->fields["authtype"] == Auth::DB_GLPI) {
             echo "<td>";
             autocompletionTextField($this, "name");
@@ -1257,43 +1259,12 @@ class User extends CommonDBTM {
          echo "</td>";
       }
 
-      //do some rights verification
-      if (haveRight("user", "w")) {
-         if ((!$extauth || empty($ID))
-             && $caneditpassword) {
-
-            echo "<td>" . $LANG['setup'][19]."&nbsp;:</td>";
-            echo "<td><input type='password' name='password' value='' size='20' autocomplete='off'>";
-            echo "</td></tr>";
-         } else {
-            echo "<td colspan='2'>&nbsp;</td></tr>";
-         }
-
-      } else {
-         echo "<td colspan='2'>&nbsp;</td></tr>";
-      }
-
-      echo "<tr class='tab_bg_1'><td>" . $LANG['common'][48] . "&nbsp;:</td><td>";
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>" . $LANG['common'][48] . "&nbsp;:</td><td>";
       autocompletionTextField($this,"realname");
       echo "</td>";
-
-       //do some rights verification
-      if (haveRight("user", "w")) {
-         if ((!$extauth || empty($ID))
-             && $caneditpassword) {
-
-            echo "<td>" . $LANG['setup'][20] . "&nbsp;:</td>";
-            echo "<td><input type='password' name='password2' value='' size='20' autocomplete='off'>";
-            echo "</td></tr>";
-         } else {
-            echo "<td colspan='2'>&nbsp;</td></tr>";
-         }
-
-      } else {
-         echo "<td colspan='2'>&nbsp;</td></tr>";
-      }
-
-      echo "<tr class='tab_bg_1'><td>" . $LANG['common'][43] . "&nbsp;:</td><td>";
+      //first name
+      echo "<td>" . $LANG['common'][43] . "&nbsp;:</td><td>";
       autocompletionTextField($this, "firstname");
       echo "</td>";
      //Authentications informations : auth method used and server used
@@ -1313,29 +1284,70 @@ class User extends CommonDBTM {
       } else {
          echo "<td colspan='2'><input type='hidden' name='authtype' value='1'></td>";
       }
+ //end first name
+
+      echo "<tr class='tab_bg_1'>";
+      //pasword
+      //do some rights verification
+      if (haveRight("user", "w")) {
+         if ((!$extauth || empty($ID))
+             && $caneditpassword) {
+
+            echo "<td>" . $LANG['setup'][19]."&nbsp;:</td>";
+            echo "<td><input type='password' name='password' value='' size='20' autocomplete='off'>";
+            echo "</td>";
+         } else {
+            echo "<td colspan='2'>&nbsp;</td></tr>";
+         }
+
+      }
+      else {
+         echo "<td colspan='2'>&nbsp;</td></tr>";
+      }
+      //end password
+
+ //password confirmation
+       //do some rights verification
+      if (haveRight("user", "w")) {
+         if ((!$extauth || empty($ID))
+             && $caneditpassword) {
+
+            echo "<td>" . $LANG['setup'][20] . "&nbsp;:</td>";
+            echo "<td><input type='password' name='password2' value='' size='20' autocomplete='off'>";
+            echo "</td></tr>";
+         } else {
+            echo "<td colspan='2'>&nbsp;</td></tr>";
+         }
+
+      } else {
+         echo "<td colspan='2'>&nbsp;</td></tr>";
+      }
+//end password confirmation
       echo "</tr>";
 
-      echo "<tr class='tab_bg_1'><td>" . $LANG['common'][42] . "&nbsp;:</td><td>";
-      autocompletionTextField($this, "mobile");
-      echo "</td>";
-      echo "<td>".$LANG['common'][60]."&nbsp;:</td><td>";
-      Dropdown::showYesNo('is_active',$this->fields['is_active']);
-      echo "</td></tr>";
-
-      echo "<tr class='tab_bg_1'><td>" . $LANG['setup'][14] . "&nbsp;:</td><td>";
+      echo "<tr class='tab_bg_1'>";
+       //email
+      echo "<td>" . $LANG['setup'][14] . "&nbsp;:</td><td>";
       autocompletionTextField($this, "email", array('name' => "email_form"));
 
       if (!empty($ID) && !NotificationMail::isUserAddressValid($this->fields["email"])) {
          echo "<br><span class='red'>&nbsp;".$LANG['mailing'][110]."</span>";
       }
       echo "</td>";
-      echo "<td>" . $LANG['users'][19] . "&nbsp;:</td><td>";
-      Dropdown::show('UserCategory', array('value' => $this->fields["usercategories_id"]));
-      echo "</td></tr>";
+//end email
+      echo"<td>" . $LANG['common'][42] . "&nbsp;:</td><td>";
+      autocompletionTextField($this, "mobile");
+      echo "</td>";
 
+      echo"</tr>";
+
+      
       echo "<tr class='tab_bg_1'><td>" . $LANG['help'][35] . "&nbsp;:</td><td>";
       autocompletionTextField($this, "phone");
       echo "</td>";
+      echo "<td>" . $LANG['help'][52] . " 2&nbsp;:</td><td>";
+      autocompletionTextField($this, "phone2");
+      echo "</td";
      /* echo "<td rowspan='5' class='middle'>" . $LANG['common'][25] . "&nbsp;:</td>";
       echo "<td class='center middle' rowspan='5'>";
       echo "<textarea cols='45' rows='8' name='comment' >".$this->fields["comment"]."</textarea>";
@@ -1343,19 +1355,36 @@ class User extends CommonDBTM {
       
       echo "</tr>";
 
-      echo "<tr class='tab_bg_1'><td>" . $LANG['help'][52] . " 2&nbsp;:</td><td>";
-      autocompletionTextField($this, "phone2");
-      echo "</td></tr>";
+      echo "<tr class='tab_bg_1'>";
+
+      echo "<td>" . $LANG['users'][19] . "&nbsp;:</td><td>";
+      Dropdown::show('UserCategory', array('value' => $this->fields["usercategories_id"]));
+      echo "</td>";
+       echo "<td>" . $LANG['users'][18] . "&nbsp;:</td><td>";
+      Dropdown::show('UserTitle', array('value' => $this->fields["usertitles_id"]));
+      echo "</td>";
+      echo "</tr>";
+
+
+      echo "<tr class='tab_bg_1'>";
+      
+      echo "</tr>";
 /*
       echo "<tr class='tab_bg_1'><td>" . $LANG['users'][17] . "&nbsp;:</td><td>";
       autocompletionTextField($this, "registration_number");
       echo "</td></tr>";
 */
-      echo "<tr class='tab_bg_1'><td>" . $LANG['users'][18] . "&nbsp;:</td><td>";
-      Dropdown::show('UserTitle', array('value' => $this->fields["usertitles_id"]));
-      echo "</td></tr>";
+      echo "<tr class='tab_bg_1'>";
 
-      echo "<tr class='tab_bg_1'><td>" . $LANG['common'][15] . "&nbsp;:</td><td>";
+      echo "</tr>";
+
+      echo "<tr class='tab_bg_1'>";
+          //active
+            echo "<td>".$LANG['common'][60]."&nbsp;:</td><td>";
+            Dropdown::showYesNo('is_active',$this->fields['is_active']);
+            echo "</td>";
+//end active
+      echo "<td>" . $LANG['common'][15] . "&nbsp;:</td><td>";
       if (!empty($ID)) {
          $entities = Profile_User::getUserEntities($ID, true);
          if (count($entities) > 0) {
@@ -1379,6 +1408,7 @@ class User extends CommonDBTM {
       if (!empty ($ID)) {
          if ($caneditpassword) {
             echo "<tr class='tab_bg_1'>";
+         
             echo "<td>" .  $LANG['profiles'][13] . "&nbsp;: </td><td>";
 
             $options[0] = DROPDOWN_EMPTY_VALUE;
@@ -1391,7 +1421,9 @@ class User extends CommonDBTM {
             $entities = Profile_User::getUserEntities($this->fields['id'],1);
             Dropdown::show('Entity', array('value'  => $this->fields["entities_id"],
                                            'entity' => $entities));
-            echo "</td></tr>";
+            echo "</td>";
+
+            echo "</tr>";
          }
 
          echo "<tr class='tab_bg_1'>";

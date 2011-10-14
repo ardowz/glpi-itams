@@ -332,6 +332,20 @@ class NetworkEquipment extends CommonDBTM {
       echo "</td>";
 
       echo "</tr>";
+      
+         echo "<tr class='tab_bg_1'>";
+      echo "<td> Useful Life </td>";
+      echo "<td>";
+      
+      //place input
+      if($ID > 0){
+          echo $this->getUsefulLife($ID);
+      }else{
+          echo "<input type='text' name='life' id='life'></input>";
+      }
+      
+      echo "</td>";
+      echo "</tr>";
 
 
       echo "<tr class='tab_bg_1'>";
@@ -578,6 +592,33 @@ class NetworkEquipment extends CommonDBTM {
 
       return $tab;
    }
+   
+ function getUsefulLife($id){
+    global $DB;
+    
+    $queryid = "SELECT dateadd,life FROM sideb_usefullife where asset_id = '$id' and type = 'network'";
+    $result = $DB->query($queryid);
+//      $resultid = $DB->query($queryid);
+    if ($DB->query($queryid)) {
+           while ($data=$DB->fetch_array($result)) {
+              $dateadd = strtotime($data["dateadd"]);
+              $assetlife = $data["life"];
+             }
+    }
+    //echo $id;
+    $dateaddConverted = date("Y-m-d H:i:s", $dateadd);
+    
+    $comput = "+".$assetlife." year";
+    $lifeLeft = strtotime ( $comput , $dateadd);
+    $lifeDate = date ('Y-m-d', $lifeLeft);
+//    echo "the asset is added on: ".$dateaddConverted;
+//    echo "<br/>";
+//    echo "the asset's useful life is on: ".$assetlife;
+//    echo "<br/>";
+//    echo "the asset is useful until".$lifeDate;
+//    
+    return $lifeDate;
+}
 
 }
 
