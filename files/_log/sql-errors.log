@@ -26846,3 +26846,633 @@ C:\xampp\htdocs\itams\front\dropdown.common.form.php&nbsp;:55		CommonDBTM->add()
 C:\xampp\htdocs\itams\front\location.form.php&nbsp;:41		include()
 C:/xampp/htdocs/itams/front/location.form.php
 
+2011-10-14 16:38 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:38 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:39 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:39 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:44 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:44 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:45 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:45 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 16:46 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_computers_softwareversions` (`computers_id`,`softwareversions_id`,`is_template`,`is_deleted`) VALUES (\'21\',\'0\',\'0\',\'0\')
+Error: Duplicate entry '21-0' for key 'unicity'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:406		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:858		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\computer_softwareversion.form.php&nbsp;:47		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/computer_softwareversion.form.php
+
+2011-10-14 16:47 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_computers_softwareversions` (`computers_id`,`softwareversions_id`,`is_template`,`is_deleted`) VALUES (\'21\',\'0\',\'0\',\'0\')
+Error: Duplicate entry '21-0' for key 'unicity'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:406		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:858		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\computer_softwareversion.form.php&nbsp;:47		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/computer_softwareversion.form.php
+
+2011-10-14 16:49 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_computers_softwareversions` (`computers_id`,`softwareversions_id`,`is_template`,`is_deleted`) VALUES (\'21\',\'0\',\'0\',\'0\')
+Error: Duplicate entry '21-0' for key 'unicity'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:406		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:858		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\computer_softwareversion.form.php&nbsp;:47		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/computer_softwareversion.form.php
+
+2011-10-14 16:50 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_computers_softwareversions` (`computers_id`,`softwareversions_id`,`is_template`,`is_deleted`) VALUES (\'21\',\'0\',\'0\',\'0\')
+Error: Duplicate entry '21-0' for key 'unicity'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:406		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:858		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\computer_softwareversion.form.php&nbsp;:47		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/computer_softwareversion.form.php
+
+2011-10-14 17:25 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:25 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:25 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:25 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:25 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:25 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:26 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:26 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:26 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:26 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:26 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:26 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:26 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:26 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:27 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:27 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:27 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:27 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:27 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:27 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:28 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:28 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:28 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:28 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:28 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:28 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:28 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:28 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:29 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:29 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:29 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:29 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:29 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:29 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:30 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:30 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 17:56 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `sideb__solution`
+Error: Table 'itams.sideb__solution' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1059		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:89		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/ticket.form.php
+
+2011-10-14 18:02 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `sideb__solution`
+Error: Table 'itams.sideb__solution' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1059		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:89		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/ticket.form.php
+
+2011-10-14 18:22 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 18:22 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 18:24 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:493		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-14 18:24 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:494		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
