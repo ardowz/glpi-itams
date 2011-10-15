@@ -48733,3 +48733,529 @@ C:\xampp\htdocs\itams\inc\printer.class.php:828		userErrorHandlerDebug()
 C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
 C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
 
+2011-10-15 10:53 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:828		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:53 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:830		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:53 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:831		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:53 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:831		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:53 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:833		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:53 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:834		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:54 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:835		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:54 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:837		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:54 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:838		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:57 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:844		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:57 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:846		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:57 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:847		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:57 [2@USER-PC]
+Notice(8): Undefined variable: DB
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:456		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:57 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:845		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:57 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:847		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:57 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:845		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:847		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:845		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:847		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:845		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:847		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:845		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:847		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:845		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:847		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:58 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:845		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:847		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:845		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:847		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:850		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:851		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:850		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:851		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:850		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:851		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:850		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:851		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:848		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:850		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:59 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:851		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 11:07 [2@USER-PC]
+Catchable Fatal Error(4096): Object of class DeviceGraphicCard could not be converted to string
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:553		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 11:14 [2@USER-PC]
+Notice(8): Undefined variable: queryList
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:671		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 11:15 [2@USER-PC]
+Notice(8): Undefined variable: queryList
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:672		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 11:19 [2@USER-PC]
+Notice(8): Undefined variable: CFG_GLPI
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:690		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 11:19 [2@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:691		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 11:20 [2@USER-PC]
+Notice(8): Undefined variable: params
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:691		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 11:22 [2@USER-PC]
+Notice(8): Undefined index: comptype
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\addComponent.php:17		userErrorHandlerDebug()
+
+2011-10-15 11:22 [2@USER-PC]
+Notice(8): Undefined index: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\addComponent.php:69		userErrorHandlerDebug()
+
+2011-10-15 11:22 [2@USER-PC]
+Notice(8): Undefined index: comptype
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\addComponent.php:17		userErrorHandlerDebug()
+
+2011-10-15 11:22 [2@USER-PC]
+Notice(8): Undefined index: value
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\addComponent.php:69		userErrorHandlerDebug()
+
+2011-10-15 11:26 [2@USER-PC]
+Notice(8): Undefined index: sidebcomponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\replaceComponent.php:15		userErrorHandlerDebug()
+
+2011-10-15 11:26 [2@USER-PC]
+Notice(8): Undefined index: glpicomponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\replaceComponent.php:16		userErrorHandlerDebug()
+
+2011-10-15 12:17 [2@USER-PC]
+Notice(8): Undefined index: idcomponent
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\replaceComponent.php:19		userErrorHandlerDebug()
+
+2011-10-15 12:54 [2@USER-PC]
+Notice(8): Undefined index: componenttable
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\computer_device.form.php:42		userErrorHandlerDebug()
+
+2011-10-15 13:24 [2@USER-PC]
+Notice(8): Undefined variable: lastid
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:1178		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\replaceLinkFunction.php:60		Computer_Device->updateSidebDecommission()
+
+2011-10-15 13:30 [2@USER-PC]
+Notice(8): Undefined variable: lastid
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:1179		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\replaceLinkFunction.php:60		Computer_Device->updateSidebDecommission()
+
+2011-10-15 13:31 [2@USER-PC]
+Notice(8): Undefined variable: lastid
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:1179		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\replaceLinkFunction.php:60		Computer_Device->updateSidebDecommission()
+

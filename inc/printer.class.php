@@ -329,7 +329,7 @@ class Printer  extends CommonDBTM {
      *@return boolean item found
     **/
    function showForm ($ID, $options=array()) {
-      global $CFG_GLPI, $LANG;
+      global $CFG_GLPI, $LANG, $DB;
 
       $target       = $this->getFormURL();
       $withtemplate = '';
@@ -444,6 +444,29 @@ class Printer  extends CommonDBTM {
       echo "<td>".$LANG['common'][22]."&nbsp;:</td>\n";
       echo "<td>";
       Dropdown::show('PrinterModel', array('value' => $this->fields["printermodels_id"]));
+      echo "</td>";
+      echo "<td>";
+      echo "Repair Count: ";
+      echo "</td>";
+      echo "<td>";
+      
+//      $db = new CommonDBTM();
+      $query = "SELECT COUNT(*) as count
+FROM glpi_tickets
+WHERE itemtype = 'Printer' and items_id = '".$ID."' AND ticketsolutiontypes_id = '11'";
+        $result = $DB->query($query);
+//      $resultid = $DB->query($queryid);
+      if ($DB->query($query)) {
+           while ($data=$DB->fetch_array($result)) {
+              $count = $data["count"];
+           }
+      }
+      
+      //repair count here
+      echo $count;
+      if ($count >= 3){
+          echo " - Decommission";
+      }
       echo "</td>";
       echo "</tr>\n";
 
