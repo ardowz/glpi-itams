@@ -390,6 +390,7 @@ switch ($component){
         where componentID in (SELECT b.deviceprocessors_id
         FROM `glpi_computers_deviceprocessors` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_processor_list in (select processorID from sideb_processor_deploy)";
+        $glpicomponent = 'deviceprocessors';
         break;
     
     case 'case':
@@ -398,6 +399,7 @@ switch ($component){
         where componentID in (SELECT b.devicecases_id
         FROM `glpi_computers_devicecases` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_case_list in (select caseID from sideb_case_deploy)";
+        $glpicomponent = 'devicecases';
         break;
     
     case 'control':
@@ -406,6 +408,7 @@ switch ($component){
         where componentID in (SELECT b.devicecontrols_id
         FROM `glpi_computers_devicecontrols` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_control_list in (select controlID from sideb_control_deploy)";
+        $glpicomponent = 'devicecontrols';
         break;
     
     case 'drive':
@@ -414,6 +417,7 @@ switch ($component){
         where componentID in (SELECT b.devicedrives_id
         FROM `glpi_computers_devicedrives` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_drive_list in (select driveID from sideb_drive_deploy)";
+        $glpicomponent = 'devicedrives';
         break;
     
     case 'graphiccard':
@@ -422,6 +426,7 @@ switch ($component){
         where componentID in (SELECT b.devicegraphiccards_id
         FROM `glpi_computers_devicegraphiccards` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_graphiccard_list in (select graphiccardID from sideb_graphiccard_deploy)";
+        $glpicomponent = 'devicegraphiccards';
         break;
     
     case 'harddrive':
@@ -430,6 +435,7 @@ switch ($component){
         where componentID in (SELECT b.deviceharddrives_id
         FROM `glpi_computers_deviceharddrives` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_harddrive_list in (select harddriveID from sideb_harddrive_deploy)";
+        $glpicomponent = 'deviceharddrives';
         break;
         
     case 'memorie':
@@ -439,6 +445,7 @@ switch ($component){
         where componentID in (SELECT b.devicememories_id
         FROM `glpi_computers_devicememories` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_memory_list in (select memoryID from sideb_memory_deploy)";
+        $glpicomponent = 'devicememories';
         break;
         
     case 'networkcard':
@@ -447,6 +454,7 @@ switch ($component){
         where componentID in (SELECT b.devicenetworkcards_id
         FROM `glpi_computers_devicenetworkcards` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_networkcard_list in (select networkcardID from sideb_networkcard_deploy)";
+        $glpicomponent = 'devicenetworkcards';
         break;
         
     case 'pci':
@@ -455,6 +463,7 @@ switch ($component){
         where componentID in (SELECT b.devicepcis_id
         FROM `glpi_computers_devicepcis` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_pci_list in (select pciID from sideb_pci_deploy)";
+        $glpicomponent = 'devicepcis';
         break;
         
     case 'powersupply':
@@ -463,6 +472,7 @@ switch ($component){
         where componentID in (SELECT b.devicepowersupplies_id
         FROM `glpi_computers_devicepowersupplies` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_powersupply_list in (select powersupplyID from sideb_powersupply_deploy)";
+        $glpicomponent = 'devicepowersupplies';
         break;
         
     case 'soundcard':
@@ -471,6 +481,7 @@ switch ($component){
         where componentID in (SELECT b.devicesoundcards_id
         FROM `glpi_computers_devicesoundcards` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_soundcard_list in (select soundcardID from sideb_soundcard_deploy)";
+        $glpicomponent = 'devicesoundcards';
         break;
         
     case 'motherboard':
@@ -479,16 +490,20 @@ switch ($component){
         where componentID in (SELECT b.devicemotherboards_id
         FROM `glpi_computers_devicemotherboards` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_motherboard_list in (select motherboardID from sideb_motherboard_deploy)";
+        $glpicomponent = 'devicemotherboards';
         break;
     
     default:
         $query = '';
         break;
 }
+$sidebcomponent = $component;
          
 //         echo $query;
 //         echo "<br/>";
          $prev = '';
+         
+         
          
           $result = $DB->query($query);
       if ($DB->query($query)) {
@@ -518,8 +533,25 @@ switch ($component){
                }
               echo "</td><td>".$device->getLinkSideb($ID,$device->getTypeName(),$idcomponent,$ctr)."</td>";
               $ctr++;
-              echo "<td>Repair Count</td>";
+              
+              $query2 = "SELECT sbgs.serialNumber, COUNT(*) AS Repaired, dg.designation, dg.id
+                FROM sideb_".$sidebcomponent."_solution sbgs, sideb_".$sidebcomponent."_list sbgl, glpi_".$glpicomponent." dg
+                WHERE sbgs.serialNumber = sbgl.serialNumber AND sbgl.componentID = dg.id AND sbgl.serialNumber = '".$lastid."' AND dg.id = '".$idcomponent."';";
+                 $result2 = $DB->query($query2);
+                 if ($DB->query($query2)) {
+                     
+                      while ($data2=$DB->fetch_array($result2)) {
+                          $count = $data2['Repaired'];
+                      }
+                     
+                 }
+              echo "<td>Repair Count: ".$count." ";
+              if($count >= 3){
+                  echo "Replace";
+              }
+              echo "</td>";
               //input repair count
+              
               
               
            }

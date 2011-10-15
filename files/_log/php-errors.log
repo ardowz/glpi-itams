@@ -48521,3 +48521,215 @@ C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\inc\ticket.class.php:4872		userErrorHandlerDebug()
 C:\xampp\htdocs\itams\front\ticket.form.php:257		Ticket->showForm()
 
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:21 [2@USER-PC]
+Notice(8): Undefined variable: count
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:534		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 01:31 [2@USER-PC]
+Notice(8): Undefined variable: enddate
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:108		userErrorHandlerDebug()
+
+2011-10-15 01:31 [2@USER-PC]
+Notice(8): Undefined variable: enddate
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:113		userErrorHandlerDebug()
+
+2011-10-15 01:33 [2@USER-PC]
+Notice(8): Undefined variable: enddate
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:108		userErrorHandlerDebug()
+
+2011-10-15 01:36 [2@USER-PC]
+Notice(8): Undefined index: endDate
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:191		userErrorHandlerDebug()
+
+2011-10-15 01:36 [2@USER-PC]
+Notice(8): Undefined index: startDate
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\requirementscollection.php:192		userErrorHandlerDebug()
+
+2011-10-15 01:47 [2@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-15 01:47 [2@USER-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\ticket.class.php:4872		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-15 10:08 [2@USER-PC]
+Notice(8): Constant GLPI_ROOT already defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondropdown.class.php:35		define()
+C:\xampp\htdocs\itams\inc\includes.php:89		include_once()
+C:\xampp\htdocs\itams\inc\commondevice.class.php:36		__autoload()
+C:\xampp\htdocs\itams\inc\includes.php:89		include_once()
+C:\xampp\htdocs\itams\inc\devicemotherboard.class.php:41		__autoload()
+C:\xampp\htdocs\itams\inc\includes.php:89		include_once()
+C:\xampp\htdocs\itams\front\devicemotherboard.form.php:40		__autoload()
+
+2011-10-15 10:51 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:825		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:51 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:827		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:51 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:828		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:51 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:825		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:51 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:827		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:51 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:828		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:51 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:825		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:51 [2@USER-PC]
+Notice(8): Undefined variable: assetlife
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:827		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+
+2011-10-15 10:51 [2@USER-PC]
+Notice(8): Undefined variable: dateadd
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\printer.class.php:828		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\inc\printer.class.php:388		Printer->getUsefulLife()
+C:\xampp\htdocs\itams\front\printer.form.php:119		Printer->showForm()
+

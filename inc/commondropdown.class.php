@@ -33,6 +33,7 @@
 // Purpose of file:
 // ----------------------------------------------------------------------
 
+
 if (!defined('GLPI_ROOT')) {
    die("Sorry. You can't access directly to this file");
 }
@@ -192,7 +193,14 @@ abstract class CommonDropdown extends CommonDBTM {
                echo "&nbsp; <input type='submit' class='submit'/>";
                echo "</form>";
 //               echo "<table>";
-               echo "<table>";
+               echo "<center><table class='tab_cabre_fixe' size='80%'>";
+               
+               echo "<th bgcolor='cba130'><b>". "Serial Numbers:"."&nbsp; </b>";
+               echo "</th>";
+               echo "<th bgcolor='cba130'><b>". "Status:"."&nbsp </b>";
+               echo "</th>";
+      
+             
                $dropdownarray = array();
                $queryid = "SELECT * FROM `sideb_".$typename."_list` where componentID='".$this->getID()."';";
                $result = $DB->query($queryid);
@@ -200,13 +208,18 @@ abstract class CommonDropdown extends CommonDBTM {
                      while ($data=$DB->fetch_array($result)) {
 //                         echo $data['serialNumber'];
                          //$merged = array_merge($dropdownarray, (array)$data['serialNumber']);
-                         
-                         echo "<tr><td>";
+  //hey                       
+                        
+                          echo "<tr class='tab_bg_1'>";
+                         echo "<td ='center'>";
                          echo $data['serialNumber'];
-                         echo "</td></tr>";
+                         echo "</td>";
+                         echo "</tr>";
+                         
                      }
+                     
                 }
-                echo "</table>";
+                echo "</table></center>";
 //                echo $this->getFormURL();
 //                echo $this->getTypeName();
 //               echo $this->getFormURL(true);
