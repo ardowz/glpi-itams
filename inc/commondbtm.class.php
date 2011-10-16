@@ -1127,6 +1127,125 @@ class CommonDBTM extends CommonGLPI {
       $this->last_status = self::NOTHING_TO_DO;
       return false;
    }
+   
+   /**
+    * 
+    * fully custom table name
+    * sideb thesis adjustment
+    * making the function flexible for future purposes
+    * 
+    * removed static tablefields2 by commenting them out
+    * 
+    * second version of adding
+    * Add an item in the database with all it's items.
+    *
+    * @param $input array : the _POST vars returned by the item form when press add
+    * @param options an array with the insert options
+    *   - unicity_message : do not display message if item it a duplicate (default is yes)
+    * @param $history boolean : do history log ?
+    *
+    * @return integer the new ID of the added item (or false if fail)
+   **/
+   function addSidebCustom2($input, $sideb) {
+      global $DB, $CFG_GLPI;
+
+      if ($DB->isSlave()) {
+         return false;
+      }
+
+      // Store input in the object to be available in all sub-method / hook
+      $this->input = $input;
+
+      // Call the plugin hook - $this->input can be altered
+      doHook("pre_item_add", $this);
+
+      if ($this->input && is_array($this->input)) {
+
+         if (isset($this->input['add'])) {
+            $this->input['_add'] = $this->input['add'];
+            unset($this->input['add']);
+         }
+
+         $this->input = $this->prepareInputForAdd($this->input);
+         //Check values to inject
+         $this->filterValues();
+      }
+      $tablename = $sideb;
+      //getting the table from the database - the glpi_tablename
+      if ($this->input && is_array($this->input)) {
+         $this->fields = array();
+//         $this->fields2 = array();
+         $table_fields = $DB->list_fields($tablename);
+         
+//         $test = $this->getTableNamed("requestparameters");
+//         $table_fields2 = $DB->list_fields($this->getTableNamed("requestparameters"));
+//         
+//         $table_fields2 = $DB->list_fields("sideb_requestparameters");
+         // fill array for add
+         foreach ($this->input as $key => $val) {
+            if ($key[0]!='_' && isset($table_fields[$key])) {
+               $this->fields[$key] = $this->input[$key];
+            }
+            
+//            if(isset($table_fields2[$key])){
+//               $this->fields2[$key] = $this->input[$key]; 
+//            }
+            
+         }
+         /*
+          * moved the function call
+          */
+        $this->addToDBCustom($tablename);
+         // Auto set date_mod if exsist
+//         if (isset($table_fields['date_mod'])) {
+//            $this->fields['date_mod'] = $_SESSION["glpi_currenttime"];
+//         }
+//
+//         if ($this->checkUnicity(true,$options)) {
+//
+//            if ($this->addToDBCustom($tablename)) {
+//               //$this->addToDBRequest();
+//               $this->addMessageOnAddAction();
+//              $this->post_addItem();
+//
+//               if ($this->dohistory && $history) {
+//                  $changes[0] = 0;
+//                  $changes[1] = $changes[2] = "";
+//
+//                  Log::history($this->fields["id"], $this->getType(), $changes, 0,
+//                               HISTORY_CREATE_ITEM);
+//               }
+//
+//                // Auto create infocoms
+//               if ($CFG_GLPI["auto_create_infocoms"]
+//                   && in_array($this->getType(), $CFG_GLPI["infocom_types"])) {
+//
+//                  $ic = new Infocom();
+//                  if (!$ic->getFromDBforDevice($this->getType(), $this->fields['id'])) {
+//                     $ic->add(array('itemtype' => $this->getType(),
+//                                    'items_id' => $this->fields['id']));
+//                  }
+//               }
+//
+//               // If itemtype is in infocomtype and if states_id field is filled
+//               // and item is not a template
+//               if (in_array($this->getType(),$CFG_GLPI["infocom_types"])
+//                   && isset($this->input['states_id'])
+//                            && (!isset($this->input['is_template'])
+//                                || !$this->input['is_template'])) {
+//
+//                  //Check if we have to automaticall fill dates
+//                  Infocom::manageDateOnStatusChange($this);
+//               }
+//               doHook("item_add", $this);
+//               return $this->fields['id'];
+//            }
+//         }
+
+      }
+      $this->last_status = self::NOTHING_TO_DO;
+      return false;
+   }
 
 
    /**

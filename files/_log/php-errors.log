@@ -49259,3 +49259,93 @@ C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\inc\computer_device.class.php:1179		userErrorHandlerDebug()
 C:\xampp\htdocs\itams\front\replaceLinkFunction.php:60		Computer_Device->updateSidebDecommission()
 
+2011-10-15 23:41 [11@USER-PC]
+Notice(8): Undefined variable: designation
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:537		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 23:41 [11@USER-PC]
+Notice(8): Undefined variable: snumber
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:537		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 23:41 [11@USER-PC]
+Notice(8): Undefined variable: designation
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:537		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 23:41 [11@USER-PC]
+Notice(8): Undefined variable: snumber
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:537		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 23:41 [11@USER-PC]
+Notice(8): Undefined variable: designation
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:538		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 23:41 [11@USER-PC]
+Notice(8): Undefined variable: snumber
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:538		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 23:41 [11@USER-PC]
+Notice(8): Undefined variable: designation
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:538		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 23:41 [11@USER-PC]
+Notice(8): Undefined variable: snumber
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:538		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 23:42 [11@USER-PC]
+Notice(8): Undefined variable: designation
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:538		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-15 23:42 [11@USER-PC]
+Notice(8): Undefined variable: snumber
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1276		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer_device.class.php:538		CommonDBTM->getLinkSideb()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php:175		Computer_Device::showForComputerSideb()
+
+2011-10-16 13:43 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-16 13:43 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-16 13:43 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-16 13:43 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+

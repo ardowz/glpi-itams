@@ -438,13 +438,14 @@ switch ($component){
         $glpicomponent = 'deviceharddrives';
         break;
         
-    case 'memorie':
+    case 'memory':
         $component = "memory";
         //$query = "SELECT * FROM `glpi_devicememories`;";
         $query = "SELECT serialnumber, idsideb_memory_list,componentID FROM `sideb_memory_list`
         where componentID in (SELECT b.devicememories_id
         FROM `glpi_computers_devicememories` b
         WHERE b.`computers_id` = '".$ID."' ) and idsideb_memory_list in (select memoryID from sideb_memory_deploy)";
+//        echo $query;
         $glpicomponent = 'devicememories';
         break;
         
@@ -548,7 +549,7 @@ $sidebcomponent = $component;
                       }
                      
                  }
-              echo "<td>Repair Count: ".$count." ";
+              echo "<td>Repair Count: ".$count." ".$component;
               if($count >= 3){
                   echo "Replacement: ";
                   
@@ -737,9 +738,143 @@ $sidebcomponent = $component;
       } else {
          echo "</table>";
       }
+      
+      echo "<table>";
+      echo "<tr>";
+      echo "<th>Repair History</th>";
+      echo "</tr>";
+      echo "<tr>";
+      echo "<td>Component Name</td>";
+      echo "<td>Serial Number</td>";
+      echo "<td>Repair Count</td>";
+      echo "</tr>";
+//      $this->getDecomissionHistory($ID);
+      self::getDecomissionHistory($ID);
+      echo "</table>";
+      
       echo "</div>";
 
       
+   }
+   
+  
+   /*
+    * sideb thesis adjustment
+    * 
+    * a function to get the history of decomissioned components within the given computerid
+    * 
+    */
+   
+   static function getDecomissionHistory($computerid){
+      global $DB, $LANG, $CFG_GLPI;
+       
+//       echo $computerid;
+       
+       
+       $devtypes = self::getDeviceTypes();
+       
+       foreach($devtypes as $type){
+           $type = strtolower(substr($type,6));
+           switch($type){
+               
+                case 'processor':
+                    $glpicomponent = 'deviceprocessors';
+                    break;
+
+                case 'case':
+                    $glpicomponent = 'devicecases';
+                    break;
+
+                case 'control':
+                    $glpicomponent = 'devicecontrols';
+                    break;
+
+                case 'drive':
+                    $glpicomponent = 'devicedrives';
+                    break;
+
+                case 'graphiccard':
+                    $glpicomponent = 'devicegraphiccards';
+                    break;
+
+                case 'harddrive':
+                    $glpicomponent = 'deviceharddrives';
+                    break;
+
+                case 'memory':
+                    $glpicomponent = 'devicememories';
+                    break;
+
+                case 'networkcard':
+                    $glpicomponent = 'devicenetworkcards';
+                    break;
+
+                case 'pci':
+                    $glpicomponent = 'devicepcis';
+                    break;
+
+                case 'powersupply':
+                    $glpicomponent = 'devicepowersupplies';
+                    break;
+
+                case 'soundcard':
+                    $glpicomponent = 'devicesoundcards';
+                    break;
+
+                case 'motherboard':
+                    $glpicomponent = 'devicemotherboards';
+                    break;
+
+                default:
+                    break;
+               
+           }
+           $sidebcomponent = $type;
+           
+                $query = "SELECT sbgs.serialNumber, COUNT(*) AS Repaired, dg.designation
+                FROM sideb_".$sidebcomponent."_solution sbgs, sideb_".$sidebcomponent."_list sbgl, glpi_".$glpicomponent." dg
+                WHERE sbgs.serialNumber = sbgl.serialNumber AND sbgl.componentID = dg.id
+                AND sbgl.serialNumber in (
+
+                select a.serialNumber from sideb_".$sidebcomponent."_list a
+                join glpi_".$glpicomponent." b on a.componentid = b.id
+                where b.id in (select designationid from sideb_component_decomission where computerid = '".$computerid."')
+                and a.idsideb_".$sidebcomponent."_list in (select componentid from sideb_component_decomission where computerid = '".$computerid."'  and type = '".$sidebcomponent."'))
+
+                AND dg.id in (
+
+                select a.componentid from sideb_".$sidebcomponent."_list a
+                join glpi_".$glpicomponent." b on a.componentid = b.id
+                where b.id in (select designationid from sideb_component_decomission where computerid = '".$computerid."')
+                and a.idsideb_".$sidebcomponent."_list in (select componentid from sideb_component_decomission where computerid = '".$computerid."' and type = '".$sidebcomponent."')
+
+                );";
+           
+        
+              $result = $DB->query($query);
+              if ($DB->query($query)) {
+                  
+                   while ($data=$DB->fetch_array($result)) {
+                       
+                       if(isset($data['designation'])){
+                        
+                             echo "<tr>";
+                             echo "<td>";
+                             echo $data['designation'];
+                             echo "</td>";
+                             echo "<td>";
+                             echo $data['serialNumber'];
+                             echo "</td>";
+                             echo "<td>";
+                             echo $data['Repaired'];
+                             echo "</td>";
+                             echo "</tr>";
+                       }
+                   }
+                  
+              }
+       }
+       
    }
 
 
