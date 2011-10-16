@@ -49349,3 +49349,50 @@ Notice(8): Undefined variable: items_id
 Backtrace :
 C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
 
+2011-10-16 21:34 [6@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:51		userErrorHandlerNormal()
+
+2011-10-16 21:35 [6@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:915		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-16 21:35 [6@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 21:35 [6@USER-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4872		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 21:35 [6@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 21:35 [6@USER-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4872		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 21:35 [6@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 21:35 [6@USER-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4872		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
