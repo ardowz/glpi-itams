@@ -749,9 +749,15 @@ $sidebcomponent = $component;
       echo "<td>Repair Count</td>";
       echo "</tr>";
 //      $this->getDecomissionHistory($ID);
-      self::getDecomissionHistory($ID);
+      $decomCount = self::getDecomissionHistory($ID);
       echo "</table>";
-      
+      echo "<br/>";
+      echo "Number of decommissioned Components: ";
+      echo $decomCount;
+      if($decomCount >= 3){
+          echo "<br/>";
+          echo "This computer has had more than 3 decomissioned components, decomissioning the computer is recommended";
+      }
       echo "</div>";
 
       
@@ -772,6 +778,7 @@ $sidebcomponent = $component;
        
        
        $devtypes = self::getDeviceTypes();
+       $counter = 0;
        
        foreach($devtypes as $type){
            $type = strtolower(substr($type,6));
@@ -869,12 +876,14 @@ $sidebcomponent = $component;
                              echo $data['Repaired'];
                              echo "</td>";
                              echo "</tr>";
+                             $counter++;
                        }
                    }
                   
               }
        }
        
+       return $counter;
    }
 
 
