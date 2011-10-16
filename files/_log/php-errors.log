@@ -49396,3 +49396,51 @@ Backtrace :
 C:\xampp\htdocs\itams\inc\ticket.class.php:4872		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
 
+2011-10-16 21:35 [6@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 21:35 [6@USER-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4872		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 21:35 [8@USER-PC]
+Notice(8): Undefined variable: item
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4872		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 21:36 [6@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 21:37 [6@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 22:02 [6@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 22:02 [6@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+
+2011-10-16 22:02 [6@USER-PC]
+Notice(8): Undefined index: name
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
+

@@ -32182,3 +32182,27 @@ C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:545		DBmysql->query()
 C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
 C:/xampp/htdocs/itams/ajax/computer.tabs.php
 
+2011-10-16 21:42 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_computers_softwarelicenses` (`computers_id`,`softwarelicenses_id`) VALUES (\'21\',\'1\')
+Error: Duplicate entry '21-1' for key 'unicity'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:406		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:858		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\computer_softwarelicense.form.php&nbsp;:45		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/computer_softwarelicense.form.php
+
+2011-10-16 21:44 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_computers_softwarelicenses` (`computers_id`,`softwarelicenses_id`) VALUES (\'21\',\'1\')
+Error: Duplicate entry '21-1' for key 'unicity'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:406		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:858		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\computer_softwarelicense.form.php&nbsp;:45		CommonDBTM->add()
+C:/xampp/htdocs/itams/front/computer_softwarelicense.form.php
+

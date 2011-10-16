@@ -4759,20 +4759,67 @@ class Ticket extends CommonDBTM {
               echo $computer;
           }
           
+          /*
+           * This is the software query
+           * 
+           * 
+           */
+          
           if($softwareID != null){
               $query = "SELECT * FROM `glpi_softwares` where id ='".$softwareID."'";
-              $result = $DB->query($queryid);
+              $result = $DB->query($query);
               
-              if ($DB->query($queryid)) {
+              if ($DB->query($query)) {
                    while ($data=$DB->fetch_array($result)) {
                       $software = $data["name"];
                    }
               }
               echo $software;
+              
+              
+              $query2 = "SELECT `glpi_softwares`.`entities_id`, `glpi_softwares`.`is_recursive`, `glpi_softwares`.`name` AS ITEM_0, `glpi_softwares`.`id` AS ITEM_0_2, `glpi_manufacturers`.`name` AS ITEM_1, GROUP_CONCAT(DISTINCT `glpi_softwareversions`.`name` SEPARATOR '$$$$') AS ITEM_2, GROUP_CONCAT(DISTINCT `glpi_operatingsystems_0a35c270152be19b5c8a485502badcd7`.`name` SEPARATOR '$$$$') AS ITEM_3, COUNT(DISTINCT `glpi_computers_softwareversions_786365a1b3080068c0a349d926a8a00b`.`id`) AS ITEM_4, FLOOR(SUM(`glpi_softwarelicenses`.`number`) * COUNT(DISTINCT `glpi_softwarelicenses`.`id`) / COUNT(`glpi_softwarelicenses`.`id`)) AS ITEM_5, MIN(`glpi_softwarelicenses`.`number`) AS ITEM_5_2, `glpi_softwares`.`id` AS ITEM_6, `glpi_softwares`.`id` AS id
+                    FROM `glpi_softwares`
+                    LEFT JOIN `glpi_manufacturers` ON (`glpi_softwares`.`manufacturers_id` = `glpi_manufacturers`.`id` )
+                    LEFT JOIN `glpi_softwareversions` ON (`glpi_softwares`.`id` = `glpi_softwareversions`.`softwares_id` )
+                    LEFT JOIN `glpi_operatingsystems` AS glpi_operatingsystems_0a35c270152be19b5c8a485502badcd7 ON (`glpi_softwareversions`.`operatingsystems_id` = `glpi_operatingsystems_0a35c270152be19b5c8a485502badcd7`.`id` )
+                    LEFT JOIN `glpi_computers_softwareversions` AS glpi_computers_softwareversions_786365a1b3080068c0a349d926a8a00b ON (`glpi_softwareversions`.`id` = `glpi_computers_softwareversions_786365a1b3080068c0a349d926a8a00b`.`softwareversions_id` AND `glpi_computers_softwareversions_786365a1b3080068c0a349d926a8a00b`.`is_deleted` = '0' AND `glpi_computers_softwareversions_786365a1b3080068c0a349d926a8a00b`.`is_template` = '0' )
+                    LEFT JOIN `glpi_softwarelicenses` ON (`glpi_softwares`.`id` = `glpi_softwarelicenses`.`softwares_id` )
+                    WHERE `glpi_softwares`.`is_deleted` = '0' AND `glpi_softwares`.`is_template` = '0' AND ( (`glpi_softwares`.`id` = '".$softwareID."') ) GROUP BY `glpi_softwares`.`id`
+                    ORDER BY ITEM_0 ASC";
+              
+              $result2 = $DB->query($query2);
+              
+              if ($DB->query($query2)) {
+                   while ($data=$DB->fetch_array($result2)) {
+                      $installedCount = $data["ITEM_4"];
+                      $totalLicense = $data["ITEM_5_2"];
+                   }
+                   
+                  $intCount = $installedCount + 0;
+                  $intTotal = $totalLicense + 0;
+                  
+                  echo "<br/>";
+                  if($intTotal>0){
+                      
+                      $available = $intTotal - $intCount;
+                      if($available > 0){
+                          echo "There is/are ".$available." licenses";
+                      }else{
+                          echo "There is no more license available";
+                      }
+                      
+                  }else{
+                      echo "The license for the software is unlimited";
+                  }
+              }
           }
           
-          echo $requestType;
+//          echo $requestType;
           echo $newITAsset;
+          
+          
+          
+
           
      
           /*
@@ -4863,18 +4910,18 @@ class Ticket extends CommonDBTM {
       echo "</td>";
       
  //testing      
-      echo "<th class='left'> ";
-      echo "Warranty Status:";
-      echo "<td>";
+//      echo "<th class='left'> ";
+//      echo "Warranty Status:";
+//      echo "<td>";
 //      echo $item->getNameID();
       //search here for warranty status
       //associated element
-      echo $item->getType();
-      echo $item->getID();
-      echo "</td>";
+//      echo $item->getType();
+//      echo $item->getID();
+//      echo "</td>";
     
       //  echo "testing";
-      echo "</th>";
+//      echo "</th>";
     
 
       // Display validation state
