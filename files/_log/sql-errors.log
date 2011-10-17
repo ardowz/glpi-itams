@@ -32206,3 +32206,14 @@ C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:858		CommonDBTM->addToDB()
 C:\xampp\htdocs\itams\front\computer_softwarelicense.form.php&nbsp;:45		CommonDBTM->add()
 C:/xampp/htdocs/itams/front/computer_softwarelicense.form.php
 
+2011-10-17 04:43 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `sideb__solution`
+Error: Table 'itams.sideb__solution' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1059		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:89		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/ticket.form.php
+

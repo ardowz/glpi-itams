@@ -49946,3 +49946,19 @@ Backtrace :
 C:\xampp\htdocs\itams\inc\commondbtm.class.php:915		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
 
+2011-10-17 04:39 [8@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1506		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\front\ticket.form.php:75		CommonDBTM->update()
+
+2011-10-17 04:43 [10@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1506		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketfollowup.class.php:320		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:860		TicketFollowup->post_addItem()
+C:\xampp\htdocs\itams\front\ticketfollowup.form.php:55		CommonDBTM->add()
+
