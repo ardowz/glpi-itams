@@ -519,9 +519,29 @@ class TicketTask  extends CommonDBTM {
       $this->showFormHeader($options);
 
       echo "<tr class='tab_bg_1'>";
-      echo "<td rowspan='5' class='middle right'>".$LANG['joblist'][6]."&nbsp;:</td>";
-      echo "<td class='center middle' rowspan='5'>".
-           "<textarea name='content' cols='50' rows='6'>".$this->fields["content"]."</textarea></td>";
+      echo "<td rowspan='5' class='middle right'>".$LANG['customtask'][0]."&nbsp;:</td>";
+      
+      /*
+       * Dropdown for predefined set of tasks
+       */
+      
+      echo "<td class='center middle' rowspan='5'>";
+      
+      $queryid = "SELECT * FROM sideb_ticket_task";
+      $result = $DB->query($queryid);
+      if ($DB->query($queryid)) {
+          
+          echo "<select name='content' id='content'>";
+          echo "<option value='0'>--</option>";
+           while ($data=$DB->fetch_array($result)) {
+              $task = $data["task"];
+              echo "<option value='$task'>$task</option>";
+           }
+           echo "</select>";
+      }
+      
+      echo "</td>";
+//     echo "<td class='center middle' rowspan='5'>"."<textarea name='content' cols='50' rows='6'>".$this->fields["content"]."</textarea></td>";
       if ($this->fields["date"]) {
          echo "<td>".$LANG['common'][27]."&nbsp;:</td>";
          echo "<td>".convDateTime($this->fields["date"]);
@@ -531,40 +551,44 @@ class TicketTask  extends CommonDBTM {
       echo "<input type='hidden' name='tickets_id' value='".$this->fields["tickets_id"]."'>";
       echo "</td></tr>\n";
 
-      echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['common'][36]."&nbsp;:</td><td>";
-      Dropdown::show('TaskCategory', array('value' => $this->fields["taskcategories_id"]));
-      echo "</td></tr>\n";
-
-      echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['common'][77]."&nbsp;:</td>";
-      echo "<td><select name='is_private'>";
-      echo "<option value='0' ".(!$this->fields["is_private"]?" selected":"").">".$LANG['choice'][0].
-            "</option>";
-      echo "<option value='1' ".($this->fields["is_private"]?" selected":"").">".$LANG['choice'][1].
-            "</option>";
-      echo "</select></td>";
-      echo "</tr>";
-
-      echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['job'][31]."&nbsp;:</td><td>";
-
-      $units = getTimestampTimeUnits($this->fields["actiontime"]);
-
-      $hour   = $units['hour']+24*$units['day'];
-      $minute = $units['minute'];
-      Dropdown::showInteger('hour', $hour, 0, 100, 1, array($hour));
-      echo "&nbsp;".$LANG['job'][21]."&nbsp;&nbsp;";
-      Dropdown::showInteger('minute', $minute, 0, 59);
-      echo "&nbsp;".$LANG['job'][22];
-      echo "</td></tr>\n";
-
-      echo "<tr class='tab_bg_1'>";
-      echo "<td>".$LANG['job'][35]."</td>";
-      echo "<td>";
-      $plan = new TicketPlanning();
-      $plan->showFormForTask($ticket, $this);
-      echo "</td></tr>";
+      /*
+       * Removed right part of task
+       */
+      
+//      echo "<tr class='tab_bg_1'>";
+//      echo "<td>".$LANG['common'][36]."&nbsp;:</td><td>";
+//      Dropdown::show('TaskCategory', array('value' => $this->fields["taskcategories_id"]));
+//      echo "</td></tr>\n";
+//
+//      echo "<tr class='tab_bg_1'>";
+//      echo "<td>".$LANG['common'][77]."&nbsp;:</td>";
+//      echo "<td><select name='is_private'>";
+//      echo "<option value='0' ".(!$this->fields["is_private"]?" selected":"").">".$LANG['choice'][0].
+//            "</option>";
+//      echo "<option value='1' ".($this->fields["is_private"]?" selected":"").">".$LANG['choice'][1].
+//            "</option>";
+//      echo "</select></td>";
+//      echo "</tr>";
+//
+//      echo "<tr class='tab_bg_1'>";
+//      echo "<td>".$LANG['job'][31]."&nbsp;:</td><td>";
+//
+//      $units = getTimestampTimeUnits($this->fields["actiontime"]);
+//
+//      $hour   = $units['hour']+24*$units['day'];
+//      $minute = $units['minute'];
+//      Dropdown::showInteger('hour', $hour, 0, 100, 1, array($hour));
+//      echo "&nbsp;".$LANG['job'][21]."&nbsp;&nbsp;";
+//      Dropdown::showInteger('minute', $minute, 0, 59);
+//      echo "&nbsp;".$LANG['job'][22];
+//      echo "</td></tr>\n";
+//
+//      echo "<tr class='tab_bg_1'>";
+//      echo "<td>".$LANG['job'][35]."</td>";
+//      echo "<td>";
+//      $plan = new TicketPlanning();
+//      $plan->showFormForTask($ticket, $this);
+//      echo "</td></tr>";
 
       $this->showFormButtons($options);
 

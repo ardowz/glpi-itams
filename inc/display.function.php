@@ -495,27 +495,21 @@ function commonHeader($title, $url='', $sector="none", $item="none", $option="")
       }
    }
    
-   if (haveRight("document","r")) {
+   
       $menu['financial']['content']['requirementscollection']['title']           = $LANG['itrequest'][3];
       $menu['financial']['content']['requirementscollection']['shortcut']        = 'd';
       $menu['financial']['content']['requirementscollection']['page']            = '/front/requirementscollection.php';
       $menu['financial']['content']['requirementscollection']['links']['search'] = '/front/requirementscollection.php';
-
-      if (haveRight("document","w")) {
-         $menu['financial']['content']['requirementscollection']['links']['add'] = '/front/requirementscollection.php';
-      }
-   }
+      $menu['financial']['content']['requirementscollection']['links']['add'] = '/front/requirementscollection.php';
    
-    if (haveRight("document","r")) {
+   
+    
       $menu['financial']['content']['requisitionlist']['title']           = $LANG['itrequest'][6];
       $menu['financial']['content']['requisitionlist']['shortcut']        = 'd';
       $menu['financial']['content']['requisitionlist']['page']            = '/front/requisitionlist.php';
       $menu['financial']['content']['requisitionlist']['links']['search'] = '/front/requisitionlist.php';
-
-      if (haveRight("document","w")) {
-         $menu['financial']['content']['requisitionlist']['links']['add'] = '/front/requisitionlist.php';
-      }
-   }
+      $menu['financial']['content']['requisitionlist']['links']['add'] = '/front/requisitionlist.php';
+   
 
 
 
@@ -1687,14 +1681,14 @@ function helpHeader($title, $url='') {
              $LANG['profiles'][5]."\" class='itemP'>".$LANG['profiles'][5]."</a>";
       
       echo "</li>";
-      /*
-       * Adding an option to create request
-       */
-      echo "<li id='menu2'>";
-      echo "<a href='".$CFG_GLPI["root_doc"]."/front/helpdesk.public.php?create_ticket=2' title=\"".
-             $LANG['profiles'][52]."\" class='itemP'>".$LANG['profiles'][52]."</a>";
-      
-      echo "</li>";
+//      /*
+//       * Adding an option to create request
+//       */
+//      echo "<li id='menu2'>";
+//      echo "<a href='".$CFG_GLPI["root_doc"]."/front/helpdesk.public.php?create_ticket=2' title=\"".
+//             $LANG['profiles'][52]."\" class='itemP'>".$LANG['profiles'][52]."</a>";
+//      
+//      echo "</li>";
    }
 
    //  Suivi ticket
@@ -2379,10 +2373,35 @@ function printHelpDesk ($ID, $from_helpdesk) {
      
    echo "<tr class='tab_bg_1'>";
    echo "<td>".$LANG['common'][57]."&nbsp;:&nbsp;</td>";
-   echo "<td><input type='text' maxlength='250' size='50' name='name' value='$title'></td></tr>";
+   
+   /*
+    * Making a dropdown for titles
+    */
+   
+   echo "<td>";
+   $queryid = "SELECT * FROM sideb_ticket_titles";
+     $result = $DB->query($queryid);
+      if ($DB->query($queryid)) {
+          
+          echo "<select name='name' id='name'>";
+          echo "<option value='0'>--</option>";
+           while ($data=$DB->fetch_array($result)) {
+              $title = $data['title'];
+              echo "<option value='$title'>$title</option>";
+           }
+           echo "</select>";
+      }
+    $title = '__VALUE__';
+   echo "</td>";
+//   echo "<td><input type='text' maxlength='250' size='50' name='name' value='$title'</td>";
+   echo "</tr>";
 
    echo "<tr class='tab_bg_1'>";
-   echo "<td colspan='2'><textarea name='content' cols='78' rows='14'>$content</textarea>";
+//   echo "<td colspan='2'><textarea name='content' cols='78' rows='14'>$content</textarea>";
+   echo "<td>";
+   echo "Remarks: *optional";
+   echo "</td><td>";
+   echo "<input type='text' name='content' value='*'>$content</input>";
    echo "</td></tr>";
 
    echo "<tr class='tab_bg_1'>";

@@ -483,6 +483,11 @@ class TicketFollowup  extends CommonDBTM {
 
          echo "<tr class='tab_bg_1'>";
          echo "<td rowspan='3' class='middle right'>".$LANG['joblist'][6]."&nbsp;:</td>";
+         
+         /*
+          * Query for dropdown followups
+          */
+         
          echo "<td class='center middle' rowspan='3'><textarea name='content' cols='50' rows='6'>".
                $this->fields["content"]."</textarea></td>";
          if ($this->fields["date"]) {

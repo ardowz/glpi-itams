@@ -686,12 +686,14 @@ class Computer extends CommonDBTM {
       $var = User::dropdown(array('value'  => $this->fields["users_id"],
                            'entity' => $this->fields["entities_id"],
                            'right'  => 'all'));
+      $paramsUser = array('user' => '__VALUE__');
       
 //      $params = array('value'        => '__VALUE__','state' => $this->fields["states_id"]);
 //
-//            ajaxUpdateItemOnSelectEvent("dropdown_users_id$var","results_test",
-//                                        $CFG_GLPI["root_doc"]."/ajax/computerAssignAutoStatus.php",
-//                                        $params);
+            ajaxUpdateItemOnSelectEvent("dropdown_users_id$var","userAdd",
+                                        $CFG_GLPI["root_doc"]."/ajax/addUserArray.php",
+                                        $paramsUser);
+      echo "<span id='userAdd'></span>";
 //            
       echo "</td>";
 //location
@@ -712,8 +714,25 @@ class Computer extends CommonDBTM {
       echo "<td>".$LANG['state'][0]."&nbsp;:</td>";
       echo "<td>";
 //      echo "<span id='results_test'>";
-      Dropdown::show('State', array('value' => $this->fields["states_id"]));
+      $stateid = Dropdown::show('State', array('value' => $this->fields["states_id"]));
 //      echo "</span>";
+      
+      /*
+       * Placing ajax for SPA
+       */
+//      echo $test;
+      
+      
+      $params2 = array('state' => '__VALUE__');
+      
+//      $params = array_merge($params1,$params2);
+         
+         ajaxUpdateItemOnSelectEvent("dropdown_states_id".$stateid, "spa_print",
+                            $CFG_GLPI["root_doc"]."/ajax/printSPA.php",
+                            $params2);
+         
+         echo "<br><span id='spa_print'></span>";
+      
       echo "</td>";
 
       echo "<td>".$LANG['computers'][9]."&nbsp;:</td>";

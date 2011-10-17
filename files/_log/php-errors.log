@@ -49444,3 +49444,505 @@ Backtrace :
 C:\xampp\htdocs\itams\inc\ticket.class.php:4768		userErrorHandlerNormal()
 C:\xampp\htdocs\itams\front\ticket.form.php:193		Ticket->showForm()
 
+2011-10-17 01:30 [2@USER-PC]
+Notice(8): Undefined variable: params1
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:728		userErrorHandlerDebug()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-17 01:30 [2@USER-PC]
+Warning(2): array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\computer.class.php:728		array_merge()
+C:\xampp\htdocs\itams\front\computer.form.php:235		Computer->showForm()
+
+2011-10-17 01:32 [2@USER-PC]
+Notice(8): Undefined variable: userArray
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\printSPA.php:16		userErrorHandlerDebug()
+
+2011-10-17 02:40 [2@USER-PC]
+Notice(8): Undefined variable: userArray
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\printSPA.php:16		userErrorHandlerDebug()
+
+2011-10-17 02:40 [2@USER-PC]
+Notice(8): Undefined index: deploymentUser
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\printSPA.php:18		userErrorHandlerDebug()
+
+2011-10-17 02:47 [2@USER-PC]
+Notice(8): Undefined index: user
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\addUserArray.php:22		userErrorHandlerDebug()
+
+2011-10-17 02:53 [2@USER-PC]
+Notice(8): Undefined index: deploymentUser
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\printSPA.php:18		userErrorHandlerDebug()
+
+2011-10-17 02:56 [2@USER-PC]
+Notice(8): Undefined index: user
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\printSPA.php:19		userErrorHandlerDebug()
+
+2011-10-17 02:57 [2@USER-PC]
+Notice(8): Undefined index: user
+Backtrace :
+C:\xampp\htdocs\itams\inc\common.function.php:342		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\ajax\printSPA.php:25		userErrorHandlerDebug()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2469		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: use_email_notification
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2489		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2517		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2469		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: use_email_notification
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2489		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2517		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2469		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: use_email_notification
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2489		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2517		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2469		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: use_email_notification
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2489		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2517		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2469		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: use_email_notification
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2489		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2517		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2469		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: use_email_notification
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2489		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2517		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2469		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: use_email_notification
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2489		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:39 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2517		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:40 [10@USER-PC]
+Notice(8): Undefined variable: from_helpdesk
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2470		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:40 [10@USER-PC]
+Notice(8): Undefined variable: use_email_notification
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2490		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:40 [10@USER-PC]
+Notice(8): Undefined variable: content
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2518		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:95		printRequestAsset()
+
+2011-10-17 03:40 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-17 03:40 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:44 [10@USER-PC]
+Notice(8): Undefined index: id
+Backtrace :
+C:\xampp\htdocs\itams\inc\display.function.php:2395		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\helpdesk.public.php:91		printHelpDesk()
+
+2011-10-17 03:47 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-17 03:47 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-17 03:48 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:915		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-17 03:48 [10@USER-PC]
+Notice(8): Undefined variable: itemtype
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-17 03:48 [10@USER-PC]
+Notice(8): Undefined variable: items_id
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownTicketType.php:49		userErrorHandlerNormal()
+
+2011-10-17 03:48 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:915		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+
+2011-10-17 04:20 [10@USER-PC]
+Runtime Notice(2048): Non-static method TicketValidation::canCreate() should not be called statically, assuming $this from incompatible context
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php:595		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:1506		Ticket->prepareInputForUpdate()
+C:\xampp\htdocs\itams\inc\ticketfollowup.class.php:320		CommonDBTM->update()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:860		TicketFollowup->post_addItem()
+C:\xampp\htdocs\itams\front\ticketfollowup.form.php:55		CommonDBTM->add()
+
+2011-10-17 04:23 [10@USER-PC]
+Notice(8): Undefined variable: entity_restrict
+Backtrace :
+C:\xampp\htdocs\itams\ajax\dropdownRequestType.php:51		userErrorHandlerNormal()
+
+2011-10-17 04:23 [10@USER-PC]
+Warning(2): Missing argument 4 for CommonDBTM::addSideb(), called in C:\xampp\htdocs\itams\front\tracking.injector.php on line 76 and defined
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php:915		userErrorHandlerNormal()
+C:\xampp\htdocs\itams\front\tracking.injector.php:76		CommonDBTM->addSideb()
+

@@ -2164,5 +2164,10 @@ $LANG['itrequest'][4]="Cartridge";
 $LANG['itrequest'][5]="Consumable";
 $LANG['itrequest'][6]= "Requisition List";
 
+$LANG['customtask'][0]="Task";
+
+/*
+ * to set array
+ */
 
 ?>
