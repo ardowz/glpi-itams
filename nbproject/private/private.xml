@@ -2,12 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1">
         <file>
-            <url>inc/display.function.php</url>
-            <line>2214</line>
-            <line>2300</line>
-            <line>2484</line>
-        </file>
-        <file>
             <url>inc/computer.class.php</url>
             <line>568</line>
         </file>
@@ -18,6 +12,12 @@
             <line>756</line>
             <line>774</line>
             <line>1029</line>
+        </file>
+        <file>
+            <url>inc/display.function.php</url>
+            <line>2214</line>
+            <line>2300</line>
+            <line>2484</line>
         </file>
         <file>
             <url>inc/computer_device.class.php</url>

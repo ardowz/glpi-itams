@@ -273,10 +273,18 @@ class Phone extends CommonDBTM {
                              $this->getType(), $this->fields["entities_id"]);
       autocompletionTextField($this, 'name', array('value' => $objectName));
       echo "</td>";
-
+      
+      echo "<td>";
+       echo "Repair Count: ";
+       echo "</td>";
+        echo "<td>";
+       $this->getRepairCount($ID, $this->getTypeName());
+       echo "</td>";
       echo"</tr>\n";
 
        echo "<tr class='tab_bg_1'>";
+       
+       
      /* echo "<td>".$LANG['common'][18]."&nbsp;:</td><td>";
       autocompletionTextField($this, "contact");
       echo "</td>";*/

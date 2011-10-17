@@ -297,6 +297,16 @@ class Monitor extends CommonDBTM {
           echo "<input type='text' name='life' id='life'></input>";
       }
       echo "</td>";
+      
+      echo "<td>";
+      echo "Repair Count: ";
+      echo "</td>";
+      
+      echo "<td>";
+      //echo "count";
+      $this->getRepairCount($ID, $this->getTypeName());
+      echo "</td>";
+      
       echo "</tr>";
 
       echo "<tr class='tab_bg_1'>";

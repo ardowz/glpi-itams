@@ -450,23 +450,24 @@ class Printer  extends CommonDBTM {
       echo "</td>";
       echo "<td>";
       
+      $this->getRepairCount($ID, $this->getTypeName());
 //      $db = new CommonDBTM();
-      $query = "SELECT COUNT(*) as count
-FROM glpi_tickets
-WHERE itemtype = 'Printer' and items_id = '".$ID."' AND ticketsolutiontypes_id = '11'";
-        $result = $DB->query($query);
-//      $resultid = $DB->query($queryid);
-      if ($DB->query($query)) {
-           while ($data=$DB->fetch_array($result)) {
-              $count = $data["count"];
-           }
-      }
-      
-      //repair count here
-      echo $count;
-      if ($count >= 3){
-          echo " - Decommission";
-      }
+//      $query = "SELECT COUNT(*) as count
+//FROM glpi_tickets
+//WHERE itemtype = 'Printer' and items_id = '".$ID."' AND ticketsolutiontypes_id = '11'";
+//        $result = $DB->query($query);
+////      $resultid = $DB->query($queryid);
+//      if ($DB->query($query)) {
+//           while ($data=$DB->fetch_array($result)) {
+//              $count = $data["count"];
+//           }
+//      }
+//      
+//      //repair count here
+//      echo $count;
+//      if ($count >= 3){
+//          echo " - Decommission";
+//      }
       echo "</td>";
       echo "</tr>\n";
 

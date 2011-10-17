@@ -32217,3 +32217,3242 @@ C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1059		DBmysql->list_fields(
 C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:89		CommonDBTM->addSidebCustom()
 C:/xampp/htdocs/itams/front/ticket.form.php
 
+2011-10-17 05:31 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-17 05:31 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-17 05:33 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-17 05:33 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-17 05:34 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-17 05:34 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-17 05:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-17 05:40 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:41 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:41 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:42 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:42 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:44 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:44 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:44 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:44 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:44 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 04:44 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 06:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:678		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2016-01-17 06:05 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:679		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\computer.tabs.php&nbsp;:175		Computer_Device::showForComputerSideb()
+C:/xampp/htdocs/itams/ajax/computer.tabs.php
+
+2011-10-17 09:39 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: INSERT
+                   INTO `glpi_locations` (`entities_id`,`is_recursive`,`name`,`comment`,`locations_id`,`building`,`room`,`level`,`completename`) VALUES (\'0\',\'0\',\'College Faculty\',\'\',\'20\',\'3rd Floor - Westwing\',\'\',\'2\',\'LC1 - Integrated School Building > College Faculty\')
+Error: Duplicate entry '0-20-College Faculty' for key 'unicity'
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:406		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:858		CommonDBTM->addToDB()
+C:\xampp\htdocs\itams\front\dropdown.common.form.php&nbsp;:55		CommonDBTM->add()
+C:\xampp\htdocs\itams\front\location.form.php&nbsp;:41		include()
+C:/xampp/htdocs/itams/front/location.form.php
+
+2011-10-17 09:45 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'100\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 09:45 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'100\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3220		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 09:45 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'100\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3216		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 09:45 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'100\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3217		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 09:48 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'100\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 09:48 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'100\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 09:49 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'113\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 09:49 [11@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'113\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 09:53 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT * FROM `sideb__list` where componentID=\'11\';
+Error: Table 'itams.sideb__list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondropdown.class.php&nbsp;:206		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondropdown.class.php&nbsp;:130		CommonDropdown->displayMoreTabs()
+C:\xampp\htdocs\itams\ajax\dropdown.common.tabs.php&nbsp;:49		CommonDropdown->showTabContent()
+C:\xampp\htdocs\itams\ajax\ticketsolutiontype.tabs.php&nbsp;:40		include()
+C:/xampp/htdocs/itams/ajax/ticketsolutiontype.tabs.php
+
+2011-10-17 09:53 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT * FROM `sideb__list` where componentID=\'11\';
+Error: Table 'itams.sideb__list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondropdown.class.php&nbsp;:207		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondropdown.class.php&nbsp;:130		CommonDropdown->displayMoreTabs()
+C:\xampp\htdocs\itams\ajax\dropdown.common.tabs.php&nbsp;:49		CommonDropdown->showTabContent()
+C:\xampp\htdocs\itams\ajax\ticketsolutiontype.tabs.php&nbsp;:40		include()
+C:/xampp/htdocs/itams/ajax/ticketsolutiontype.tabs.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Motherboard_list,componentID FROM `sideb_Motherboard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicemotherboards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Motherboard_list in (select processorID from sideb_Motherboard_deploy)
+Error: Table 'itams.glpi_computers_devicedevicemotherboards' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Motherboard_list,componentID FROM `sideb_Motherboard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicemotherboards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Motherboard_list in (select processorID from sideb_Motherboard_deploy)
+Error: Table 'itams.glpi_computers_devicedevicemotherboards' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Processor_list,componentID FROM `sideb_Processor_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedeviceprocessors` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Processor_list in (select processorID from sideb_Processor_deploy)
+Error: Table 'itams.glpi_computers_devicedeviceprocessors' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Processor_list,componentID FROM `sideb_Processor_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedeviceprocessors` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Processor_list in (select processorID from sideb_Processor_deploy)
+Error: Table 'itams.glpi_computers_devicedeviceprocessors' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Memory_list,componentID FROM `sideb_Memory_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicememories` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Memory_list in (select processorID from sideb_Memory_deploy)
+Error: Table 'itams.glpi_computers_devicedevicememories' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Memory_list,componentID FROM `sideb_Memory_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicememories` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Memory_list in (select processorID from sideb_Memory_deploy)
+Error: Table 'itams.glpi_computers_devicedevicememories' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_HardDrive_list,componentID FROM `sideb_HardDrive_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedeviceharddrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_HardDrive_list in (select processorID from sideb_HardDrive_deploy)
+Error: Table 'itams.glpi_computers_devicedeviceharddrives' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_HardDrive_list,componentID FROM `sideb_HardDrive_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedeviceharddrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_HardDrive_list in (select processorID from sideb_HardDrive_deploy)
+Error: Table 'itams.glpi_computers_devicedeviceharddrives' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_NetworkCard_list,componentID FROM `sideb_NetworkCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicenetworkcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_NetworkCard_list in (select processorID from sideb_NetworkCard_deploy)
+Error: Table 'itams.glpi_computers_devicedevicenetworkcards' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_NetworkCard_list,componentID FROM `sideb_NetworkCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicenetworkcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_NetworkCard_list in (select processorID from sideb_NetworkCard_deploy)
+Error: Table 'itams.glpi_computers_devicedevicenetworkcards' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Drive_list,componentID FROM `sideb_Drive_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicedrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Drive_list in (select processorID from sideb_Drive_deploy)
+Error: Table 'itams.glpi_computers_devicedevicedrives' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Drive_list,componentID FROM `sideb_Drive_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicedrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Drive_list in (select processorID from sideb_Drive_deploy)
+Error: Table 'itams.glpi_computers_devicedevicedrives' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Control_list,componentID FROM `sideb_Control_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicecontrols` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Control_list in (select processorID from sideb_Control_deploy)
+Error: Table 'itams.glpi_computers_devicedevicecontrols' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Control_list,componentID FROM `sideb_Control_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicecontrols` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Control_list in (select processorID from sideb_Control_deploy)
+Error: Table 'itams.glpi_computers_devicedevicecontrols' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_GraphicCard_list,componentID FROM `sideb_GraphicCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicegraphiccards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_GraphicCard_list in (select processorID from sideb_GraphicCard_deploy)
+Error: Table 'itams.glpi_computers_devicedevicegraphiccards' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_GraphicCard_list,componentID FROM `sideb_GraphicCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicegraphiccards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_GraphicCard_list in (select processorID from sideb_GraphicCard_deploy)
+Error: Table 'itams.glpi_computers_devicedevicegraphiccards' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_SoundCard_list,componentID FROM `sideb_SoundCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicesoundcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_SoundCard_list in (select processorID from sideb_SoundCard_deploy)
+Error: Table 'itams.glpi_computers_devicedevicesoundcards' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_SoundCard_list,componentID FROM `sideb_SoundCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicesoundcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_SoundCard_list in (select processorID from sideb_SoundCard_deploy)
+Error: Table 'itams.glpi_computers_devicedevicesoundcards' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Pci_list,componentID FROM `sideb_Pci_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicepcis` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Pci_list in (select processorID from sideb_Pci_deploy)
+Error: Table 'itams.glpi_computers_devicedevicepcis' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Pci_list,componentID FROM `sideb_Pci_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicepcis` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Pci_list in (select processorID from sideb_Pci_deploy)
+Error: Table 'itams.glpi_computers_devicedevicepcis' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Case_list,componentID FROM `sideb_Case_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Case_list in (select processorID from sideb_Case_deploy)
+Error: Table 'itams.glpi_computers_devicedevicecases' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Case_list,componentID FROM `sideb_Case_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Case_list in (select processorID from sideb_Case_deploy)
+Error: Table 'itams.glpi_computers_devicedevicecases' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select processorID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:58 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedevicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select processorID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Motherboard_list,componentID FROM `sideb_Motherboard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicemotherboards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Motherboard_list in (select processorID from sideb_Motherboard_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Motherboard_list,componentID FROM `sideb_Motherboard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicemotherboards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Motherboard_list in (select processorID from sideb_Motherboard_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Memory_list,componentID FROM `sideb_Memory_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicememories` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Memory_list in (select processorID from sideb_Memory_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Memory_list,componentID FROM `sideb_Memory_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicememories` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Memory_list in (select processorID from sideb_Memory_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_HardDrive_list,componentID FROM `sideb_HardDrive_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_deviceharddrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_HardDrive_list in (select processorID from sideb_HardDrive_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_HardDrive_list,componentID FROM `sideb_HardDrive_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_deviceharddrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_HardDrive_list in (select processorID from sideb_HardDrive_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_NetworkCard_list,componentID FROM `sideb_NetworkCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicenetworkcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_NetworkCard_list in (select processorID from sideb_NetworkCard_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_NetworkCard_list,componentID FROM `sideb_NetworkCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicenetworkcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_NetworkCard_list in (select processorID from sideb_NetworkCard_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Drive_list,componentID FROM `sideb_Drive_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Drive_list in (select processorID from sideb_Drive_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Drive_list,componentID FROM `sideb_Drive_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicedrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Drive_list in (select processorID from sideb_Drive_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Control_list,componentID FROM `sideb_Control_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicecontrols` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Control_list in (select processorID from sideb_Control_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Control_list,componentID FROM `sideb_Control_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicecontrols` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Control_list in (select processorID from sideb_Control_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_GraphicCard_list,componentID FROM `sideb_GraphicCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicegraphiccards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_GraphicCard_list in (select processorID from sideb_GraphicCard_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_GraphicCard_list,componentID FROM `sideb_GraphicCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicegraphiccards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_GraphicCard_list in (select processorID from sideb_GraphicCard_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_SoundCard_list,componentID FROM `sideb_SoundCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicesoundcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_SoundCard_list in (select processorID from sideb_SoundCard_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_SoundCard_list,componentID FROM `sideb_SoundCard_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicesoundcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_SoundCard_list in (select processorID from sideb_SoundCard_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Pci_list,componentID FROM `sideb_Pci_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicepcis` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Pci_list in (select processorID from sideb_Pci_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Pci_list,componentID FROM `sideb_Pci_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicepcis` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Pci_list in (select processorID from sideb_Pci_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Case_list,componentID FROM `sideb_Case_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Case_list in (select processorID from sideb_Case_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Case_list,componentID FROM `sideb_Case_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Case_list in (select processorID from sideb_Case_deploy)
+Error: Unknown column 'b.deviceprocessors_id' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select processorID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 10:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.deviceprocessors_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select processorID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Motherboard_list,componentID FROM `sideb_Motherboard_list`
+        where componentID in (SELECT b.devicemotherboards_id
+        FROM `glpi_computers_devicemotherboards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Motherboard_list in (select processorID from sideb_Motherboard_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Motherboard_list,componentID FROM `sideb_Motherboard_list`
+        where componentID in (SELECT b.devicemotherboards_id
+        FROM `glpi_computers_devicemotherboards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Motherboard_list in (select processorID from sideb_Motherboard_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Memory_list,componentID FROM `sideb_Memory_list`
+        where componentID in (SELECT b.devicememories_id
+        FROM `glpi_computers_devicememories` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Memory_list in (select processorID from sideb_Memory_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Memory_list,componentID FROM `sideb_Memory_list`
+        where componentID in (SELECT b.devicememories_id
+        FROM `glpi_computers_devicememories` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Memory_list in (select processorID from sideb_Memory_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_HardDrive_list,componentID FROM `sideb_HardDrive_list`
+        where componentID in (SELECT b.deviceharddrives_id
+        FROM `glpi_computers_deviceharddrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_HardDrive_list in (select processorID from sideb_HardDrive_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_HardDrive_list,componentID FROM `sideb_HardDrive_list`
+        where componentID in (SELECT b.deviceharddrives_id
+        FROM `glpi_computers_deviceharddrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_HardDrive_list in (select processorID from sideb_HardDrive_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_NetworkCard_list,componentID FROM `sideb_NetworkCard_list`
+        where componentID in (SELECT b.devicenetworkcards_id
+        FROM `glpi_computers_devicenetworkcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_NetworkCard_list in (select processorID from sideb_NetworkCard_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_NetworkCard_list,componentID FROM `sideb_NetworkCard_list`
+        where componentID in (SELECT b.devicenetworkcards_id
+        FROM `glpi_computers_devicenetworkcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_NetworkCard_list in (select processorID from sideb_NetworkCard_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Drive_list,componentID FROM `sideb_Drive_list`
+        where componentID in (SELECT b.devicedrives_id
+        FROM `glpi_computers_devicedrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Drive_list in (select processorID from sideb_Drive_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Drive_list,componentID FROM `sideb_Drive_list`
+        where componentID in (SELECT b.devicedrives_id
+        FROM `glpi_computers_devicedrives` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Drive_list in (select processorID from sideb_Drive_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Control_list,componentID FROM `sideb_Control_list`
+        where componentID in (SELECT b.devicecontrols_id
+        FROM `glpi_computers_devicecontrols` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Control_list in (select processorID from sideb_Control_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Control_list,componentID FROM `sideb_Control_list`
+        where componentID in (SELECT b.devicecontrols_id
+        FROM `glpi_computers_devicecontrols` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Control_list in (select processorID from sideb_Control_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_GraphicCard_list,componentID FROM `sideb_GraphicCard_list`
+        where componentID in (SELECT b.devicegraphiccards_id
+        FROM `glpi_computers_devicegraphiccards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_GraphicCard_list in (select processorID from sideb_GraphicCard_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_GraphicCard_list,componentID FROM `sideb_GraphicCard_list`
+        where componentID in (SELECT b.devicegraphiccards_id
+        FROM `glpi_computers_devicegraphiccards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_GraphicCard_list in (select processorID from sideb_GraphicCard_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_SoundCard_list,componentID FROM `sideb_SoundCard_list`
+        where componentID in (SELECT b.devicesoundcards_id
+        FROM `glpi_computers_devicesoundcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_SoundCard_list in (select processorID from sideb_SoundCard_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_SoundCard_list,componentID FROM `sideb_SoundCard_list`
+        where componentID in (SELECT b.devicesoundcards_id
+        FROM `glpi_computers_devicesoundcards` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_SoundCard_list in (select processorID from sideb_SoundCard_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Pci_list,componentID FROM `sideb_Pci_list`
+        where componentID in (SELECT b.devicepcis_id
+        FROM `glpi_computers_devicepcis` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Pci_list in (select processorID from sideb_Pci_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Pci_list,componentID FROM `sideb_Pci_list`
+        where componentID in (SELECT b.devicepcis_id
+        FROM `glpi_computers_devicepcis` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Pci_list in (select processorID from sideb_Pci_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Case_list,componentID FROM `sideb_Case_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Case_list in (select processorID from sideb_Case_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_Case_list,componentID FROM `sideb_Case_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_Case_list in (select processorID from sideb_Case_deploy)
+Error: Unknown column 'processorID' in 'field list'
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select processorID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select processorID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:00 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:01 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:01 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:02 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list as sidebid,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:02 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list as sidebid,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:08 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:08 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:08 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:08 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:08 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:08 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:09 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:09 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:17 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:17 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:89		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 11:59 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT serialnumber, idsideb_PowersSpply_list,componentID FROM `sideb_PowersSpply_list`
+        where componentID in (SELECT b.devicecases_id
+        FROM `glpi_computers_devicecases` b
+        WHERE b.`computers_id` = \'21\' ) and idsideb_PowersSpply_list in (select PowersSpplyID from sideb_PowersSpply_deploy)
+Error: Table 'itams.sideb_powersspply_list' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\computerDecomission.php&nbsp;:90		DBmysql->query()
+C:/xampp/htdocs/itams/front/computerDecomission.php
+
+2011-10-17 12:38 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:38 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:45 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:45 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:45 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:45 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:53 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:53 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:56 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:56 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:56 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `sideb__solution`
+Error: Table 'itams.sideb__solution' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1059		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:99		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/ticket.form.php
+
+2011-10-17 12:57 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:57 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:57 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:57 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:58 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:58 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:59 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 12:59 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'114\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'115\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'115\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:00 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'115\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:00 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'115\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:02 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:02 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:03 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:03 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:04 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:04 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:04 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:04 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:06 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:06 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:06 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:06 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:07 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:07 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:07 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:07 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:08 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:08 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:08 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'113\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:08 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'113\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:08 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'104\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:08 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'104\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:09 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'117\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'118\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'118\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'118\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'118\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'118\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'118\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'118\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'118\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'119\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:32 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'119\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'116\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'119\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'119\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'119\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'119\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'119\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:33 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'119\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:35 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'120\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:35 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'120\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:35 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'120\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:35 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'120\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:35 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'121\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:35 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'121\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'121\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'121\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:38 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'122\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:38 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'122\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:38 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'122\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:38 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'122\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'123\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'123\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SHOW COLUMNS FROM `sideb_peripheral_solution`
+Error: Table 'itams.sideb_peripheral_solution' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\dbmysql.class.php&nbsp;:372		DBmysql->query()
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:1059		DBmysql->list_fields()
+C:\xampp\htdocs\itams\front\ticket.form.php&nbsp;:100		CommonDBTM->addSidebCustom()
+C:/xampp/htdocs/itams/front/ticket.form.php
+
+2011-10-17 13:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'123\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:47 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'123\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:48 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:49 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:49 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:49 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:49 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:50 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:50 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:50 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:50 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [6@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'124\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'125\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'125\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'125\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'125\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'125\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:51 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'125\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:52 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'126\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:52 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'126\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:52 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'126\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:52 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'126\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:54 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'113\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:54 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'113\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:56 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'113\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:56 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'113\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:56 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:56 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:57 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:57 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:57 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:57 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:58 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 13:58 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:09 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:12 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT COUNT(*) AS Repaired
+                FROM glpi_tickets g, sideb_Networking device_solution s
+                WHERE s.ticketid = g.id AND s.Networking deviceid = \'3\' AND g.ticketsolutiontypes_id = \'11\'
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's
+                WHERE s.ticketid = g.id AND s.Networking deviceid = '3' AND g' at line 2
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:3397		DBmysql->query()
+C:\xampp\htdocs\itams\inc\networkequipment.class.php&nbsp;:354		CommonDBTM->getRepairCount()
+C:\xampp\htdocs\itams\front\networkequipment.form.php&nbsp;:115		NetworkEquipment->showForm()
+C:/xampp/htdocs/itams/front/networkequipment.form.php
+
+2011-10-17 14:12 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT COUNT(*) AS Repaired
+                FROM glpi_tickets g, sideb_Networking device_solution s
+                WHERE s.ticketid = g.id AND s.Networking deviceid = \'3\' AND g.ticketsolutiontypes_id = \'11\'
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's
+                WHERE s.ticketid = g.id AND s.Networking deviceid = '3' AND g' at line 2
+Backtrace :
+C:\xampp\htdocs\itams\inc\commondbtm.class.php&nbsp;:3398		DBmysql->query()
+C:\xampp\htdocs\itams\inc\networkequipment.class.php&nbsp;:354		CommonDBTM->getRepairCount()
+C:\xampp\htdocs\itams\front\networkequipment.form.php&nbsp;:115		NetworkEquipment->showForm()
+C:/xampp/htdocs/itams/front/networkequipment.form.php
+
+2011-10-17 14:13 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:13 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:13 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3218		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+
+2011-10-17 14:13 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT dgc.designation, sbgcl.serialNumber
+        FROM glpi_ dgc, sideb_powersspply_list sbgcl, sideb_powersspply_solution sbgcs, glpi_tickets t
+        WHERE t.id = sbgcs.ticketid AND sbgcs.serialNumber = sbgcl.serialNumber AND sbgcl.componentID = dgc.id AND sbgcs.ticketid = \'127\'
+Error: Table 'itams.glpi_' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\inc\ticket.class.php&nbsp;:3219		DBmysql->query()
+C:\xampp\htdocs\itams\ajax\ticket.tabs.php&nbsp;:84		Ticket->showSolutionForm()
+C:/xampp/htdocs/itams/ajax/ticket.tabs.php
+

@@ -3383,6 +3383,27 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
 
       }
    }
+   
+   /*
+    * this get the repair count
+    */
+   function getRepairCount($id,$type){
+       global $DB;
+       
+       $query = "SELECT COUNT(*) AS Repaired
+                FROM glpi_tickets g, sideb_".$type."_solution s
+                WHERE s.ticketid = g.id AND s.".$type."id = '".$id."' AND g.ticketsolutiontypes_id = '11'";
+       
+      $result = $DB->query($query);
+      if ($DB->query($query)) {
+
+           while ($data=$DB->fetch_array($result)) {
+                echo $data['Repaired'];
+           }
+
+      }
+       
+   }
 }
 
 ?>

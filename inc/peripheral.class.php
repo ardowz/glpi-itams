@@ -390,7 +390,14 @@ class Peripheral  extends CommonDBTM {
          echo "<span class='small_space'>";
          echo "(".$LANG['common'][13]."&nbsp;: ".$this->fields['template_name'].")</span>";
       }
-      echo "</td></tr>\n";
+      echo "</td>\n";
+      echo "<td>";
+      echo "Repair Count: ";
+      echo "</td>";
+      echo "<td>";
+      $this->getRepairCount($ID, $this->getTypeName());
+      echo "</td>";
+      echo "</tr>\n";
 
       $this->showFormButtons($options);
       $this->addDivForTabs();

@@ -209,10 +209,15 @@ abstract class CommonDropdown extends CommonDBTM {
 //                         echo $data['serialNumber'];
                          //$merged = array_merge($dropdownarray, (array)$data['serialNumber']);
   //hey                       
-                        
-                          echo "<tr class='tab_bg_1'>";
+                         
+                         
+                         echo "<tr class='tab_bg_1'>";
                          echo "<td ='center'>";
                          echo $data['serialNumber'];
+                         echo "</td>";
+                         
+                         echo "<td>";
+                         $this->getRepairCount($typename,$data['serialNumber'],$this->getID());
                          echo "</td>";
                          echo "</tr>";
                          
@@ -243,6 +248,88 @@ abstract class CommonDropdown extends CommonDBTM {
        
    }
 
+   /*
+    * This function returns the count of repairs done on the specific component
+    * 
+    */
+   
+   function getRepairCount($type,$serial,$idcomponent){
+       GLOBAL $DB;
+    
+       
+       switch($type){
+               
+                case 'processor':
+                    $glpicomponent = 'deviceprocessors';
+                    break;
+
+                case 'case':
+                    $glpicomponent = 'devicecases';
+                    break;
+
+                case 'control':
+                    $glpicomponent = 'devicecontrols';
+                    break;
+
+                case 'drive':
+                    $glpicomponent = 'devicedrives';
+                    break;
+
+                case 'graphiccard':
+                    $glpicomponent = 'devicegraphiccards';
+                    break;
+
+                case 'harddrive':
+                    $glpicomponent = 'deviceharddrives';
+                    break;
+
+                case 'memory':
+                    $glpicomponent = 'devicememories';
+                    break;
+
+                case 'networkcard':
+                    $glpicomponent = 'devicenetworkcards';
+                    break;
+
+                case 'pci':
+                    $glpicomponent = 'devicepcis';
+                    break;
+
+                case 'powersupply':
+                    $glpicomponent = 'devicepowersupplies';
+                    break;
+
+                case 'soundcard':
+                    $glpicomponent = 'devicesoundcards';
+                    break;
+
+                case 'motherboard':
+                    $glpicomponent = 'devicemotherboards';
+                    break;
+
+                default:
+                    break;
+               
+           }
+           $sidebcomponent = $type;
+       
+       
+       
+       $query = "SELECT sbgs.serialNumber, COUNT(*) AS Repaired, dg.designation, dg.id
+                FROM sideb_".$sidebcomponent."_solution sbgs, sideb_".$sidebcomponent."_list sbgl, glpi_".$glpicomponent." dg, glpi_tickets g
+                WHERE sbgs.serialNumber = sbgl.serialNumber AND sbgl.componentID = dg.id AND sbgl.serialNumber = '".$serial."' AND dg.id = '".$idcomponent."'
+                AND sbgs.ticketid = g.id AND g.ticketsolutiontypes_id = '11'    
+                ;";
+       
+       $result = $DB->query($query);
+
+      if ($DB->query($query)) {
+           while ($data=$DB->fetch_array($result)) {
+              echo $data["Repaired"];
+           }
+      }
+   }
+   
 
    /**
     * Display title above search engine

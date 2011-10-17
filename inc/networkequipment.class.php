@@ -314,6 +314,7 @@ class NetworkEquipment extends CommonDBTM {
       echo "</tr>";
 
           echo "<tr class='tab_bg_1'>";
+          
       /*echo "<td>".$LANG['common'][18]."&nbsp;:</td>";
       echo "<td>";
       autocompletionTextField($this, "contact");
@@ -345,6 +346,12 @@ class NetworkEquipment extends CommonDBTM {
       }
       
       echo "</td>";
+      
+      
+      echo "<td>Repair Count: </td>";
+          echo "<td>";
+          $this->getRepairCount($ID, 'network');
+          echo "</td>";
       echo "</tr>";
 
 

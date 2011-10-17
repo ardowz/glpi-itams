@@ -65,6 +65,80 @@ class Computer_Device extends CommonDBTM {
                    7 => 'DeviceControl',     8 => 'DeviceGraphicCard', 9 => 'DeviceSoundCard',
                   10 => 'DevicePci',        11 => 'DeviceCase',       12 => 'DevicePowerSupply');
    }
+   
+   static function getDeviceTypesSideb(){
+       
+       return array(1 => 'Motherboard', 2 => 'Processor',   3 => 'Memory',
+                   4 => 'HardDrive',   5 => 'NetworkCard', 6 => 'Drive',
+                   7 => 'Control',     8 => 'GraphicCard', 9 => 'SoundCard',
+                  10 => 'Pci',        11 => 'Case',       12 => 'PowersSpply');
+       
+   }
+   
+   static function getDeviceTypesGlpi($type){
+       
+       switch(strtolower($type)){
+               
+                case 'processor':
+                    return 'deviceprocessors';
+                    break;
+
+                case 'case':
+                    return 'devicecases';
+                    break;
+
+                case 'control':
+                   return  'devicecontrols';
+                    break;
+
+                case 'drive':
+                    return  'devicedrives';
+                    break;
+
+                case 'graphiccard':
+                    return  'devicegraphiccards';
+                    break;
+
+                case 'harddrive':
+                    return  'deviceharddrives';
+                    break;
+
+                case 'memory':
+                    return  'devicememories';
+                    break;
+
+                case 'networkcard':
+                    return  'devicenetworkcards';
+                    break;
+
+                case 'pci':
+                   return  'devicepcis';
+                    break;
+
+                case 'powersupply':
+                    return  'devicepowersupplies';
+                    break;
+
+                case 'soundcard':
+                    return  'devicesoundcards';
+                    break;
+
+                case 'motherboard':
+                    return  'devicemotherboards';
+                    break;
+
+                default:
+                    
+                    break;
+               
+           }
+       
+//       return array(1 => 'motherboards', 2 => 'processors',   3 => 'memories',
+//                   4 => 'harddrives',   5 => 'networkcards', 6 => 'drives',
+//                   7 => 'control',     8 => 'graphiccards', 9 => 'soundcards',
+//                  10 => 'pcis',        11 => 'cases',       12 => 'powersupplies');
+       
+   }
 
 
    function getEmpty() {
@@ -539,8 +613,13 @@ $sidebcomponent = $component;
               $ctr++;
               
               $query2 = "SELECT sbgs.serialNumber, COUNT(*) AS Repaired, dg.designation, dg.id
-                FROM sideb_".$sidebcomponent."_solution sbgs, sideb_".$sidebcomponent."_list sbgl, glpi_".$glpicomponent." dg
-                WHERE sbgs.serialNumber = sbgl.serialNumber AND sbgl.componentID = dg.id AND sbgl.serialNumber = '".$lastid."' AND dg.id = '".$idcomponent."';";
+                FROM sideb_".$sidebcomponent."_solution sbgs, sideb_".$sidebcomponent."_list sbgl, glpi_".$glpicomponent." dg, glpi_tickets g
+                WHERE sbgs.serialNumber = sbgl.serialNumber AND sbgl.componentID = dg.id AND sbgl.serialNumber = '".$lastid."' AND dg.id = '".$idcomponent."'
+                AND sbgs.ticketid = g.id AND g.ticketsolutiontypes_id = '11'    
+                ;";
+//              echo "<br/>";
+//              echo $query2;
+//              echo "<br/>";
                  $result2 = $DB->query($query2);
                  if ($DB->query($query2)) {
                      
@@ -549,7 +628,7 @@ $sidebcomponent = $component;
                       }
                      
                  }
-              echo "<td>Repair Count: ".$count." ".$component;
+              echo "<td>Repair Count: ".$count." ";
               if($count >= 3){
                   echo "Replacement: ";
                   
@@ -623,7 +702,7 @@ $sidebcomponent = $component;
                 WHERE sbpl.componentID = dp.id AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy))";
                         break;
 
-                    case 'networkCard':
+                    case 'networkcard':
                 //        $query = "SELECT * FROM `glpi_devicenetworkcards`;";
                          $queryList = "SELECT *
                 FROM glpi_devicenetworkcards dp
@@ -675,10 +754,10 @@ $sidebcomponent = $component;
                   
 //                echo $queryList;
                 
-                    $resultList = $DB->query($queryList);
+                  $resultList = $DB->query($queryList);
                   if ($DB->query($queryList)) {
 
-                      echo "<select name='replaceList' id='replaceList'>";
+                      echo "<select name='replaceList' id='replaceList".$component."'>";
                       echo "<option value='0'>--</option>";
                        while ($data=$DB->fetch_array($resultList)) {
                           $name = $data["designation"];
@@ -697,11 +776,11 @@ $sidebcomponent = $component;
                        'serialnumber' =>$snumber
                        );
          
-                   ajaxUpdateItemOnSelectEvent("replaceList", "compList",
+                   ajaxUpdateItemOnSelectEvent("replaceList".$component, "compList".$component,
                                         $CFG_GLPI["root_doc"]."/ajax/replaceComponent.php",
                                         $paramsList);
 
-                   echo "<br><span id='compList'></span>";
+                   echo "<br><span id='compList".$component."'></span>";
                   
 //                  echo $component;
 //                  $queryDecom = "SELECT sbpl.idsideb_".$component."_list as id, sbpl.serialnumber
@@ -757,6 +836,8 @@ $sidebcomponent = $component;
       if($decomCount >= 3){
           echo "<br/>";
           echo "This computer has had more than 3 decomissioned components, decomissioning the computer is recommended";
+          echo "<br/>";
+          echo "<a href='computerDecomission.php?id=".$ID."'>Decomission</a>";
       }
       echo "</div>";
 
@@ -839,7 +920,7 @@ $sidebcomponent = $component;
            $sidebcomponent = $type;
            
                 $query = "SELECT sbgs.serialNumber, COUNT(*) AS Repaired, dg.designation
-                FROM sideb_".$sidebcomponent."_solution sbgs, sideb_".$sidebcomponent."_list sbgl, glpi_".$glpicomponent." dg
+                FROM sideb_".$sidebcomponent."_solution sbgs, sideb_".$sidebcomponent."_list sbgl, glpi_".$glpicomponent." dg, glpi_tickets g
                 WHERE sbgs.serialNumber = sbgl.serialNumber AND sbgl.componentID = dg.id
                 AND sbgl.serialNumber in (
 
@@ -855,8 +936,14 @@ $sidebcomponent = $component;
                 where b.id in (select designationid from sideb_component_decomission where computerid = '".$computerid."')
                 and a.idsideb_".$sidebcomponent."_list in (select componentid from sideb_component_decomission where computerid = '".$computerid."' and type = '".$sidebcomponent."')
 
-                );";
+                )
+                AND sbgs.ticketid = g.id AND g.ticketsolutiontypes_id = '11'  group by sbgs.serialNumber
+                ;";
            
+                
+//              echo "<br/>";
+//              echo $query;
+//              echo "<br/>";
         
               $result = $DB->query($query);
               if ($DB->query($query)) {

@@ -76,15 +76,30 @@ if (isset($_POST["add"])) {
    //for solution with components
    if(isset($_POST['sidebcomponentlink'])){
        
-       $sympos = strpos($_POST['component_link'], '_');
-       $comptype = strtolower(substr($_POST['component_link'], 0,$sympos));
-       $serial = substr($_POST['component_link'],$sympos+1);
+       if(!isset($_POST['otherid'])){
+           
+           $sympos = strpos($_POST['component_link'], '_');
+           $comptype = strtolower(substr($_POST['component_link'], 0,$sympos));
+           $serial = substr($_POST['component_link'],$sympos+1);
+           
+           $complink = array('ticketid' => $_POST['ticketID'],
+           'serialnumber' => $serial
+           );
+       }else{
+           
+           $comptype = strtolower($_POST['component_link']);
+           if($comptype=='peripheral'){
+               $comptype = 'device';
+           }
+           $complink = array('ticketid' => $_POST['ticketID'],
+           $comptype."id" => $_POST['otherid']
+               );
+       }
        
        $tablename = $comptype."_solution";
        
-       $complink = array('ticketid' => $_POST['ticketID'],
-           'serialnumber' => $serial
-           );
+       
+       
        $dbase = new CommonDBTM();
        $dbase->addSidebCustom($complink, $tablename);
        
