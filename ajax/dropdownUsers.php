@@ -89,7 +89,11 @@ if ($DB->numrows($result)) {
 
 asort($users);
 
-echo "<select id='dropdown_".$_POST["myname"].$_POST["rand"]."' name='".$_POST['myname']."'";
+if(isset($_POST['disable'])){
+    echo "<select id='dropdown_".$_POST["myname"].$_POST["rand"]."' name='".$_POST['myname']."' disabled";
+}else{
+    echo "<select id='dropdown_".$_POST["myname"].$_POST["rand"]."' name='".$_POST['myname']."'";   
+}
 if (isset($_POST["auto_submit"]) && $_POST["auto_submit"]==1) {
    echo " onChange='submit()'";
 }

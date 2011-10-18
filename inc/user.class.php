@@ -2048,7 +2048,7 @@ class User extends CommonDBTM {
     *
     * @return nothing (print out an HTML select box)
    **/
-   static function dropdown($options=array()) {
+   static function dropdown($options=array(),$disable=0) {
       global $DB, $CFG_GLPI, $LANG;
 
       // Defautl values
@@ -2091,14 +2091,31 @@ class User extends CommonDBTM {
       }
       $user = getUserName($p['value'],2);
 
-      $default_display  = "<select id='dropdown_".$p['name'].$p['rand']."' name='".$p['name']."'>";
+
+          $default_display  = "<select id='dropdown_".$p['name'].$p['rand']."' name='".$p['name']."'>";
+
       $default_display .= "<option value='".$p['value']."'>";
       $default_display .= utf8_substr($user["name"], 0, $_SESSION["glpidropdown_chars_limit"]);
       $default_display .= "</option></select>";
 
       $view_users = (haveRight("user","r"));
 
-      $params = array('searchText'       => '__VALUE__',
+      if($disable == '3'){
+               $params = array('searchText'       => '__VALUE__',
+                      'value'            => $p['value'],
+                      'myname'           => $p['name'],
+                      'all'              => $p['all'],
+                      'right'            => $p['right'],
+                      'comment'          => $p['comments'],
+                      'rand'             => $p['rand'],
+                      'auto_submit'      => $p['auto_submit'],
+                      'entity_restrict'  => $p['entity'],
+                      'used'             => $p['used'],
+                      'update_item'      => $p['toupdate'],
+                      'disable'         =>'disabled'
+                        );
+          }else{
+               $params = array('searchText'       => '__VALUE__',
                       'value'            => $p['value'],
                       'myname'           => $p['name'],
                       'all'              => $p['all'],
@@ -2109,6 +2126,9 @@ class User extends CommonDBTM {
                       'entity_restrict'  => $p['entity'],
                       'used'             => $p['used'],
                       'update_item'      => $p['toupdate'],);
+          }
+      
+      
       if ($view_users) {
          $params['update_link'] = $view_users;
       }
@@ -2118,6 +2138,9 @@ class User extends CommonDBTM {
          $default = $default_display;
 
       } else {
+          
+               $default = "<select name='".$p['name']."' id='dropdown_".$p['name'].$p['rand']."'>";
+          
          $default = "<select name='".$p['name']."' id='dropdown_".$p['name'].$p['rand']."'>";
          if ($p['all']) {
             $default.= "<option value='0'>[ ".$LANG['common'][66]." ]</option></select>";

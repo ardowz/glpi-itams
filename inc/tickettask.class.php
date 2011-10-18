@@ -559,17 +559,17 @@ class TicketTask  extends CommonDBTM {
 //      echo "<td>".$LANG['common'][36]."&nbsp;:</td><td>";
 //      Dropdown::show('TaskCategory', array('value' => $this->fields["taskcategories_id"]));
 //      echo "</td></tr>\n";
-//
-//      echo "<tr class='tab_bg_1'>";
-//      echo "<td>".$LANG['common'][77]."&nbsp;:</td>";
-//      echo "<td><select name='is_private'>";
-//      echo "<option value='0' ".(!$this->fields["is_private"]?" selected":"").">".$LANG['choice'][0].
-//            "</option>";
-//      echo "<option value='1' ".($this->fields["is_private"]?" selected":"").">".$LANG['choice'][1].
-//            "</option>";
-//      echo "</select></td>";
-//      echo "</tr>";
-//
+
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['common'][77]."&nbsp;:</td>";
+      echo "<td><select name='is_private'>";
+      echo "<option value='0' ".(!$this->fields["is_private"]?" selected":"").">".$LANG['choice'][0].
+            "</option>";
+      echo "<option value='1' ".($this->fields["is_private"]?" selected":"").">".$LANG['choice'][1].
+            "</option>";
+      echo "</select></td>";
+      echo "</tr>";
+
 //      echo "<tr class='tab_bg_1'>";
 //      echo "<td>".$LANG['job'][31]."&nbsp;:</td><td>";
 //
@@ -582,13 +582,13 @@ class TicketTask  extends CommonDBTM {
 //      Dropdown::showInteger('minute', $minute, 0, 59);
 //      echo "&nbsp;".$LANG['job'][22];
 //      echo "</td></tr>\n";
-//
-//      echo "<tr class='tab_bg_1'>";
-//      echo "<td>".$LANG['job'][35]."</td>";
-//      echo "<td>";
-//      $plan = new TicketPlanning();
-//      $plan->showFormForTask($ticket, $this);
-//      echo "</td></tr>";
+
+      echo "<tr class='tab_bg_1'>";
+      echo "<td>".$LANG['job'][35]."</td>";
+      echo "<td>";
+      $plan = new TicketPlanning();
+      $plan->showFormForTask($ticket, $this);
+      echo "</td></tr>";
 
       $this->showFormButtons($options);
 

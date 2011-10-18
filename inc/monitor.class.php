@@ -304,7 +304,11 @@ class Monitor extends CommonDBTM {
       
       echo "<td>";
       //echo "count";
-      $this->getRepairCount($ID, $this->getTypeName());
+      $repairCount = $this->getRepairCount($ID, $this->getTypeName());
+      
+      $state = $this->getRepairTreshold($this->getTypeName(),$repairCount,$ID);
+      
+      
       echo "</td>";
       
       echo "</tr>";
@@ -351,7 +355,7 @@ class Monitor extends CommonDBTM {
       echo "<td>";
       User::dropdown(array('value'  => $this->fields["users_id"],
                            'entity' => $this->fields["entities_id"],
-                           'right'  => 'all'));
+                           'right'  => 'all'),$state);
       echo "</td>";
  //status
       echo "<td>".$LANG['state'][0]."&nbsp;:</td>";

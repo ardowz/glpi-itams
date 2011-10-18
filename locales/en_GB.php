@@ -2166,6 +2166,11 @@ $LANG['itrequest'][6]= "Requisition List";
 
 $LANG['customtask'][0]="Task";
 
+
+$LANG['usefullife'][93]="Total Assets at the End of the Useful Life this Year"; 
+$LANG['usefullife'][94]="Assets at th End of the Useful Life this Month"; 
+$LANG['usefullife'][95]="Recommended Assets to Decommission";
+
 /*
  * to set array
  */

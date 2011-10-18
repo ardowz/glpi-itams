@@ -350,7 +350,9 @@ class NetworkEquipment extends CommonDBTM {
       
       echo "<td>Repair Count: </td>";
           echo "<td>";
-          $this->getRepairCount($ID, 'network');
+          $repairCount = $this->getRepairCount($ID, 'network');
+      
+      $state = $this->getRepairTreshold('network',$repairCount,$ID);
           echo "</td>";
       echo "</tr>";
 
@@ -398,7 +400,7 @@ class NetworkEquipment extends CommonDBTM {
       echo "<td>";
       User::dropdown(array('value'  => $this->fields["users_id"],
                            'entity' => $this->fields["entities_id"],
-                           'right'  => 'all'));
+                           'right'  => 'all'),$state);
       echo "</td>";
 
       echo "<td>".$LANG['common'][15]."&nbsp;:</td>";

@@ -450,7 +450,9 @@ class Printer  extends CommonDBTM {
       echo "</td>";
       echo "<td>";
       
-      $this->getRepairCount($ID, $this->getTypeName());
+       $repairCount = $this->getRepairCount($ID, $this->getTypeName());
+      
+      $state = $this->getRepairTreshold($this->getTypeName(),$repairCount,$ID);
 //      $db = new CommonDBTM();
 //      $query = "SELECT COUNT(*) as count
 //FROM glpi_tickets
@@ -477,7 +479,7 @@ class Printer  extends CommonDBTM {
       echo "<td>";
       User::dropdown(array('value'  => $this->fields["users_id"],
                            'entity' => $this->fields["entities_id"],
-                           'right'  => 'all'));
+                           'right'  => 'all'),$state);
       echo "</td>";
 
       echo "<td>".$LANG['common'][15]."&nbsp;: </td>\n";

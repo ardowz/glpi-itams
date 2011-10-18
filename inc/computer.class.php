@@ -551,6 +551,27 @@ class Computer extends CommonDBTM {
       $this->showFormHeader($options);
        //echo $LANG['common'][16];
       echo "<tr class='tab_bg_1'>";
+      echo "<td>";
+      echo "Number of Decommissioned Component:";
+      echo "</td>";
+      echo "<td>";
+//      echo "//number of decommissioned components/s here";
+      
+      $count = $this->getDecomissionCount($ID);
+      
+      
+      
+      echo "<td>";
+      echo "Remarks/Recommendation:";
+      echo "</td>";
+      echo "<td>";
+//      echo "This device has been etc....";
+      
+      $state = $this->getRepairTreshold('computer', $count, $ID);
+      
+      echo "</td>";      
+      echo "</tr>";
+      echo "<tr class='tab_bg_1'>";
       //echo "<td>".$LANG['common'][16].($template?"*":"")."&nbsp;:</td>";
       echo "<td>".$LANG['common'][108].($template?"*":"")."&nbsp;:</td>";
       echo "<td>";

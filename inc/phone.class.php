@@ -278,7 +278,11 @@ class Phone extends CommonDBTM {
        echo "Repair Count: ";
        echo "</td>";
         echo "<td>";
-       $this->getRepairCount($ID, $this->getTypeName());
+       
+         $repairCount = $this->getRepairCount($ID, $this->getTypeName());
+      
+      $state = $this->getRepairTreshold($this->getTypeName(),$repairCount,$ID);
+        
        echo "</td>";
       echo"</tr>\n";
 
@@ -382,7 +386,7 @@ class Phone extends CommonDBTM {
       echo "<td>";
       User::dropdown(array('value'  => $this->fields["users_id"],
                            'entity' => $this->fields["entities_id"],
-                           'right'  => 'all'));
+                           'right'  => 'all'),$state);
       echo "</td>";
       echo "<td>".$LANG['common'][15]."&nbsp;:</td>";
       echo "<td>";

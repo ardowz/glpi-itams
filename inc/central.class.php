@@ -125,6 +125,12 @@ class Central extends CommonGLPI {
          echo "</td></tr>";
       }
       echo "</table></td>";
+      
+         echo "<table >";
+         echo "<tr><td class='top' width='450px'>";
+         UsefulLife::showUsefulLife();
+         echo "</td></tr>";
+         echo "</table></td>";
 
       if (haveRight("logs","r")) {
          echo "<td class='top' width='450px'>";

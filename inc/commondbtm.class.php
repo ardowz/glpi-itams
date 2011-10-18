@@ -3398,12 +3398,411 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
       if ($DB->query($query)) {
 
            while ($data=$DB->fetch_array($result)) {
-                echo $data['Repaired'];
+                $repairCount = $data['Repaired'];
            }
 
       }
+      echo $repairCount;
+      
+      return $repairCount;
+   }
+   
+   /*
+    * this function gets the repair treshold
+    */
+   
+   function getRepairTresholdOnly($type){
+       global $DB;
+
+       $type = strtolower($type);
+       
+      $query = "SELECT treshold FROM `sideb_repair_treshold` where type= '".$type."';";
+
+       
+      $result = $DB->query($query);
+      if ($DB->query($query)) {
+
+           while ($data=$DB->fetch_array($result)) {
+                $treshold = $data['treshold'];
+           }
+
+      }
+      
+      return $treshold;
        
    }
+   
+   function getRepairTreshold($type,$repaircount,$id){
+       global $DB;
+       
+       $query = "SELECT treshold FROM `sideb_repair_treshold` where type= '".$type."';";
+       
+      $result = $DB->query($query);
+      if ($DB->query($query)) {
+
+           while ($data=$DB->fetch_array($result)) {
+                $treshold = $data['treshold'];
+           }
+
+      }
+      
+//      return $treshold;
+      
+    switch(strtolower($type)){
+    case 'monitor':
+        $type = 'monitors';
+        break;
+    case 'printer':
+        $type = 'printers';
+        break;
+    case 'device':
+        $type = 'peripherals';
+        break;
+    case 'phone':
+        $type = 'phones';
+        break;
+    case 'network':
+        $type = 'networkequipments';
+        break;
+    case 'computer':
+        $type = 'computers';
+        break;
+    }
+      
+      $state = $this->getState($type, $id);
+      
+      if($state == 3){
+         
+      }else{ 
+          if($repaircount >= $treshold){
+          echo "<br/>This asset has been reached its repair treshold<br/>";
+          if($type=='computers'){
+              echo "<a href='computerDecomission.php?id=".$id."'>Retire Asset</a>";
+          }else{
+              echo "<a href='retireAsset.php?type=".$type."&id=".$id."'>Retire Asset</a>";
+          }
+        }
+      }
+      
+      return $state;
+   }
+   
+   function getState($type,$id){
+       global $DB;
+       
+       $query = "select states_id from glpi_".$type." where id = '".$id."'";
+       $result = $DB->query($query);
+          if ($DB->query($query)) {
+
+               while ($data=$DB->fetch_array($result)) {
+                    $state = $data['states_id'];
+               }
+
+          }
+          return $state;
+       
+   }
+   
+    /*
+    * sideb thesis adjustment
+    * 
+    * a function that will get the count of decommissions
+    * 
+    */
+   
+   function getDecomissionCount($computerid){
+      global $DB, $LANG, $CFG_GLPI;
+       
+//       echo $computerid;
+          
+      $query = "select count(computerid) as count from sideb_component_decomission where computerid = '".$computerid."' group by computerid";
+      $result = $DB->query($query);
+      if ($DB->query($query)) {
+
+           while ($data=$DB->fetch_array($result)) {
+
+               if(isset($data['count'])){
+                     $count = $data['count'];
+               }
+           }
+
+      }
+       echo $count;
+       return $count;
+   }
+
+   function getComponentsUnderComputer($ID){
+       global $DB;
+       
+       $device = new Computer_Device();
+       $devtype = $device::getDeviceTypesSideb();
+       
+       $componentSCC = array();
+       $ctr=0;
+       
+       foreach ($devtype as $type){
+           $ctr2=0;
+           $sideb = strtolower($type);
+           $glpi = $device::getDeviceTypesGlpi($type);
+           
+           $query = $this->getComponentQuery($sideb,$ID);
+           
+           $result = $DB->query($query);
+           
+              if ($DB->query($query)) {
+
+                   while ($data=$DB->fetch_array($result)) {
+                       
+                       $serial = $data["serialnumber"];
+                       $componentID = $data["componentID"];
+                       $componentListID = $data["idsideb_".$sideb."_list"];
+                       
+                       $appendArray = array($data["serialnumber"],$data["componentID"],$data["idsideb_".$sideb."_list"]);
+                       $componentSCC = array_merge($componentSCC, $appendArray);
+                       $ctr2++;
+                   }
+
+              }
+              
+//              if($ctr2!=0){
+//                  $ctr3=0;
+//                  if($ctr2>1){
+//                      
+//                      $link = $this->getLinkSidebTest($ID, $type, $componentSCC[$ctr+1]);
+//                      
+//                  }
+//              }
+              $ctr3 = 0;
+              while(count($componentSCC)>$ctr){
+                   
+                   //ctr is for serial
+                   //ctr+1 is for componentID
+                   //ctr+2 is for compontentListID
+//                   echo $componentSCC[$ctr];
+//                   echo " - ";
+//                   echo $componentSCC[$ctr+1];
+//                   echo " - ";
+//                   echo $componentSCC[$ctr+2];
+//                   echo "<br/>";
+                   
+                  $tt = array();
+                   if($ctr2>1){
+                    
+                       while($ctr2>$ctr3){
+                           $tt2 = $this->getComponentDetails($ID, $type, $componentSCC[$ctr+1],$ctr3);
+                           $ctr3++;
+                        
+                           $tt = array_merge($tt,$tt2);
+                       }
+                           
+                   }else{
+                       
+                       $tt = $this->getComponentDetails($ID, $type, $componentSCC[$ctr+1]);
+                   }
+                   
+                   
+                  $ctr = $ctr +3;
+                  $ctr4 = 0;
+                          while(count($tt)>$ctr4){
+                              echo $tt[$ctr4];
+                              echo " - ";
+                              echo $tt[$ctr4+1];
+                              echo "<br/>";
+                              $ctr4=$ctr4+2;
+                          }
+                 
+               }
+           
+       }
+       
+       
+       
+       
+   }
+   
+   function getComponentsSpecificUnderComputer($ID,$type){
+       global $DB;
+       
+       $componentSCC = array();
+       $ctr=0;
+       
+           $ctr2=0;
+           $sideb = strtolower($type);
+           $device = new Computer_Device();
+           $glpi = $device::getDeviceTypesGlpi($type);
+           
+           $query = $this->getComponentQuery($sideb,$ID);
+           
+           $result = $DB->query($query);
+           
+              if ($DB->query($query)) {
+
+                   while ($data=$DB->fetch_array($result)) {
+                       
+                       $serial = $data["serialnumber"];
+                       $componentID = $data["componentID"];
+                       $componentListID = $data["idsideb_".$sideb."_list"];
+                       
+                       $appendArray = array($data["serialnumber"],$data["componentID"],$data["idsideb_".$sideb."_list"]);
+                       $componentSCC = array_merge((array)$componentSCC, (array)$appendArray);
+                       $ctr2++;
+                   }
+
+              }
+              
+//              if($ctr2!=0){
+//                  $ctr3=0;
+//                  if($ctr2>1){
+//                      
+//                      $link = $this->getLinkSidebTest($ID, $type, $componentSCC[$ctr+1]);
+//                      
+//                  }
+//              }
+              $ctr3 = 0;
+              $tt = array();
+              while(count($componentSCC)>$ctr){
+                  
+                   
+                   //ctr is for serial
+                   //ctr+1 is for componentID
+                   //ctr+2 is for compontentListID
+                  
+                   if($ctr2>1){
+                       while($ctr2>$ctr3){
+                           $sccmerge = array_merge((array)$componentSCC[$ctr+1],(array)$componentSCC[$ctr]);
+                           $tt2 = $this->getComponentDetails($ID, $type, $componentSCC[$ctr+1],$ctr3);
+                           $tt2 = array_merge((array)$tt2,(array)$sccmerge);
+                           $ctr3++;
+                        
+                           $tt = array_merge((array)$tt,(array)$tt2);
+                       }
+                           
+                   }else{
+                           $sccmerge = array_merge((array)$componentSCC[$ctr+1],(array)$componentSCC[$ctr]);
+                           $tt = $this->getComponentDetails($ID, $type, $componentSCC[$ctr+1]);
+                           $tt = array_merge((array)$tt,(array)$sccmerge);
+                   }
+                   
+                  $ctr = $ctr +3;
+                  $ctr4 = 0;
+  
+               }
+              
+               $ctr2=0;
+            return $tt;
+       
+       
+   }
+   
+   function getComponentRepairCount($serial,$sidebcomponent,$glpicomponent,$idcomponent){
+       global $DB;
+       
+       $query2 = "SELECT sbgs.serialNumber, COUNT(*) AS Repaired, dg.designation, dg.id
+                FROM sideb_".$sidebcomponent."_solution sbgs, sideb_".$sidebcomponent."_list sbgl, glpi_".$glpicomponent." dg, glpi_tickets g
+                WHERE sbgs.serialNumber = sbgl.serialNumber AND sbgl.componentID = dg.id AND sbgl.serialNumber = '".$serial."' AND dg.id = '".$idcomponent."'
+                AND sbgs.ticketid = g.id AND g.ticketsolutiontypes_id = '11'    
+                ;";
+       
+       $resultt = $DB->query($query2);
+         if ($DB->query($query2)) {             
+             while ($data=$DB->fetch_array($resultt)) {
+                  $count = $data['Repaired'];
+             }
+         }       
+       
+       return $count;
+   }
+   
+   function getLinkSidebTest($id,$devicename,$idcomp,$limit=0) {
+      global $CFG_GLPI,$DB;
+
+      $arrayLink = array();
+      
+         $link_item = $this->getFormURL();
+
+         $link  = $link_item;
+         $link .= (strpos($link,'?') ? '&amp;':'?').'id=' . $idcomp;
+         $link .= ($this->isTemplate() ? "&amp;withtemplate=1" : "");
+
+
+         $device = new Computer_Device();
+
+         $sideb = $devicename;
+         $glpi = $device->getDeviceTypesGlpi($devicename);
+         
+         
+         $queryy = "SELECT plist.serialNumber, designation 
+             FROM sideb_".$sideb."_deploy pdeployed, sideb_".$sideb."_list plist, glpi_".$glpi." dp 
+                 WHERE pdeployed.".$sideb."ID = plist.idsideb_".$sideb."_list AND pdeployed.computerID = '".$id."' 
+                     AND dp.id = componentID AND componentID = '".$idcomp."' LIMIT ".$limit.",1 ";
+                  
+//         echo $queryy;
+         $resultt = $DB->query($queryy);
+//         echo $resultt;
+         if ($DB->query($queryy)) {             
+             while ($data=$DB->fetch_array($resultt)) {
+                 $snumber = $data['serialNumber'];
+                 $designation = $data['designation'];
+             }
+         }
+         
+         
+         echo "<br/>";
+         echo "<a href='$link'>".$designation."</a> - Serial Number: ".$snumber."";
+         echo "<br/>";
+         
+//      }
+
+   }
+   
+   function getComponentDetails($id,$devicename,$idcomp,$limit=0) {
+      global $CFG_GLPI,$DB;
+
+
+
+         $device = new Computer_Device();
+
+         $sideb = $devicename;
+         $glpi = $device->getDeviceTypesGlpi($devicename);
+         
+         
+         $queryy = "SELECT plist.serialNumber, designation 
+             FROM sideb_".$sideb."_deploy pdeployed, sideb_".$sideb."_list plist, glpi_".$glpi." dp 
+                 WHERE pdeployed.".$sideb."ID = plist.idsideb_".$sideb."_list AND pdeployed.computerID = '".$id."' 
+                     AND dp.id = componentID AND componentID = '".$idcomp."' LIMIT ".$limit.",1 ";
+                  
+
+         $resultt = $DB->query($queryy);
+         if ($DB->query($queryy)) {             
+             while ($data=$DB->fetch_array($resultt)) {
+                 $snumber = $data['serialNumber'];
+                 $designation = $data['designation'];
+                 $array = array($snumber,$designation);
+             }
+         }
+         
+         if(isset($array)){
+             return $array;
+         }
+         
+
+   }
+   
+   function getComponentQuery($type,$ID){
+       
+       $device = new Computer_Device();
+       $sideb = strtolower($type);
+       $glpi = $device::getDeviceTypesGlpi($type);
+       
+       $query = "SELECT serialnumber, idsideb_".$sideb."_list,componentID FROM `sideb_".$sideb."_list`
+            where componentID in (SELECT b.".$glpi."_id
+            FROM `glpi_computers_".$glpi."` b
+            WHERE b.`computers_id` = '".$ID."' ) and idsideb_".$sideb."_list in (select ".$sideb."ID from sideb_".$sideb."_deploy where computerid = '".$ID."')";
+       
+       return $query;
+       
+   }
+   
 }
 
 ?>
