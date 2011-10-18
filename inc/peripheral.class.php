@@ -347,13 +347,35 @@ class Peripheral  extends CommonDBTM {
       echo "<tr class='tab_bg_1'>";
       echo "<td>".$LANG['common'][109]."&nbsp;:</td>\n";
       echo "<td>";
-      User::dropdown(array('value'  => $this->fields["users_id"],
+      $var = User::dropdown(array('value'  => $this->fields["users_id"],
                            'entity' => $this->fields["entities_id"],
                            'right'  => 'all'),$state);
+      
+      $paramsUser = array('user' => '__VALUE__');
+      
+//      $params = array('value'        => '__VALUE__','state' => $this->fields["states_id"]);
+//
+            ajaxUpdateItemOnSelectEvent("dropdown_users_id$var","userAdd",
+                                        $CFG_GLPI["root_doc"]."/ajax/addUserArray.php",
+                                        $paramsUser);
+      echo "<span id='userAdd'></span>";
       echo "</td>";
       echo "<td>".$LANG['state'][0]."&nbsp;:</td>\n";
       echo "<td>";
-      Dropdown::show('State', array('value' => $this->fields["states_id"]));
+      $stateid = Dropdown::show('State', array('value' => $this->fields["states_id"]));
+      
+      $params2 = array('state' => '__VALUE__',
+                        'type' => 'device',
+                        'id' => $ID
+                        );
+      
+//      $params = array_merge($params1,$params2);
+         
+         ajaxUpdateItemOnSelectEvent("dropdown_states_id".$stateid, "spa_print",
+                            $CFG_GLPI["root_doc"]."/ajax/printSPA.php",
+                            $params2);
+         
+         echo "<br><span id='spa_print'></span>";
       echo "</td>";
 
       echo "</tr>\n";

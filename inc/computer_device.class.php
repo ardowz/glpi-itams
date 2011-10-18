@@ -1110,6 +1110,7 @@ $sidebcomponent = $component;
        global $DB;
       // Update quantity
       
+       
 switch (strtolower($component)){
     
     case 'processor':
@@ -1286,7 +1287,8 @@ switch (strtolower($component)){
        global $DB;
       // Update quantity
       
-switch ($component){
+       
+switch (strtolower($component)){
     
     case 'processor':
         //$query = "SELECT * FROM `glpi_deviceprocessors`;";
@@ -1353,7 +1355,7 @@ switch ($component){
         break;
 }
        
-echo $query;        
+//    echo $query;        
 
         $result = $DB->query($query);
         if ($DB->query($query)) {
@@ -1361,7 +1363,7 @@ echo $query;
               $lastid = $data["id"];
            }
            
-           switch ($component){
+           switch (strtolower($component)){
     
                 case 'processor':
                     //$query = "SELECT * FROM `glpi_deviceprocessors`;";
@@ -1475,6 +1477,7 @@ echo $query;
                     break;
             }
    
+           echo $queryDelete;
            $DB->query($queryDelete);
            $DB->query($queryDelete2);
            

@@ -744,7 +744,10 @@ class Computer extends CommonDBTM {
 //      echo $test;
       
       
-      $params2 = array('state' => '__VALUE__');
+      $params2 = array('state' => '__VALUE__',
+                        'type' => 'computer',
+                        'id' => $ID
+                        );
       
 //      $params = array_merge($params1,$params2);
          

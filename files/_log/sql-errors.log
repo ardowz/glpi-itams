@@ -39456,3 +39456,901 @@ Backtrace :
 C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
 C:/xampp/htdocs/itams/ajax/addComponent.php
 
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:46		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:46		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:46		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:46		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:00 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:46		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:01 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:45		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:01 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+                                 FROM glpi_devicememories dp, sideb_memory_list sbpl
+                                WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' 
+                                AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy)
+                               AND sbpl.idsideb_graphiccard_list NOT IN  (SELECT componentid from sideb_component_decomission where type = \'memory\')        
+                              
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\replaceComponent.php&nbsp;:46		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/replaceComponent.php
+
+2011-10-18 18:34 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1358		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:34 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1359		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:35 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1358		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:35 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1359		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1359		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1360		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1359		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1360		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1359		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1360		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1359		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:36 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1360		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1360		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1361		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1360		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1361		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1360		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1361		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1480		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1481		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1480		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 18:37 [7@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1481		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:94		Computer_Device->updateSidebDecommission()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:27		decomissionableComponent()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 19:06 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_case_list as id, sbpl.serialnumber
+FROM glpi_devicecases dp, sideb_case_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_case_list NOT IN (SELECT caseID FROM sideb_case_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'case\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:06 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_case_list as id, sbpl.serialnumber
+FROM glpi_devicecases dp, sideb_case_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_case_list NOT IN (SELECT caseID FROM sideb_case_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'case\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_case_list as id, sbpl.serialnumber
+FROM glpi_devicecases dp, sideb_case_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' AND sbpl.idsideb_case_list NOT IN (SELECT caseID FROM sideb_case_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'case\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:08 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_case_list as id, sbpl.serialnumber
+FROM glpi_devicecases dp, sideb_case_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' AND sbpl.idsideb_case_list NOT IN (SELECT caseID FROM sideb_case_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'case\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_control_list as id, sbpl.serialnumber
+FROM glpi_devicecontrols dp, sideb_control_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_control_list NOT IN (SELECT controlID FROM sideb_control_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'control\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_control_list as id, sbpl.serialnumber
+FROM glpi_devicecontrols dp, sideb_control_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_control_list NOT IN (SELECT controlID FROM sideb_control_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'control\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_motherboard_list as id, sbpl.serialnumber
+FROM glpi_devicemotherboards dp, sideb_motherboard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_motherboard_list NOT IN (SELECT motherboardID FROM sideb_motherboard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'motherboard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:09 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_motherboard_list as id, sbpl.serialnumber
+FROM glpi_devicemotherboards dp, sideb_motherboard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_motherboard_list NOT IN (SELECT motherboardID FROM sideb_motherboard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'motherboard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_harddrive_list as id, sbpl.serialnumber
+FROM glpi_deviceharddrives dp, sideb_harddrive_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_harddrive_list NOT IN (SELECT harddriveID FROM sideb_harddrive_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'harddrive\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_harddrive_list as id, sbpl.serialnumber
+FROM glpi_deviceharddrives dp, sideb_harddrive_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_harddrive_list NOT IN (SELECT harddriveID FROM sideb_harddrive_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'harddrive\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_motherboard_list as id, sbpl.serialnumber
+FROM glpi_devicemotherboards dp, sideb_motherboard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'6\' AND sbpl.idsideb_motherboard_list NOT IN (SELECT motherboardID FROM sideb_motherboard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'motherboard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_motherboard_list as id, sbpl.serialnumber
+FROM glpi_devicemotherboards dp, sideb_motherboard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'6\' AND sbpl.idsideb_motherboard_list NOT IN (SELECT motherboardID FROM sideb_motherboard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'motherboard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_soundcard_list as id, sbpl.serialnumber
+FROM glpi_devicesoundcards dp, sideb_soundcard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'4\' AND sbpl.idsideb_soundcard_list NOT IN (SELECT soundcardID FROM sideb_soundcard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'soundcard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_soundcard_list as id, sbpl.serialnumber
+FROM glpi_devicesoundcards dp, sideb_soundcard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'4\' AND sbpl.idsideb_soundcard_list NOT IN (SELECT soundcardID FROM sideb_soundcard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'soundcard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_processor_list as id, sbpl.serialnumber
+FROM glpi_deviceprocessors dp, sideb_processor_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'4\' AND sbpl.idsideb_processor_list NOT IN (SELECT processorID FROM sideb_processor_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'processor\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_processor_list as id, sbpl.serialnumber
+FROM glpi_deviceprocessors dp, sideb_processor_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'4\' AND sbpl.idsideb_processor_list NOT IN (SELECT processorID FROM sideb_processor_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'processor\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+FROM glpi_devicememories dp, sideb_memory_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'memory\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+FROM glpi_devicememories dp, sideb_memory_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'memory\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:13 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_drive_list as id, sbpl.serialnumber
+FROM glpi_devicedrives dp, sideb_drive_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_drive_list NOT IN (SELECT driveID FROM sideb_drive_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'drive\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:13 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_drive_list as id, sbpl.serialnumber
+FROM glpi_devicedrives dp, sideb_drive_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_drive_list NOT IN (SELECT driveID FROM sideb_drive_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'drive\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_soundcard_list as id, sbpl.serialnumber
+FROM glpi_devicesoundcards dp, sideb_soundcard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' AND sbpl.idsideb_soundcard_list NOT IN (SELECT soundcardID FROM sideb_soundcard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'soundcard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_soundcard_list as id, sbpl.serialnumber
+FROM glpi_devicesoundcards dp, sideb_soundcard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' AND sbpl.idsideb_soundcard_list NOT IN (SELECT soundcardID FROM sideb_soundcard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'soundcard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_processor_list as id, sbpl.serialnumber
+FROM glpi_deviceprocessors dp, sideb_processor_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_processor_list NOT IN (SELECT processorID FROM sideb_processor_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'processor\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_processor_list as id, sbpl.serialnumber
+FROM glpi_deviceprocessors dp, sideb_processor_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_processor_list NOT IN (SELECT processorID FROM sideb_processor_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'processor\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_motherboard_list as id, sbpl.serialnumber
+FROM glpi_devicemotherboards dp, sideb_motherboard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_motherboard_list NOT IN (SELECT motherboardID FROM sideb_motherboard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'motherboard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_motherboard_list as id, sbpl.serialnumber
+FROM glpi_devicemotherboards dp, sideb_motherboard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_motherboard_list NOT IN (SELECT motherboardID FROM sideb_motherboard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'motherboard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_powersupply_list as id, sbpl.serialnumber
+FROM glpi_devicepowersupplies dp, sideb_powersupply_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_powersupply_list NOT IN (SELECT powersupplyID FROM sideb_powersupply_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'powersupply\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_powersupply_list as id, sbpl.serialnumber
+FROM glpi_devicepowersupplies dp, sideb_powersupply_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_powersupply_list NOT IN (SELECT powersupplyID FROM sideb_powersupply_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'powersupply\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_networkcard_list as id, sbpl.serialnumber
+FROM glpi_devicenetworkcards dp, sideb_networkcard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'3\' AND sbpl.idsideb_networkcard_list NOT IN (SELECT networkcardID FROM sideb_networkcard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'networkcard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_networkcard_list as id, sbpl.serialnumber
+FROM glpi_devicenetworkcards dp, sideb_networkcard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'3\' AND sbpl.idsideb_networkcard_list NOT IN (SELECT networkcardID FROM sideb_networkcard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'networkcard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:18 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_drive_list as id, sbpl.serialnumber
+FROM glpi_devicedrives dp, sideb_drive_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' AND sbpl.idsideb_drive_list NOT IN (SELECT driveID FROM sideb_drive_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'drive\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:18 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_drive_list as id, sbpl.serialnumber
+FROM glpi_devicedrives dp, sideb_drive_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'2\' AND sbpl.idsideb_drive_list NOT IN (SELECT driveID FROM sideb_drive_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'drive\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:19 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+FROM glpi_devicememories dp, sideb_memory_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'memory\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 19:19 [8@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_memory_list as id, sbpl.serialnumber
+FROM glpi_devicememories dp, sideb_memory_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_memory_list NOT IN (SELECT memoryID FROM sideb_memory_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'memory\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT name, serial
+            FROM glpi_peripherpals
+            WHERE id = \'2\'
+Error: Table 'itams.glpi_peripherpals' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\printSPA.php&nbsp;:52		DBmysql->query()
+C:/xampp/htdocs/itams/front/printSPA.php
+
+2011-10-18 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT name, serial
+            FROM glpi_peripherpals
+            WHERE id = \'2\'
+Error: Table 'itams.glpi_peripherpals' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\printSPA.php&nbsp;:53		DBmysql->query()
+C:/xampp/htdocs/itams/front/printSPA.php
+
+2011-10-18 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT name, serial
+            FROM glpi_peripherpals
+            WHERE id = \'2\'
+Error: Table 'itams.glpi_peripherpals' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\printSPA.php&nbsp;:53		DBmysql->query()
+C:/xampp/htdocs/itams/front/printSPA.php
+
+2011-10-18 22:10 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT name, serial
+            FROM glpi_peripherpals
+            WHERE id = \'2\'
+Error: Table 'itams.glpi_peripherpals' doesn't exist
+Backtrace :
+C:\xampp\htdocs\itams\front\printSPA.php&nbsp;:54		DBmysql->query()
+C:/xampp/htdocs/itams/front/printSPA.php
+
+2011-10-18 22:13 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\front\printSPA.php&nbsp;:53		DBmysql->query()
+C:/xampp/htdocs/itams/front/printSPA.php
+
+2011-10-18 22:13 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\front\printSPA.php&nbsp;:54		DBmysql->query()
+C:/xampp/htdocs/itams/front/printSPA.php
+
+2011-10-18 22:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\front\printSPA.php&nbsp;:160		DBmysql->query()
+C:/xampp/htdocs/itams/front/printSPA.php
+
+2011-10-18 22:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\front\printSPA.php&nbsp;:161		DBmysql->query()
+C:/xampp/htdocs/itams/front/printSPA.php
+

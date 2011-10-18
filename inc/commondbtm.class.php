@@ -3503,6 +3503,22 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
        
    }
    
+   function getComponentIdWitDetails($type,$componentid,$serialnumber){
+       global $DB;
+       
+       $query = "SELECT idsideb_".$type."_list as id FROM `sideb_".$type."_list` where componentid = '".$componentid."' and serialNumber = '".$serialnumber."'";
+       
+       $result = $DB->query($query);
+          if ($DB->query($query)) {
+              
+               while ($data=$DB->fetch_array($result)) {
+                    $id = $data['id'];
+               }
+
+          }
+          return $id;
+   }
+   
     /*
     * sideb thesis adjustment
     * 
