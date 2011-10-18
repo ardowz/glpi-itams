@@ -3469,7 +3469,7 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
         break;
     }
       
-      $state = $this->getState($type, $id);
+      $state = $this->getStateSideb($type, $id);
       
       if($state == 3){
          
@@ -3487,7 +3487,7 @@ WHERE pdeployed.processorID = plist.idsideb_deviceprocessor_list AND pdeployed.c
       return $state;
    }
    
-   function getState($type,$id){
+   function getStateSideb($type,$id){
        global $DB;
        
        $query = "select states_id from glpi_".$type." where id = '".$id."'";

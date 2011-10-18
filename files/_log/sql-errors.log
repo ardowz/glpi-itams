@@ -39278,3 +39278,181 @@ C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Devic
 C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
 C:/xampp/htdocs/itams/front/computerDecomissionForm.php
 
+2011-10-18 15:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1181		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1182		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1181		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1182		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1181		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:11 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1182		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:13 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1181		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:13 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1182		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:13 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1181		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:13 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1182		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1181		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:14 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1182		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1277		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 15:15 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: 
+Error: Query was empty
+Backtrace :
+C:\xampp\htdocs\itams\inc\computer_device.class.php&nbsp;:1278		DBmysql->query()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:49		Computer_Device->updateSideb()
+C:\xampp\htdocs\itams\front\computerDecomissionForm.php&nbsp;:16		removeComponentFromComputerID()
+C:/xampp/htdocs/itams/front/computerDecomissionForm.php
+
+2011-10-18 16:07 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_networkcard_list as id, sbpl.serialnumber
+FROM glpi_devicenetworkcards dp, sideb_networkcard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_networkcard_list NOT IN (SELECT networkcardID FROM sideb_networkcard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'networkcard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:73		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+
+2011-10-18 16:07 [2@USER-PC]
+*** MySQL query error : 
+***
+SQL: SELECT sbpl.idsideb_networkcard_list as id, sbpl.serialnumber
+FROM glpi_devicenetworkcards dp, sideb_networkcard_list sbpl
+WHERE sbpl.componentID = dp.id AND sbpl.componentID = \'1\' AND sbpl.idsideb_networkcard_list NOT IN (SELECT networkcardID FROM sideb_networkcard_deploy) AND sbpl.idsideb_graphiccard_list NOT IN
+ (SELECT componentid from sideb_component_decomission where type = \'networkcard\')
+Error: Unknown column 'sbpl.idsideb_graphiccard_list' in 'IN/ALL/ANY subquery'
+Backtrace :
+C:\xampp\htdocs\itams\ajax\addComponent.php&nbsp;:74		DBmysql->query()
+C:/xampp/htdocs/itams/ajax/addComponent.php
+

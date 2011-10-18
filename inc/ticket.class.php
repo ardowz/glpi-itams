@@ -395,17 +395,17 @@ class Ticket extends CommonDBTM {
          if (haveRight('observe_ticket','1')) {
             $ong[1] = $LANG['mailing'][141];
          }
-         if (haveRight('create_validation','1') ||haveRight('validate_ticket','1')) {
-            $ong[7] = $LANG['validation'][8];
-         }
-         if (haveRight('observe_ticket','1')) {
-            $ong[2] = $LANG['mailing'][142];
-         }
-         $ong[3] = $LANG['job'][47];
-         $ong[4] = $LANG['jobresolution'][2];
+         //if (haveRight('create_validation','1') ||haveRight('validate_ticket','1')) {
+          //  $ong[7] = $LANG['validation'][8];
+         //}
+         //if (haveRight('observe_ticket','1')) {
+          //  $ong[2] = $LANG['mailing'][142];
+         //}
+        // $ong[3] = $LANG['job'][47];
+        // $ong[4] = $LANG['jobresolution'][2];
          // enquete si statut clos
          if ($this->fields['status'] == 'closed') {
-            $ong[10] = $LANG['satisfaction'][0];
+          //  $ong[10] = $LANG['satisfaction'][0];
          }
          $ong[5] = $LANG['Menu'][27];
          $ong[6] = $LANG['title'][38];

@@ -706,7 +706,7 @@ class Computer extends CommonDBTM {
       echo "<td>";
       $var = User::dropdown(array('value'  => $this->fields["users_id"],
                            'entity' => $this->fields["entities_id"],
-                           'right'  => 'all'));
+                           'right'  => 'all'),$state);
       $paramsUser = array('user' => '__VALUE__');
       
 //      $params = array('value'        => '__VALUE__','state' => $this->fields["states_id"]);
